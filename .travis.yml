@@ -7,9 +7,9 @@ cache:
   apt: true
 # before_script: 
 before_install:
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get -qq update
-  - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+  # - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  # - sudo apt-get -qq update
+  # - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 # install: 
 script:
   # - gcc nHello.c -o $(pwd)/build/nHello.o
@@ -17,8 +17,9 @@ script:
   # - $(pwd)/build/nHello.o
   # - echo $TRAVIS_COMMIT
   - cd stoke-release
+  - g++ -v
   # - nice -n -20 make CC='gcc-4.8 -m64' CXX='g++-4.8 -m64'
-  - nice -n -20 make
+  # - nice -n -20 make
 # - travis setup releases
 # - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
 
