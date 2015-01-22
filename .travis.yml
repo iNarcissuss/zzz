@@ -6,9 +6,9 @@ cache:
   apt: true
 # before_script: 
 before_install:
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
-  - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+  - add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - apt-get -qq update
+  - apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 # install: 
 script:
 # - gcc nHello.c -o $(pwd)/build/nHello.o
@@ -35,7 +35,8 @@ script:
 #     repo: vdun/hw
 env:
   global:
-    - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
-    - secure: m/PeuSKGGl5H7KnKc6W0Fc5nNML4ezRHy5zfrhMaRsyb900zn6pF81uRACo1pJFbRhvnHKbu6NIuPuSPmzkmCshVI38RGq+xRfnxw5fp74W0nwJyC8HUqmmJiOv+NzASZ1RLWrbUlNIgL3QUXnGyovPT1dfZX+STRhQ8op1S6yU=
-    - secure: ZaM2Txtlhps0Q3U9I/EjPpSHIjBK4xmn/IhrwjLwJM2ZoxoJuc6iHTa978oqZzUL4kjnyC/ajSGELNGTUPff9ECCTnYglESm5Om8gUOoJ61j6ZUHY6VYQFS3IT2trxDlLbjUNi16Nf+Blp1f4B9j9/c8oL0CNXAXS/QuEx2runE=
-    # secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
+    # - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
+    # - secure: m/PeuSKGGl5H7KnKc6W0Fc5nNML4ezRHy5zfrhMaRsyb900zn6pF81uRACo1pJFbRhvnHKbu6NIuPuSPmzkmCshVI38RGq+xRfnxw5fp74W0nwJyC8HUqmmJiOv+NzASZ1RLWrbUlNIgL3QUXnGyovPT1dfZX+STRhQ8op1S6yU=
+    # - secure: ZaM2Txtlhps0Q3U9I/EjPpSHIjBK4xmn/IhrwjLwJM2ZoxoJuc6iHTa978oqZzUL4kjnyC/ajSGELNGTUPff9ECCTnYglESm5Om8gUOoJ61j6ZUHY6VYQFS3IT2trxDlLbjUNi16Nf+Blp1f4B9j9/c8oL0CNXAXS/QuEx2runE=
+    
+    # - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
