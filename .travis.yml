@@ -1,20 +1,21 @@
 os:
   - linux
-sudo: false
+# sudo: false # container mode
 cache:
   bundler: false
   apt: true
 # before_script: 
 before_install:
-  - add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - apt-get -qq update
-  - apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 # install: 
 script:
-# - gcc nHello.c -o $(pwd)/build/nHello.o
-# - exec $(pwd)/build/nHello.o
-# - $(pwd)/build/nHello.o
-  - echo $TRAVIS_COMMIT
+  # - gcc nHello.c -o $(pwd)/build/nHello.o
+  # - exec $(pwd)/build/nHello.o
+  # - $(pwd)/build/nHello.o
+  # - echo $TRAVIS_COMMIT
+  - sudo su
   - cd stoke-release
   - nice -n -20 make
 # - travis setup releases
