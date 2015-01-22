@@ -1,0 +1,35 @@
+language: c
+os:
+- linux
+compiler:
+- gcc
+# before_script: 
+# before_install: 
+# install: 
+script:
+# - gcc nHello.c -o $(pwd)/build/nHello.o
+# - exec $(pwd)/build/nHello.o
+# - $(pwd)/build/nHello.o
+- echo $TRAVIS_COMMIT
+# - travis setup releases
+# - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
+
+before_deploy: "- deploy....."
+deploy:
+  provider: releases
+  api_key:
+    secure: oyr+fGI9GhG/1giufxpBIK8iPx2NWq2Ve1tJJFEwtI5ZnZLHWPl2QJmhq+ZtYv/abrexfMGhB/9AnKlnyxjjbPeANUeWM6k9MMZdaVgLrxU42CpNZZmsp8E86tm+FkCinhTzjn2gbHVnxciXAgGmxAdovMjQGg+xfC41O7TeJKw=
+  file:
+    - build/nHello.o
+    - nHello.o
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
+    repo: vdun/hw
+env:
+  global:
+    - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
+    - secure: m/PeuSKGGl5H7KnKc6W0Fc5nNML4ezRHy5zfrhMaRsyb900zn6pF81uRACo1pJFbRhvnHKbu6NIuPuSPmzkmCshVI38RGq+xRfnxw5fp74W0nwJyC8HUqmmJiOv+NzASZ1RLWrbUlNIgL3QUXnGyovPT1dfZX+STRhQ8op1S6yU=
+    - secure: ZaM2Txtlhps0Q3U9I/EjPpSHIjBK4xmn/IhrwjLwJM2ZoxoJuc6iHTa978oqZzUL4kjnyC/ajSGELNGTUPff9ECCTnYglESm5Om8gUOoJ61j6ZUHY6VYQFS3IT2trxDlLbjUNi16Nf+Blp1f4B9j9/c8oL0CNXAXS/QuEx2runE=
+    # secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
