@@ -15,7 +15,6 @@ script:
   # - exec $(pwd)/build/nHello.o
   # - $(pwd)/build/nHello.o
   # - echo $TRAVIS_COMMIT
-  - sudo su
   - cd stoke-release
   - nice -n -20 make
 # - travis setup releases
