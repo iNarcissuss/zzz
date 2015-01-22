@@ -10,23 +10,25 @@ script:
 # - gcc nHello.c -o $(pwd)/build/nHello.o
 # - exec $(pwd)/build/nHello.o
 # - $(pwd)/build/nHello.o
-- echo $TRAVIS_COMMIT
+  - echo $TRAVIS_COMMIT
+  - cd stoke-release
+  - make
 # - travis setup releases
 # - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
 
 before_deploy: "- deploy....."
-deploy:
-  provider: releases
-  api_key:
-    secure: oyr+fGI9GhG/1giufxpBIK8iPx2NWq2Ve1tJJFEwtI5ZnZLHWPl2QJmhq+ZtYv/abrexfMGhB/9AnKlnyxjjbPeANUeWM6k9MMZdaVgLrxU42CpNZZmsp8E86tm+FkCinhTzjn2gbHVnxciXAgGmxAdovMjQGg+xfC41O7TeJKw=
-  file:
-    - build/nHello.o
-    - nHello.o
-  skip_cleanup: true
-  on:
-    tags: true
-    all_branches: true
-    repo: vdun/hw
+# deploy:
+#   provider: releases
+#   api_key:
+#     secure: oyr+fGI9GhG/1giufxpBIK8iPx2NWq2Ve1tJJFEwtI5ZnZLHWPl2QJmhq+ZtYv/abrexfMGhB/9AnKlnyxjjbPeANUeWM6k9MMZdaVgLrxU42CpNZZmsp8E86tm+FkCinhTzjn2gbHVnxciXAgGmxAdovMjQGg+xfC41O7TeJKw=
+#   file:
+#     - build/nHello.o
+#     - nHello.o
+#   skip_cleanup: true
+#   on:
+#     tags: true
+#     all_branches: true
+#     repo: vdun/hw
 env:
   global:
     - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
