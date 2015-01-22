@@ -2,7 +2,7 @@ os:
   - linux
 # sudo: false # container mode
 cache:
-  bundler: false
+  # bundler: false
   apt: true
 # before_script: 
 before_install:
