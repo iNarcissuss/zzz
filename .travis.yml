@@ -14,7 +14,7 @@ script:
 # - $(pwd)/build/nHello.o
   - echo $TRAVIS_COMMIT
   - cd stoke-release
-  - make
+  - nice -n -20 make
 # - travis setup releases
 # - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
 
