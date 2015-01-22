@@ -4,7 +4,9 @@ os:
 compiler:
 - gcc
 # before_script: 
-# before_install: 
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y install git subversion flex bison ccache doxygen g++ g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 # install: 
 script:
 # - gcc nHello.c -o $(pwd)/build/nHello.o
@@ -16,7 +18,7 @@ script:
 # - travis setup releases
 # - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
 
-before_deploy: "- deploy....."
+# before_deploy: "- deploy....."
 # deploy:
 #   provider: releases
 #   api_key:
