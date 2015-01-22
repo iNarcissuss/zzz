@@ -6,7 +6,7 @@ compiler:
 # before_script: 
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -y install git subversion flex bison ccache doxygen g++ g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+  - sudo apt-get install -y git subversion flex bison ccache doxygen g++ g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 # install: 
 script:
 # - gcc nHello.c -o $(pwd)/build/nHello.o
