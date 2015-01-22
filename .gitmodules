@@ -1,0 +1,3 @@
+[submodule "stoke-release"]
+	path = stoke-release
+	url = https://github.com/eschkufz/stoke-release.git
