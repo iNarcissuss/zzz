@@ -1,3 +1,7 @@
 [submodule "stoke-release"]
 	path = stoke-release
 	url = https://github.com/eschkufz/stoke-release.git
+[submodule "fuzzball"]
+	path = fuzzball
+	url = https://github.com/bitblaze-fuzzball/fuzzball
+
