@@ -2,11 +2,8 @@ os:
   - linux
 compiler:
   - clang
-# sudo: false # container mode
 cache:
-  # bundler: false
   apt: true
-# before_script: 
 before_install:
   - sudo apt-get -qq -y install python-software-properties
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
@@ -16,33 +13,12 @@ before_install:
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
   
   - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
-# install: 
 script:
-  # - gcc nHello.c -o $(pwd)/build/nHello.o
-  # - exec $(pwd)/build/nHello.o
-  # - $(pwd)/build/nHello.o
-  # - echo $TRAVIS_COMMIT
   - cd stoke-release
-  - g++ -v
-  - gcc -v
-  # - nice -n -20 make CC='gcc-4.8 -m64' CXX='g++-4.8 -m64'
-  - sudo nice -n -20 make -j32
-# - travis setup releases
-# - curl -v -u $mLogin:$mPass -T nHello.c https://dav.box.com/dav/aaa/nHello.c
-
-# before_deploy: "- deploy....."
-# deploy:
-#   provider: releases
-#   api_key:
-#     secure: oyr+fGI9GhG/1giufxpBIK8iPx2NWq2Ve1tJJFEwtI5ZnZLHWPl2QJmhq+ZtYv/abrexfMGhB/9AnKlnyxjjbPeANUeWM6k9MMZdaVgLrxU42CpNZZmsp8E86tm+FkCinhTzjn2gbHVnxciXAgGmxAdovMjQGg+xfC41O7TeJKw=
-#   file:
-#     - build/nHello.o
-#     - nHello.o
-#   skip_cleanup: true
-#   on:
-#     tags: true
-#     all_branches: true
-#     repo: vdun/hw
+  - export CXXFLAGS=$CXXFLAGS'-Wno-error'
+  - export CFLAGS=$CFLAGS'-Wno-error'
+  - sudo nice -n -20 make -j32 # haswell, sandybridge, nehalem
+  - tree
 env:
   global:
     # - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
