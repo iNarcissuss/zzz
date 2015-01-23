@@ -17,7 +17,7 @@ script:
   - cd stoke-release
   - export CXXFLAGS=$CXXFLAGS'-Wno-error'
   - export CFLAGS=$CFLAGS'-Wno-error'
-  - sudo nice -n -20 make -j32 # haswell, sandybridge, nehalem
+  - sudo nice -n -20 make # haswell, sandybridge, nehalem
   - tree
 env:
   global:
