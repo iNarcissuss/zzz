@@ -58,6 +58,10 @@ before_install:
   # - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
 script:
   - cd fuzzball
+  # --------------<vex>
+  - svn co -r2737 svn://svn.valgrind.org/vex/trunk vex-r2737
+  - cd vex-r2737
+  - make -f Makefile-gcc
   - ls
 # ______________________________________________________
 env:
