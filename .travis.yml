@@ -22,7 +22,7 @@ script:
   # - exec $(pwd)/build/nHello.o
   # - $(pwd)/build/nHello.o
   # - echo $TRAVIS_COMMIT
-  # - cd stoke-release
+  - cd stoke-release
   - g++ -v
   - gcc -v
   # - nice -n -20 make CC='gcc-4.8 -m64' CXX='g++-4.8 -m64'
