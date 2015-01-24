@@ -59,9 +59,9 @@ before_install:
 script:
   - cd fuzzball
   # --------------<vex>
-  - svn co -r2737 svn://svn.valgrind.org/vex/trunk vex-r2737
-  - cd vex-r2737
-  - make -f Makefile-gcc
+  # - svn co -r2737 svn://svn.valgrind.org/vex/trunk vex-r2737
+  # - cd vex-r2737
+  # - make -f Makefile-gcc
   - ls
 # ______________________________________________________
 env:
