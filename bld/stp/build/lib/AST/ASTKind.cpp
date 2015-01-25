@@ -1,4 +1,4 @@
-// Generated automatically by genkinds.h from ASTKind.kinds Sun Jan 25 21:31:27 2015.
+// Generated automatically by genkinds.h from ASTKind.kinds Sun Jan 25 21:45:49 2015.
 // Do not edit
 namespace BEEV {
 const char * _kind_names[] =  {
