@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/rule
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ abstractionrefinement: lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinem
 
 # fast build rule for target.
 abstractionrefinement/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build
 .PHONY : abstractionrefinement/fast
 
 AbstractionRefinement.o: AbstractionRefinement.cpp.o
@@ -158,7 +158,7 @@ AbstractionRefinement.o: AbstractionRefinement.cpp.o
 
 # target to build an object file
 AbstractionRefinement.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o
 .PHONY : AbstractionRefinement.cpp.o
 
 AbstractionRefinement.i: AbstractionRefinement.cpp.i
@@ -166,7 +166,7 @@ AbstractionRefinement.i: AbstractionRefinement.cpp.i
 
 # target to preprocess a source file
 AbstractionRefinement.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i
 .PHONY : AbstractionRefinement.cpp.i
 
 AbstractionRefinement.s: AbstractionRefinement.cpp.s
@@ -174,7 +174,7 @@ AbstractionRefinement.s: AbstractionRefinement.cpp.s
 
 # target to generate assembly for a file
 AbstractionRefinement.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s
 .PHONY : AbstractionRefinement.cpp.s
 
 CounterExample.o: CounterExample.cpp.o
@@ -182,7 +182,7 @@ CounterExample.o: CounterExample.cpp.o
 
 # target to build an object file
 CounterExample.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o
 .PHONY : CounterExample.cpp.o
 
 CounterExample.i: CounterExample.cpp.i
@@ -190,7 +190,7 @@ CounterExample.i: CounterExample.cpp.i
 
 # target to preprocess a source file
 CounterExample.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i
 .PHONY : CounterExample.cpp.i
 
 CounterExample.s: CounterExample.cpp.s
@@ -198,7 +198,7 @@ CounterExample.s: CounterExample.cpp.s
 
 # target to generate assembly for a file
 CounterExample.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/build.make lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s
 .PHONY : CounterExample.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

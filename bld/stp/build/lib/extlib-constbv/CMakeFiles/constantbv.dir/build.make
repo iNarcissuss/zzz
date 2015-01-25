@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/extlib-constbv/CMakeFiles/constantbv.dir/depend.make
@@ -51,17 +51,17 @@ include lib/extlib-constbv/CMakeFiles/constantbv.dir/flags.make
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o: lib/extlib-constbv/CMakeFiles/constantbv.dir/flags.make
 lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o: ../lib/extlib-constbv/constantbv.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/constantbv.dir/constantbv.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/constantbv.dir/constantbv.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/constantbv.dir/constantbv.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp > CMakeFiles/constantbv.dir/constantbv.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp > CMakeFiles/constantbv.dir/constantbv.cpp.i
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/constantbv.dir/constantbv.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp -o CMakeFiles/constantbv.dir/constantbv.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp -o CMakeFiles/constantbv.dir/constantbv.cpp.s
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o.requires:
 .PHONY : lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o.requires
@@ -84,10 +84,10 @@ lib/extlib-constbv/CMakeFiles/constantbv.dir/requires: lib/extlib-constbv/CMakeF
 .PHONY : lib/extlib-constbv/CMakeFiles/constantbv.dir/requires
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv && $(CMAKE_COMMAND) -P CMakeFiles/constantbv.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv && $(CMAKE_COMMAND) -P CMakeFiles/constantbv.dir/cmake_clean.cmake
 .PHONY : lib/extlib-constbv/CMakeFiles/constantbv.dir/clean
 
 lib/extlib-constbv/CMakeFiles/constantbv.dir/depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-constbv /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-constbv /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/extlib-constbv/CMakeFiles/constantbv.dir/depend
 

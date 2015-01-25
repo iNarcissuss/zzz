@@ -1,6 +1,6 @@
-#line 2 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
+#line 2 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
 
-#line 4 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
+#line 4 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
 
 #define  YY_INT_ALIGNED short int
 
@@ -702,8 +702,8 @@ int cvc_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *cvctext;
-#line 1 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
-#line 2 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 1 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 2 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 /********************************************************************
  * AUTHORS: Vijay Ganesh
  *
@@ -723,7 +723,7 @@ char *cvctext;
   extern int cvcerror (const char *msg);
 
 
-#line 727 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
+#line 727 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
 
 #define INITIAL 0
 #define COMMENT 1
@@ -910,10 +910,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 35 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 35 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 
 
-#line 917 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
+#line 917 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
 
 	if ( !(yy_init) )
 		{
@@ -1002,449 +1002,449 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 37 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 37 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return cvctext[0];}
 	YY_BREAK
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 39 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 39 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { /*Skip new line */ }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 40 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 40 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { /* skip whitespace */ }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 41 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 41 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.node = new BEEV::ASTNode(BEEV::ParserBM->CreateBVConst(cvctext+2,  2)); return BVCONST_TOK;}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 42 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 42 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.node = new BEEV::ASTNode(BEEV::ParserBM->CreateBVConst(cvctext+4,  2)); return BVCONST_TOK;}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 43 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 43 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.node = new BEEV::ASTNode(BEEV::ParserBM->CreateBVConst(cvctext+2, 16)); return BVCONST_TOK;}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 44 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 44 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.node = new BEEV::ASTNode(BEEV::ParserBM->CreateBVConst(cvctext+2, 16)); return BVCONST_TOK;}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 45 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 45 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.node = new BEEV::ASTNode(BEEV::ParserBM->CreateBVConst(cvctext+4, 16)); return BVCONST_TOK;}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 46 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 46 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.uintval = strtoul(cvctext, NULL, 10); return NUMERAL_TOK;}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 47 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 47 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.str = strdup(cvctext+2); return BIN_BASED_NUMBER;}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 48 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 48 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.str = strdup(cvctext+2); return DEC_BASED_NUMBER;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 49 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 49 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvclval.str = strdup(cvctext+2); return HEX_BASED_NUMBER;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 51 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 51 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { BEGIN COMMENT;}
 	YY_BREAK
 case 14:
 /* rule 14 can match eol */
 YY_RULE_SETUP
-#line 52 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 52 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { BEGIN INITIAL; /* return to normal mode */}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 53 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 53 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { /* stay in comment mode */}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 55 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 55 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ARRAY_TOK; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 56 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 56 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return OF_TOK; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 57 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 57 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return WITH_TOK; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 58 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 58 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return AND_TOK;}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 59 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 59 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return NAND_TOK;}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 60 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 60 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return NOR_TOK;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 61 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 61 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return NOT_TOK; }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 62 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 62 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return EXCEPT_TOK; }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 63 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 63 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return OR_TOK; }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 64 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 64 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return NEQ_TOK; }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 65 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 65 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ASSIGN_TOK;}
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 66 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 66 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return IMPLIES_TOK; }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 67 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 67 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return IFF_TOK; }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 68 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 68 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return XOR_TOK; }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 69 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 69 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return IF_TOK; }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 70 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 70 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return THEN_TOK; }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 71 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 71 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ELSE_TOK; }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 72 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 72 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ELSIF_TOK; }
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 73 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 73 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return END_TOK; }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 74 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 74 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ENDIF_TOK; }
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 75 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 75 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BV_TOK;}
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 76 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 76 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BV_TOK;}
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 77 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 77 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BOOLEAN_TOK;}
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 78 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 78 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVLEFTSHIFT_TOK;}
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 79 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 79 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVRIGHTSHIFT_TOK;}
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 80 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 80 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSHL_TOK;}
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 81 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 81 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVLSHR_TOK;}
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 82 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 82 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVASHR_TOK;}
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 83 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 83 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVPLUS_TOK;}
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 84 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 84 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSUB_TOK;}
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 85 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 85 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVUMINUS_TOK;}
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 86 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 86 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVMULT_TOK;}
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 87 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 87 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVDIV_TOK;}
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 88 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 88 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVMOD_TOK;}
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 89 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 89 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return SBVDIV_TOK;}
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 90 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 90 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return SBVREM_TOK;}
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 91 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 91 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return SBVREM_TOK;}
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 92 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 92 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVNEG_TOK;}
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 93 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 93 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVAND_TOK;}
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 94 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 94 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVOR_TOK;}
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 95 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 95 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVXOR_TOK;}
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 96 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 96 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVNAND_TOK;}
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 97 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 97 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVNOR_TOK;}
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 98 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 98 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVXNOR_TOK;}
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 99 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 99 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVCONCAT_TOK;}
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 100 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 100 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVLT_TOK;}
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 101 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 101 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVGT_TOK;}
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 102 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 102 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVLE_TOK;}
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 103 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 103 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVGE_TOK;}
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 104 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 104 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSLT_TOK;}
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 105 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 105 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSGT_TOK;}
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 106 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 106 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSLE_TOK;}
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 107 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 107 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSGE_TOK;}
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 108 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 108 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSX_TOK;} 
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 109 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 109 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVZX_TOK;}
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 110 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 110 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSLT_TOK;}
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 111 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 111 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSGT_TOK;}
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 112 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 112 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSLE_TOK;}
 	YY_BREAK
 case 74:
 YY_RULE_SETUP
-#line 113 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 113 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSGE_TOK;}
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 114 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 114 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVSX_TOK;} 
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 115 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 115 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BVZX_TOK;}
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 116 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 116 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BOOLEXTRACT_TOK;}
 	YY_BREAK
 case 78:
 YY_RULE_SETUP
-#line 117 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 117 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return BOOL_TO_BV_TOK;}
 	YY_BREAK
 case 79:
 YY_RULE_SETUP
-#line 118 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 118 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return ASSERT_TOK; }
 	YY_BREAK
 case 80:
 YY_RULE_SETUP
-#line 119 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 119 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return QUERY_TOK; }
 	YY_BREAK
 case 81:
 YY_RULE_SETUP
-#line 120 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 120 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return FALSELIT_TOK;}
 	YY_BREAK
 case 82:
 YY_RULE_SETUP
-#line 121 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 121 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return TRUELIT_TOK;}
 	YY_BREAK
 case 83:
 YY_RULE_SETUP
-#line 122 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 122 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return IN_TOK;}
 	YY_BREAK
 case 84:
 YY_RULE_SETUP
-#line 123 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 123 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return LET_TOK;}
 	YY_BREAK
 case 85:
 YY_RULE_SETUP
-#line 124 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 124 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return COUNTEREXAMPLE_TOK;}
 	YY_BREAK
 case 86:
 YY_RULE_SETUP
-#line 125 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 125 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return COUNTEREXAMPLE_TOK;}
 	YY_BREAK
 case 87:
 YY_RULE_SETUP
-#line 126 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 126 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return PUSH_TOK;}
 	YY_BREAK
 case 88:
 YY_RULE_SETUP
-#line 127 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 127 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { return POP_TOK;}
 	YY_BREAK
 case 89:
 YY_RULE_SETUP
-#line 129 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 129 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 {
   
    ASTNode nptr;
@@ -1480,15 +1480,15 @@ YY_RULE_SETUP
 	YY_BREAK
 case 90:
 YY_RULE_SETUP
-#line 162 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 162 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 { cvcerror("Illegal input character."); }
 	YY_BREAK
 case 91:
 YY_RULE_SETUP
-#line 163 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 163 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 ECHO;
 	YY_BREAK
-#line 1492 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
+#line 1492 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(COMMENT):
 case YY_STATE_EOF(STRING_LITERAL):
@@ -2452,7 +2452,7 @@ void cvcfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 163 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
+#line 163 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex"
 
 
 

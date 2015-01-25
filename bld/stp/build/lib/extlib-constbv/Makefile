@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/extlib-constbv/CMakeFiles/constantbv.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/CMakeFiles/constantbv.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-constbv/CMakeFiles/constantbv.dir/rule
 .PHONY : lib/extlib-constbv/CMakeFiles/constantbv.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ constantbv: lib/extlib-constbv/CMakeFiles/constantbv.dir/rule
 
 # fast build rule for target.
 constantbv/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/build
 .PHONY : constantbv/fast
 
 constantbv.o: constantbv.cpp.o
@@ -158,7 +158,7 @@ constantbv.o: constantbv.cpp.o
 
 # target to build an object file
 constantbv.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o
 .PHONY : constantbv.cpp.o
 
 constantbv.i: constantbv.cpp.i
@@ -166,7 +166,7 @@ constantbv.i: constantbv.cpp.i
 
 # target to preprocess a source file
 constantbv.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.i
 .PHONY : constantbv.cpp.i
 
 constantbv.s: constantbv.cpp.s
@@ -174,7 +174,7 @@ constantbv.s: constantbv.cpp.s
 
 # target to generate assembly for a file
 constantbv.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-constbv/CMakeFiles/constantbv.dir/build.make lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.s
 .PHONY : constantbv.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

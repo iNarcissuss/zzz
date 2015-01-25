@@ -50,14 +50,14 @@ add_library(libstp_static STATIC IMPORTED)
 # Import target "stp" for configuration "RelWithDebInfo"
 set_property(TARGET stp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(stp PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/stp"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/travis/build/vdun/stoke/stoke/stp/build/stp"
   )
 
 # Import target "libstp" for configuration "RelWithDebInfo"
 set_property(TARGET libstp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libstp PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "/usr/lib/x86_64-linux-gnu/libboost_program_options.so;/usr/lib/x86_64-linux-gnu/libboost_system.so"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/libstp.so"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/travis/build/vdun/stoke/stoke/stp/build/lib/libstp.so"
   IMPORTED_SONAME_RELWITHDEBINFO "libstp.so"
   )
 
@@ -65,7 +65,7 @@ set_target_properties(libstp PROPERTIES
 set_property(TARGET libstp_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(libstp_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C;CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/libstp.a"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/travis/build/vdun/stoke/stoke/stp/build/lib/libstp.a"
   )
 
 # This file does not depend on other imported targets which have

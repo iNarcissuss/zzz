@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/AST/CMakeFiles/AST.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/CMakeFiles/AST.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/CMakeFiles/AST.dir/rule
 .PHONY : lib/AST/CMakeFiles/AST.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ AST: lib/AST/CMakeFiles/AST.dir/rule
 
 # fast build rule for target.
 AST/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/build
 .PHONY : AST/fast
 
 # Convenience name for target.
 lib/AST/CMakeFiles/ASTKind_header.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/CMakeFiles/ASTKind_header.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/AST/CMakeFiles/ASTKind_header.dir/rule
 .PHONY : lib/AST/CMakeFiles/ASTKind_header.dir/rule
 
 # Convenience name for target.
@@ -164,7 +164,7 @@ ASTKind_header: lib/AST/CMakeFiles/ASTKind_header.dir/rule
 
 # fast build rule for target.
 ASTKind_header/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/ASTKind_header.dir/build.make lib/AST/CMakeFiles/ASTKind_header.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/ASTKind_header.dir/build.make lib/AST/CMakeFiles/ASTKind_header.dir/build
 .PHONY : ASTKind_header/fast
 
 ASTBVConst.o: ASTBVConst.cpp.o
@@ -172,7 +172,7 @@ ASTBVConst.o: ASTBVConst.cpp.o
 
 # target to build an object file
 ASTBVConst.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o
 .PHONY : ASTBVConst.cpp.o
 
 ASTBVConst.i: ASTBVConst.cpp.i
@@ -180,7 +180,7 @@ ASTBVConst.i: ASTBVConst.cpp.i
 
 # target to preprocess a source file
 ASTBVConst.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.i
 .PHONY : ASTBVConst.cpp.i
 
 ASTBVConst.s: ASTBVConst.cpp.s
@@ -188,7 +188,7 @@ ASTBVConst.s: ASTBVConst.cpp.s
 
 # target to generate assembly for a file
 ASTBVConst.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.s
 .PHONY : ASTBVConst.cpp.s
 
 ASTInterior.o: ASTInterior.cpp.o
@@ -196,7 +196,7 @@ ASTInterior.o: ASTInterior.cpp.o
 
 # target to build an object file
 ASTInterior.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o
 .PHONY : ASTInterior.cpp.o
 
 ASTInterior.i: ASTInterior.cpp.i
@@ -204,7 +204,7 @@ ASTInterior.i: ASTInterior.cpp.i
 
 # target to preprocess a source file
 ASTInterior.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.i
 .PHONY : ASTInterior.cpp.i
 
 ASTInterior.s: ASTInterior.cpp.s
@@ -212,7 +212,7 @@ ASTInterior.s: ASTInterior.cpp.s
 
 # target to generate assembly for a file
 ASTInterior.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.s
 .PHONY : ASTInterior.cpp.s
 
 ASTKind.o: ASTKind.cpp.o
@@ -220,7 +220,7 @@ ASTKind.o: ASTKind.cpp.o
 
 # target to build an object file
 ASTKind.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o
 .PHONY : ASTKind.cpp.o
 
 ASTKind.i: ASTKind.cpp.i
@@ -228,7 +228,7 @@ ASTKind.i: ASTKind.cpp.i
 
 # target to preprocess a source file
 ASTKind.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.i
 .PHONY : ASTKind.cpp.i
 
 ASTKind.s: ASTKind.cpp.s
@@ -236,7 +236,7 @@ ASTKind.s: ASTKind.cpp.s
 
 # target to generate assembly for a file
 ASTKind.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.s
 .PHONY : ASTKind.cpp.s
 
 ASTNode.o: ASTNode.cpp.o
@@ -244,7 +244,7 @@ ASTNode.o: ASTNode.cpp.o
 
 # target to build an object file
 ASTNode.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o
 .PHONY : ASTNode.cpp.o
 
 ASTNode.i: ASTNode.cpp.i
@@ -252,7 +252,7 @@ ASTNode.i: ASTNode.cpp.i
 
 # target to preprocess a source file
 ASTNode.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.i
 .PHONY : ASTNode.cpp.i
 
 ASTNode.s: ASTNode.cpp.s
@@ -260,7 +260,7 @@ ASTNode.s: ASTNode.cpp.s
 
 # target to generate assembly for a file
 ASTNode.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.s
 .PHONY : ASTNode.cpp.s
 
 ASTSymbol.o: ASTSymbol.cpp.o
@@ -268,7 +268,7 @@ ASTSymbol.o: ASTSymbol.cpp.o
 
 # target to build an object file
 ASTSymbol.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o
 .PHONY : ASTSymbol.cpp.o
 
 ASTSymbol.i: ASTSymbol.cpp.i
@@ -276,7 +276,7 @@ ASTSymbol.i: ASTSymbol.cpp.i
 
 # target to preprocess a source file
 ASTSymbol.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.i
 .PHONY : ASTSymbol.cpp.i
 
 ASTSymbol.s: ASTSymbol.cpp.s
@@ -284,7 +284,7 @@ ASTSymbol.s: ASTSymbol.cpp.s
 
 # target to generate assembly for a file
 ASTSymbol.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.s
 .PHONY : ASTSymbol.cpp.s
 
 ASTUtil.o: ASTUtil.cpp.o
@@ -292,7 +292,7 @@ ASTUtil.o: ASTUtil.cpp.o
 
 # target to build an object file
 ASTUtil.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o
 .PHONY : ASTUtil.cpp.o
 
 ASTUtil.i: ASTUtil.cpp.i
@@ -300,7 +300,7 @@ ASTUtil.i: ASTUtil.cpp.i
 
 # target to preprocess a source file
 ASTUtil.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.i
 .PHONY : ASTUtil.cpp.i
 
 ASTUtil.s: ASTUtil.cpp.s
@@ -308,7 +308,7 @@ ASTUtil.s: ASTUtil.cpp.s
 
 # target to generate assembly for a file
 ASTUtil.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.s
 .PHONY : ASTUtil.cpp.s
 
 ASTmisc.o: ASTmisc.cpp.o
@@ -316,7 +316,7 @@ ASTmisc.o: ASTmisc.cpp.o
 
 # target to build an object file
 ASTmisc.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o
 .PHONY : ASTmisc.cpp.o
 
 ASTmisc.i: ASTmisc.cpp.i
@@ -324,7 +324,7 @@ ASTmisc.i: ASTmisc.cpp.i
 
 # target to preprocess a source file
 ASTmisc.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.i
 .PHONY : ASTmisc.cpp.i
 
 ASTmisc.s: ASTmisc.cpp.s
@@ -332,7 +332,7 @@ ASTmisc.s: ASTmisc.cpp.s
 
 # target to generate assembly for a file
 ASTmisc.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.s
 .PHONY : ASTmisc.cpp.s
 
 ArrayTransformer.o: ArrayTransformer.cpp.o
@@ -340,7 +340,7 @@ ArrayTransformer.o: ArrayTransformer.cpp.o
 
 # target to build an object file
 ArrayTransformer.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o
 .PHONY : ArrayTransformer.cpp.o
 
 ArrayTransformer.i: ArrayTransformer.cpp.i
@@ -348,7 +348,7 @@ ArrayTransformer.i: ArrayTransformer.cpp.i
 
 # target to preprocess a source file
 ArrayTransformer.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.i
 .PHONY : ArrayTransformer.cpp.i
 
 ArrayTransformer.s: ArrayTransformer.cpp.s
@@ -356,7 +356,7 @@ ArrayTransformer.s: ArrayTransformer.cpp.s
 
 # target to generate assembly for a file
 ArrayTransformer.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.s
 .PHONY : ArrayTransformer.cpp.s
 
 NodeFactory/HashingNodeFactory.o: NodeFactory/HashingNodeFactory.cpp.o
@@ -364,7 +364,7 @@ NodeFactory/HashingNodeFactory.o: NodeFactory/HashingNodeFactory.cpp.o
 
 # target to build an object file
 NodeFactory/HashingNodeFactory.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o
 .PHONY : NodeFactory/HashingNodeFactory.cpp.o
 
 NodeFactory/HashingNodeFactory.i: NodeFactory/HashingNodeFactory.cpp.i
@@ -372,7 +372,7 @@ NodeFactory/HashingNodeFactory.i: NodeFactory/HashingNodeFactory.cpp.i
 
 # target to preprocess a source file
 NodeFactory/HashingNodeFactory.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i
 .PHONY : NodeFactory/HashingNodeFactory.cpp.i
 
 NodeFactory/HashingNodeFactory.s: NodeFactory/HashingNodeFactory.cpp.s
@@ -380,7 +380,7 @@ NodeFactory/HashingNodeFactory.s: NodeFactory/HashingNodeFactory.cpp.s
 
 # target to generate assembly for a file
 NodeFactory/HashingNodeFactory.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s
 .PHONY : NodeFactory/HashingNodeFactory.cpp.s
 
 NodeFactory/NodeFactory.o: NodeFactory/NodeFactory.cpp.o
@@ -388,7 +388,7 @@ NodeFactory/NodeFactory.o: NodeFactory/NodeFactory.cpp.o
 
 # target to build an object file
 NodeFactory/NodeFactory.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o
 .PHONY : NodeFactory/NodeFactory.cpp.o
 
 NodeFactory/NodeFactory.i: NodeFactory/NodeFactory.cpp.i
@@ -396,7 +396,7 @@ NodeFactory/NodeFactory.i: NodeFactory/NodeFactory.cpp.i
 
 # target to preprocess a source file
 NodeFactory/NodeFactory.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i
 .PHONY : NodeFactory/NodeFactory.cpp.i
 
 NodeFactory/NodeFactory.s: NodeFactory/NodeFactory.cpp.s
@@ -404,7 +404,7 @@ NodeFactory/NodeFactory.s: NodeFactory/NodeFactory.cpp.s
 
 # target to generate assembly for a file
 NodeFactory/NodeFactory.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s
 .PHONY : NodeFactory/NodeFactory.cpp.s
 
 NodeFactory/SimplifyingNodeFactory.o: NodeFactory/SimplifyingNodeFactory.cpp.o
@@ -412,7 +412,7 @@ NodeFactory/SimplifyingNodeFactory.o: NodeFactory/SimplifyingNodeFactory.cpp.o
 
 # target to build an object file
 NodeFactory/SimplifyingNodeFactory.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o
 .PHONY : NodeFactory/SimplifyingNodeFactory.cpp.o
 
 NodeFactory/SimplifyingNodeFactory.i: NodeFactory/SimplifyingNodeFactory.cpp.i
@@ -420,7 +420,7 @@ NodeFactory/SimplifyingNodeFactory.i: NodeFactory/SimplifyingNodeFactory.cpp.i
 
 # target to preprocess a source file
 NodeFactory/SimplifyingNodeFactory.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i
 .PHONY : NodeFactory/SimplifyingNodeFactory.cpp.i
 
 NodeFactory/SimplifyingNodeFactory.s: NodeFactory/SimplifyingNodeFactory.cpp.s
@@ -428,7 +428,7 @@ NodeFactory/SimplifyingNodeFactory.s: NodeFactory/SimplifyingNodeFactory.cpp.s
 
 # target to generate assembly for a file
 NodeFactory/SimplifyingNodeFactory.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s
 .PHONY : NodeFactory/SimplifyingNodeFactory.cpp.s
 
 NodeFactory/TypeChecker.o: NodeFactory/TypeChecker.cpp.o
@@ -436,7 +436,7 @@ NodeFactory/TypeChecker.o: NodeFactory/TypeChecker.cpp.o
 
 # target to build an object file
 NodeFactory/TypeChecker.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o
 .PHONY : NodeFactory/TypeChecker.cpp.o
 
 NodeFactory/TypeChecker.i: NodeFactory/TypeChecker.cpp.i
@@ -444,7 +444,7 @@ NodeFactory/TypeChecker.i: NodeFactory/TypeChecker.cpp.i
 
 # target to preprocess a source file
 NodeFactory/TypeChecker.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i
 .PHONY : NodeFactory/TypeChecker.cpp.i
 
 NodeFactory/TypeChecker.s: NodeFactory/TypeChecker.cpp.s
@@ -452,7 +452,7 @@ NodeFactory/TypeChecker.s: NodeFactory/TypeChecker.cpp.s
 
 # target to generate assembly for a file
 NodeFactory/TypeChecker.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s
 .PHONY : NodeFactory/TypeChecker.cpp.s
 
 RunTimes.o: RunTimes.cpp.o
@@ -460,7 +460,7 @@ RunTimes.o: RunTimes.cpp.o
 
 # target to build an object file
 RunTimes.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o
 .PHONY : RunTimes.cpp.o
 
 RunTimes.i: RunTimes.cpp.i
@@ -468,7 +468,7 @@ RunTimes.i: RunTimes.cpp.i
 
 # target to preprocess a source file
 RunTimes.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.i
 .PHONY : RunTimes.cpp.i
 
 RunTimes.s: RunTimes.cpp.s
@@ -476,7 +476,7 @@ RunTimes.s: RunTimes.cpp.s
 
 # target to generate assembly for a file
 RunTimes.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/AST/CMakeFiles/AST.dir/build.make lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.s
 .PHONY : RunTimes.cpp.s
 
 # Help Target
@@ -543,6 +543,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

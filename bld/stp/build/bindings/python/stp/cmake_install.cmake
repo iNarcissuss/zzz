@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/bindings/python/stp
+# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp/bindings/python/stp
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,8 +42,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/lib/python2.7/dist-packages/stp" TYPE FILE FILES
-    "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/bindings/python/stp/stp.py"
-    "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/bindings/python/stp/__init__.py"
+    "/home/travis/build/vdun/stoke/stoke/stp/bindings/python/stp/stp.py"
+    "/home/travis/build/vdun/stoke/stoke/stp/bindings/python/stp/__init__.py"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -56,6 +56,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/lib/python2.7/dist-packages/stp" TYPE FILE FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build//CMakeFiles/library_path.py")
+FILE(INSTALL DESTINATION "/usr/lib/python2.7/dist-packages/stp" TYPE FILE FILES "/home/travis/build/vdun/stoke/stoke/stp/build//CMakeFiles/library_path.py")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

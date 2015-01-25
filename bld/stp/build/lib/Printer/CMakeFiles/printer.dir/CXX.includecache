@@ -426,73 +426,73 @@ string.h
 ctype.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 stp/Printer/AssortedPrinters.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/AssortedPrinters.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/AssortedPrinters.h
 inttypes.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 string
 -
 stp/AST/ASTKind.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/AST/ASTKind.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/AST/ASTKind.h
 deque
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
 cassert
 -
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 string
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 cassert
 -
 cctype
 -
 stp/Printer/SMTLIBPrinter.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 cassert
 -
 cctype
 -
 stp/Printer/SMTLIBPrinter.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 stp/Printer/SMTLIBPrinter.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/SMTLIBPrinter.h
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/stp/Printer/printers.h
 
 include/stp/AST/ASTKind.h
 iostream

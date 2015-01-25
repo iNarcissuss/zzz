@@ -424,7 +424,7 @@ string.h
 ctype.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
 stdio.h
 -
 string.h
@@ -438,15 +438,15 @@ inttypes.h
 iostream
 -
 stp/Parser/parser.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
 parsecvc.hpp
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 unistd.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
 stdio.h
 -
 string.h
@@ -460,15 +460,15 @@ inttypes.h
 iostream
 -
 stp/Parser/parser.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
 parsesmt.hpp
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 unistd.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
 stdio.h
 -
 string.h
@@ -480,21 +480,21 @@ stdlib.h
 inttypes.h
 -
 stp/Parser/parser.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
 parsesmt2.hpp
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 unistd.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
 stp/Parser/parser.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/parser.h
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 stp/Parser/LetMgr.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
 stddef.h
 -
 libintl.h
@@ -510,13 +510,13 @@ stdlib.h
 stdio.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 stp/Parser/LetMgr.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
 stddef.h
 -
 libintl.h
@@ -532,13 +532,13 @@ stdlib.h
 stdio.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/cpp_interface.h
 stp/Parser/LetMgr.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/stp/Parser/LetMgr.h
 stddef.h
 -
 libintl.h
@@ -554,13 +554,13 @@ stdlib.h
 stdio.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
+/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
 stdlib.h
 -
 stp/Parser/LetMgr.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/stp/Parser/LetMgr.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/stp/Parser/LetMgr.h
 
 include/stp/AST/ASTKind.h
 iostream

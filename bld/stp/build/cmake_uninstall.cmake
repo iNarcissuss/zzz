@@ -1,10 +1,10 @@
 cmake_policy(SET CMP0007 NEW) # Suppress warnings see `cmake --help-policy CMP0007`
 
-if (NOT EXISTS "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/install_manifest.txt\"")
-endif(NOT EXISTS "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/install_manifest.txt")
+if (NOT EXISTS "/home/travis/build/vdun/stoke/stoke/stp/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/travis/build/vdun/stoke/stoke/stp/build/install_manifest.txt\"")
+endif(NOT EXISTS "/home/travis/build/vdun/stoke/stoke/stp/build/install_manifest.txt")
 
-file(READ "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/install_manifest.txt" files)
+file(READ "/home/travis/build/vdun/stoke/stoke/stp/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
 foreach (file ${files})

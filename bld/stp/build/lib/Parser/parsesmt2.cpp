@@ -70,7 +70,7 @@
 #define yychar          smt2char
 
 /* Copy the first part of user declarations.  */
-#line 1 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:339  */
+#line 1 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:339  */
 
   /********************************************************************
    * AUTHORS:  Trevor Hansen
@@ -149,7 +149,7 @@
 
   
 
-#line 153 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:339  */
+#line 153 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -169,8 +169,8 @@
 
 /* In a future release of Bison, this section will be replaced
    by #include "parsesmt2.hpp".  */
-#ifndef YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
-# define YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
+#ifndef YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
+# define YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -273,7 +273,7 @@ extern int smt2debug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 79 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:355  */
+#line 79 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:355  */
   
   unsigned uintval;                  /* for numerals in types. */
   //ASTNode,ASTVec
@@ -281,7 +281,7 @@ union YYSTYPE
   BEEV::ASTVec *vec;
   std::string *str;
 
-#line 285 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:355  */
+#line 285 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:355  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -292,11 +292,11 @@ extern YYSTYPE smt2lval;
 
 int smt2parse (void);
 
-#endif /* !YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED  */
+#endif /* !YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED  */
 
 /* Copy the second part of user declarations.  */
 
-#line 300 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:358  */
+#line 300 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -1684,39 +1684,39 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 200 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 200 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
        parserInterface->cleanUp();
        YYACCEPT;
 }
-#line 1693 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1693 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 4:
-#line 209 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 209 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1699 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1699 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 5:
-#line 214 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 214 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
        parserInterface->cleanUp();
        YYACCEPT;
 	}
-#line 1708 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1708 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 6:
-#line 219 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 219 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 		parserInterface->checkSat(parserInterface->getAssertVector());
 	}
-#line 1716 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1716 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 7:
-#line 224 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 224 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	  if (!(0 == strcmp((yyvsp[-1].str)->c_str(),"QF_BV") ||
 	        0 == strcmp((yyvsp[-1].str)->c_str(),"QF_ABV") ||
@@ -1726,38 +1726,38 @@ yyreduce:
 	  parserInterface->success();
 	  delete (yyvsp[-1].str);
 	}
-#line 1730 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1730 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 8:
-#line 234 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 234 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	delete (yyvsp[-1].str);
 	}
-#line 1738 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1738 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 9:
-#line 238 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 238 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	}
-#line 1745 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1745 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 10:
-#line 241 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 241 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1751 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1751 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 11:
-#line 243 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 243 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1757 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1757 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 12:
-#line 245 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 245 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 		for (unsigned i=0; i < (yyvsp[-1].uintval);i++)
 		{
@@ -1765,47 +1765,47 @@ yyreduce:
 		}
 		parserInterface->success();
 	}
-#line 1769 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1769 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 13:
-#line 253 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 253 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 		for (unsigned i=0; i < (yyvsp[-1].uintval);i++)
 			parserInterface->pop();
 		parserInterface->success();
 	}
-#line 1779 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1779 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 14:
-#line 259 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 259 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
     parserInterface->success();
     }
-#line 1787 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1787 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 15:
-#line 263 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 263 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
     parserInterface->success();
     }
-#line 1795 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1795 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 16:
-#line 267 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 267 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	parserInterface->AddAssert(*(yyvsp[-1].node));
 	parserInterface->deleteNode((yyvsp[-1].node));
 	parserInterface->success();
 	}
-#line 1805 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1805 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 17:
-#line 277 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 277 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(BEEV::parserInterface->LookupOrCreateSymbol((yyvsp[-6].str)->c_str())); 
   parserInterface->addSymbol(*(yyval.node));
@@ -1813,31 +1813,31 @@ yyreduce:
   (yyval.node)->SetValueWidth((yyvsp[-2].uintval));
   delete (yyvsp[-6].str);
 }
-#line 1817 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1817 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 18:
-#line 288 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 288 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   (yyval.vec)->push_back(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 1827 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1827 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 19:
-#line 294 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 294 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = (yyvsp[-1].vec);
   (yyval.vec)->push_back(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 1837 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1837 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 20:
-#line 303 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 303 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	if ((yyvsp[0].node)->GetValueWidth() != (yyvsp[-2].uintval))
 		{
@@ -1856,11 +1856,11 @@ yyreduce:
 	delete (yyvsp[-7].vec);
 	delete (yyvsp[0].node);
 }
-#line 1860 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1860 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 21:
-#line 323 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 323 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	BEEV::parserInterface->storeFunction(*(yyvsp[-5].str), *(yyvsp[-3].vec), *(yyvsp[0].node));
 
@@ -1872,11 +1872,11 @@ yyreduce:
 	delete (yyvsp[-3].vec);
 	delete (yyvsp[0].node);
 }
-#line 1876 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1876 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 22:
-#line 336 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 336 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	ASTVec empty;
         BEEV::parserInterface->storeFunction(*(yyvsp[-4].str), empty, *(yyvsp[0].node));
@@ -1884,11 +1884,11 @@ yyreduce:
         delete (yyvsp[-4].str);
         delete (yyvsp[0].node);
 }
-#line 1888 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1888 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 23:
-#line 345 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 345 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
         if ((yyvsp[0].node)->GetValueWidth() != (yyvsp[-2].uintval))
                 {
@@ -1903,11 +1903,11 @@ yyreduce:
         delete (yyvsp[-8].str);
         delete (yyvsp[0].node);
 }
-#line 1907 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1907 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 24:
-#line 363 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 363 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     { 
  
  std::transform((yyvsp[0].str)->begin(), (yyvsp[0].str)->end(), (yyvsp[0].str)->begin(), ::tolower);
@@ -1923,58 +1923,58 @@ yyreduce:
   delete (yyvsp[0].str);
   (yyval.node) = NULL; 
 }
-#line 1927 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1927 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 25:
-#line 382 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 382 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1933 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1933 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 26:
-#line 384 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 384 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1939 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1939 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 27:
-#line 386 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 386 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1945 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1945 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 28:
-#line 388 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 388 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1951 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1951 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 29:
-#line 390 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 390 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 1957 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1957 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 30:
-#line 392 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 392 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	parserInterface->setPrintSuccess(true);
 	parserInterface->success();
 }
-#line 1966 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1966 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 31:
-#line 397 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 397 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	parserInterface->setPrintSuccess(false);
 }
-#line 1974 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1974 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 32:
-#line 406 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 406 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode s = BEEV::parserInterface->LookupOrCreateSymbol((yyvsp[-7].str)->c_str()); 
   parserInterface->addSymbol(s);
@@ -1984,11 +1984,11 @@ yyreduce:
   s.SetValueWidth((yyvsp[-1].uintval));
   delete (yyvsp[-7].str);
 }
-#line 1988 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 1988 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 33:
-#line 416 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 416 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode s = BEEV::parserInterface->LookupOrCreateSymbol((yyvsp[-3].str)->c_str());
   s.SetIndexWidth(0);
@@ -1996,11 +1996,11 @@ yyreduce:
   parserInterface->addSymbol(s);
   delete (yyvsp[-3].str);
 }
-#line 2000 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2000 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 34:
-#line 424 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 424 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode s = BEEV::parserInterface->LookupOrCreateSymbol((yyvsp[-15].str)->c_str());
   parserInterface->addSymbol(s);
@@ -2021,11 +2021,11 @@ yyreduce:
   }
   delete (yyvsp[-15].str);
 }
-#line 2025 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2025 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 35:
-#line 448 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 448 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   if ((yyvsp[0].node) != NULL) {
@@ -2033,11 +2033,11 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2037 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2037 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 36:
-#line 457 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 457 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   if ((yyvsp[0].node) != NULL) {
@@ -2045,11 +2045,11 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2049 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2049 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 37:
-#line 466 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 466 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   if ((yyvsp[-1].vec) != NULL && (yyvsp[0].node) != NULL) {
     (yyvsp[-1].vec)->push_back(*(yyvsp[0].node));
@@ -2057,11 +2057,11 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2061 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2061 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 38:
-#line 475 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 475 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   if ((yyvsp[-1].vec) != NULL && (yyvsp[0].node) != NULL) {
     (yyvsp[-1].vec)->push_back(*(yyvsp[0].node));
@@ -2069,11 +2069,11 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2073 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2073 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 39:
-#line 487 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 487 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   if ((yyvsp[0].node) != NULL) {
@@ -2081,11 +2081,11 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2085 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2085 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 40:
-#line 496 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 496 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   if ((yyvsp[-1].vec) != NULL && (yyvsp[0].node) != NULL) {
     (yyvsp[-1].vec)->push_back(*(yyvsp[0].node));
@@ -2093,51 +2093,51 @@ yyreduce:
     parserInterface->deleteNode((yyvsp[0].node));
   }
 }
-#line 2097 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2097 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 41:
-#line 507 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 507 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->CreateNode(TRUE)); 
   assert(0 == (yyval.node)->GetIndexWidth()); 
   assert(0 == (yyval.node)->GetValueWidth());
 }
-#line 2107 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2107 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 42:
-#line 513 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 513 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->CreateNode(FALSE)); 
   assert(0 == (yyval.node)->GetIndexWidth()); 
   assert(0 == (yyval.node)->GetValueWidth());
 }
-#line 2117 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2117 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 43:
-#line 519 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 519 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(*(yyvsp[0].node)); 
   parserInterface->deleteNode((yyvsp[0].node));      
 }
-#line 2126 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2126 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 44:
-#line 524 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 524 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(EQ,*(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode((yyvsp[-2].node));
   parserInterface->deleteNode((yyvsp[-1].node));      
 }
-#line 2137 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2137 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 45:
-#line 531 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 531 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   using namespace BEEV;
 
@@ -2163,11 +2163,11 @@ yyreduce:
 
   delete (yyvsp[-1].vec);
 }
-#line 2167 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2167 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 46:
-#line 557 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 557 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   using namespace BEEV;
 
@@ -2191,211 +2191,211 @@ yyreduce:
 
   delete (yyvsp[-1].vec);
 }
-#line 2195 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2195 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 47:
-#line 581 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 581 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVSLT, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode((yyvsp[-2].node));
   parserInterface->deleteNode((yyvsp[-1].node));      
 }
-#line 2206 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2206 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 48:
-#line 588 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 588 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVSLE, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2217 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2217 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 49:
-#line 595 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 595 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVSGT, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2228 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2228 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 50:
-#line 602 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 602 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVSGE, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2239 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2239 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 51:
-#line 609 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 609 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVLT, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2250 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2250 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 52:
-#line 616 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 616 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVLE, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2261 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2261 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 53:
-#line 623 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 623 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVGT, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2272 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2272 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 54:
-#line 630 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 630 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode * n = parserInterface->newNode(BVGE, *(yyvsp[-2].node), *(yyvsp[-1].node));
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2283 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2283 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 55:
-#line 637 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 637 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[-1].node);
 }
-#line 2291 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2291 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 56:
-#line 641 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 641 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->nf->CreateNode(NOT, *(yyvsp[-1].node)));
     parserInterface->deleteNode( (yyvsp[-1].node));
 }
-#line 2300 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2300 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 57:
-#line 646 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 646 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(IMPLIES, *(yyvsp[-2].node), *(yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));      
 }
-#line 2310 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2310 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 58:
-#line 652 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 652 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->nf->CreateNode(ITE, *(yyvsp[-3].node), *(yyvsp[-2].node), *(yyvsp[-1].node)));
   parserInterface->deleteNode( (yyvsp[-3].node));
   parserInterface->deleteNode( (yyvsp[-2].node));      
   parserInterface->deleteNode( (yyvsp[-1].node));
 }
-#line 2321 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2321 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 59:
-#line 659 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 659 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->CreateNode(AND, *(yyvsp[-1].vec)));
   delete (yyvsp[-1].vec);
 }
-#line 2330 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2330 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 60:
-#line 664 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 664 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(parserInterface->CreateNode(OR, *(yyvsp[-1].vec)));
   delete (yyvsp[-1].vec);
 }
-#line 2339 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2339 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 61:
-#line 669 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 669 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(XOR, *(yyvsp[-2].node), *(yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));
 }
-#line 2349 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2349 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 62:
-#line 675 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 675 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode(IFF, *(yyvsp[-2].node), *(yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[-2].node));
   parserInterface->deleteNode( (yyvsp[-1].node));
 }
-#line 2359 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2359 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 63:
-#line 681 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 681 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[-1].node);
   //Cleanup the LetIDToExprMap
   parserInterface->letMgr->CleanupLetIDMap();
 }
-#line 2369 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2369 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 64:
-#line 687 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 687 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {	
   (yyval.node) = parserInterface->newNode(parserInterface->applyFunction(*(yyvsp[-2].str),*(yyvsp[-1].vec)));
   delete (yyvsp[-2].str);
   delete (yyvsp[-1].vec);
 }
-#line 2379 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2379 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 65:
-#line 693 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 693 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTVec empty;
   (yyval.node) = parserInterface->newNode(parserInterface->applyFunction(*(yyvsp[0].str),empty));
   delete (yyvsp[0].str);
 }
-#line 2389 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2389 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 67:
-#line 702 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 702 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {}
-#line 2395 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2395 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 68:
-#line 705 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 705 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //populate the hashtable from LET-var -->
   //LET-exprs and then process them:
@@ -2409,11 +2409,11 @@ yyreduce:
   delete (yyvsp[-2].str);
   parserInterface->deleteNode( (yyvsp[-1].node));
 }
-#line 2413 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2413 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 69:
-#line 719 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 719 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //populate the hashtable from LET-var -->
   //LET-exprs and then process them:
@@ -2428,11 +2428,11 @@ yyreduce:
   parserInterface->deleteNode( (yyvsp[-1].node));
 
 }
-#line 2432 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2432 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 70:
-#line 737 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 737 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   if ((yyvsp[0].node) != NULL) {
@@ -2441,11 +2441,11 @@ yyreduce:
   
   }
 }
-#line 2445 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2445 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 71:
-#line 747 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 747 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   if ((yyvsp[-1].vec) != NULL && (yyvsp[0].node) != NULL) {
     (yyvsp[-1].vec)->push_back(*(yyvsp[0].node));
@@ -2453,28 +2453,28 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[0].node));
   }
 }
-#line 2457 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2457 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 72:
-#line 758 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 758 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = parserInterface->newNode((*(yyvsp[0].node)));
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2466 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2466 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 73:
-#line 763 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 763 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[-1].node);
 }
-#line 2474 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2474 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 74:
-#line 767 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 767 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //ARRAY READ
   // valuewidth is same as array, indexwidth is 0.
@@ -2487,11 +2487,11 @@ yyreduce:
   parserInterface->deleteNode( (yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2491 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2491 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 75:
-#line 780 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 780 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //ARRAY WRITE
   unsigned int width = (yyvsp[0].node)->GetValueWidth();
@@ -2505,11 +2505,11 @@ yyreduce:
   parserInterface->deleteNode( (yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2509 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2509 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 76:
-#line 794 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 794 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   int width = (yyvsp[-3].uintval) - (yyvsp[-2].uintval) + 1;
   if (width < 0)
@@ -2525,11 +2525,11 @@ yyreduce:
   (yyval.node) = n;
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2529 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2529 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 77:
-#line 810 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 810 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned w = (yyvsp[0].node)->GetValueWidth() + (yyvsp[-2].uintval);
   ASTNode width = parserInterface->CreateBVConst(32,w);
@@ -2537,11 +2537,11 @@ yyreduce:
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2541 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2541 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 78:
-#line 818 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 818 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned w = (yyvsp[0].node)->GetValueWidth() + (yyvsp[-2].uintval);
   ASTNode width = parserInterface->CreateBVConst(32,w);
@@ -2549,11 +2549,11 @@ yyreduce:
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2553 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2553 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 79:
-#line 827 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 827 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   const unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   (yyval.node) = parserInterface->newNode(parserInterface->nf->CreateArrayTerm(ITE,(yyvsp[0].node)->GetIndexWidth(), width,*(yyvsp[-2].node), *(yyvsp[-1].node), *(yyvsp[0].node)));      
@@ -2561,11 +2561,11 @@ yyreduce:
   parserInterface->deleteNode( (yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2565 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2565 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 80:
-#line 835 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 835 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   const unsigned int width = (yyvsp[-1].node)->GetValueWidth() + (yyvsp[0].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(parserInterface->nf->CreateTerm(BVCONCAT, width, *(yyvsp[-1].node), *(yyvsp[0].node)));
@@ -2573,11 +2573,11 @@ yyreduce:
   parserInterface->deleteNode( (yyvsp[-1].node));
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2577 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2577 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 81:
-#line 843 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 843 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //this is the BVNEG (term) in the CVCL language
   unsigned int width = (yyvsp[0].node)->GetValueWidth();
@@ -2585,11 +2585,11 @@ yyreduce:
   (yyval.node) = n;
   parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2589 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2589 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 82:
-#line 851 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 851 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   //this is the BVUMINUS term in CVCL langauge
   unsigned width = (yyvsp[0].node)->GetValueWidth();
@@ -2597,11 +2597,11 @@ yyreduce:
   (yyval.node) = n;
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2601 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2601 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 83:
-#line 859 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 859 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVAND, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2609,11 +2609,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2613 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2613 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 84:
-#line 867 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 867 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVOR, width, *(yyvsp[-1].node), *(yyvsp[0].node)); 
@@ -2621,11 +2621,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2625 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2625 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 85:
-#line 875 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 875 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVXOR, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2633,11 +2633,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2637 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2637 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 86:
-#line 883 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 883 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 //   (bvxnor s t) abbreviates (bvor (bvand s t) (bvand (bvnot s) (bvnot t)))
       unsigned int width = (yyvsp[-1].node)->GetValueWidth();
@@ -2653,11 +2653,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2657 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2657 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 87:
-#line 899 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 899 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   	ASTNode * n = parserInterface->newNode(parserInterface->nf->CreateTerm(ITE, 1, 
   	parserInterface->nf->CreateNode(EQ, *(yyvsp[-1].node), *(yyvsp[0].node)),
@@ -2668,11 +2668,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2672 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2672 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 88:
-#line 910 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 910 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   const unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVSUB, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2680,11 +2680,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2684 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2684 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 89:
-#line 918 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 918 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   const unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVPLUS, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2693,11 +2693,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[0].node));
 
 }
-#line 2697 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2697 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 90:
-#line 927 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 927 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   const unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(parserInterface->nf->CreateTerm(BVMULT, width, *(yyvsp[-1].node), *(yyvsp[0].node)));
@@ -2705,11 +2705,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2709 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2709 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 91:
-#line 935 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 935 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVDIV, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2718,11 +2718,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2722 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2722 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 92:
-#line 944 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 944 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(BVMOD, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2731,11 +2731,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2735 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2735 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 93:
-#line 953 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 953 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(SBVDIV, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2744,11 +2744,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2748 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2748 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 94:
-#line 962 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 962 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(SBVREM, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2756,11 +2756,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2760 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2760 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 95:
-#line 970 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 970 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(SBVMOD, width, *(yyvsp[-1].node), *(yyvsp[0].node));
@@ -2768,11 +2768,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2772 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2772 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 96:
-#line 978 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 978 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(parserInterface->nf->CreateTerm(BVNEG, width, parserInterface->nf->CreateTerm(BVAND, width, *(yyvsp[-1].node), *(yyvsp[0].node))));
@@ -2780,11 +2780,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2784 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2784 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 97:
-#line 986 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 986 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n = parserInterface->newNode(parserInterface->nf->CreateTerm(BVNEG, width, parserInterface->nf->CreateTerm(BVOR, width, *(yyvsp[-1].node), *(yyvsp[0].node)))); 
@@ -2792,11 +2792,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2796 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2796 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 98:
-#line 994 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 994 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   // shifting left by who know how much?
   unsigned int w = (yyvsp[-1].node)->GetValueWidth();
@@ -2805,11 +2805,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2809 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2809 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 99:
-#line 1003 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1003 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   // shifting right by who know how much?
   unsigned int w = (yyvsp[-1].node)->GetValueWidth();
@@ -2818,11 +2818,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2822 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2822 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 100:
-#line 1012 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1012 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   // shifting arithmetic right by who know how much?
   unsigned int w = (yyvsp[-1].node)->GetValueWidth();
@@ -2831,11 +2831,11 @@ yyreduce:
     parserInterface->deleteNode( (yyvsp[-1].node));
     parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2835 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2835 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 101:
-#line 1021 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1021 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode *n;
   unsigned width = (yyvsp[0].node)->GetValueWidth();
@@ -2861,11 +2861,11 @@ yyreduce:
       
   (yyval.node) = n;
 }
-#line 2865 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2865 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 102:
-#line 1047 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1047 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTNode *n;
   unsigned width = (yyvsp[0].node)->GetValueWidth();
@@ -2889,11 +2889,11 @@ yyreduce:
       
   (yyval.node) = n;
 }
-#line 2893 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2893 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 103:
-#line 1071 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1071 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	  unsigned count = (yyvsp[-2].uintval);
 	  if (count < 1)
@@ -2909,43 +2909,43 @@ yyreduce:
       (yyval.node) = parserInterface->newNode(n);
       parserInterface->deleteNode( (yyvsp[0].node));
 }
-#line 2913 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2913 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 104:
-#line 1087 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1087 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	(yyval.node) = parserInterface->newNode(parserInterface->CreateBVConst(*(yyvsp[-1].str), 10, (yyvsp[0].uintval)));
     (yyval.node)->SetValueWidth((yyvsp[0].uintval));
     delete (yyvsp[-1].str);
 }
-#line 2923 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2923 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 105:
-#line 1093 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1093 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	unsigned width = (yyvsp[0].str)->length()*4;
 	(yyval.node) = parserInterface->newNode(parserInterface->CreateBVConst(*(yyvsp[0].str), 16, width));
     (yyval.node)->SetValueWidth(width);
     delete (yyvsp[0].str);
 }
-#line 2934 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2934 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 106:
-#line 1100 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1100 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
 	unsigned width = (yyvsp[0].str)->length();
 	(yyval.node) = parserInterface->newNode(parserInterface->CreateBVConst(*(yyvsp[0].str), 2, width));
     (yyval.node)->SetValueWidth(width);
     delete (yyvsp[0].str);
 }
-#line 2945 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2945 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 107:
-#line 1107 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1107 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {	
   (yyval.node) = parserInterface->newNode(parserInterface->applyFunction(*(yyvsp[-2].str),*(yyvsp[-1].vec)));
   
@@ -2955,11 +2955,11 @@ yyreduce:
   delete (yyvsp[-2].str);
   delete (yyvsp[-1].vec);
 }
-#line 2959 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2959 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 108:
-#line 1117 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1117 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   ASTVec empty;
   (yyval.node) = parserInterface->newNode(parserInterface->applyFunction(*(yyvsp[0].str),empty));
@@ -2969,21 +2969,21 @@ yyreduce:
 
   delete (yyvsp[0].str);
 }
-#line 2973 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2973 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
   case 109:
-#line 1127 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
+#line 1127 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[-1].node);
   //Cleanup the LetIDToExprMap
   parserInterface->letMgr->CleanupLetIDMap();
 }
-#line 2983 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2983 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
     break;
 
 
-#line 2987 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
+#line 2987 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -3211,5 +3211,5 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 1135 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1906  */
+#line 1135 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1906  */
 

@@ -36,7 +36,7 @@ lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefi
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o
@@ -99,6 +99,6 @@ lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

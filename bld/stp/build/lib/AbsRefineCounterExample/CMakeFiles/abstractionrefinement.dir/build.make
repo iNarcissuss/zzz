@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/depend.make
@@ -51,17 +51,17 @@ include lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/flags.m
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o: lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/flags.make
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o: ../lib/AbsRefineCounterExample/AbstractionRefinement.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp > CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp > CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.i
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp -o CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/AbstractionRefinement.cpp -o CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.s
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o.requires:
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o.requires
@@ -74,17 +74,17 @@ lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefi
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o: lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/flags.make
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o: ../lib/AbsRefineCounterExample/CounterExample.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp > CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp > CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.i
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp -o CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample/CounterExample.cpp -o CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.s
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o.requires:
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o.requires
@@ -109,10 +109,10 @@ lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/requires: lib/A
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/requires
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && $(CMAKE_COMMAND) -P CMakeFiles/abstractionrefinement.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample && $(CMAKE_COMMAND) -P CMakeFiles/abstractionrefinement.dir/cmake_clean.cmake
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/clean
 
 lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/AbsRefineCounterExample /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample /home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/depend
 

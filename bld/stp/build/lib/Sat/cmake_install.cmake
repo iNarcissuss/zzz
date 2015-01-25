@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat
+# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp/lib/Sat
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/cmake_install.cmake")
-  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/cmake_install.cmake")
+  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/cmake_install.cmake")
+  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

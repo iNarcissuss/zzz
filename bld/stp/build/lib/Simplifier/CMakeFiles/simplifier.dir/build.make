@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Simplifier/CMakeFiles/simplifier.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o: ../lib/Simplifier/bvsolver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/bvsolver.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/bvsolver.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/bvsolver.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp > CMakeFiles/simplifier.dir/bvsolver.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp > CMakeFiles/simplifier.dir/bvsolver.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/bvsolver.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp -o CMakeFiles/simplifier.dir/bvsolver.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp -o CMakeFiles/simplifier.dir/bvsolver.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o.requires
@@ -74,17 +74,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o.provides.build: lib/Simp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o: ../lib/Simplifier/consteval.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/consteval.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/consteval.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/consteval.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp > CMakeFiles/simplifier.dir/consteval.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp > CMakeFiles/simplifier.dir/consteval.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/consteval.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp -o CMakeFiles/simplifier.dir/consteval.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp -o CMakeFiles/simplifier.dir/consteval.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o.requires
@@ -97,17 +97,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o.provides.build: lib/Sim
 
 lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o: ../lib/Simplifier/MutableASTNode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/MutableASTNode.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/MutableASTNode.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/MutableASTNode.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp > CMakeFiles/simplifier.dir/MutableASTNode.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp > CMakeFiles/simplifier.dir/MutableASTNode.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/MutableASTNode.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp -o CMakeFiles/simplifier.dir/MutableASTNode.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp -o CMakeFiles/simplifier.dir/MutableASTNode.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o.requires
@@ -120,17 +120,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o.provides.build: li
 
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o: ../lib/Simplifier/PropagateEqualities.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp > CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp > CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp -o CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp -o CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o.requires
@@ -143,17 +143,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o.provides.buil
 
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o: ../lib/Simplifier/RemoveUnconstrained.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp > CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp > CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp -o CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp -o CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o.requires
@@ -166,17 +166,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o.provides.buil
 
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o: ../lib/Simplifier/simplifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/simplifier.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/simplifier.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/simplifier.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp > CMakeFiles/simplifier.dir/simplifier.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp > CMakeFiles/simplifier.dir/simplifier.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/simplifier.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp -o CMakeFiles/simplifier.dir/simplifier.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp -o CMakeFiles/simplifier.dir/simplifier.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o.requires
@@ -189,17 +189,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o.provides.build: lib/Si
 
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o: ../lib/Simplifier/SubstitutionMap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp > CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp > CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp -o CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp -o CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o.requires
@@ -212,17 +212,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o.provides.build: l
 
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o: ../lib/Simplifier/VariablesInExpression.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp > CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp > CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp -o CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp -o CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o.requires
@@ -235,17 +235,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o.provides.bu
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o.requires
@@ -258,17 +258,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o.requires
@@ -281,17 +281,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o.requires
@@ -304,17 +304,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Division.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o.requires
@@ -327,17 +327,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o.requires
@@ -350,17 +350,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o.requires
@@ -373,17 +373,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplicatio
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitPropagation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o.requires
@@ -396,17 +396,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o.requires
@@ -419,17 +419,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o.requires
@@ -442,17 +442,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunct
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o: ../lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp > CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp -o CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o.requires
@@ -465,17 +465,17 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o: lib/Simplifier/CMakeFiles/simplifier.dir/flags.make
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o: ../lib/Simplifier/constantBitP/FixedBits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp > CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp > CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp -o CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp -o CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s
 
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o.requires:
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o.requires
@@ -534,10 +534,10 @@ lib/Simplifier/CMakeFiles/simplifier.dir/requires: lib/Simplifier/CMakeFiles/sim
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/requires
 
 lib/Simplifier/CMakeFiles/simplifier.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier && $(CMAKE_COMMAND) -P CMakeFiles/simplifier.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier && $(CMAKE_COMMAND) -P CMakeFiles/simplifier.dir/cmake_clean.cmake
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/clean
 
 lib/Simplifier/CMakeFiles/simplifier.dir/depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/depend
 

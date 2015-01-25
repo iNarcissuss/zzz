@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Sat/minisat/CMakeFiles/minisat2.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/CMakeFiles/minisat2.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/minisat/CMakeFiles/minisat2.dir/rule
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ minisat2: lib/Sat/minisat/CMakeFiles/minisat2.dir/rule
 
 # fast build rule for target.
 minisat2/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/build
 .PHONY : minisat2/fast
 
 core/Solver.o: core/Solver.cc.o
@@ -158,7 +158,7 @@ core/Solver.o: core/Solver.cc.o
 
 # target to build an object file
 core/Solver.cc.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o
 .PHONY : core/Solver.cc.o
 
 core/Solver.i: core/Solver.cc.i
@@ -166,7 +166,7 @@ core/Solver.i: core/Solver.cc.i
 
 # target to preprocess a source file
 core/Solver.cc.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.i
 .PHONY : core/Solver.cc.i
 
 core/Solver.s: core/Solver.cc.s
@@ -174,7 +174,7 @@ core/Solver.s: core/Solver.cc.s
 
 # target to generate assembly for a file
 core/Solver.cc.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.s
 .PHONY : core/Solver.cc.s
 
 core_prop/Solver_prop.o: core_prop/Solver_prop.cc.o
@@ -182,7 +182,7 @@ core_prop/Solver_prop.o: core_prop/Solver_prop.cc.o
 
 # target to build an object file
 core_prop/Solver_prop.cc.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o
 .PHONY : core_prop/Solver_prop.cc.o
 
 core_prop/Solver_prop.i: core_prop/Solver_prop.cc.i
@@ -190,7 +190,7 @@ core_prop/Solver_prop.i: core_prop/Solver_prop.cc.i
 
 # target to preprocess a source file
 core_prop/Solver_prop.cc.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i
 .PHONY : core_prop/Solver_prop.cc.i
 
 core_prop/Solver_prop.s: core_prop/Solver_prop.cc.s
@@ -198,7 +198,7 @@ core_prop/Solver_prop.s: core_prop/Solver_prop.cc.s
 
 # target to generate assembly for a file
 core_prop/Solver_prop.cc.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s
 .PHONY : core_prop/Solver_prop.cc.s
 
 simp/SimpSolver.o: simp/SimpSolver.cc.o
@@ -206,7 +206,7 @@ simp/SimpSolver.o: simp/SimpSolver.cc.o
 
 # target to build an object file
 simp/SimpSolver.cc.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o
 .PHONY : simp/SimpSolver.cc.o
 
 simp/SimpSolver.i: simp/SimpSolver.cc.i
@@ -214,7 +214,7 @@ simp/SimpSolver.i: simp/SimpSolver.cc.i
 
 # target to preprocess a source file
 simp/SimpSolver.cc.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i
 .PHONY : simp/SimpSolver.cc.i
 
 simp/SimpSolver.s: simp/SimpSolver.cc.s
@@ -222,7 +222,7 @@ simp/SimpSolver.s: simp/SimpSolver.cc.s
 
 # target to generate assembly for a file
 simp/SimpSolver.cc.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s
 .PHONY : simp/SimpSolver.cc.s
 
 utils/System.o: utils/System.cc.o
@@ -230,7 +230,7 @@ utils/System.o: utils/System.cc.o
 
 # target to build an object file
 utils/System.cc.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o
 .PHONY : utils/System.cc.o
 
 utils/System.i: utils/System.cc.i
@@ -238,7 +238,7 @@ utils/System.i: utils/System.cc.i
 
 # target to preprocess a source file
 utils/System.cc.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.i
 .PHONY : utils/System.cc.i
 
 utils/System.s: utils/System.cc.s
@@ -246,7 +246,7 @@ utils/System.s: utils/System.cc.s
 
 # target to generate assembly for a file
 utils/System.cc.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/minisat/CMakeFiles/minisat2.dir/build.make lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.s
 .PHONY : utils/System.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/AST/CMakeFiles/AST.dir/depend.make
@@ -50,27 +50,27 @@ include lib/AST/CMakeFiles/AST.dir/progress.make
 include lib/AST/CMakeFiles/AST.dir/flags.make
 
 lib/AST/ASTKind.cpp: ../lib/AST/ASTKind.kinds
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ASTKind.cpp, ../../include/stp/AST/ASTKind.h"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/perl /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/genkinds.pl --file /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTKind.kinds
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E make_directory /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/include/stp/AST
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E rename /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.h /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/include/stp/AST/ASTKind.h
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/perl /home/travis/build/vdun/stoke/stoke/stp/lib/AST/genkinds.pl --file /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTKind.kinds
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E make_directory /home/travis/build/vdun/stoke/stoke/stp/build/include/stp/AST
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E rename /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.h /home/travis/build/vdun/stoke/stoke/stp/build/include/stp/AST/ASTKind.h
 
 include/stp/AST/ASTKind.h: lib/AST/ASTKind.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o: lib/AST/ASTKind.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTKind.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTKind.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTKind.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp > CMakeFiles/AST.dir/ASTKind.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp > CMakeFiles/AST.dir/ASTKind.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTKind.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp -o CMakeFiles/AST.dir/ASTKind.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp -o CMakeFiles/AST.dir/ASTKind.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o.requires
@@ -83,17 +83,17 @@ lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o.provides.build: lib/AST/CMakeFiles/AST.
 
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o: ../lib/AST/ArrayTransformer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ArrayTransformer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ArrayTransformer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
 
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ArrayTransformer.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp > CMakeFiles/AST.dir/ArrayTransformer.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp > CMakeFiles/AST.dir/ArrayTransformer.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ArrayTransformer.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp -o CMakeFiles/AST.dir/ArrayTransformer.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp -o CMakeFiles/AST.dir/ArrayTransformer.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o.requires
@@ -106,17 +106,17 @@ lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o.provides.build: lib/AST/CMakeF
 
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o: ../lib/AST/ASTInterior.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTInterior.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTInterior.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTInterior.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp > CMakeFiles/AST.dir/ASTInterior.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp > CMakeFiles/AST.dir/ASTInterior.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTInterior.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp -o CMakeFiles/AST.dir/ASTInterior.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp -o CMakeFiles/AST.dir/ASTInterior.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o.requires
@@ -129,17 +129,17 @@ lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o.provides.build: lib/AST/CMakeFiles/
 
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o: ../lib/AST/ASTNode.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTNode.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTNode.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTNode.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp > CMakeFiles/AST.dir/ASTNode.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp > CMakeFiles/AST.dir/ASTNode.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTNode.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp -o CMakeFiles/AST.dir/ASTNode.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp -o CMakeFiles/AST.dir/ASTNode.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o.requires
@@ -152,17 +152,17 @@ lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o.provides.build: lib/AST/CMakeFiles/AST.
 
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o: ../lib/AST/ASTUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTUtil.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTUtil.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTUtil.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp > CMakeFiles/AST.dir/ASTUtil.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp > CMakeFiles/AST.dir/ASTUtil.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTUtil.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp -o CMakeFiles/AST.dir/ASTUtil.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp -o CMakeFiles/AST.dir/ASTUtil.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o.requires
@@ -175,17 +175,17 @@ lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o.provides.build: lib/AST/CMakeFiles/AST.
 
 lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o: ../lib/AST/ASTBVConst.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTBVConst.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTBVConst.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTBVConst.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp > CMakeFiles/AST.dir/ASTBVConst.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp > CMakeFiles/AST.dir/ASTBVConst.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTBVConst.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp -o CMakeFiles/AST.dir/ASTBVConst.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp -o CMakeFiles/AST.dir/ASTBVConst.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o.requires
@@ -198,17 +198,17 @@ lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o.provides.build: lib/AST/CMakeFiles/A
 
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o: ../lib/AST/ASTmisc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTmisc.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTmisc.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTmisc.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp > CMakeFiles/AST.dir/ASTmisc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp > CMakeFiles/AST.dir/ASTmisc.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTmisc.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp -o CMakeFiles/AST.dir/ASTmisc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp -o CMakeFiles/AST.dir/ASTmisc.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o.requires
@@ -221,17 +221,17 @@ lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o.provides.build: lib/AST/CMakeFiles/AST.
 
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o: ../lib/AST/ASTSymbol.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTSymbol.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/ASTSymbol.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
 
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/ASTSymbol.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp > CMakeFiles/AST.dir/ASTSymbol.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp > CMakeFiles/AST.dir/ASTSymbol.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/ASTSymbol.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp -o CMakeFiles/AST.dir/ASTSymbol.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp -o CMakeFiles/AST.dir/ASTSymbol.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o.requires
@@ -244,17 +244,17 @@ lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o.provides.build: lib/AST/CMakeFiles/AS
 
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o: ../lib/AST/RunTimes.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/RunTimes.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/RunTimes.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp
 
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/RunTimes.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp > CMakeFiles/AST.dir/RunTimes.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp > CMakeFiles/AST.dir/RunTimes.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/RunTimes.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp -o CMakeFiles/AST.dir/RunTimes.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp -o CMakeFiles/AST.dir/RunTimes.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o.requires
@@ -267,17 +267,17 @@ lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o.provides.build: lib/AST/CMakeFiles/AST
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o: ../lib/AST/NodeFactory/HashingNodeFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o.requires
@@ -290,17 +290,17 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o.provides.build: 
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o: ../lib/AST/NodeFactory/NodeFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o.requires
@@ -313,17 +313,17 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o.provides.build: lib/AST
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o: ../lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp > CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp -o CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o.requires
@@ -336,17 +336,17 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o.provides.bui
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o: lib/AST/CMakeFiles/AST.dir/flags.make
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o: ../lib/AST/NodeFactory/TypeChecker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp > CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp > CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.i
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp -o CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp -o CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.s
 
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o.requires:
 .PHONY : lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o.requires
@@ -393,11 +393,11 @@ lib/AST/CMakeFiles/AST.dir/requires: lib/AST/CMakeFiles/AST.dir/NodeFactory/Type
 .PHONY : lib/AST/CMakeFiles/AST.dir/requires
 
 lib/AST/CMakeFiles/AST.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && $(CMAKE_COMMAND) -P CMakeFiles/AST.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && $(CMAKE_COMMAND) -P CMakeFiles/AST.dir/cmake_clean.cmake
 .PHONY : lib/AST/CMakeFiles/AST.dir/clean
 
 lib/AST/CMakeFiles/AST.dir/depend: lib/AST/ASTKind.cpp
 lib/AST/CMakeFiles/AST.dir/depend: include/stp/AST/ASTKind.h
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/AST /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/AST/CMakeFiles/AST.dir/depend
 

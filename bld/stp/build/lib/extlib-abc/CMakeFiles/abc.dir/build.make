@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/extlib-abc/CMakeFiles/abc.dir/depend.make
@@ -51,17 +51,17 @@ include lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o: ../lib/extlib-abc/aig/aig/aigCheck.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigCheck.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigCheck.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigCheck.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c > CMakeFiles/abc.dir/aig/aig/aigCheck.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c > CMakeFiles/abc.dir/aig/aig/aigCheck.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigCheck.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c -o CMakeFiles/abc.dir/aig/aig/aigCheck.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c -o CMakeFiles/abc.dir/aig/aig/aigCheck.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o.requires
@@ -74,17 +74,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o: ../lib/extlib-abc/aig/aig/aigDfs.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigDfs.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigDfs.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigDfs.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c > CMakeFiles/abc.dir/aig/aig/aigDfs.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c > CMakeFiles/abc.dir/aig/aig/aigDfs.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigDfs.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c -o CMakeFiles/abc.dir/aig/aig/aigDfs.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c -o CMakeFiles/abc.dir/aig/aig/aigDfs.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o.requires
@@ -97,17 +97,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o: ../lib/extlib-abc/aig/aig/aigFanout.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigFanout.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigFanout.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigFanout.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c > CMakeFiles/abc.dir/aig/aig/aigFanout.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c > CMakeFiles/abc.dir/aig/aig/aigFanout.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigFanout.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c -o CMakeFiles/abc.dir/aig/aig/aigFanout.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c -o CMakeFiles/abc.dir/aig/aig/aigFanout.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o.requires
@@ -120,17 +120,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o.provides.build: lib/extl
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o: ../lib/extlib-abc/aig/aig/aigMan.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMan.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMan.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigMan.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c > CMakeFiles/abc.dir/aig/aig/aigMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c > CMakeFiles/abc.dir/aig/aig/aigMan.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigMan.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c -o CMakeFiles/abc.dir/aig/aig/aigMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c -o CMakeFiles/abc.dir/aig/aig/aigMan.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o.requires
@@ -143,17 +143,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o: ../lib/extlib-abc/aig/aig/aigMem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMem.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMem.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigMem.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c > CMakeFiles/abc.dir/aig/aig/aigMem.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c > CMakeFiles/abc.dir/aig/aig/aigMem.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigMem.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c -o CMakeFiles/abc.dir/aig/aig/aigMem.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c -o CMakeFiles/abc.dir/aig/aig/aigMem.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o.requires
@@ -166,17 +166,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o: ../lib/extlib-abc/aig/aig/aigMffc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMffc.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigMffc.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigMffc.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c > CMakeFiles/abc.dir/aig/aig/aigMffc.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c > CMakeFiles/abc.dir/aig/aig/aigMffc.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigMffc.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c -o CMakeFiles/abc.dir/aig/aig/aigMffc.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c -o CMakeFiles/abc.dir/aig/aig/aigMffc.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o.requires
@@ -189,17 +189,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o: ../lib/extlib-abc/aig/aig/aigObj.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigObj.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigObj.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigObj.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c > CMakeFiles/abc.dir/aig/aig/aigObj.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c > CMakeFiles/abc.dir/aig/aig/aigObj.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigObj.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c -o CMakeFiles/abc.dir/aig/aig/aigObj.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c -o CMakeFiles/abc.dir/aig/aig/aigObj.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o.requires
@@ -212,17 +212,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o: ../lib/extlib-abc/aig/aig/aigOper.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigOper.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigOper.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigOper.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c > CMakeFiles/abc.dir/aig/aig/aigOper.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c > CMakeFiles/abc.dir/aig/aig/aigOper.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigOper.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c -o CMakeFiles/abc.dir/aig/aig/aigOper.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c -o CMakeFiles/abc.dir/aig/aig/aigOper.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o.requires
@@ -235,17 +235,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o: ../lib/extlib-abc/aig/aig/aigOrder.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigOrder.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigOrder.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigOrder.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c > CMakeFiles/abc.dir/aig/aig/aigOrder.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c > CMakeFiles/abc.dir/aig/aig/aigOrder.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigOrder.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c -o CMakeFiles/abc.dir/aig/aig/aigOrder.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c -o CMakeFiles/abc.dir/aig/aig/aigOrder.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o.requires
@@ -258,17 +258,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o: ../lib/extlib-abc/aig/aig/aigPart.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigPart.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigPart.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigPart.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c > CMakeFiles/abc.dir/aig/aig/aigPart.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c > CMakeFiles/abc.dir/aig/aig/aigPart.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigPart.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c -o CMakeFiles/abc.dir/aig/aig/aigPart.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c -o CMakeFiles/abc.dir/aig/aig/aigPart.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o.requires
@@ -281,17 +281,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o: ../lib/extlib-abc/aig/aig/aigRepr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigRepr.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigRepr.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigRepr.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c > CMakeFiles/abc.dir/aig/aig/aigRepr.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c > CMakeFiles/abc.dir/aig/aig/aigRepr.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigRepr.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c -o CMakeFiles/abc.dir/aig/aig/aigRepr.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c -o CMakeFiles/abc.dir/aig/aig/aigRepr.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o.requires
@@ -304,17 +304,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o: ../lib/extlib-abc/aig/aig/aigRet.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigRet.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigRet.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigRet.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c > CMakeFiles/abc.dir/aig/aig/aigRet.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c > CMakeFiles/abc.dir/aig/aig/aigRet.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigRet.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c -o CMakeFiles/abc.dir/aig/aig/aigRet.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c -o CMakeFiles/abc.dir/aig/aig/aigRet.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o.requires
@@ -327,17 +327,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o: ../lib/extlib-abc/aig/aig/aigScl.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigScl.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigScl.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigScl.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c > CMakeFiles/abc.dir/aig/aig/aigScl.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c > CMakeFiles/abc.dir/aig/aig/aigScl.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigScl.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c -o CMakeFiles/abc.dir/aig/aig/aigScl.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c -o CMakeFiles/abc.dir/aig/aig/aigScl.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o.requires
@@ -350,17 +350,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o: ../lib/extlib-abc/aig/aig/aigSeq.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigSeq.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigSeq.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigSeq.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c > CMakeFiles/abc.dir/aig/aig/aigSeq.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c > CMakeFiles/abc.dir/aig/aig/aigSeq.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigSeq.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c -o CMakeFiles/abc.dir/aig/aig/aigSeq.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c -o CMakeFiles/abc.dir/aig/aig/aigSeq.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o.requires
@@ -373,17 +373,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o: ../lib/extlib-abc/aig/aig/aigShow.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigShow.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigShow.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigShow.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c > CMakeFiles/abc.dir/aig/aig/aigShow.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c > CMakeFiles/abc.dir/aig/aig/aigShow.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigShow.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c -o CMakeFiles/abc.dir/aig/aig/aigShow.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c -o CMakeFiles/abc.dir/aig/aig/aigShow.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o.requires
@@ -396,17 +396,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o: ../lib/extlib-abc/aig/aig/aigTable.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTable.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTable.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigTable.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c > CMakeFiles/abc.dir/aig/aig/aigTable.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c > CMakeFiles/abc.dir/aig/aig/aigTable.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigTable.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c -o CMakeFiles/abc.dir/aig/aig/aigTable.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c -o CMakeFiles/abc.dir/aig/aig/aigTable.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o.requires
@@ -419,17 +419,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o: ../lib/extlib-abc/aig/aig/aigTime.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTime.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTime.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigTime.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c > CMakeFiles/abc.dir/aig/aig/aigTime.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c > CMakeFiles/abc.dir/aig/aig/aigTime.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigTime.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c -o CMakeFiles/abc.dir/aig/aig/aigTime.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c -o CMakeFiles/abc.dir/aig/aig/aigTime.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o.requires
@@ -442,17 +442,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o: ../lib/extlib-abc/aig/aig/aigTiming.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTiming.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTiming.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigTiming.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c > CMakeFiles/abc.dir/aig/aig/aigTiming.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c > CMakeFiles/abc.dir/aig/aig/aigTiming.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigTiming.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c -o CMakeFiles/abc.dir/aig/aig/aigTiming.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c -o CMakeFiles/abc.dir/aig/aig/aigTiming.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o.requires
@@ -465,17 +465,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o.provides.build: lib/extl
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o: ../lib/extlib-abc/aig/aig/aigTruth.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTruth.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTruth.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigTruth.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c > CMakeFiles/abc.dir/aig/aig/aigTruth.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c > CMakeFiles/abc.dir/aig/aig/aigTruth.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigTruth.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c -o CMakeFiles/abc.dir/aig/aig/aigTruth.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c -o CMakeFiles/abc.dir/aig/aig/aigTruth.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o.requires
@@ -488,17 +488,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o: ../lib/extlib-abc/aig/aig/aigTsim.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTsim.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigTsim.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigTsim.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c > CMakeFiles/abc.dir/aig/aig/aigTsim.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c > CMakeFiles/abc.dir/aig/aig/aigTsim.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigTsim.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c -o CMakeFiles/abc.dir/aig/aig/aigTsim.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c -o CMakeFiles/abc.dir/aig/aig/aigTsim.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o.requires
@@ -511,17 +511,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o: ../lib/extlib-abc/aig/aig/aigUtil.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigUtil.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigUtil.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigUtil.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c > CMakeFiles/abc.dir/aig/aig/aigUtil.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c > CMakeFiles/abc.dir/aig/aig/aigUtil.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigUtil.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c -o CMakeFiles/abc.dir/aig/aig/aigUtil.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c -o CMakeFiles/abc.dir/aig/aig/aigUtil.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o.requires
@@ -534,17 +534,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o: ../lib/extlib-abc/aig/aig/aigWin.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigWin.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/aig/aigWin.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/aig/aigWin.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c > CMakeFiles/abc.dir/aig/aig/aigWin.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c > CMakeFiles/abc.dir/aig/aig/aigWin.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/aig/aigWin.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c -o CMakeFiles/abc.dir/aig/aig/aigWin.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c -o CMakeFiles/abc.dir/aig/aig/aigWin.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o.requires
@@ -557,17 +557,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o: ../lib/extlib-abc/aig/cnf/cnfCore.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c > CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c > CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c -o CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c -o CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o.requires
@@ -580,17 +580,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o: ../lib/extlib-abc/aig/cnf/cnfCut.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c > CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c > CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c -o CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c -o CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o.requires
@@ -603,17 +603,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o: ../lib/extlib-abc/aig/cnf/cnfData.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfData.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfData.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfData.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c > CMakeFiles/abc.dir/aig/cnf/cnfData.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c > CMakeFiles/abc.dir/aig/cnf/cnfData.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfData.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c -o CMakeFiles/abc.dir/aig/cnf/cnfData.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c -o CMakeFiles/abc.dir/aig/cnf/cnfData.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o.requires
@@ -626,17 +626,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o: ../lib/extlib-abc/aig/cnf/cnfMan.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c > CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c > CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c -o CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c -o CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o.requires
@@ -649,17 +649,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o: ../lib/extlib-abc/aig/cnf/cnfMap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c > CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c > CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c -o CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c -o CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o.requires
@@ -672,17 +672,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o: ../lib/extlib-abc/aig/cnf/cnfPost.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c > CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c > CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c -o CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c -o CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o.requires
@@ -695,17 +695,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o: ../lib/extlib-abc/aig/cnf/cnfUtil.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c > CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c > CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c -o CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c -o CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o.requires
@@ -718,17 +718,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o: ../lib/extlib-abc/aig/cnf/cnfWrite.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c > CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c > CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c -o CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c -o CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o.requires
@@ -741,17 +741,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o: ../lib/extlib-abc/aig/dar/darBalance.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darBalance.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darBalance.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darBalance.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c > CMakeFiles/abc.dir/aig/dar/darBalance.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c > CMakeFiles/abc.dir/aig/dar/darBalance.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darBalance.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c -o CMakeFiles/abc.dir/aig/dar/darBalance.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c -o CMakeFiles/abc.dir/aig/dar/darBalance.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o.requires
@@ -764,17 +764,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o.provides.build: lib/ext
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o: ../lib/extlib-abc/aig/dar/darCore.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darCore.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darCore.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darCore.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c > CMakeFiles/abc.dir/aig/dar/darCore.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c > CMakeFiles/abc.dir/aig/dar/darCore.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darCore.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c -o CMakeFiles/abc.dir/aig/dar/darCore.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c -o CMakeFiles/abc.dir/aig/dar/darCore.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o.requires
@@ -787,17 +787,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o: ../lib/extlib-abc/aig/dar/darCut.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darCut.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darCut.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darCut.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c > CMakeFiles/abc.dir/aig/dar/darCut.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c > CMakeFiles/abc.dir/aig/dar/darCut.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darCut.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c -o CMakeFiles/abc.dir/aig/dar/darCut.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c -o CMakeFiles/abc.dir/aig/dar/darCut.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o.requires
@@ -810,17 +810,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o: ../lib/extlib-abc/aig/dar/darData.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darData.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darData.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darData.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c > CMakeFiles/abc.dir/aig/dar/darData.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c > CMakeFiles/abc.dir/aig/dar/darData.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darData.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c -o CMakeFiles/abc.dir/aig/dar/darData.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c -o CMakeFiles/abc.dir/aig/dar/darData.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o.requires
@@ -833,17 +833,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o: ../lib/extlib-abc/aig/dar/darLib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darLib.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darLib.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darLib.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c > CMakeFiles/abc.dir/aig/dar/darLib.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c > CMakeFiles/abc.dir/aig/dar/darLib.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darLib.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c -o CMakeFiles/abc.dir/aig/dar/darLib.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c -o CMakeFiles/abc.dir/aig/dar/darLib.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o.requires
@@ -856,17 +856,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o: ../lib/extlib-abc/aig/dar/darMan.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darMan.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darMan.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darMan.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c > CMakeFiles/abc.dir/aig/dar/darMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c > CMakeFiles/abc.dir/aig/dar/darMan.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darMan.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c -o CMakeFiles/abc.dir/aig/dar/darMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c -o CMakeFiles/abc.dir/aig/dar/darMan.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o.requires
@@ -879,17 +879,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o: ../lib/extlib-abc/aig/dar/darPrec.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darPrec.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darPrec.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darPrec.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c > CMakeFiles/abc.dir/aig/dar/darPrec.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c > CMakeFiles/abc.dir/aig/dar/darPrec.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darPrec.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c -o CMakeFiles/abc.dir/aig/dar/darPrec.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c -o CMakeFiles/abc.dir/aig/dar/darPrec.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o.requires
@@ -902,17 +902,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o: ../lib/extlib-abc/aig/dar/darRefact.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darRefact.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darRefact.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darRefact.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c > CMakeFiles/abc.dir/aig/dar/darRefact.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c > CMakeFiles/abc.dir/aig/dar/darRefact.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darRefact.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c -o CMakeFiles/abc.dir/aig/dar/darRefact.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c -o CMakeFiles/abc.dir/aig/dar/darRefact.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o.requires
@@ -925,17 +925,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o.provides.build: lib/extl
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o: ../lib/extlib-abc/aig/dar/darScript.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darScript.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/dar/darScript.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/dar/darScript.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c > CMakeFiles/abc.dir/aig/dar/darScript.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c > CMakeFiles/abc.dir/aig/dar/darScript.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/dar/darScript.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c -o CMakeFiles/abc.dir/aig/dar/darScript.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c -o CMakeFiles/abc.dir/aig/dar/darScript.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o.requires
@@ -948,17 +948,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o.provides.build: lib/extl
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o: ../lib/extlib-abc/aig/kit/kitAig.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitAig.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitAig.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/kit/kitAig.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c > CMakeFiles/abc.dir/aig/kit/kitAig.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c > CMakeFiles/abc.dir/aig/kit/kitAig.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/kit/kitAig.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c -o CMakeFiles/abc.dir/aig/kit/kitAig.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c -o CMakeFiles/abc.dir/aig/kit/kitAig.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o.requires
@@ -971,17 +971,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o: ../lib/extlib-abc/aig/kit/kitGraph.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitGraph.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitGraph.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/kit/kitGraph.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c > CMakeFiles/abc.dir/aig/kit/kitGraph.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c > CMakeFiles/abc.dir/aig/kit/kitGraph.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/kit/kitGraph.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c -o CMakeFiles/abc.dir/aig/kit/kitGraph.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c -o CMakeFiles/abc.dir/aig/kit/kitGraph.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o.requires
@@ -994,17 +994,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o.provides.build: lib/extli
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o: ../lib/extlib-abc/aig/kit/kitIsop.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitIsop.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitIsop.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/kit/kitIsop.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c > CMakeFiles/abc.dir/aig/kit/kitIsop.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c > CMakeFiles/abc.dir/aig/kit/kitIsop.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/kit/kitIsop.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c -o CMakeFiles/abc.dir/aig/kit/kitIsop.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c -o CMakeFiles/abc.dir/aig/kit/kitIsop.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o.requires
@@ -1017,17 +1017,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o.provides.build: lib/extlib
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o: ../lib/extlib-abc/aig/kit/kitSop.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitSop.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitSop.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/kit/kitSop.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c > CMakeFiles/abc.dir/aig/kit/kitSop.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c > CMakeFiles/abc.dir/aig/kit/kitSop.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/kit/kitSop.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c -o CMakeFiles/abc.dir/aig/kit/kitSop.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c -o CMakeFiles/abc.dir/aig/kit/kitSop.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o.requires
@@ -1040,17 +1040,17 @@ lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o.provides.build: lib/extlib-
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o: lib/extlib-abc/CMakeFiles/abc.dir/flags.make
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o: ../lib/extlib-abc/aig/kit/kitTruth.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitTruth.c.o   -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/abc.dir/aig/kit/kitTruth.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/abc.dir/aig/kit/kitTruth.c.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c > CMakeFiles/abc.dir/aig/kit/kitTruth.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c > CMakeFiles/abc.dir/aig/kit/kitTruth.c.i
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/abc.dir/aig/kit/kitTruth.c.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c -o CMakeFiles/abc.dir/aig/kit/kitTruth.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c -o CMakeFiles/abc.dir/aig/kit/kitTruth.c.s
 
 lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o.requires:
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o.requires
@@ -1159,10 +1159,10 @@ lib/extlib-abc/CMakeFiles/abc.dir/requires: lib/extlib-abc/CMakeFiles/abc.dir/ai
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/requires
 
 lib/extlib-abc/CMakeFiles/abc.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc && $(CMAKE_COMMAND) -P CMakeFiles/abc.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc && $(CMAKE_COMMAND) -P CMakeFiles/abc.dir/cmake_clean.cmake
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/clean
 
 lib/extlib-abc/CMakeFiles/abc.dir/depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/depend
 

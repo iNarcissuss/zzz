@@ -518,21 +518,21 @@ string.h
 ctype.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/c_interface.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/c_interface.cpp
 stp/c_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/c_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/c_interface.h
 stdlib.h
 -
 assert.h
 -
 stp/Interface/fdstream.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/Interface/fdstream.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/Interface/fdstream.h
 stp/Printer/printers.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/Printer/printers.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/Printer/printers.h
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/cpp_interface.h
 extlib-abc/cnf_short.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/extlib-abc/cnf_short.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/extlib-abc/cnf_short.h
 compdep.h
 -
 signal.h

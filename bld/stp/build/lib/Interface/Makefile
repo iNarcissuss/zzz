@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Interface/CMakeFiles/CopyPublicHeaders.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/CopyPublicHeaders.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/CopyPublicHeaders.dir/rule
 .PHONY : lib/Interface/CMakeFiles/CopyPublicHeaders.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ CopyPublicHeaders: lib/Interface/CMakeFiles/CopyPublicHeaders.dir/rule
 
 # fast build rule for target.
 CopyPublicHeaders/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/CopyPublicHeaders.dir/build.make lib/Interface/CMakeFiles/CopyPublicHeaders.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/CopyPublicHeaders.dir/build.make lib/Interface/CMakeFiles/CopyPublicHeaders.dir/build
 .PHONY : CopyPublicHeaders/fast
 
 # Convenience name for target.
 lib/Interface/CMakeFiles/cinterface.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/cinterface.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/cinterface.dir/rule
 .PHONY : lib/Interface/CMakeFiles/cinterface.dir/rule
 
 # Convenience name for target.
@@ -164,12 +164,12 @@ cinterface: lib/Interface/CMakeFiles/cinterface.dir/rule
 
 # fast build rule for target.
 cinterface/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/build
 .PHONY : cinterface/fast
 
 # Convenience name for target.
 lib/Interface/CMakeFiles/cppinterface.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/cppinterface.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Interface/CMakeFiles/cppinterface.dir/rule
 .PHONY : lib/Interface/CMakeFiles/cppinterface.dir/rule
 
 # Convenience name for target.
@@ -178,7 +178,7 @@ cppinterface: lib/Interface/CMakeFiles/cppinterface.dir/rule
 
 # fast build rule for target.
 cppinterface/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/build
 .PHONY : cppinterface/fast
 
 c_interface.o: c_interface.cpp.o
@@ -186,7 +186,7 @@ c_interface.o: c_interface.cpp.o
 
 # target to build an object file
 c_interface.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o
 .PHONY : c_interface.cpp.o
 
 c_interface.i: c_interface.cpp.i
@@ -194,7 +194,7 @@ c_interface.i: c_interface.cpp.i
 
 # target to preprocess a source file
 c_interface.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.i
 .PHONY : c_interface.cpp.i
 
 c_interface.s: c_interface.cpp.s
@@ -202,7 +202,7 @@ c_interface.s: c_interface.cpp.s
 
 # target to generate assembly for a file
 c_interface.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cinterface.dir/build.make lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.s
 .PHONY : c_interface.cpp.s
 
 cpp_interface.o: cpp_interface.cpp.o
@@ -210,7 +210,7 @@ cpp_interface.o: cpp_interface.cpp.o
 
 # target to build an object file
 cpp_interface.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o
 .PHONY : cpp_interface.cpp.o
 
 cpp_interface.i: cpp_interface.cpp.i
@@ -218,7 +218,7 @@ cpp_interface.i: cpp_interface.cpp.i
 
 # target to preprocess a source file
 cpp_interface.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.i
 .PHONY : cpp_interface.cpp.i
 
 cpp_interface.s: cpp_interface.cpp.s
@@ -226,7 +226,7 @@ cpp_interface.s: cpp_interface.cpp.s
 
 # target to generate assembly for a file
 cpp_interface.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Interface/CMakeFiles/cppinterface.dir/build.make lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.s
 .PHONY : cpp_interface.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

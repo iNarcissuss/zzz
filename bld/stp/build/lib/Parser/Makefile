@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Parser/CMakeFiles/parser.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser.dir/rule
 .PHONY : lib/Parser/CMakeFiles/parser.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ parser: lib/Parser/CMakeFiles/parser.dir/rule
 
 # fast build rule for target.
 parser/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/build
 .PHONY : parser/fast
 
 # Convenience name for target.
 lib/Parser/CMakeFiles/parser_headercvc.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headercvc.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headercvc.dir/rule
 .PHONY : lib/Parser/CMakeFiles/parser_headercvc.dir/rule
 
 # Convenience name for target.
@@ -164,12 +164,12 @@ parser_headercvc: lib/Parser/CMakeFiles/parser_headercvc.dir/rule
 
 # fast build rule for target.
 parser_headercvc/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headercvc.dir/build.make lib/Parser/CMakeFiles/parser_headercvc.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headercvc.dir/build.make lib/Parser/CMakeFiles/parser_headercvc.dir/build
 .PHONY : parser_headercvc/fast
 
 # Convenience name for target.
 lib/Parser/CMakeFiles/parser_headersmt.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headersmt.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headersmt.dir/rule
 .PHONY : lib/Parser/CMakeFiles/parser_headersmt.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ parser_headersmt: lib/Parser/CMakeFiles/parser_headersmt.dir/rule
 
 # fast build rule for target.
 parser_headersmt/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headersmt.dir/build.make lib/Parser/CMakeFiles/parser_headersmt.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headersmt.dir/build.make lib/Parser/CMakeFiles/parser_headersmt.dir/build
 .PHONY : parser_headersmt/fast
 
 # Convenience name for target.
 lib/Parser/CMakeFiles/parser_headersmt2.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headersmt2.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Parser/CMakeFiles/parser_headersmt2.dir/rule
 .PHONY : lib/Parser/CMakeFiles/parser_headersmt2.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ parser_headersmt2: lib/Parser/CMakeFiles/parser_headersmt2.dir/rule
 
 # fast build rule for target.
 parser_headersmt2/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headersmt2.dir/build.make lib/Parser/CMakeFiles/parser_headersmt2.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser_headersmt2.dir/build.make lib/Parser/CMakeFiles/parser_headersmt2.dir/build
 .PHONY : parser_headersmt2/fast
 
 LetMgr.o: LetMgr.cpp.o
@@ -200,7 +200,7 @@ LetMgr.o: LetMgr.cpp.o
 
 # target to build an object file
 LetMgr.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o
 .PHONY : LetMgr.cpp.o
 
 LetMgr.i: LetMgr.cpp.i
@@ -208,7 +208,7 @@ LetMgr.i: LetMgr.cpp.i
 
 # target to preprocess a source file
 LetMgr.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.i
 .PHONY : LetMgr.cpp.i
 
 LetMgr.s: LetMgr.cpp.s
@@ -216,7 +216,7 @@ LetMgr.s: LetMgr.cpp.s
 
 # target to generate assembly for a file
 LetMgr.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.s
 .PHONY : LetMgr.cpp.s
 
 lexcvc.o: lexcvc.cpp.o
@@ -224,7 +224,7 @@ lexcvc.o: lexcvc.cpp.o
 
 # target to build an object file
 lexcvc.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o
 .PHONY : lexcvc.cpp.o
 
 lexcvc.i: lexcvc.cpp.i
@@ -232,7 +232,7 @@ lexcvc.i: lexcvc.cpp.i
 
 # target to preprocess a source file
 lexcvc.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.i
 .PHONY : lexcvc.cpp.i
 
 lexcvc.s: lexcvc.cpp.s
@@ -240,7 +240,7 @@ lexcvc.s: lexcvc.cpp.s
 
 # target to generate assembly for a file
 lexcvc.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.s
 .PHONY : lexcvc.cpp.s
 
 lexsmt.o: lexsmt.cpp.o
@@ -248,7 +248,7 @@ lexsmt.o: lexsmt.cpp.o
 
 # target to build an object file
 lexsmt.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o
 .PHONY : lexsmt.cpp.o
 
 lexsmt.i: lexsmt.cpp.i
@@ -256,7 +256,7 @@ lexsmt.i: lexsmt.cpp.i
 
 # target to preprocess a source file
 lexsmt.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.i
 .PHONY : lexsmt.cpp.i
 
 lexsmt.s: lexsmt.cpp.s
@@ -264,7 +264,7 @@ lexsmt.s: lexsmt.cpp.s
 
 # target to generate assembly for a file
 lexsmt.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.s
 .PHONY : lexsmt.cpp.s
 
 lexsmt2.o: lexsmt2.cpp.o
@@ -272,7 +272,7 @@ lexsmt2.o: lexsmt2.cpp.o
 
 # target to build an object file
 lexsmt2.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o
 .PHONY : lexsmt2.cpp.o
 
 lexsmt2.i: lexsmt2.cpp.i
@@ -280,7 +280,7 @@ lexsmt2.i: lexsmt2.cpp.i
 
 # target to preprocess a source file
 lexsmt2.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.i
 .PHONY : lexsmt2.cpp.i
 
 lexsmt2.s: lexsmt2.cpp.s
@@ -288,7 +288,7 @@ lexsmt2.s: lexsmt2.cpp.s
 
 # target to generate assembly for a file
 lexsmt2.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.s
 .PHONY : lexsmt2.cpp.s
 
 parsecvc.o: parsecvc.cpp.o
@@ -296,7 +296,7 @@ parsecvc.o: parsecvc.cpp.o
 
 # target to build an object file
 parsecvc.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o
 .PHONY : parsecvc.cpp.o
 
 parsecvc.i: parsecvc.cpp.i
@@ -304,7 +304,7 @@ parsecvc.i: parsecvc.cpp.i
 
 # target to preprocess a source file
 parsecvc.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.i
 .PHONY : parsecvc.cpp.i
 
 parsecvc.s: parsecvc.cpp.s
@@ -312,7 +312,7 @@ parsecvc.s: parsecvc.cpp.s
 
 # target to generate assembly for a file
 parsecvc.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.s
 .PHONY : parsecvc.cpp.s
 
 parsesmt.o: parsesmt.cpp.o
@@ -320,7 +320,7 @@ parsesmt.o: parsesmt.cpp.o
 
 # target to build an object file
 parsesmt.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o
 .PHONY : parsesmt.cpp.o
 
 parsesmt.i: parsesmt.cpp.i
@@ -328,7 +328,7 @@ parsesmt.i: parsesmt.cpp.i
 
 # target to preprocess a source file
 parsesmt.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.i
 .PHONY : parsesmt.cpp.i
 
 parsesmt.s: parsesmt.cpp.s
@@ -336,7 +336,7 @@ parsesmt.s: parsesmt.cpp.s
 
 # target to generate assembly for a file
 parsesmt.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.s
 .PHONY : parsesmt.cpp.s
 
 parsesmt2.o: parsesmt2.cpp.o
@@ -344,7 +344,7 @@ parsesmt2.o: parsesmt2.cpp.o
 
 # target to build an object file
 parsesmt2.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o
 .PHONY : parsesmt2.cpp.o
 
 parsesmt2.i: parsesmt2.cpp.i
@@ -352,7 +352,7 @@ parsesmt2.i: parsesmt2.cpp.i
 
 # target to preprocess a source file
 parsesmt2.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.i
 .PHONY : parsesmt2.cpp.i
 
 parsesmt2.s: parsesmt2.cpp.s
@@ -360,7 +360,7 @@ parsesmt2.s: parsesmt2.cpp.s
 
 # target to generate assembly for a file
 parsesmt2.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Parser/CMakeFiles/parser.dir/build.make lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.s
 .PHONY : parsesmt2.cpp.s
 
 # Help Target
@@ -411,6 +411,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

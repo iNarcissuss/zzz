@@ -43,7 +43,7 @@ lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o
@@ -88,11 +88,11 @@ lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
 lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o
  ../include/stp/AST/AST.h
  ../include/stp/AST/ASTBVConst.h
@@ -135,7 +135,7 @@ lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o
@@ -180,7 +180,7 @@ lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o
@@ -210,7 +210,7 @@ lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o
@@ -241,7 +241,7 @@ lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o
@@ -277,7 +277,7 @@ lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o
@@ -322,7 +322,7 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o
@@ -352,7 +352,7 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o
@@ -388,7 +388,7 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o
@@ -419,11 +419,11 @@ lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o
  ../include/stp/AST/RunTimes.h
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp

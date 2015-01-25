@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Simplifier/CMakeFiles/simplifier.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/CMakeFiles/simplifier.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Simplifier/CMakeFiles/simplifier.dir/rule
 .PHONY : lib/Simplifier/CMakeFiles/simplifier.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ simplifier: lib/Simplifier/CMakeFiles/simplifier.dir/rule
 
 # fast build rule for target.
 simplifier/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/build
 .PHONY : simplifier/fast
 
 MutableASTNode.o: MutableASTNode.cpp.o
@@ -158,7 +158,7 @@ MutableASTNode.o: MutableASTNode.cpp.o
 
 # target to build an object file
 MutableASTNode.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o
 .PHONY : MutableASTNode.cpp.o
 
 MutableASTNode.i: MutableASTNode.cpp.i
@@ -166,7 +166,7 @@ MutableASTNode.i: MutableASTNode.cpp.i
 
 # target to preprocess a source file
 MutableASTNode.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.i
 .PHONY : MutableASTNode.cpp.i
 
 MutableASTNode.s: MutableASTNode.cpp.s
@@ -174,7 +174,7 @@ MutableASTNode.s: MutableASTNode.cpp.s
 
 # target to generate assembly for a file
 MutableASTNode.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.s
 .PHONY : MutableASTNode.cpp.s
 
 PropagateEqualities.o: PropagateEqualities.cpp.o
@@ -182,7 +182,7 @@ PropagateEqualities.o: PropagateEqualities.cpp.o
 
 # target to build an object file
 PropagateEqualities.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o
 .PHONY : PropagateEqualities.cpp.o
 
 PropagateEqualities.i: PropagateEqualities.cpp.i
@@ -190,7 +190,7 @@ PropagateEqualities.i: PropagateEqualities.cpp.i
 
 # target to preprocess a source file
 PropagateEqualities.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.i
 .PHONY : PropagateEqualities.cpp.i
 
 PropagateEqualities.s: PropagateEqualities.cpp.s
@@ -198,7 +198,7 @@ PropagateEqualities.s: PropagateEqualities.cpp.s
 
 # target to generate assembly for a file
 PropagateEqualities.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.s
 .PHONY : PropagateEqualities.cpp.s
 
 RemoveUnconstrained.o: RemoveUnconstrained.cpp.o
@@ -206,7 +206,7 @@ RemoveUnconstrained.o: RemoveUnconstrained.cpp.o
 
 # target to build an object file
 RemoveUnconstrained.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o
 .PHONY : RemoveUnconstrained.cpp.o
 
 RemoveUnconstrained.i: RemoveUnconstrained.cpp.i
@@ -214,7 +214,7 @@ RemoveUnconstrained.i: RemoveUnconstrained.cpp.i
 
 # target to preprocess a source file
 RemoveUnconstrained.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.i
 .PHONY : RemoveUnconstrained.cpp.i
 
 RemoveUnconstrained.s: RemoveUnconstrained.cpp.s
@@ -222,7 +222,7 @@ RemoveUnconstrained.s: RemoveUnconstrained.cpp.s
 
 # target to generate assembly for a file
 RemoveUnconstrained.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.s
 .PHONY : RemoveUnconstrained.cpp.s
 
 SubstitutionMap.o: SubstitutionMap.cpp.o
@@ -230,7 +230,7 @@ SubstitutionMap.o: SubstitutionMap.cpp.o
 
 # target to build an object file
 SubstitutionMap.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o
 .PHONY : SubstitutionMap.cpp.o
 
 SubstitutionMap.i: SubstitutionMap.cpp.i
@@ -238,7 +238,7 @@ SubstitutionMap.i: SubstitutionMap.cpp.i
 
 # target to preprocess a source file
 SubstitutionMap.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.i
 .PHONY : SubstitutionMap.cpp.i
 
 SubstitutionMap.s: SubstitutionMap.cpp.s
@@ -246,7 +246,7 @@ SubstitutionMap.s: SubstitutionMap.cpp.s
 
 # target to generate assembly for a file
 SubstitutionMap.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.s
 .PHONY : SubstitutionMap.cpp.s
 
 VariablesInExpression.o: VariablesInExpression.cpp.o
@@ -254,7 +254,7 @@ VariablesInExpression.o: VariablesInExpression.cpp.o
 
 # target to build an object file
 VariablesInExpression.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o
 .PHONY : VariablesInExpression.cpp.o
 
 VariablesInExpression.i: VariablesInExpression.cpp.i
@@ -262,7 +262,7 @@ VariablesInExpression.i: VariablesInExpression.cpp.i
 
 # target to preprocess a source file
 VariablesInExpression.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.i
 .PHONY : VariablesInExpression.cpp.i
 
 VariablesInExpression.s: VariablesInExpression.cpp.s
@@ -270,7 +270,7 @@ VariablesInExpression.s: VariablesInExpression.cpp.s
 
 # target to generate assembly for a file
 VariablesInExpression.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.s
 .PHONY : VariablesInExpression.cpp.s
 
 bvsolver.o: bvsolver.cpp.o
@@ -278,7 +278,7 @@ bvsolver.o: bvsolver.cpp.o
 
 # target to build an object file
 bvsolver.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o
 .PHONY : bvsolver.cpp.o
 
 bvsolver.i: bvsolver.cpp.i
@@ -286,7 +286,7 @@ bvsolver.i: bvsolver.cpp.i
 
 # target to preprocess a source file
 bvsolver.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.i
 .PHONY : bvsolver.cpp.i
 
 bvsolver.s: bvsolver.cpp.s
@@ -294,7 +294,7 @@ bvsolver.s: bvsolver.cpp.s
 
 # target to generate assembly for a file
 bvsolver.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.s
 .PHONY : bvsolver.cpp.s
 
 constantBitP/ConstantBitP_Arithmetic.o: constantBitP/ConstantBitP_Arithmetic.cpp.o
@@ -302,7 +302,7 @@ constantBitP/ConstantBitP_Arithmetic.o: constantBitP/ConstantBitP_Arithmetic.cpp
 
 # target to build an object file
 constantBitP/ConstantBitP_Arithmetic.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o
 .PHONY : constantBitP/ConstantBitP_Arithmetic.cpp.o
 
 constantBitP/ConstantBitP_Arithmetic.i: constantBitP/ConstantBitP_Arithmetic.cpp.i
@@ -310,7 +310,7 @@ constantBitP/ConstantBitP_Arithmetic.i: constantBitP/ConstantBitP_Arithmetic.cpp
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Arithmetic.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.i
 .PHONY : constantBitP/ConstantBitP_Arithmetic.cpp.i
 
 constantBitP/ConstantBitP_Arithmetic.s: constantBitP/ConstantBitP_Arithmetic.cpp.s
@@ -318,7 +318,7 @@ constantBitP/ConstantBitP_Arithmetic.s: constantBitP/ConstantBitP_Arithmetic.cpp
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Arithmetic.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.s
 .PHONY : constantBitP/ConstantBitP_Arithmetic.cpp.s
 
 constantBitP/ConstantBitP_Boolean.o: constantBitP/ConstantBitP_Boolean.cpp.o
@@ -326,7 +326,7 @@ constantBitP/ConstantBitP_Boolean.o: constantBitP/ConstantBitP_Boolean.cpp.o
 
 # target to build an object file
 constantBitP/ConstantBitP_Boolean.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o
 .PHONY : constantBitP/ConstantBitP_Boolean.cpp.o
 
 constantBitP/ConstantBitP_Boolean.i: constantBitP/ConstantBitP_Boolean.cpp.i
@@ -334,7 +334,7 @@ constantBitP/ConstantBitP_Boolean.i: constantBitP/ConstantBitP_Boolean.cpp.i
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Boolean.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.i
 .PHONY : constantBitP/ConstantBitP_Boolean.cpp.i
 
 constantBitP/ConstantBitP_Boolean.s: constantBitP/ConstantBitP_Boolean.cpp.s
@@ -342,7 +342,7 @@ constantBitP/ConstantBitP_Boolean.s: constantBitP/ConstantBitP_Boolean.cpp.s
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Boolean.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.s
 .PHONY : constantBitP/ConstantBitP_Boolean.cpp.s
 
 constantBitP/ConstantBitP_Comparison.o: constantBitP/ConstantBitP_Comparison.cpp.o
@@ -350,7 +350,7 @@ constantBitP/ConstantBitP_Comparison.o: constantBitP/ConstantBitP_Comparison.cpp
 
 # target to build an object file
 constantBitP/ConstantBitP_Comparison.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o
 .PHONY : constantBitP/ConstantBitP_Comparison.cpp.o
 
 constantBitP/ConstantBitP_Comparison.i: constantBitP/ConstantBitP_Comparison.cpp.i
@@ -358,7 +358,7 @@ constantBitP/ConstantBitP_Comparison.i: constantBitP/ConstantBitP_Comparison.cpp
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Comparison.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.i
 .PHONY : constantBitP/ConstantBitP_Comparison.cpp.i
 
 constantBitP/ConstantBitP_Comparison.s: constantBitP/ConstantBitP_Comparison.cpp.s
@@ -366,7 +366,7 @@ constantBitP/ConstantBitP_Comparison.s: constantBitP/ConstantBitP_Comparison.cpp
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Comparison.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.s
 .PHONY : constantBitP/ConstantBitP_Comparison.cpp.s
 
 constantBitP/ConstantBitP_Division.o: constantBitP/ConstantBitP_Division.cpp.o
@@ -374,7 +374,7 @@ constantBitP/ConstantBitP_Division.o: constantBitP/ConstantBitP_Division.cpp.o
 
 # target to build an object file
 constantBitP/ConstantBitP_Division.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o
 .PHONY : constantBitP/ConstantBitP_Division.cpp.o
 
 constantBitP/ConstantBitP_Division.i: constantBitP/ConstantBitP_Division.cpp.i
@@ -382,7 +382,7 @@ constantBitP/ConstantBitP_Division.i: constantBitP/ConstantBitP_Division.cpp.i
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Division.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.i
 .PHONY : constantBitP/ConstantBitP_Division.cpp.i
 
 constantBitP/ConstantBitP_Division.s: constantBitP/ConstantBitP_Division.cpp.s
@@ -390,7 +390,7 @@ constantBitP/ConstantBitP_Division.s: constantBitP/ConstantBitP_Division.cpp.s
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Division.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.s
 .PHONY : constantBitP/ConstantBitP_Division.cpp.s
 
 constantBitP/ConstantBitP_MaxPrecision.o: constantBitP/ConstantBitP_MaxPrecision.cpp.o
@@ -398,7 +398,7 @@ constantBitP/ConstantBitP_MaxPrecision.o: constantBitP/ConstantBitP_MaxPrecision
 
 # target to build an object file
 constantBitP/ConstantBitP_MaxPrecision.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o
 .PHONY : constantBitP/ConstantBitP_MaxPrecision.cpp.o
 
 constantBitP/ConstantBitP_MaxPrecision.i: constantBitP/ConstantBitP_MaxPrecision.cpp.i
@@ -406,7 +406,7 @@ constantBitP/ConstantBitP_MaxPrecision.i: constantBitP/ConstantBitP_MaxPrecision
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_MaxPrecision.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.i
 .PHONY : constantBitP/ConstantBitP_MaxPrecision.cpp.i
 
 constantBitP/ConstantBitP_MaxPrecision.s: constantBitP/ConstantBitP_MaxPrecision.cpp.s
@@ -414,7 +414,7 @@ constantBitP/ConstantBitP_MaxPrecision.s: constantBitP/ConstantBitP_MaxPrecision
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_MaxPrecision.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.s
 .PHONY : constantBitP/ConstantBitP_MaxPrecision.cpp.s
 
 constantBitP/ConstantBitP_Multiplication.o: constantBitP/ConstantBitP_Multiplication.cpp.o
@@ -422,7 +422,7 @@ constantBitP/ConstantBitP_Multiplication.o: constantBitP/ConstantBitP_Multiplica
 
 # target to build an object file
 constantBitP/ConstantBitP_Multiplication.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o
 .PHONY : constantBitP/ConstantBitP_Multiplication.cpp.o
 
 constantBitP/ConstantBitP_Multiplication.i: constantBitP/ConstantBitP_Multiplication.cpp.i
@@ -430,7 +430,7 @@ constantBitP/ConstantBitP_Multiplication.i: constantBitP/ConstantBitP_Multiplica
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Multiplication.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.i
 .PHONY : constantBitP/ConstantBitP_Multiplication.cpp.i
 
 constantBitP/ConstantBitP_Multiplication.s: constantBitP/ConstantBitP_Multiplication.cpp.s
@@ -438,7 +438,7 @@ constantBitP/ConstantBitP_Multiplication.s: constantBitP/ConstantBitP_Multiplica
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Multiplication.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.s
 .PHONY : constantBitP/ConstantBitP_Multiplication.cpp.s
 
 constantBitP/ConstantBitP_Shifting.o: constantBitP/ConstantBitP_Shifting.cpp.o
@@ -446,7 +446,7 @@ constantBitP/ConstantBitP_Shifting.o: constantBitP/ConstantBitP_Shifting.cpp.o
 
 # target to build an object file
 constantBitP/ConstantBitP_Shifting.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o
 .PHONY : constantBitP/ConstantBitP_Shifting.cpp.o
 
 constantBitP/ConstantBitP_Shifting.i: constantBitP/ConstantBitP_Shifting.cpp.i
@@ -454,7 +454,7 @@ constantBitP/ConstantBitP_Shifting.i: constantBitP/ConstantBitP_Shifting.cpp.i
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Shifting.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.i
 .PHONY : constantBitP/ConstantBitP_Shifting.cpp.i
 
 constantBitP/ConstantBitP_Shifting.s: constantBitP/ConstantBitP_Shifting.cpp.s
@@ -462,7 +462,7 @@ constantBitP/ConstantBitP_Shifting.s: constantBitP/ConstantBitP_Shifting.cpp.s
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Shifting.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.s
 .PHONY : constantBitP/ConstantBitP_Shifting.cpp.s
 
 constantBitP/ConstantBitP_TransferFunctions.o: constantBitP/ConstantBitP_TransferFunctions.cpp.o
@@ -470,7 +470,7 @@ constantBitP/ConstantBitP_TransferFunctions.o: constantBitP/ConstantBitP_Transfe
 
 # target to build an object file
 constantBitP/ConstantBitP_TransferFunctions.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o
 .PHONY : constantBitP/ConstantBitP_TransferFunctions.cpp.o
 
 constantBitP/ConstantBitP_TransferFunctions.i: constantBitP/ConstantBitP_TransferFunctions.cpp.i
@@ -478,7 +478,7 @@ constantBitP/ConstantBitP_TransferFunctions.i: constantBitP/ConstantBitP_Transfe
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_TransferFunctions.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.i
 .PHONY : constantBitP/ConstantBitP_TransferFunctions.cpp.i
 
 constantBitP/ConstantBitP_TransferFunctions.s: constantBitP/ConstantBitP_TransferFunctions.cpp.s
@@ -486,7 +486,7 @@ constantBitP/ConstantBitP_TransferFunctions.s: constantBitP/ConstantBitP_Transfe
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_TransferFunctions.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.s
 .PHONY : constantBitP/ConstantBitP_TransferFunctions.cpp.s
 
 constantBitP/ConstantBitP_Utility.o: constantBitP/ConstantBitP_Utility.cpp.o
@@ -494,7 +494,7 @@ constantBitP/ConstantBitP_Utility.o: constantBitP/ConstantBitP_Utility.cpp.o
 
 # target to build an object file
 constantBitP/ConstantBitP_Utility.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o
 .PHONY : constantBitP/ConstantBitP_Utility.cpp.o
 
 constantBitP/ConstantBitP_Utility.i: constantBitP/ConstantBitP_Utility.cpp.i
@@ -502,7 +502,7 @@ constantBitP/ConstantBitP_Utility.i: constantBitP/ConstantBitP_Utility.cpp.i
 
 # target to preprocess a source file
 constantBitP/ConstantBitP_Utility.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.i
 .PHONY : constantBitP/ConstantBitP_Utility.cpp.i
 
 constantBitP/ConstantBitP_Utility.s: constantBitP/ConstantBitP_Utility.cpp.s
@@ -510,7 +510,7 @@ constantBitP/ConstantBitP_Utility.s: constantBitP/ConstantBitP_Utility.cpp.s
 
 # target to generate assembly for a file
 constantBitP/ConstantBitP_Utility.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.s
 .PHONY : constantBitP/ConstantBitP_Utility.cpp.s
 
 constantBitP/ConstantBitPropagation.o: constantBitP/ConstantBitPropagation.cpp.o
@@ -518,7 +518,7 @@ constantBitP/ConstantBitPropagation.o: constantBitP/ConstantBitPropagation.cpp.o
 
 # target to build an object file
 constantBitP/ConstantBitPropagation.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o
 .PHONY : constantBitP/ConstantBitPropagation.cpp.o
 
 constantBitP/ConstantBitPropagation.i: constantBitP/ConstantBitPropagation.cpp.i
@@ -526,7 +526,7 @@ constantBitP/ConstantBitPropagation.i: constantBitP/ConstantBitPropagation.cpp.i
 
 # target to preprocess a source file
 constantBitP/ConstantBitPropagation.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.i
 .PHONY : constantBitP/ConstantBitPropagation.cpp.i
 
 constantBitP/ConstantBitPropagation.s: constantBitP/ConstantBitPropagation.cpp.s
@@ -534,7 +534,7 @@ constantBitP/ConstantBitPropagation.s: constantBitP/ConstantBitPropagation.cpp.s
 
 # target to generate assembly for a file
 constantBitP/ConstantBitPropagation.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.s
 .PHONY : constantBitP/ConstantBitPropagation.cpp.s
 
 constantBitP/FixedBits.o: constantBitP/FixedBits.cpp.o
@@ -542,7 +542,7 @@ constantBitP/FixedBits.o: constantBitP/FixedBits.cpp.o
 
 # target to build an object file
 constantBitP/FixedBits.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o
 .PHONY : constantBitP/FixedBits.cpp.o
 
 constantBitP/FixedBits.i: constantBitP/FixedBits.cpp.i
@@ -550,7 +550,7 @@ constantBitP/FixedBits.i: constantBitP/FixedBits.cpp.i
 
 # target to preprocess a source file
 constantBitP/FixedBits.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.i
 .PHONY : constantBitP/FixedBits.cpp.i
 
 constantBitP/FixedBits.s: constantBitP/FixedBits.cpp.s
@@ -558,7 +558,7 @@ constantBitP/FixedBits.s: constantBitP/FixedBits.cpp.s
 
 # target to generate assembly for a file
 constantBitP/FixedBits.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.s
 .PHONY : constantBitP/FixedBits.cpp.s
 
 consteval.o: consteval.cpp.o
@@ -566,7 +566,7 @@ consteval.o: consteval.cpp.o
 
 # target to build an object file
 consteval.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o
 .PHONY : consteval.cpp.o
 
 consteval.i: consteval.cpp.i
@@ -574,7 +574,7 @@ consteval.i: consteval.cpp.i
 
 # target to preprocess a source file
 consteval.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.i
 .PHONY : consteval.cpp.i
 
 consteval.s: consteval.cpp.s
@@ -582,7 +582,7 @@ consteval.s: consteval.cpp.s
 
 # target to generate assembly for a file
 consteval.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.s
 .PHONY : consteval.cpp.s
 
 simplifier.o: simplifier.cpp.o
@@ -590,7 +590,7 @@ simplifier.o: simplifier.cpp.o
 
 # target to build an object file
 simplifier.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o
 .PHONY : simplifier.cpp.o
 
 simplifier.i: simplifier.cpp.i
@@ -598,7 +598,7 @@ simplifier.i: simplifier.cpp.i
 
 # target to preprocess a source file
 simplifier.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.i
 .PHONY : simplifier.cpp.i
 
 simplifier.s: simplifier.cpp.s
@@ -606,7 +606,7 @@ simplifier.s: simplifier.cpp.s
 
 # target to generate assembly for a file
 simplifier.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Simplifier/CMakeFiles/simplifier.dir/build.make lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.s
 .PHONY : simplifier.cpp.s
 
 # Help Target
@@ -690,6 +690,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

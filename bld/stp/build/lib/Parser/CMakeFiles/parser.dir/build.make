@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Parser/CMakeFiles/parser.dir/depend.make
@@ -51,44 +51,44 @@ include lib/Parser/CMakeFiles/parser.dir/flags.make
 
 lib/Parser/parsecvc.cpp: ../lib/Parser/cvc.lex
 lib/Parser/parsecvc.cpp: ../lib/Parser/cvc.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating parsecvc.cpp, lexcvc.cpp"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp -d -p cvc /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp -Pcvc /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.lex
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp -d -p cvc /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp -Pcvc /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.lex
 
 lib/Parser/lexcvc.cpp: lib/Parser/parsecvc.cpp
 
 lib/Parser/parsesmt2.cpp: ../lib/Parser/smt2.lex
 lib/Parser/parsesmt2.cpp: ../lib/Parser/smt2.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating parsesmt2.cpp, lexsmt2.cpp"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp -d -p smt2 /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp -Psmt2 /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.lex
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp -d -p smt2 /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp -Psmt2 /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.lex
 
 lib/Parser/lexsmt2.cpp: lib/Parser/parsesmt2.cpp
 
 lib/Parser/parsesmt.cpp: ../lib/Parser/smt.lex
 lib/Parser/parsesmt.cpp: ../lib/Parser/smt.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating parsesmt.cpp, lexsmt.cpp"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -d -p smt /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.y
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -Psmt /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -d -p smt /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.y
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -Psmt /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex
 
 lib/Parser/lexsmt.cpp: lib/Parser/parsesmt.cpp
 
 lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o: ../lib/Parser/LetMgr.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/LetMgr.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/LetMgr.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
 
 lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/LetMgr.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp > CMakeFiles/parser.dir/LetMgr.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp > CMakeFiles/parser.dir/LetMgr.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/LetMgr.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp -o CMakeFiles/parser.dir/LetMgr.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp -o CMakeFiles/parser.dir/LetMgr.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o.requires
@@ -101,17 +101,17 @@ lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o.provides.build: lib/Parser/CMakeFi
 
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o: lib/Parser/lexcvc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexcvc.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexcvc.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
 
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/lexcvc.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp > CMakeFiles/parser.dir/lexcvc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp > CMakeFiles/parser.dir/lexcvc.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/lexcvc.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp -o CMakeFiles/parser.dir/lexcvc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp -o CMakeFiles/parser.dir/lexcvc.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o.requires
@@ -124,17 +124,17 @@ lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o.provides.build: lib/Parser/CMakeFi
 
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o: lib/Parser/parsecvc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsecvc.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsecvc.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
 
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/parsecvc.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp > CMakeFiles/parser.dir/parsecvc.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp > CMakeFiles/parser.dir/parsecvc.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/parsecvc.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp -o CMakeFiles/parser.dir/parsecvc.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp -o CMakeFiles/parser.dir/parsecvc.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o.requires
@@ -147,17 +147,17 @@ lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o.provides.build: lib/Parser/CMake
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o: lib/Parser/lexsmt2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexsmt2.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexsmt2.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/lexsmt2.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp > CMakeFiles/parser.dir/lexsmt2.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp > CMakeFiles/parser.dir/lexsmt2.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/lexsmt2.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp -o CMakeFiles/parser.dir/lexsmt2.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp -o CMakeFiles/parser.dir/lexsmt2.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o.requires
@@ -170,17 +170,17 @@ lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o.provides.build: lib/Parser/CMakeF
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o: lib/Parser/parsesmt2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsesmt2.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsesmt2.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/parsesmt2.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp > CMakeFiles/parser.dir/parsesmt2.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp > CMakeFiles/parser.dir/parsesmt2.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/parsesmt2.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp -o CMakeFiles/parser.dir/parsesmt2.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp -o CMakeFiles/parser.dir/parsesmt2.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o.requires
@@ -193,17 +193,17 @@ lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o.provides.build: lib/Parser/CMak
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o: lib/Parser/lexsmt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexsmt.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/lexsmt.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/lexsmt.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp > CMakeFiles/parser.dir/lexsmt.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp > CMakeFiles/parser.dir/lexsmt.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/lexsmt.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -o CMakeFiles/parser.dir/lexsmt.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -o CMakeFiles/parser.dir/lexsmt.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o.requires
@@ -216,17 +216,17 @@ lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o.provides.build: lib/Parser/CMakeFi
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o: lib/Parser/CMakeFiles/parser.dir/flags.make
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o: lib/Parser/parsesmt.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsesmt.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser.dir/parsesmt.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser.dir/parsesmt.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp > CMakeFiles/parser.dir/parsesmt.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp > CMakeFiles/parser.dir/parsesmt.cpp.i
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser.dir/parsesmt.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -o CMakeFiles/parser.dir/parsesmt.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -o CMakeFiles/parser.dir/parsesmt.cpp.s
 
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o.requires:
 .PHONY : lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o.requires
@@ -261,7 +261,7 @@ lib/Parser/CMakeFiles/parser.dir/requires: lib/Parser/CMakeFiles/parser.dir/pars
 .PHONY : lib/Parser/CMakeFiles/parser.dir/requires
 
 lib/Parser/CMakeFiles/parser.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && $(CMAKE_COMMAND) -P CMakeFiles/parser.dir/cmake_clean.cmake
 .PHONY : lib/Parser/CMakeFiles/parser.dir/clean
 
 lib/Parser/CMakeFiles/parser.dir/depend: lib/Parser/parsecvc.cpp
@@ -270,6 +270,6 @@ lib/Parser/CMakeFiles/parser.dir/depend: lib/Parser/parsesmt2.cpp
 lib/Parser/CMakeFiles/parser.dir/depend: lib/Parser/lexsmt2.cpp
 lib/Parser/CMakeFiles/parser.dir/depend: lib/Parser/parsesmt.cpp
 lib/Parser/CMakeFiles/parser.dir/depend: lib/Parser/lexsmt.cpp
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Parser /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Parser/CMakeFiles/parser.dir/depend
 

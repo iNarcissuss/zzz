@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/ToSat/CMakeFiles/tosat.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/CMakeFiles/tosat.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/ToSat/CMakeFiles/tosat.dir/rule
 .PHONY : lib/ToSat/CMakeFiles/tosat.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ tosat: lib/ToSat/CMakeFiles/tosat.dir/rule
 
 # fast build rule for target.
 tosat/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/build
 .PHONY : tosat/fast
 
 AIG/BBNodeManagerAIG.o: AIG/BBNodeManagerAIG.cpp.o
@@ -158,7 +158,7 @@ AIG/BBNodeManagerAIG.o: AIG/BBNodeManagerAIG.cpp.o
 
 # target to build an object file
 AIG/BBNodeManagerAIG.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o
 .PHONY : AIG/BBNodeManagerAIG.cpp.o
 
 AIG/BBNodeManagerAIG.i: AIG/BBNodeManagerAIG.cpp.i
@@ -166,7 +166,7 @@ AIG/BBNodeManagerAIG.i: AIG/BBNodeManagerAIG.cpp.i
 
 # target to preprocess a source file
 AIG/BBNodeManagerAIG.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.i
 .PHONY : AIG/BBNodeManagerAIG.cpp.i
 
 AIG/BBNodeManagerAIG.s: AIG/BBNodeManagerAIG.cpp.s
@@ -174,7 +174,7 @@ AIG/BBNodeManagerAIG.s: AIG/BBNodeManagerAIG.cpp.s
 
 # target to generate assembly for a file
 AIG/BBNodeManagerAIG.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.s
 .PHONY : AIG/BBNodeManagerAIG.cpp.s
 
 AIG/ToCNFAIG.o: AIG/ToCNFAIG.cpp.o
@@ -182,7 +182,7 @@ AIG/ToCNFAIG.o: AIG/ToCNFAIG.cpp.o
 
 # target to build an object file
 AIG/ToCNFAIG.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o
 .PHONY : AIG/ToCNFAIG.cpp.o
 
 AIG/ToCNFAIG.i: AIG/ToCNFAIG.cpp.i
@@ -190,7 +190,7 @@ AIG/ToCNFAIG.i: AIG/ToCNFAIG.cpp.i
 
 # target to preprocess a source file
 AIG/ToCNFAIG.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.i
 .PHONY : AIG/ToCNFAIG.cpp.i
 
 AIG/ToCNFAIG.s: AIG/ToCNFAIG.cpp.s
@@ -198,7 +198,7 @@ AIG/ToCNFAIG.s: AIG/ToCNFAIG.cpp.s
 
 # target to generate assembly for a file
 AIG/ToCNFAIG.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.s
 .PHONY : AIG/ToCNFAIG.cpp.s
 
 AIG/ToSATAIG.o: AIG/ToSATAIG.cpp.o
@@ -206,7 +206,7 @@ AIG/ToSATAIG.o: AIG/ToSATAIG.cpp.o
 
 # target to build an object file
 AIG/ToSATAIG.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o
 .PHONY : AIG/ToSATAIG.cpp.o
 
 AIG/ToSATAIG.i: AIG/ToSATAIG.cpp.i
@@ -214,7 +214,7 @@ AIG/ToSATAIG.i: AIG/ToSATAIG.cpp.i
 
 # target to preprocess a source file
 AIG/ToSATAIG.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.i
 .PHONY : AIG/ToSATAIG.cpp.i
 
 AIG/ToSATAIG.s: AIG/ToSATAIG.cpp.s
@@ -222,7 +222,7 @@ AIG/ToSATAIG.s: AIG/ToSATAIG.cpp.s
 
 # target to generate assembly for a file
 AIG/ToSATAIG.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.s
 .PHONY : AIG/ToSATAIG.cpp.s
 
 ASTNode/ClauseList.o: ASTNode/ClauseList.cpp.o
@@ -230,7 +230,7 @@ ASTNode/ClauseList.o: ASTNode/ClauseList.cpp.o
 
 # target to build an object file
 ASTNode/ClauseList.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o
 .PHONY : ASTNode/ClauseList.cpp.o
 
 ASTNode/ClauseList.i: ASTNode/ClauseList.cpp.i
@@ -238,7 +238,7 @@ ASTNode/ClauseList.i: ASTNode/ClauseList.cpp.i
 
 # target to preprocess a source file
 ASTNode/ClauseList.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.i
 .PHONY : ASTNode/ClauseList.cpp.i
 
 ASTNode/ClauseList.s: ASTNode/ClauseList.cpp.s
@@ -246,7 +246,7 @@ ASTNode/ClauseList.s: ASTNode/ClauseList.cpp.s
 
 # target to generate assembly for a file
 ASTNode/ClauseList.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.s
 .PHONY : ASTNode/ClauseList.cpp.s
 
 ASTNode/SimpBool.o: ASTNode/SimpBool.cpp.o
@@ -254,7 +254,7 @@ ASTNode/SimpBool.o: ASTNode/SimpBool.cpp.o
 
 # target to build an object file
 ASTNode/SimpBool.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o
 .PHONY : ASTNode/SimpBool.cpp.o
 
 ASTNode/SimpBool.i: ASTNode/SimpBool.cpp.i
@@ -262,7 +262,7 @@ ASTNode/SimpBool.i: ASTNode/SimpBool.cpp.i
 
 # target to preprocess a source file
 ASTNode/SimpBool.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.i
 .PHONY : ASTNode/SimpBool.cpp.i
 
 ASTNode/SimpBool.s: ASTNode/SimpBool.cpp.s
@@ -270,7 +270,7 @@ ASTNode/SimpBool.s: ASTNode/SimpBool.cpp.s
 
 # target to generate assembly for a file
 ASTNode/SimpBool.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.s
 .PHONY : ASTNode/SimpBool.cpp.s
 
 ASTNode/ToCNF.o: ASTNode/ToCNF.cpp.o
@@ -278,7 +278,7 @@ ASTNode/ToCNF.o: ASTNode/ToCNF.cpp.o
 
 # target to build an object file
 ASTNode/ToCNF.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o
 .PHONY : ASTNode/ToCNF.cpp.o
 
 ASTNode/ToCNF.i: ASTNode/ToCNF.cpp.i
@@ -286,7 +286,7 @@ ASTNode/ToCNF.i: ASTNode/ToCNF.cpp.i
 
 # target to preprocess a source file
 ASTNode/ToCNF.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.i
 .PHONY : ASTNode/ToCNF.cpp.i
 
 ASTNode/ToCNF.s: ASTNode/ToCNF.cpp.s
@@ -294,7 +294,7 @@ ASTNode/ToCNF.s: ASTNode/ToCNF.cpp.s
 
 # target to generate assembly for a file
 ASTNode/ToCNF.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.s
 .PHONY : ASTNode/ToCNF.cpp.s
 
 ASTNode/ToSAT.o: ASTNode/ToSAT.cpp.o
@@ -302,7 +302,7 @@ ASTNode/ToSAT.o: ASTNode/ToSAT.cpp.o
 
 # target to build an object file
 ASTNode/ToSAT.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o
 .PHONY : ASTNode/ToSAT.cpp.o
 
 ASTNode/ToSAT.i: ASTNode/ToSAT.cpp.i
@@ -310,7 +310,7 @@ ASTNode/ToSAT.i: ASTNode/ToSAT.cpp.i
 
 # target to preprocess a source file
 ASTNode/ToSAT.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.i
 .PHONY : ASTNode/ToSAT.cpp.i
 
 ASTNode/ToSAT.s: ASTNode/ToSAT.cpp.s
@@ -318,7 +318,7 @@ ASTNode/ToSAT.s: ASTNode/ToSAT.cpp.s
 
 # target to generate assembly for a file
 ASTNode/ToSAT.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.s
 .PHONY : ASTNode/ToSAT.cpp.s
 
 BitBlaster.o: BitBlaster.cpp.o
@@ -326,7 +326,7 @@ BitBlaster.o: BitBlaster.cpp.o
 
 # target to build an object file
 BitBlaster.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o
 .PHONY : BitBlaster.cpp.o
 
 BitBlaster.i: BitBlaster.cpp.i
@@ -334,7 +334,7 @@ BitBlaster.i: BitBlaster.cpp.i
 
 # target to preprocess a source file
 BitBlaster.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.i
 .PHONY : BitBlaster.cpp.i
 
 BitBlaster.s: BitBlaster.cpp.s
@@ -342,7 +342,7 @@ BitBlaster.s: BitBlaster.cpp.s
 
 # target to generate assembly for a file
 BitBlaster.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.s
 .PHONY : BitBlaster.cpp.s
 
 ToSATBase.o: ToSATBase.cpp.o
@@ -350,7 +350,7 @@ ToSATBase.o: ToSATBase.cpp.o
 
 # target to build an object file
 ToSATBase.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o
 .PHONY : ToSATBase.cpp.o
 
 ToSATBase.i: ToSATBase.cpp.i
@@ -358,7 +358,7 @@ ToSATBase.i: ToSATBase.cpp.i
 
 # target to preprocess a source file
 ToSATBase.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.i
 .PHONY : ToSATBase.cpp.i
 
 ToSATBase.s: ToSATBase.cpp.s
@@ -366,7 +366,7 @@ ToSATBase.s: ToSATBase.cpp.s
 
 # target to generate assembly for a file
 ToSATBase.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/ToSat/CMakeFiles/tosat.dir/build.make lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.s
 .PHONY : ToSATBase.cpp.s
 
 # Help Target
@@ -420,6 +420,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

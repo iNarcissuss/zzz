@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/extlib-abc/CMakeFiles/abc.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/CMakeFiles/abc.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/extlib-abc/CMakeFiles/abc.dir/rule
 .PHONY : lib/extlib-abc/CMakeFiles/abc.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ abc: lib/extlib-abc/CMakeFiles/abc.dir/rule
 
 # fast build rule for target.
 abc/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/build
 .PHONY : abc/fast
 
 aig/aig/aigCheck.o: aig/aig/aigCheck.c.o
@@ -158,7 +158,7 @@ aig/aig/aigCheck.o: aig/aig/aigCheck.c.o
 
 # target to build an object file
 aig/aig/aigCheck.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o
 .PHONY : aig/aig/aigCheck.c.o
 
 aig/aig/aigCheck.i: aig/aig/aigCheck.c.i
@@ -166,7 +166,7 @@ aig/aig/aigCheck.i: aig/aig/aigCheck.c.i
 
 # target to preprocess a source file
 aig/aig/aigCheck.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.i
 .PHONY : aig/aig/aigCheck.c.i
 
 aig/aig/aigCheck.s: aig/aig/aigCheck.c.s
@@ -174,7 +174,7 @@ aig/aig/aigCheck.s: aig/aig/aigCheck.c.s
 
 # target to generate assembly for a file
 aig/aig/aigCheck.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.s
 .PHONY : aig/aig/aigCheck.c.s
 
 aig/aig/aigDfs.o: aig/aig/aigDfs.c.o
@@ -182,7 +182,7 @@ aig/aig/aigDfs.o: aig/aig/aigDfs.c.o
 
 # target to build an object file
 aig/aig/aigDfs.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o
 .PHONY : aig/aig/aigDfs.c.o
 
 aig/aig/aigDfs.i: aig/aig/aigDfs.c.i
@@ -190,7 +190,7 @@ aig/aig/aigDfs.i: aig/aig/aigDfs.c.i
 
 # target to preprocess a source file
 aig/aig/aigDfs.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.i
 .PHONY : aig/aig/aigDfs.c.i
 
 aig/aig/aigDfs.s: aig/aig/aigDfs.c.s
@@ -198,7 +198,7 @@ aig/aig/aigDfs.s: aig/aig/aigDfs.c.s
 
 # target to generate assembly for a file
 aig/aig/aigDfs.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.s
 .PHONY : aig/aig/aigDfs.c.s
 
 aig/aig/aigFanout.o: aig/aig/aigFanout.c.o
@@ -206,7 +206,7 @@ aig/aig/aigFanout.o: aig/aig/aigFanout.c.o
 
 # target to build an object file
 aig/aig/aigFanout.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o
 .PHONY : aig/aig/aigFanout.c.o
 
 aig/aig/aigFanout.i: aig/aig/aigFanout.c.i
@@ -214,7 +214,7 @@ aig/aig/aigFanout.i: aig/aig/aigFanout.c.i
 
 # target to preprocess a source file
 aig/aig/aigFanout.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.i
 .PHONY : aig/aig/aigFanout.c.i
 
 aig/aig/aigFanout.s: aig/aig/aigFanout.c.s
@@ -222,7 +222,7 @@ aig/aig/aigFanout.s: aig/aig/aigFanout.c.s
 
 # target to generate assembly for a file
 aig/aig/aigFanout.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.s
 .PHONY : aig/aig/aigFanout.c.s
 
 aig/aig/aigMan.o: aig/aig/aigMan.c.o
@@ -230,7 +230,7 @@ aig/aig/aigMan.o: aig/aig/aigMan.c.o
 
 # target to build an object file
 aig/aig/aigMan.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o
 .PHONY : aig/aig/aigMan.c.o
 
 aig/aig/aigMan.i: aig/aig/aigMan.c.i
@@ -238,7 +238,7 @@ aig/aig/aigMan.i: aig/aig/aigMan.c.i
 
 # target to preprocess a source file
 aig/aig/aigMan.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.i
 .PHONY : aig/aig/aigMan.c.i
 
 aig/aig/aigMan.s: aig/aig/aigMan.c.s
@@ -246,7 +246,7 @@ aig/aig/aigMan.s: aig/aig/aigMan.c.s
 
 # target to generate assembly for a file
 aig/aig/aigMan.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.s
 .PHONY : aig/aig/aigMan.c.s
 
 aig/aig/aigMem.o: aig/aig/aigMem.c.o
@@ -254,7 +254,7 @@ aig/aig/aigMem.o: aig/aig/aigMem.c.o
 
 # target to build an object file
 aig/aig/aigMem.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o
 .PHONY : aig/aig/aigMem.c.o
 
 aig/aig/aigMem.i: aig/aig/aigMem.c.i
@@ -262,7 +262,7 @@ aig/aig/aigMem.i: aig/aig/aigMem.c.i
 
 # target to preprocess a source file
 aig/aig/aigMem.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.i
 .PHONY : aig/aig/aigMem.c.i
 
 aig/aig/aigMem.s: aig/aig/aigMem.c.s
@@ -270,7 +270,7 @@ aig/aig/aigMem.s: aig/aig/aigMem.c.s
 
 # target to generate assembly for a file
 aig/aig/aigMem.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.s
 .PHONY : aig/aig/aigMem.c.s
 
 aig/aig/aigMffc.o: aig/aig/aigMffc.c.o
@@ -278,7 +278,7 @@ aig/aig/aigMffc.o: aig/aig/aigMffc.c.o
 
 # target to build an object file
 aig/aig/aigMffc.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o
 .PHONY : aig/aig/aigMffc.c.o
 
 aig/aig/aigMffc.i: aig/aig/aigMffc.c.i
@@ -286,7 +286,7 @@ aig/aig/aigMffc.i: aig/aig/aigMffc.c.i
 
 # target to preprocess a source file
 aig/aig/aigMffc.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.i
 .PHONY : aig/aig/aigMffc.c.i
 
 aig/aig/aigMffc.s: aig/aig/aigMffc.c.s
@@ -294,7 +294,7 @@ aig/aig/aigMffc.s: aig/aig/aigMffc.c.s
 
 # target to generate assembly for a file
 aig/aig/aigMffc.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.s
 .PHONY : aig/aig/aigMffc.c.s
 
 aig/aig/aigObj.o: aig/aig/aigObj.c.o
@@ -302,7 +302,7 @@ aig/aig/aigObj.o: aig/aig/aigObj.c.o
 
 # target to build an object file
 aig/aig/aigObj.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o
 .PHONY : aig/aig/aigObj.c.o
 
 aig/aig/aigObj.i: aig/aig/aigObj.c.i
@@ -310,7 +310,7 @@ aig/aig/aigObj.i: aig/aig/aigObj.c.i
 
 # target to preprocess a source file
 aig/aig/aigObj.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.i
 .PHONY : aig/aig/aigObj.c.i
 
 aig/aig/aigObj.s: aig/aig/aigObj.c.s
@@ -318,7 +318,7 @@ aig/aig/aigObj.s: aig/aig/aigObj.c.s
 
 # target to generate assembly for a file
 aig/aig/aigObj.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.s
 .PHONY : aig/aig/aigObj.c.s
 
 aig/aig/aigOper.o: aig/aig/aigOper.c.o
@@ -326,7 +326,7 @@ aig/aig/aigOper.o: aig/aig/aigOper.c.o
 
 # target to build an object file
 aig/aig/aigOper.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o
 .PHONY : aig/aig/aigOper.c.o
 
 aig/aig/aigOper.i: aig/aig/aigOper.c.i
@@ -334,7 +334,7 @@ aig/aig/aigOper.i: aig/aig/aigOper.c.i
 
 # target to preprocess a source file
 aig/aig/aigOper.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.i
 .PHONY : aig/aig/aigOper.c.i
 
 aig/aig/aigOper.s: aig/aig/aigOper.c.s
@@ -342,7 +342,7 @@ aig/aig/aigOper.s: aig/aig/aigOper.c.s
 
 # target to generate assembly for a file
 aig/aig/aigOper.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.s
 .PHONY : aig/aig/aigOper.c.s
 
 aig/aig/aigOrder.o: aig/aig/aigOrder.c.o
@@ -350,7 +350,7 @@ aig/aig/aigOrder.o: aig/aig/aigOrder.c.o
 
 # target to build an object file
 aig/aig/aigOrder.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o
 .PHONY : aig/aig/aigOrder.c.o
 
 aig/aig/aigOrder.i: aig/aig/aigOrder.c.i
@@ -358,7 +358,7 @@ aig/aig/aigOrder.i: aig/aig/aigOrder.c.i
 
 # target to preprocess a source file
 aig/aig/aigOrder.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.i
 .PHONY : aig/aig/aigOrder.c.i
 
 aig/aig/aigOrder.s: aig/aig/aigOrder.c.s
@@ -366,7 +366,7 @@ aig/aig/aigOrder.s: aig/aig/aigOrder.c.s
 
 # target to generate assembly for a file
 aig/aig/aigOrder.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.s
 .PHONY : aig/aig/aigOrder.c.s
 
 aig/aig/aigPart.o: aig/aig/aigPart.c.o
@@ -374,7 +374,7 @@ aig/aig/aigPart.o: aig/aig/aigPart.c.o
 
 # target to build an object file
 aig/aig/aigPart.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o
 .PHONY : aig/aig/aigPart.c.o
 
 aig/aig/aigPart.i: aig/aig/aigPart.c.i
@@ -382,7 +382,7 @@ aig/aig/aigPart.i: aig/aig/aigPart.c.i
 
 # target to preprocess a source file
 aig/aig/aigPart.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.i
 .PHONY : aig/aig/aigPart.c.i
 
 aig/aig/aigPart.s: aig/aig/aigPart.c.s
@@ -390,7 +390,7 @@ aig/aig/aigPart.s: aig/aig/aigPart.c.s
 
 # target to generate assembly for a file
 aig/aig/aigPart.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.s
 .PHONY : aig/aig/aigPart.c.s
 
 aig/aig/aigRepr.o: aig/aig/aigRepr.c.o
@@ -398,7 +398,7 @@ aig/aig/aigRepr.o: aig/aig/aigRepr.c.o
 
 # target to build an object file
 aig/aig/aigRepr.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o
 .PHONY : aig/aig/aigRepr.c.o
 
 aig/aig/aigRepr.i: aig/aig/aigRepr.c.i
@@ -406,7 +406,7 @@ aig/aig/aigRepr.i: aig/aig/aigRepr.c.i
 
 # target to preprocess a source file
 aig/aig/aigRepr.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.i
 .PHONY : aig/aig/aigRepr.c.i
 
 aig/aig/aigRepr.s: aig/aig/aigRepr.c.s
@@ -414,7 +414,7 @@ aig/aig/aigRepr.s: aig/aig/aigRepr.c.s
 
 # target to generate assembly for a file
 aig/aig/aigRepr.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.s
 .PHONY : aig/aig/aigRepr.c.s
 
 aig/aig/aigRet.o: aig/aig/aigRet.c.o
@@ -422,7 +422,7 @@ aig/aig/aigRet.o: aig/aig/aigRet.c.o
 
 # target to build an object file
 aig/aig/aigRet.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o
 .PHONY : aig/aig/aigRet.c.o
 
 aig/aig/aigRet.i: aig/aig/aigRet.c.i
@@ -430,7 +430,7 @@ aig/aig/aigRet.i: aig/aig/aigRet.c.i
 
 # target to preprocess a source file
 aig/aig/aigRet.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.i
 .PHONY : aig/aig/aigRet.c.i
 
 aig/aig/aigRet.s: aig/aig/aigRet.c.s
@@ -438,7 +438,7 @@ aig/aig/aigRet.s: aig/aig/aigRet.c.s
 
 # target to generate assembly for a file
 aig/aig/aigRet.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.s
 .PHONY : aig/aig/aigRet.c.s
 
 aig/aig/aigScl.o: aig/aig/aigScl.c.o
@@ -446,7 +446,7 @@ aig/aig/aigScl.o: aig/aig/aigScl.c.o
 
 # target to build an object file
 aig/aig/aigScl.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o
 .PHONY : aig/aig/aigScl.c.o
 
 aig/aig/aigScl.i: aig/aig/aigScl.c.i
@@ -454,7 +454,7 @@ aig/aig/aigScl.i: aig/aig/aigScl.c.i
 
 # target to preprocess a source file
 aig/aig/aigScl.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.i
 .PHONY : aig/aig/aigScl.c.i
 
 aig/aig/aigScl.s: aig/aig/aigScl.c.s
@@ -462,7 +462,7 @@ aig/aig/aigScl.s: aig/aig/aigScl.c.s
 
 # target to generate assembly for a file
 aig/aig/aigScl.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.s
 .PHONY : aig/aig/aigScl.c.s
 
 aig/aig/aigSeq.o: aig/aig/aigSeq.c.o
@@ -470,7 +470,7 @@ aig/aig/aigSeq.o: aig/aig/aigSeq.c.o
 
 # target to build an object file
 aig/aig/aigSeq.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o
 .PHONY : aig/aig/aigSeq.c.o
 
 aig/aig/aigSeq.i: aig/aig/aigSeq.c.i
@@ -478,7 +478,7 @@ aig/aig/aigSeq.i: aig/aig/aigSeq.c.i
 
 # target to preprocess a source file
 aig/aig/aigSeq.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.i
 .PHONY : aig/aig/aigSeq.c.i
 
 aig/aig/aigSeq.s: aig/aig/aigSeq.c.s
@@ -486,7 +486,7 @@ aig/aig/aigSeq.s: aig/aig/aigSeq.c.s
 
 # target to generate assembly for a file
 aig/aig/aigSeq.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.s
 .PHONY : aig/aig/aigSeq.c.s
 
 aig/aig/aigShow.o: aig/aig/aigShow.c.o
@@ -494,7 +494,7 @@ aig/aig/aigShow.o: aig/aig/aigShow.c.o
 
 # target to build an object file
 aig/aig/aigShow.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o
 .PHONY : aig/aig/aigShow.c.o
 
 aig/aig/aigShow.i: aig/aig/aigShow.c.i
@@ -502,7 +502,7 @@ aig/aig/aigShow.i: aig/aig/aigShow.c.i
 
 # target to preprocess a source file
 aig/aig/aigShow.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.i
 .PHONY : aig/aig/aigShow.c.i
 
 aig/aig/aigShow.s: aig/aig/aigShow.c.s
@@ -510,7 +510,7 @@ aig/aig/aigShow.s: aig/aig/aigShow.c.s
 
 # target to generate assembly for a file
 aig/aig/aigShow.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.s
 .PHONY : aig/aig/aigShow.c.s
 
 aig/aig/aigTable.o: aig/aig/aigTable.c.o
@@ -518,7 +518,7 @@ aig/aig/aigTable.o: aig/aig/aigTable.c.o
 
 # target to build an object file
 aig/aig/aigTable.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o
 .PHONY : aig/aig/aigTable.c.o
 
 aig/aig/aigTable.i: aig/aig/aigTable.c.i
@@ -526,7 +526,7 @@ aig/aig/aigTable.i: aig/aig/aigTable.c.i
 
 # target to preprocess a source file
 aig/aig/aigTable.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.i
 .PHONY : aig/aig/aigTable.c.i
 
 aig/aig/aigTable.s: aig/aig/aigTable.c.s
@@ -534,7 +534,7 @@ aig/aig/aigTable.s: aig/aig/aigTable.c.s
 
 # target to generate assembly for a file
 aig/aig/aigTable.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.s
 .PHONY : aig/aig/aigTable.c.s
 
 aig/aig/aigTime.o: aig/aig/aigTime.c.o
@@ -542,7 +542,7 @@ aig/aig/aigTime.o: aig/aig/aigTime.c.o
 
 # target to build an object file
 aig/aig/aigTime.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o
 .PHONY : aig/aig/aigTime.c.o
 
 aig/aig/aigTime.i: aig/aig/aigTime.c.i
@@ -550,7 +550,7 @@ aig/aig/aigTime.i: aig/aig/aigTime.c.i
 
 # target to preprocess a source file
 aig/aig/aigTime.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.i
 .PHONY : aig/aig/aigTime.c.i
 
 aig/aig/aigTime.s: aig/aig/aigTime.c.s
@@ -558,7 +558,7 @@ aig/aig/aigTime.s: aig/aig/aigTime.c.s
 
 # target to generate assembly for a file
 aig/aig/aigTime.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.s
 .PHONY : aig/aig/aigTime.c.s
 
 aig/aig/aigTiming.o: aig/aig/aigTiming.c.o
@@ -566,7 +566,7 @@ aig/aig/aigTiming.o: aig/aig/aigTiming.c.o
 
 # target to build an object file
 aig/aig/aigTiming.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o
 .PHONY : aig/aig/aigTiming.c.o
 
 aig/aig/aigTiming.i: aig/aig/aigTiming.c.i
@@ -574,7 +574,7 @@ aig/aig/aigTiming.i: aig/aig/aigTiming.c.i
 
 # target to preprocess a source file
 aig/aig/aigTiming.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.i
 .PHONY : aig/aig/aigTiming.c.i
 
 aig/aig/aigTiming.s: aig/aig/aigTiming.c.s
@@ -582,7 +582,7 @@ aig/aig/aigTiming.s: aig/aig/aigTiming.c.s
 
 # target to generate assembly for a file
 aig/aig/aigTiming.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.s
 .PHONY : aig/aig/aigTiming.c.s
 
 aig/aig/aigTruth.o: aig/aig/aigTruth.c.o
@@ -590,7 +590,7 @@ aig/aig/aigTruth.o: aig/aig/aigTruth.c.o
 
 # target to build an object file
 aig/aig/aigTruth.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o
 .PHONY : aig/aig/aigTruth.c.o
 
 aig/aig/aigTruth.i: aig/aig/aigTruth.c.i
@@ -598,7 +598,7 @@ aig/aig/aigTruth.i: aig/aig/aigTruth.c.i
 
 # target to preprocess a source file
 aig/aig/aigTruth.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.i
 .PHONY : aig/aig/aigTruth.c.i
 
 aig/aig/aigTruth.s: aig/aig/aigTruth.c.s
@@ -606,7 +606,7 @@ aig/aig/aigTruth.s: aig/aig/aigTruth.c.s
 
 # target to generate assembly for a file
 aig/aig/aigTruth.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.s
 .PHONY : aig/aig/aigTruth.c.s
 
 aig/aig/aigTsim.o: aig/aig/aigTsim.c.o
@@ -614,7 +614,7 @@ aig/aig/aigTsim.o: aig/aig/aigTsim.c.o
 
 # target to build an object file
 aig/aig/aigTsim.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o
 .PHONY : aig/aig/aigTsim.c.o
 
 aig/aig/aigTsim.i: aig/aig/aigTsim.c.i
@@ -622,7 +622,7 @@ aig/aig/aigTsim.i: aig/aig/aigTsim.c.i
 
 # target to preprocess a source file
 aig/aig/aigTsim.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.i
 .PHONY : aig/aig/aigTsim.c.i
 
 aig/aig/aigTsim.s: aig/aig/aigTsim.c.s
@@ -630,7 +630,7 @@ aig/aig/aigTsim.s: aig/aig/aigTsim.c.s
 
 # target to generate assembly for a file
 aig/aig/aigTsim.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.s
 .PHONY : aig/aig/aigTsim.c.s
 
 aig/aig/aigUtil.o: aig/aig/aigUtil.c.o
@@ -638,7 +638,7 @@ aig/aig/aigUtil.o: aig/aig/aigUtil.c.o
 
 # target to build an object file
 aig/aig/aigUtil.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o
 .PHONY : aig/aig/aigUtil.c.o
 
 aig/aig/aigUtil.i: aig/aig/aigUtil.c.i
@@ -646,7 +646,7 @@ aig/aig/aigUtil.i: aig/aig/aigUtil.c.i
 
 # target to preprocess a source file
 aig/aig/aigUtil.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.i
 .PHONY : aig/aig/aigUtil.c.i
 
 aig/aig/aigUtil.s: aig/aig/aigUtil.c.s
@@ -654,7 +654,7 @@ aig/aig/aigUtil.s: aig/aig/aigUtil.c.s
 
 # target to generate assembly for a file
 aig/aig/aigUtil.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.s
 .PHONY : aig/aig/aigUtil.c.s
 
 aig/aig/aigWin.o: aig/aig/aigWin.c.o
@@ -662,7 +662,7 @@ aig/aig/aigWin.o: aig/aig/aigWin.c.o
 
 # target to build an object file
 aig/aig/aigWin.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o
 .PHONY : aig/aig/aigWin.c.o
 
 aig/aig/aigWin.i: aig/aig/aigWin.c.i
@@ -670,7 +670,7 @@ aig/aig/aigWin.i: aig/aig/aigWin.c.i
 
 # target to preprocess a source file
 aig/aig/aigWin.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.i
 .PHONY : aig/aig/aigWin.c.i
 
 aig/aig/aigWin.s: aig/aig/aigWin.c.s
@@ -678,7 +678,7 @@ aig/aig/aigWin.s: aig/aig/aigWin.c.s
 
 # target to generate assembly for a file
 aig/aig/aigWin.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.s
 .PHONY : aig/aig/aigWin.c.s
 
 aig/cnf/cnfCore.o: aig/cnf/cnfCore.c.o
@@ -686,7 +686,7 @@ aig/cnf/cnfCore.o: aig/cnf/cnfCore.c.o
 
 # target to build an object file
 aig/cnf/cnfCore.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o
 .PHONY : aig/cnf/cnfCore.c.o
 
 aig/cnf/cnfCore.i: aig/cnf/cnfCore.c.i
@@ -694,7 +694,7 @@ aig/cnf/cnfCore.i: aig/cnf/cnfCore.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfCore.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.i
 .PHONY : aig/cnf/cnfCore.c.i
 
 aig/cnf/cnfCore.s: aig/cnf/cnfCore.c.s
@@ -702,7 +702,7 @@ aig/cnf/cnfCore.s: aig/cnf/cnfCore.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfCore.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.s
 .PHONY : aig/cnf/cnfCore.c.s
 
 aig/cnf/cnfCut.o: aig/cnf/cnfCut.c.o
@@ -710,7 +710,7 @@ aig/cnf/cnfCut.o: aig/cnf/cnfCut.c.o
 
 # target to build an object file
 aig/cnf/cnfCut.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o
 .PHONY : aig/cnf/cnfCut.c.o
 
 aig/cnf/cnfCut.i: aig/cnf/cnfCut.c.i
@@ -718,7 +718,7 @@ aig/cnf/cnfCut.i: aig/cnf/cnfCut.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfCut.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.i
 .PHONY : aig/cnf/cnfCut.c.i
 
 aig/cnf/cnfCut.s: aig/cnf/cnfCut.c.s
@@ -726,7 +726,7 @@ aig/cnf/cnfCut.s: aig/cnf/cnfCut.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfCut.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.s
 .PHONY : aig/cnf/cnfCut.c.s
 
 aig/cnf/cnfData.o: aig/cnf/cnfData.c.o
@@ -734,7 +734,7 @@ aig/cnf/cnfData.o: aig/cnf/cnfData.c.o
 
 # target to build an object file
 aig/cnf/cnfData.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o
 .PHONY : aig/cnf/cnfData.c.o
 
 aig/cnf/cnfData.i: aig/cnf/cnfData.c.i
@@ -742,7 +742,7 @@ aig/cnf/cnfData.i: aig/cnf/cnfData.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfData.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.i
 .PHONY : aig/cnf/cnfData.c.i
 
 aig/cnf/cnfData.s: aig/cnf/cnfData.c.s
@@ -750,7 +750,7 @@ aig/cnf/cnfData.s: aig/cnf/cnfData.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfData.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.s
 .PHONY : aig/cnf/cnfData.c.s
 
 aig/cnf/cnfMan.o: aig/cnf/cnfMan.c.o
@@ -758,7 +758,7 @@ aig/cnf/cnfMan.o: aig/cnf/cnfMan.c.o
 
 # target to build an object file
 aig/cnf/cnfMan.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o
 .PHONY : aig/cnf/cnfMan.c.o
 
 aig/cnf/cnfMan.i: aig/cnf/cnfMan.c.i
@@ -766,7 +766,7 @@ aig/cnf/cnfMan.i: aig/cnf/cnfMan.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfMan.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.i
 .PHONY : aig/cnf/cnfMan.c.i
 
 aig/cnf/cnfMan.s: aig/cnf/cnfMan.c.s
@@ -774,7 +774,7 @@ aig/cnf/cnfMan.s: aig/cnf/cnfMan.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfMan.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.s
 .PHONY : aig/cnf/cnfMan.c.s
 
 aig/cnf/cnfMap.o: aig/cnf/cnfMap.c.o
@@ -782,7 +782,7 @@ aig/cnf/cnfMap.o: aig/cnf/cnfMap.c.o
 
 # target to build an object file
 aig/cnf/cnfMap.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o
 .PHONY : aig/cnf/cnfMap.c.o
 
 aig/cnf/cnfMap.i: aig/cnf/cnfMap.c.i
@@ -790,7 +790,7 @@ aig/cnf/cnfMap.i: aig/cnf/cnfMap.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfMap.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.i
 .PHONY : aig/cnf/cnfMap.c.i
 
 aig/cnf/cnfMap.s: aig/cnf/cnfMap.c.s
@@ -798,7 +798,7 @@ aig/cnf/cnfMap.s: aig/cnf/cnfMap.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfMap.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.s
 .PHONY : aig/cnf/cnfMap.c.s
 
 aig/cnf/cnfPost.o: aig/cnf/cnfPost.c.o
@@ -806,7 +806,7 @@ aig/cnf/cnfPost.o: aig/cnf/cnfPost.c.o
 
 # target to build an object file
 aig/cnf/cnfPost.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o
 .PHONY : aig/cnf/cnfPost.c.o
 
 aig/cnf/cnfPost.i: aig/cnf/cnfPost.c.i
@@ -814,7 +814,7 @@ aig/cnf/cnfPost.i: aig/cnf/cnfPost.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfPost.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.i
 .PHONY : aig/cnf/cnfPost.c.i
 
 aig/cnf/cnfPost.s: aig/cnf/cnfPost.c.s
@@ -822,7 +822,7 @@ aig/cnf/cnfPost.s: aig/cnf/cnfPost.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfPost.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.s
 .PHONY : aig/cnf/cnfPost.c.s
 
 aig/cnf/cnfUtil.o: aig/cnf/cnfUtil.c.o
@@ -830,7 +830,7 @@ aig/cnf/cnfUtil.o: aig/cnf/cnfUtil.c.o
 
 # target to build an object file
 aig/cnf/cnfUtil.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o
 .PHONY : aig/cnf/cnfUtil.c.o
 
 aig/cnf/cnfUtil.i: aig/cnf/cnfUtil.c.i
@@ -838,7 +838,7 @@ aig/cnf/cnfUtil.i: aig/cnf/cnfUtil.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfUtil.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.i
 .PHONY : aig/cnf/cnfUtil.c.i
 
 aig/cnf/cnfUtil.s: aig/cnf/cnfUtil.c.s
@@ -846,7 +846,7 @@ aig/cnf/cnfUtil.s: aig/cnf/cnfUtil.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfUtil.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.s
 .PHONY : aig/cnf/cnfUtil.c.s
 
 aig/cnf/cnfWrite.o: aig/cnf/cnfWrite.c.o
@@ -854,7 +854,7 @@ aig/cnf/cnfWrite.o: aig/cnf/cnfWrite.c.o
 
 # target to build an object file
 aig/cnf/cnfWrite.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o
 .PHONY : aig/cnf/cnfWrite.c.o
 
 aig/cnf/cnfWrite.i: aig/cnf/cnfWrite.c.i
@@ -862,7 +862,7 @@ aig/cnf/cnfWrite.i: aig/cnf/cnfWrite.c.i
 
 # target to preprocess a source file
 aig/cnf/cnfWrite.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.i
 .PHONY : aig/cnf/cnfWrite.c.i
 
 aig/cnf/cnfWrite.s: aig/cnf/cnfWrite.c.s
@@ -870,7 +870,7 @@ aig/cnf/cnfWrite.s: aig/cnf/cnfWrite.c.s
 
 # target to generate assembly for a file
 aig/cnf/cnfWrite.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.s
 .PHONY : aig/cnf/cnfWrite.c.s
 
 aig/dar/darBalance.o: aig/dar/darBalance.c.o
@@ -878,7 +878,7 @@ aig/dar/darBalance.o: aig/dar/darBalance.c.o
 
 # target to build an object file
 aig/dar/darBalance.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o
 .PHONY : aig/dar/darBalance.c.o
 
 aig/dar/darBalance.i: aig/dar/darBalance.c.i
@@ -886,7 +886,7 @@ aig/dar/darBalance.i: aig/dar/darBalance.c.i
 
 # target to preprocess a source file
 aig/dar/darBalance.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.i
 .PHONY : aig/dar/darBalance.c.i
 
 aig/dar/darBalance.s: aig/dar/darBalance.c.s
@@ -894,7 +894,7 @@ aig/dar/darBalance.s: aig/dar/darBalance.c.s
 
 # target to generate assembly for a file
 aig/dar/darBalance.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.s
 .PHONY : aig/dar/darBalance.c.s
 
 aig/dar/darCore.o: aig/dar/darCore.c.o
@@ -902,7 +902,7 @@ aig/dar/darCore.o: aig/dar/darCore.c.o
 
 # target to build an object file
 aig/dar/darCore.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o
 .PHONY : aig/dar/darCore.c.o
 
 aig/dar/darCore.i: aig/dar/darCore.c.i
@@ -910,7 +910,7 @@ aig/dar/darCore.i: aig/dar/darCore.c.i
 
 # target to preprocess a source file
 aig/dar/darCore.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.i
 .PHONY : aig/dar/darCore.c.i
 
 aig/dar/darCore.s: aig/dar/darCore.c.s
@@ -918,7 +918,7 @@ aig/dar/darCore.s: aig/dar/darCore.c.s
 
 # target to generate assembly for a file
 aig/dar/darCore.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.s
 .PHONY : aig/dar/darCore.c.s
 
 aig/dar/darCut.o: aig/dar/darCut.c.o
@@ -926,7 +926,7 @@ aig/dar/darCut.o: aig/dar/darCut.c.o
 
 # target to build an object file
 aig/dar/darCut.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o
 .PHONY : aig/dar/darCut.c.o
 
 aig/dar/darCut.i: aig/dar/darCut.c.i
@@ -934,7 +934,7 @@ aig/dar/darCut.i: aig/dar/darCut.c.i
 
 # target to preprocess a source file
 aig/dar/darCut.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.i
 .PHONY : aig/dar/darCut.c.i
 
 aig/dar/darCut.s: aig/dar/darCut.c.s
@@ -942,7 +942,7 @@ aig/dar/darCut.s: aig/dar/darCut.c.s
 
 # target to generate assembly for a file
 aig/dar/darCut.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.s
 .PHONY : aig/dar/darCut.c.s
 
 aig/dar/darData.o: aig/dar/darData.c.o
@@ -950,7 +950,7 @@ aig/dar/darData.o: aig/dar/darData.c.o
 
 # target to build an object file
 aig/dar/darData.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o
 .PHONY : aig/dar/darData.c.o
 
 aig/dar/darData.i: aig/dar/darData.c.i
@@ -958,7 +958,7 @@ aig/dar/darData.i: aig/dar/darData.c.i
 
 # target to preprocess a source file
 aig/dar/darData.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.i
 .PHONY : aig/dar/darData.c.i
 
 aig/dar/darData.s: aig/dar/darData.c.s
@@ -966,7 +966,7 @@ aig/dar/darData.s: aig/dar/darData.c.s
 
 # target to generate assembly for a file
 aig/dar/darData.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.s
 .PHONY : aig/dar/darData.c.s
 
 aig/dar/darLib.o: aig/dar/darLib.c.o
@@ -974,7 +974,7 @@ aig/dar/darLib.o: aig/dar/darLib.c.o
 
 # target to build an object file
 aig/dar/darLib.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o
 .PHONY : aig/dar/darLib.c.o
 
 aig/dar/darLib.i: aig/dar/darLib.c.i
@@ -982,7 +982,7 @@ aig/dar/darLib.i: aig/dar/darLib.c.i
 
 # target to preprocess a source file
 aig/dar/darLib.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.i
 .PHONY : aig/dar/darLib.c.i
 
 aig/dar/darLib.s: aig/dar/darLib.c.s
@@ -990,7 +990,7 @@ aig/dar/darLib.s: aig/dar/darLib.c.s
 
 # target to generate assembly for a file
 aig/dar/darLib.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.s
 .PHONY : aig/dar/darLib.c.s
 
 aig/dar/darMan.o: aig/dar/darMan.c.o
@@ -998,7 +998,7 @@ aig/dar/darMan.o: aig/dar/darMan.c.o
 
 # target to build an object file
 aig/dar/darMan.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o
 .PHONY : aig/dar/darMan.c.o
 
 aig/dar/darMan.i: aig/dar/darMan.c.i
@@ -1006,7 +1006,7 @@ aig/dar/darMan.i: aig/dar/darMan.c.i
 
 # target to preprocess a source file
 aig/dar/darMan.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.i
 .PHONY : aig/dar/darMan.c.i
 
 aig/dar/darMan.s: aig/dar/darMan.c.s
@@ -1014,7 +1014,7 @@ aig/dar/darMan.s: aig/dar/darMan.c.s
 
 # target to generate assembly for a file
 aig/dar/darMan.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.s
 .PHONY : aig/dar/darMan.c.s
 
 aig/dar/darPrec.o: aig/dar/darPrec.c.o
@@ -1022,7 +1022,7 @@ aig/dar/darPrec.o: aig/dar/darPrec.c.o
 
 # target to build an object file
 aig/dar/darPrec.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o
 .PHONY : aig/dar/darPrec.c.o
 
 aig/dar/darPrec.i: aig/dar/darPrec.c.i
@@ -1030,7 +1030,7 @@ aig/dar/darPrec.i: aig/dar/darPrec.c.i
 
 # target to preprocess a source file
 aig/dar/darPrec.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.i
 .PHONY : aig/dar/darPrec.c.i
 
 aig/dar/darPrec.s: aig/dar/darPrec.c.s
@@ -1038,7 +1038,7 @@ aig/dar/darPrec.s: aig/dar/darPrec.c.s
 
 # target to generate assembly for a file
 aig/dar/darPrec.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.s
 .PHONY : aig/dar/darPrec.c.s
 
 aig/dar/darRefact.o: aig/dar/darRefact.c.o
@@ -1046,7 +1046,7 @@ aig/dar/darRefact.o: aig/dar/darRefact.c.o
 
 # target to build an object file
 aig/dar/darRefact.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o
 .PHONY : aig/dar/darRefact.c.o
 
 aig/dar/darRefact.i: aig/dar/darRefact.c.i
@@ -1054,7 +1054,7 @@ aig/dar/darRefact.i: aig/dar/darRefact.c.i
 
 # target to preprocess a source file
 aig/dar/darRefact.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.i
 .PHONY : aig/dar/darRefact.c.i
 
 aig/dar/darRefact.s: aig/dar/darRefact.c.s
@@ -1062,7 +1062,7 @@ aig/dar/darRefact.s: aig/dar/darRefact.c.s
 
 # target to generate assembly for a file
 aig/dar/darRefact.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.s
 .PHONY : aig/dar/darRefact.c.s
 
 aig/dar/darScript.o: aig/dar/darScript.c.o
@@ -1070,7 +1070,7 @@ aig/dar/darScript.o: aig/dar/darScript.c.o
 
 # target to build an object file
 aig/dar/darScript.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o
 .PHONY : aig/dar/darScript.c.o
 
 aig/dar/darScript.i: aig/dar/darScript.c.i
@@ -1078,7 +1078,7 @@ aig/dar/darScript.i: aig/dar/darScript.c.i
 
 # target to preprocess a source file
 aig/dar/darScript.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.i
 .PHONY : aig/dar/darScript.c.i
 
 aig/dar/darScript.s: aig/dar/darScript.c.s
@@ -1086,7 +1086,7 @@ aig/dar/darScript.s: aig/dar/darScript.c.s
 
 # target to generate assembly for a file
 aig/dar/darScript.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.s
 .PHONY : aig/dar/darScript.c.s
 
 aig/kit/kitAig.o: aig/kit/kitAig.c.o
@@ -1094,7 +1094,7 @@ aig/kit/kitAig.o: aig/kit/kitAig.c.o
 
 # target to build an object file
 aig/kit/kitAig.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o
 .PHONY : aig/kit/kitAig.c.o
 
 aig/kit/kitAig.i: aig/kit/kitAig.c.i
@@ -1102,7 +1102,7 @@ aig/kit/kitAig.i: aig/kit/kitAig.c.i
 
 # target to preprocess a source file
 aig/kit/kitAig.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.i
 .PHONY : aig/kit/kitAig.c.i
 
 aig/kit/kitAig.s: aig/kit/kitAig.c.s
@@ -1110,7 +1110,7 @@ aig/kit/kitAig.s: aig/kit/kitAig.c.s
 
 # target to generate assembly for a file
 aig/kit/kitAig.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.s
 .PHONY : aig/kit/kitAig.c.s
 
 aig/kit/kitGraph.o: aig/kit/kitGraph.c.o
@@ -1118,7 +1118,7 @@ aig/kit/kitGraph.o: aig/kit/kitGraph.c.o
 
 # target to build an object file
 aig/kit/kitGraph.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o
 .PHONY : aig/kit/kitGraph.c.o
 
 aig/kit/kitGraph.i: aig/kit/kitGraph.c.i
@@ -1126,7 +1126,7 @@ aig/kit/kitGraph.i: aig/kit/kitGraph.c.i
 
 # target to preprocess a source file
 aig/kit/kitGraph.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.i
 .PHONY : aig/kit/kitGraph.c.i
 
 aig/kit/kitGraph.s: aig/kit/kitGraph.c.s
@@ -1134,7 +1134,7 @@ aig/kit/kitGraph.s: aig/kit/kitGraph.c.s
 
 # target to generate assembly for a file
 aig/kit/kitGraph.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.s
 .PHONY : aig/kit/kitGraph.c.s
 
 aig/kit/kitIsop.o: aig/kit/kitIsop.c.o
@@ -1142,7 +1142,7 @@ aig/kit/kitIsop.o: aig/kit/kitIsop.c.o
 
 # target to build an object file
 aig/kit/kitIsop.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o
 .PHONY : aig/kit/kitIsop.c.o
 
 aig/kit/kitIsop.i: aig/kit/kitIsop.c.i
@@ -1150,7 +1150,7 @@ aig/kit/kitIsop.i: aig/kit/kitIsop.c.i
 
 # target to preprocess a source file
 aig/kit/kitIsop.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.i
 .PHONY : aig/kit/kitIsop.c.i
 
 aig/kit/kitIsop.s: aig/kit/kitIsop.c.s
@@ -1158,7 +1158,7 @@ aig/kit/kitIsop.s: aig/kit/kitIsop.c.s
 
 # target to generate assembly for a file
 aig/kit/kitIsop.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.s
 .PHONY : aig/kit/kitIsop.c.s
 
 aig/kit/kitSop.o: aig/kit/kitSop.c.o
@@ -1166,7 +1166,7 @@ aig/kit/kitSop.o: aig/kit/kitSop.c.o
 
 # target to build an object file
 aig/kit/kitSop.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o
 .PHONY : aig/kit/kitSop.c.o
 
 aig/kit/kitSop.i: aig/kit/kitSop.c.i
@@ -1174,7 +1174,7 @@ aig/kit/kitSop.i: aig/kit/kitSop.c.i
 
 # target to preprocess a source file
 aig/kit/kitSop.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.i
 .PHONY : aig/kit/kitSop.c.i
 
 aig/kit/kitSop.s: aig/kit/kitSop.c.s
@@ -1182,7 +1182,7 @@ aig/kit/kitSop.s: aig/kit/kitSop.c.s
 
 # target to generate assembly for a file
 aig/kit/kitSop.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.s
 .PHONY : aig/kit/kitSop.c.s
 
 aig/kit/kitTruth.o: aig/kit/kitTruth.c.o
@@ -1190,7 +1190,7 @@ aig/kit/kitTruth.o: aig/kit/kitTruth.c.o
 
 # target to build an object file
 aig/kit/kitTruth.c.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o
 .PHONY : aig/kit/kitTruth.c.o
 
 aig/kit/kitTruth.i: aig/kit/kitTruth.c.i
@@ -1198,7 +1198,7 @@ aig/kit/kitTruth.i: aig/kit/kitTruth.c.i
 
 # target to preprocess a source file
 aig/kit/kitTruth.c.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.i
 .PHONY : aig/kit/kitTruth.c.i
 
 aig/kit/kitTruth.s: aig/kit/kitTruth.c.s
@@ -1206,7 +1206,7 @@ aig/kit/kitTruth.s: aig/kit/kitTruth.c.s
 
 # target to generate assembly for a file
 aig/kit/kitTruth.c.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/extlib-abc/CMakeFiles/abc.dir/build.make lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.s
 .PHONY : aig/kit/kitTruth.c.s
 
 # Help Target
@@ -1365,6 +1365,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

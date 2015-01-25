@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

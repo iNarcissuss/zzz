@@ -34,7 +34,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/MutableASTNode.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o
@@ -71,7 +71,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/PropagateEqualities.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o
@@ -109,7 +109,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/RemoveUnconstrained.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o
@@ -145,7 +145,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/SubstitutionMap.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o
@@ -167,7 +167,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/VariablesInExpression.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o
@@ -203,7 +203,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/bvsolver.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o
@@ -231,7 +231,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cp
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Arithmetic.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o
@@ -259,7 +259,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Boolean.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o
@@ -287,7 +287,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cp
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Comparison.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o
@@ -330,7 +330,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Division.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o
@@ -394,7 +394,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_MaxPrecision.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o
@@ -439,7 +439,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplicatio
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Multiplication.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o
@@ -467,7 +467,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Shifting.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o
@@ -495,7 +495,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunct
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_TransferFunctions.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o
@@ -522,7 +522,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitP_Utility.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o
@@ -577,7 +577,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/ConstantBitPropagation.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o
@@ -605,7 +605,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/constantBitP/FixedBits.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o
@@ -640,7 +640,7 @@ lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/consteval.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o
@@ -692,6 +692,6 @@ lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Simplifier/simplifier.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

@@ -70,7 +70,7 @@
 #define yychar          cvcchar
 
 /* Copy the first part of user declarations.  */
-#line 1 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:339  */
+#line 1 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:339  */
 
   // -*- c++ -*-
   /********************************************************************
@@ -111,7 +111,7 @@
   
   
 
-#line 115 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:339  */
+#line 115 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -131,8 +131,8 @@
 
 /* In a future release of Bison, this section will be replaced
    by #include "parsecvc.hpp".  */
-#ifndef YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
-# define YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
+#ifndef YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
+# define YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -226,7 +226,7 @@ extern int cvcdebug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 43 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:355  */
+#line 43 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:355  */
 
 
   unsigned int uintval;                 /* for numerals in types. */
@@ -249,7 +249,7 @@ union YYSTYPE
   //to array values. To support the WITH construct
   BEEV::ASTNodeMap * Index_To_UpdateValue;
 
-#line 253 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:355  */
+#line 253 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:355  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -260,11 +260,11 @@ extern YYSTYPE cvclval;
 
 int cvcparse (void* AssertsQuery);
 
-#endif /* !YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED  */
+#endif /* !YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED  */
 
 /* Copy the second part of user declarations.  */
 
-#line 268 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:358  */
+#line 268 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -1803,52 +1803,52 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 191 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 191 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   parserInterface->letMgr->_parser_symbol_table.clear();
 }
-#line 1811 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1811 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 3:
-#line 195 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 195 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   parserInterface->letMgr->_parser_symbol_table.clear(); 
 }
-#line 1819 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1819 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 4:
-#line 201 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 201 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   parserInterface->getUserFlags().print_counterexample_flag = true;
   (GlobalSTP->Ctr_Example)->PrintCounterExample(true);
 }
-#line 1828 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1828 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 6:
-#line 223 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 223 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   ((ASTVec*)AssertsQuery)->push_back(parserInterface->CreateNode(TRUE));
   ((ASTVec*)AssertsQuery)->push_back(*(yyvsp[0].node));                       
   delete (yyvsp[0].node);
 }
-#line 1838 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1838 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 7:
-#line 229 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 229 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   ((ASTVec*)AssertsQuery)->push_back(parserInterface->CreateNode(TRUE));
   ((ASTVec*)AssertsQuery)->push_back(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 1848 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1848 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 8:
-#line 235 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 235 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTVec aaa = parserInterface->GetAsserts();
   if(aaa.size() == 0)
@@ -1864,85 +1864,85 @@ yyreduce:
   ((ASTVec*)AssertsQuery)->push_back(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 1868 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1868 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 9:
-#line 253 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 253 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   delete (yyvsp[0].vec);
 }
-#line 1876 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1876 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 10:
-#line 257 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 257 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   delete (yyvsp[0].vec);
 }
-#line 1884 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1884 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 11:
-#line 261 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 261 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   delete (yyvsp[0].vec);
 }
-#line 1892 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1892 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 12:
-#line 281 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 281 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   (yyval.vec)->push_back(*(yyvsp[0].node));
   parserInterface->AddAssert(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 1903 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1903 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 13:
-#line 288 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 288 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyvsp[-1].vec)->push_back(*(yyvsp[0].node));
   parserInterface->AddAssert(*(yyvsp[0].node));
   (yyval.vec) = (yyvsp[-1].vec);
   delete (yyvsp[0].node);
 }
-#line 1914 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1914 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 14:
-#line 297 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 297 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   (yyval.node) = (yyvsp[-1].node);
  }
-#line 1922 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1922 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 15:
-#line 302 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 302 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { parserInterface->AddQuery(*(yyvsp[-1].node)); (yyval.node) = (yyvsp[-1].node);}
-#line 1928 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1928 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 16:
-#line 308 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 308 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
 }
-#line 1935 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1935 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 17:
-#line 311 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 311 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
 }
-#line 1942 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1942 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 18:
-#line 316 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 316 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   for(vector<char*>::iterator i=(yyvsp[-2].stringVec)->begin(),iend=(yyvsp[-2].stringVec)->end();i!=iend;i++) {
     ASTNode s = BEEV::parserInterface->LookupOrCreateSymbol(*i);
@@ -1953,11 +1953,11 @@ yyreduce:
   }
   delete (yyvsp[-2].stringVec);
 }
-#line 1957 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1957 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 19:
-#line 327 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 327 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //do type checking. if doesn't pass then abort
   BVTypeCheck(*(yyvsp[0].node));
@@ -1972,11 +1972,11 @@ yyreduce:
     delete (yyvsp[0].node);
     delete (yyvsp[-4].stringVec);
 }
-#line 1976 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1976 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 20:
-#line 342 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 342 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //do type checking. if doesn't pass then abort
   BVTypeCheck(*(yyvsp[0].node));
@@ -1991,58 +1991,58 @@ yyreduce:
   delete (yyvsp[0].node);
   delete (yyvsp[-4].stringVec);
 }
-#line 1995 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 1995 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 21:
-#line 359 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 359 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.stringVec) = new vector<char*>();                      
   (yyval.stringVec)->push_back((yyvsp[0].str));
  // delete $1;
 }
-#line 2005 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2005 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 22:
-#line 365 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 365 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyvsp[0].stringVec)->push_back((yyvsp[-2].str));
   (yyval.stringVec) = (yyvsp[0].stringVec);
  // delete $1;
 }
-#line 2015 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2015 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 23:
-#line 373 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 373 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.stringVec) = new vector<char*>((yyvsp[0].stringVec)->rbegin(),(yyvsp[0].stringVec)->rend());
   delete (yyvsp[0].stringVec);
 }
-#line 2024 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2024 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 24:
-#line 388 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 388 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.indexvaluewidth) = (yyvsp[0].indexvaluewidth); }
-#line 2030 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2030 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 25:
-#line 389 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 389 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.indexvaluewidth) = (yyvsp[0].indexvaluewidth); }
-#line 2036 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2036 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 26:
-#line 390 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 390 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.indexvaluewidth) = (yyvsp[0].indexvaluewidth); }
-#line 2042 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2042 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 27:
-#line 394 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 394 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   /*((indexwidth is 0) && (valuewidth>0)) iff type is BV*/
   (yyval.indexvaluewidth).indexwidth = 0;
@@ -2053,29 +2053,29 @@ yyreduce:
   else
     FatalError("Fatal Error: parsing: BITVECTORS must be of positive length: \n");
 }
-#line 2057 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2057 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 28:
-#line 406 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 406 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.indexvaluewidth).indexwidth = 0;
   (yyval.indexvaluewidth).valuewidth = 0;
 }
-#line 2066 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2066 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 29:
-#line 412 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 412 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.indexvaluewidth).indexwidth = (yyvsp[-2].indexvaluewidth).valuewidth;
   (yyval.indexvaluewidth).valuewidth = (yyvsp[0].indexvaluewidth).valuewidth;
 }
-#line 2075 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2075 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 30:
-#line 420 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 420 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-1].node)->GetValueWidth();
   if (width != (yyvsp[0].node)->GetValueWidth())
@@ -2091,17 +2091,17 @@ yyreduce:
   delete (yyvsp[-1].node);
   delete (yyvsp[0].node);
 }
-#line 2095 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2095 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 31:
-#line 437 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 437 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = (yyvsp[-1].node); }
-#line 2101 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2101 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 32:
-#line 439 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 439 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if (width != (yyvsp[-1].node)->GetValueWidth() || width != (yyvsp[0].node)->GetValueWidth())
@@ -2117,37 +2117,37 @@ yyreduce:
   delete (yyvsp[-1].node);
   delete (yyvsp[0].node);
 }
-#line 2121 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2121 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 33:
-#line 458 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 458 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[-1].node); 
 }
-#line 2129 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2129 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 34:
-#line 462 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 462 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {  
   (yyval.node) = new ASTNode(parserInterface->letMgr->ResolveID(*(yyvsp[0].node))); delete (yyvsp[0].node);
 }
-#line 2137 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2137 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 35:
-#line 466 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 466 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(PARAMBOOL,*(yyvsp[-3].node),*(yyvsp[-1].node)));
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2147 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2147 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 36:
-#line 472 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 472 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if(width <= (unsigned)(yyvsp[-1].uintval))
@@ -2159,307 +2159,307 @@ yyreduce:
   (yyval.node) = out;
   delete (yyvsp[-3].node);
 }
-#line 2163 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2163 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 37:
-#line 484 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 484 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(EQ, *(yyvsp[-2].node), *(yyvsp[0].node)));
   (yyval.node) = n;
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2174 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2174 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 38:
-#line 491 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 491 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(NOT, parserInterface->nf->CreateNode(EQ, *(yyvsp[-2].node), *(yyvsp[0].node))));
   (yyval.node) = n;
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2185 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2185 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 39:
-#line 498 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 498 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(NOT, *(yyvsp[0].node)));
   delete (yyvsp[0].node);
 }
-#line 2194 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2194 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 40:
-#line 503 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 503 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(OR, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2204 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2204 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 41:
-#line 509 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 509 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(NOR, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2214 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2214 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 42:
-#line 515 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 515 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(AND, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2224 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2224 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 43:
-#line 521 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 521 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(NAND, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2234 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2234 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 44:
-#line 527 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 527 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(IMPLIES, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2244 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2244 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 45:
-#line 533 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 533 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(IFF, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2254 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2254 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 46:
-#line 539 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 539 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(XOR, *(yyvsp[-2].node), *(yyvsp[0].node)));
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2264 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2264 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 47:
-#line 545 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 545 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVLT, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2275 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2275 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 48:
-#line 552 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 552 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVGT, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2286 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2286 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 49:
-#line 559 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 559 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVLE, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2297 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2297 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 50:
-#line 566 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 566 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVGE, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2308 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2308 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 51:
-#line 573 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 573 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVSLT, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2319 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2319 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 52:
-#line 580 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 580 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVSGT, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2330 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2330 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 53:
-#line 587 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 587 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVSLE, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2341 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2341 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 54:
-#line 594 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 594 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateNode(BVSGE, *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2352 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2352 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 56:
-#line 602 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 602 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->CreateNode(TRUE)); 
   assert((yyval.node)->GetIndexWidth() == 0);
   assert((yyval.node)->GetValueWidth() == 0);
 }
-#line 2362 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2362 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 57:
-#line 608 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 608 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   (yyval.node) = new ASTNode(parserInterface->CreateNode(FALSE)); 
   assert((yyval.node)->GetIndexWidth() == 0);
   assert((yyval.node)->GetValueWidth() == 0);
 }
-#line 2372 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2372 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 58:
-#line 615 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 615 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[0].node);
   //Cleanup the LetIDToExprMap
   parserInterface->letMgr->CleanupLetIDMap();
 }
-#line 2382 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2382 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 59:
-#line 624 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 624 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(ITE, *(yyvsp[-3].node), *(yyvsp[-1].node), *(yyvsp[0].node)));
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
   delete (yyvsp[0].node);
 }
-#line 2393 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2393 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 60:
-#line 632 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 632 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = (yyvsp[-1].node); }
-#line 2399 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2399 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 61:
-#line 634 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 634 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = new ASTNode(parserInterface->nf->CreateNode(ITE, *(yyvsp[-3].node), *(yyvsp[-1].node), *(yyvsp[0].node)));
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
   delete (yyvsp[0].node);
 }
-#line 2410 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2410 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 62:
-#line 640 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 640 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
    cerr << "Unresolved symbol:" << (yyvsp[0].str) << endl;
    yyerror("bad symbol"); 
 }
-#line 2419 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2419 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 63:
-#line 648 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 648 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.vec) = new ASTVec;
   BVTypeCheck(*(yyvsp[0].node));
   (yyval.vec)->push_back(*(yyvsp[0].node));
   delete (yyvsp[0].node);
 }
-#line 2430 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2430 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 64:
-#line 655 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 655 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyvsp[-2].vec)->push_back(*(yyvsp[0].node));
   BVTypeCheck(*(yyvsp[0].node));
   (yyval.vec) = (yyvsp[-2].vec); 
   delete (yyvsp[0].node);
 }
-#line 2441 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2441 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 65:
-#line 664 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 664 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = new ASTNode(parserInterface->letMgr->ResolveID(*(yyvsp[0].node))); delete (yyvsp[0].node);}
-#line 2447 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2447 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 66:
-#line 665 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 665 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = (yyvsp[-1].node); }
-#line 2453 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2453 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 67:
-#line 666 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 666 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = (yyvsp[0].node); }
-#line 2459 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2459 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 68:
-#line 668 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 668 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   BVTypeCheck(*(yyvsp[-1].node));
   ASTNode one = parserInterface->CreateBVConst(1,1);
@@ -2469,41 +2469,41 @@ yyreduce:
   (yyval.node) = new ASTNode(parserInterface->nf->CreateTerm(ITE,1,*(yyvsp[-1].node),one,zero));
   delete (yyvsp[-1].node);
 }
-#line 2473 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2473 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 69:
-#line 678 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 678 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   std::string vals((yyvsp[0].str));
   (yyval.node) = new ASTNode(parserInterface->CreateBVConst(vals, 2, (yyvsp[-1].uintval)));
   free((yyvsp[0].str));
 }
-#line 2483 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2483 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 70:
-#line 684 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 684 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   std::string vals((yyvsp[0].str));
   (yyval.node) = new ASTNode(parserInterface->CreateBVConst(vals, 10, (yyvsp[-1].uintval)));
   free((yyvsp[0].str));
 }
-#line 2493 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2493 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 71:
-#line 690 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 690 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { 
   std::string vals((yyvsp[0].str));
   (yyval.node) = new ASTNode(parserInterface->CreateBVConst(vals, 16, (yyvsp[-1].uintval)));
   free((yyvsp[0].str));
 }
-#line 2503 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2503 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 72:
-#line 696 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 696 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {                        
   // valuewidth is same as array, indexwidth is 0.
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
@@ -2513,11 +2513,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2517 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2517 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 73:
-#line 706 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 706 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   // valuewidth is same as array, indexwidth is 0.
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
@@ -2527,11 +2527,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2531 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2531 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 74:
-#line 716 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 716 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   int width = (yyvsp[-3].uintval) - (yyvsp[-1].uintval) + 1;
   if (width < 0)
@@ -2546,22 +2546,22 @@ yyreduce:
   (yyval.node) = n;
   delete (yyvsp[-5].node);
 }
-#line 2550 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2550 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 75:
-#line 731 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 731 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[0].node)->GetValueWidth();
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVNEG, width, *(yyvsp[0].node)));
   (yyval.node) = n;
   delete (yyvsp[0].node);
 }
-#line 2561 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2561 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 76:
-#line 738 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 738 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-2].node)->GetValueWidth();
   if (width != (yyvsp[0].node)->GetValueWidth()) {
@@ -2572,11 +2572,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2576 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2576 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 77:
-#line 749 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 749 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-2].node)->GetValueWidth();
   if (width != (yyvsp[0].node)->GetValueWidth()) {
@@ -2587,11 +2587,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2591 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2591 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 78:
-#line 760 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 760 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if (width != (yyvsp[-1].node)->GetValueWidth()) {
@@ -2602,11 +2602,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2606 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2606 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 79:
-#line 771 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 771 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if (width != (yyvsp[-1].node)->GetValueWidth()) {
@@ -2618,11 +2618,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2622 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2622 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 80:
-#line 783 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 783 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if (width != (yyvsp[-1].node)->GetValueWidth()) {
@@ -2634,11 +2634,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2638 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2638 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 81:
-#line 795 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 795 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   if (width != (yyvsp[-1].node)->GetValueWidth()) {
@@ -2650,11 +2650,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2654 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2654 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 82:
-#line 807 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 807 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //width of the expr which is being sign
   //extended. $5 is the resulting length of the
@@ -2666,11 +2666,11 @@ yyreduce:
   (yyval.node) = n;
   delete (yyvsp[-3].node);
 }
-#line 2670 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2670 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 83:
-#line 819 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 819 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //width of the expr which is being zero
   //extended. $5 is the resulting length of the
@@ -2682,11 +2682,11 @@ yyreduce:
   (yyval.node) = n;
   delete (yyvsp[-3].node);
 }
-#line 2686 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2686 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 84:
-#line 831 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 831 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-2].node)->GetValueWidth() + (yyvsp[0].node)->GetValueWidth();
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVCONCAT, width, *(yyvsp[-2].node), *(yyvsp[0].node)));
@@ -2695,11 +2695,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2699 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2699 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 85:
-#line 840 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 840 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   if (0 == (yyvsp[0].uintval))
   	{
@@ -2715,11 +2715,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   }
 }
-#line 2719 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2719 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 86:
-#line 856 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 856 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   // VARIABLE LEFT SHIFT
   //
@@ -2735,11 +2735,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2739 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2739 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 87:
-#line 872 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 872 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode len = parserInterface->CreateZeroConst((yyvsp[0].uintval));
   unsigned int w = (yyvsp[-2].node)->GetValueWidth();
@@ -2759,11 +2759,11 @@ yyreduce:
 
   delete (yyvsp[-2].node);
 }
-#line 2763 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2763 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 88:
-#line 892 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 892 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   // VARIABLE RIGHT SHIFT
   //
@@ -2779,11 +2779,11 @@ yyreduce:
   delete (yyvsp[-2].node);
   delete (yyvsp[0].node);
 }
-#line 2783 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2783 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 89:
-#line 908 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 908 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVLEFTSHIFT, width, *(yyvsp[-3].node), *(yyvsp[-1].node)));
@@ -2792,11 +2792,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2796 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2796 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 90:
-#line 917 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 917 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVRIGHTSHIFT, width, *(yyvsp[-3].node), *(yyvsp[-1].node)));
@@ -2805,11 +2805,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2809 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2809 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 91:
-#line 926 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 926 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned int width = (yyvsp[-3].node)->GetValueWidth();
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVSRSHIFT, width, *(yyvsp[-3].node), *(yyvsp[-1].node)));
@@ -2818,22 +2818,22 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2822 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2822 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 92:
-#line 935 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 935 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVPLUS, (yyvsp[-3].uintval), *(yyvsp[-1].vec)));
   (yyval.node) = n;
 
   delete (yyvsp[-1].vec);
 }
-#line 2833 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2833 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 93:
-#line 942 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 942 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVSUB, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
@@ -2841,22 +2841,22 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2845 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2845 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 94:
-#line 950 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 950 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   unsigned width = (yyvsp[-1].node)->GetValueWidth();
   ASTNode * n =  new ASTNode(parserInterface->nf->CreateTerm(BVUMINUS,width,*(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-1].node);
 }
-#line 2856 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2856 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 95:
-#line 957 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 957 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVMULT, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
@@ -2864,11 +2864,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2868 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2868 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 96:
-#line 965 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 965 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVDIV, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
@@ -2876,11 +2876,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2880 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2880 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 97:
-#line 973 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 973 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(BVMOD, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
@@ -2888,11 +2888,11 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2892 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2892 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 98:
-#line 981 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 981 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(SBVDIV, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
@@ -2900,45 +2900,45 @@ yyreduce:
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2904 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2904 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 99:
-#line 989 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 989 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * n = new ASTNode(parserInterface->nf->CreateTerm(SBVREM, (yyvsp[-5].uintval), *(yyvsp[-3].node), *(yyvsp[-1].node)));
   (yyval.node) = n;
   delete (yyvsp[-3].node);
   delete (yyvsp[-1].node);
 }
-#line 2915 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2915 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 100:
-#line 995 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 995 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     { (yyval.node) = (yyvsp[0].node); }
-#line 2921 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2921 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 102:
-#line 998 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 998 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.node) = (yyvsp[0].node);
 }
-#line 2929 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2929 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 103:
-#line 1001 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1001 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
    cerr << "Unresolved symbol:" << (yyvsp[0].str) << endl;
    yyerror("bad symbol"); 
 }
-#line 2938 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2938 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 104:
-#line 1009 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1009 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   ASTNode * result;
   unsigned int width = (yyvsp[-2].node)->GetValueWidth();
@@ -2966,32 +2966,32 @@ yyreduce:
   delete (yyvsp[0].Index_To_UpdateValue);
   delete (yyvsp[-2].node);
 }
-#line 2970 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2970 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 105:
-#line 1039 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1039 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   (yyval.Index_To_UpdateValue) = new ASTNodeMap();
   (*(yyval.Index_To_UpdateValue))[*(yyvsp[-3].node)] = *(yyvsp[0].node);         
   delete (yyvsp[-3].node);
   delete (yyvsp[0].node);        
 }
-#line 2981 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2981 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 106:
-#line 1046 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1046 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {                   
   (*(yyvsp[-6].Index_To_UpdateValue))[*(yyvsp[-3].node)] = *(yyvsp[0].node);
   delete (yyvsp[-3].node);
   delete (yyvsp[0].node);
 }
-#line 2991 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 2991 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 109:
-#line 1059 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1059 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //Expr must typecheck
   BVTypeCheck(*(yyvsp[0].node));
@@ -3010,11 +3010,11 @@ yyreduce:
   free((yyvsp[-2].str));
   delete (yyvsp[0].node);
 }
-#line 3014 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 3014 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 110:
-#line 1078 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1078 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //do type checking. if doesn't pass then abort
   BVTypeCheck(*(yyvsp[0].node));
@@ -3028,11 +3028,11 @@ yyreduce:
   free( (yyvsp[-4].str));
   delete (yyvsp[0].node);
 }
-#line 3032 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 3032 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 111:
-#line 1092 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1092 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //Expr must typecheck
   BVTypeCheck(*(yyvsp[0].node));
@@ -3042,11 +3042,11 @@ yyreduce:
   free( (yyvsp[-2].str));
   delete (yyvsp[0].node);
 }
-#line 3046 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 3046 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
   case 112:
-#line 1102 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
+#line 1102 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1646  */
     {
   //do type checking. if doesn't pass then abort
   BVTypeCheck(*(yyvsp[0].node));
@@ -3061,11 +3061,11 @@ yyreduce:
   free( (yyvsp[-4].str));
   delete (yyvsp[0].node);
 }
-#line 3065 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 3065 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
     break;
 
 
-#line 3069 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
+#line 3069 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -3293,5 +3293,5 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 1118 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1906  */
+#line 1118 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1906  */
 

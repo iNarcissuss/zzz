@@ -43,6 +43,6 @@ lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/Globals.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/Globals/Globals.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

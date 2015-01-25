@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o: ../lib/Sat/cryptominisat2/ClauseAllocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp > CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp > CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp -o CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseAllocator.cpp -o CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o.requires
@@ -74,17 +74,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o.provi
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o: ../lib/Sat/cryptominisat2/ClauseCleaner.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp > CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp > CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp -o CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/ClauseCleaner.cpp -o CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o.requires
@@ -97,17 +97,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o.provide
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o: ../lib/Sat/cryptominisat2/FailedVarSearcher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp > CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp > CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp -o CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FailedVarSearcher.cpp -o CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o.requires
@@ -120,17 +120,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o.pro
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o: ../lib/Sat/cryptominisat2/FindUndef.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp > CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp > CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp -o CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/FindUndef.cpp -o CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o.requires
@@ -143,17 +143,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o.provides.bu
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o: ../lib/Sat/cryptominisat2/Gaussian.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp > CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp > CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp -o CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Gaussian.cpp -o CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o.requires
@@ -166,17 +166,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o.provides.bui
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o: ../lib/Sat/cryptominisat2/Logger.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Logger.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Logger.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/Logger.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp > CMakeFiles/cryptominisat2.dir/Logger.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp > CMakeFiles/cryptominisat2.dir/Logger.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/Logger.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp -o CMakeFiles/cryptominisat2.dir/Logger.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Logger.cpp -o CMakeFiles/cryptominisat2.dir/Logger.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o.requires
@@ -189,17 +189,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o.provides.build
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o: ../lib/Sat/cryptominisat2/MatrixFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp > CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp > CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp -o CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/MatrixFinder.cpp -o CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o.requires
@@ -212,17 +212,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o.provides
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o: ../lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp > CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp > CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp -o CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/OnlyNonLearntBins.cpp -o CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o.requires
@@ -235,17 +235,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o.pro
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o: ../lib/Sat/cryptominisat2/PackedRow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp > CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp > CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp -o CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PackedRow.cpp -o CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o.requires
@@ -258,17 +258,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o.provides.bu
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o: ../lib/Sat/cryptominisat2/PartFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp > CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp > CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp -o CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartFinder.cpp -o CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o.requires
@@ -281,17 +281,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o.provides.b
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o: ../lib/Sat/cryptominisat2/PartHandler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp > CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp > CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp -o CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/PartHandler.cpp -o CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o.requires
@@ -304,17 +304,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o.provides.
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o: ../lib/Sat/cryptominisat2/RestartTypeChooser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp > CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp > CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp -o CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/RestartTypeChooser.cpp -o CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o.requires
@@ -327,17 +327,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o.pr
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o: ../lib/Sat/cryptominisat2/Solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Solver.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Solver.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/Solver.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp > CMakeFiles/cryptominisat2.dir/Solver.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp > CMakeFiles/cryptominisat2.dir/Solver.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/Solver.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp -o CMakeFiles/cryptominisat2.dir/Solver.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Solver.cpp -o CMakeFiles/cryptominisat2.dir/Solver.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o.requires
@@ -350,17 +350,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o.provides.build
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o: ../lib/Sat/cryptominisat2/StateSaver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp > CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp > CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp -o CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/StateSaver.cpp -o CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o.requires
@@ -373,17 +373,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o.provides.b
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o: ../lib/Sat/cryptominisat2/Subsumer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp > CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp > CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp -o CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/Subsumer.cpp -o CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o.requires
@@ -396,17 +396,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o.provides.bui
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o: ../lib/Sat/cryptominisat2/UselessBinRemover.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp > CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp > CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp -o CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/UselessBinRemover.cpp -o CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o.requires
@@ -419,17 +419,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o.pro
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o: ../lib/Sat/cryptominisat2/VarReplacer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp > CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp > CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp -o CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/VarReplacer.cpp -o CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o.requires
@@ -442,17 +442,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o.provides.
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o: ../lib/Sat/cryptominisat2/XorFinder.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp > CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp > CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp -o CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorFinder.cpp -o CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o.requires
@@ -465,17 +465,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o.provides.bu
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o: ../lib/Sat/cryptominisat2/XorSubsumer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp > CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp > CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp -o CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/XorSubsumer.cpp -o CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o.requires
@@ -488,17 +488,17 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o.provides.
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/flags.make
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o: ../lib/Sat/cryptominisat2/time_mem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/time_mem.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cryptominisat2.dir/time_mem.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cryptominisat2.dir/time_mem.cpp.i"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp > CMakeFiles/cryptominisat2.dir/time_mem.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp > CMakeFiles/cryptominisat2.dir/time_mem.cpp.i
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cryptominisat2.dir/time_mem.cpp.s"
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp -o CMakeFiles/cryptominisat2.dir/time_mem.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2/time_mem.cpp -o CMakeFiles/cryptominisat2.dir/time_mem.cpp.s
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o.requires:
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o.requires
@@ -559,10 +559,10 @@ lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/requires: lib/Sat/cryptomin
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/requires
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && $(CMAKE_COMMAND) -P CMakeFiles/cryptominisat2.dir/cmake_clean.cmake
+	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 && $(CMAKE_COMMAND) -P CMakeFiles/cryptominisat2.dir/cmake_clean.cmake
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/clean
 
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2 /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/cryptominisat2 /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2 /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/depend
 

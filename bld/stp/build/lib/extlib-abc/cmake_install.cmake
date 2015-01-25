@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc
+# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

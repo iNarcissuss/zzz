@@ -7,7 +7,7 @@
 
 # Compute paths
 get_filename_component(STP_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
-set(STP_INCLUDE_DIRS "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/include")
+set(STP_INCLUDE_DIRS "/home/travis/build/vdun/stoke/stoke/stp/build/include")
 
 # Our library dependencies (contains definitions for IMPORTED targets)
 include("${STP_CMAKE_DIR}/STPTargets.cmake")

@@ -570,17 +570,17 @@ string.h
 ctype.h
 -
 
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp
 stp/cpp_interface.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/cpp_interface.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/cpp_interface.h
 stp/ToSat/AIG/ToSATAIG.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/ToSat/AIG/ToSATAIG.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/ToSat/AIG/ToSATAIG.h
 stp/STPManager/STPManager.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/STPManager/STPManager.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/STPManager/STPManager.h
 stp/STPManager/STP.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/STPManager/STP.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/STPManager/STP.h
 stp/Parser/LetMgr.h
-/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/stp/Parser/LetMgr.h
+/home/travis/build/vdun/stoke/stoke/stp/lib/Interface/stp/Parser/LetMgr.h
 cassert
 -
 

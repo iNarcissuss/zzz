@@ -4,15 +4,15 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/BBNodeManagerAIG.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToCNFAIG.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToSATAIG.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ClauseList.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/SimpBool.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToCNF.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToSAT.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/BitBlaster.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ToSATBase.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/BBNodeManagerAIG.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToCNFAIG.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToSATAIG.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ClauseList.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/SimpBool.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToCNF.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToSAT.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/BitBlaster.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ToSATBase.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

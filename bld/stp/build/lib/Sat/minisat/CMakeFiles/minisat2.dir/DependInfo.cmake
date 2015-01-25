@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o"
-  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o"
+  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/STPManager/CMakeFiles/stpmgr.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/CMakeFiles/stpmgr.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/STPManager/CMakeFiles/stpmgr.dir/rule
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ stpmgr: lib/STPManager/CMakeFiles/stpmgr.dir/rule
 
 # fast build rule for target.
 stpmgr/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/build
 .PHONY : stpmgr/fast
 
 STP.o: STP.cpp.o
@@ -158,7 +158,7 @@ STP.o: STP.cpp.o
 
 # target to build an object file
 STP.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o
 .PHONY : STP.cpp.o
 
 STP.i: STP.cpp.i
@@ -166,7 +166,7 @@ STP.i: STP.cpp.i
 
 # target to preprocess a source file
 STP.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.i
 .PHONY : STP.cpp.i
 
 STP.s: STP.cpp.s
@@ -174,7 +174,7 @@ STP.s: STP.cpp.s
 
 # target to generate assembly for a file
 STP.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.s
 .PHONY : STP.cpp.s
 
 STPManager.o: STPManager.cpp.o
@@ -182,7 +182,7 @@ STPManager.o: STPManager.cpp.o
 
 # target to build an object file
 STPManager.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o
 .PHONY : STPManager.cpp.o
 
 STPManager.i: STPManager.cpp.i
@@ -190,7 +190,7 @@ STPManager.i: STPManager.cpp.i
 
 # target to preprocess a source file
 STPManager.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.i
 .PHONY : STPManager.cpp.i
 
 STPManager.s: STPManager.cpp.s
@@ -198,7 +198,7 @@ STPManager.s: STPManager.cpp.s
 
 # target to generate assembly for a file
 STPManager.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/STPManager/CMakeFiles/stpmgr.dir/build.make lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.s
 .PHONY : STPManager.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

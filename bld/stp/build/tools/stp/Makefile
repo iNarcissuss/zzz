@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/progress.marks
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/progress.marks
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/clean
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/preinstall
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/stp/CMakeFiles/stp.dir/rule:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/CMakeFiles/stp.dir/rule
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 tools/stp/CMakeFiles/stp.dir/rule
 .PHONY : tools/stp/CMakeFiles/stp.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ stp: tools/stp/CMakeFiles/stp.dir/rule
 
 # fast build rule for target.
 stp/fast:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/build
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/build
 .PHONY : stp/fast
 
 GitSHA1.o: GitSHA1.cpp.o
@@ -158,7 +158,7 @@ GitSHA1.o: GitSHA1.cpp.o
 
 # target to build an object file
 GitSHA1.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.o
 .PHONY : GitSHA1.cpp.o
 
 GitSHA1.i: GitSHA1.cpp.i
@@ -166,7 +166,7 @@ GitSHA1.i: GitSHA1.cpp.i
 
 # target to preprocess a source file
 GitSHA1.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.i
 .PHONY : GitSHA1.cpp.i
 
 GitSHA1.s: GitSHA1.cpp.s
@@ -174,7 +174,7 @@ GitSHA1.s: GitSHA1.cpp.s
 
 # target to generate assembly for a file
 GitSHA1.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.s
 .PHONY : GitSHA1.cpp.s
 
 STPProgramGlobals.o: STPProgramGlobals.cpp.o
@@ -182,7 +182,7 @@ STPProgramGlobals.o: STPProgramGlobals.cpp.o
 
 # target to build an object file
 STPProgramGlobals.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.o
 .PHONY : STPProgramGlobals.cpp.o
 
 STPProgramGlobals.i: STPProgramGlobals.cpp.i
@@ -190,7 +190,7 @@ STPProgramGlobals.i: STPProgramGlobals.cpp.i
 
 # target to preprocess a source file
 STPProgramGlobals.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.i
 .PHONY : STPProgramGlobals.cpp.i
 
 STPProgramGlobals.s: STPProgramGlobals.cpp.s
@@ -198,7 +198,7 @@ STPProgramGlobals.s: STPProgramGlobals.cpp.s
 
 # target to generate assembly for a file
 STPProgramGlobals.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.s
 .PHONY : STPProgramGlobals.cpp.s
 
 main.o: main.cpp.o
@@ -206,7 +206,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.o
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -214,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.i
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.s
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f tools/stp/CMakeFiles/stp.dir/build.make tools/stp/CMakeFiles/stp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -41,7 +41,7 @@ lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/BBNodeManagerAIG.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/BBNodeManagerAIG.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o
@@ -85,7 +85,7 @@ lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToCNFAIG.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToCNFAIG.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o
@@ -143,7 +143,7 @@ lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToSATAIG.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/AIG/ToSATAIG.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o
@@ -164,7 +164,7 @@ lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ClauseList.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ClauseList.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o
@@ -194,7 +194,7 @@ lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/SimpBool.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/SimpBool.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o
@@ -226,7 +226,7 @@ lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToCNF.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToCNF.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o
@@ -276,7 +276,7 @@ lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToSAT.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ASTNode/ToSAT.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o
@@ -333,7 +333,7 @@ lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/BitBlaster.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/BitBlaster.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o
@@ -364,6 +364,6 @@ lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat/ToSATBase.cpp
+ /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat/ToSATBase.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
