@@ -1,7 +1,7 @@
 // -*- c++ -*-
 #ifndef TESTKINDS_H
 #define TESTKINDS_H
-// Generated automatically by genkinds.pl from ASTKind.kinds Sun Jan 25 21:21:09 2015.
+// Generated automatically by genkinds.pl from ASTKind.kinds Sun Jan 25 21:31:27 2015.
 // Do not edit
 #include <iostream>
 namespace BEEV {

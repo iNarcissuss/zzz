@@ -1,64 +1,64 @@
 Performing C++ SOURCE FILE Test HAVE_FLAG_STD_GNUCPP11 failed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1925938854/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1925938854.dir/build.make CMakeFiles/cmTryCompileExec1925938854.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3653825093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3653825093.dir/build.make CMakeFiles/cmTryCompileExec3653825093.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1925938854.dir/src.cxx.o
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP11   -std=gnu++11 -o CMakeFiles/cmTryCompileExec1925938854.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3653825093.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP11   -std=gnu++11 -o CMakeFiles/cmTryCompileExec3653825093.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: error: unrecognized command line option '-std=gnu++11'
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec1925938854.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec1925938854/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec3653825093.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec3653825093/fast] Error 2
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_STD_CPP11 failed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2946835324/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2946835324.dir/build.make CMakeFiles/cmTryCompileExec2946835324.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec404758406/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec404758406.dir/build.make CMakeFiles/cmTryCompileExec404758406.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2946835324.dir/src.cxx.o
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP11   -std=c++11 -o CMakeFiles/cmTryCompileExec2946835324.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec404758406.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP11   -std=c++11 -o CMakeFiles/cmTryCompileExec404758406.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: error: unrecognized command line option '-std=c++11'
+make[1]: *** [CMakeFiles/cmTryCompileExec404758406.dir/src.cxx.o] Error 1
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec2946835324.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec2946835324/fast] Error 2
+make: *** [cmTryCompileExec404758406/fast] Error 2
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_STDLIB_LIBCPP failed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec800251732/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec800251732.dir/build.make CMakeFiles/cmTryCompileExec800251732.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec471256955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec471256955.dir/build.make CMakeFiles/cmTryCompileExec471256955.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec800251732.dir/src.cxx.o
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STDLIB_LIBCPP   -stdlib=libc++ -o CMakeFiles/cmTryCompileExec800251732.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec471256955.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STDLIB_LIBCPP   -stdlib=libc++ -o CMakeFiles/cmTryCompileExec471256955.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: error: unrecognized command line option '-stdlib=libc++'
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
-make[1]: *** [CMakeFiles/cmTryCompileExec800251732.dir/src.cxx.o] Error 1
-make: *** [cmTryCompileExec800251732/fast] Error 2
+make[1]: *** [CMakeFiles/cmTryCompileExec471256955.dir/src.cxx.o] Error 1
+make: *** [cmTryCompileExec471256955/fast] Error 2
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wheader-guard failed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1481625924/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1481625924.dir/build.make CMakeFiles/cmTryCompileExec1481625924.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2745359266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2745359266.dir/build.make CMakeFiles/cmTryCompileExec2745359266.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1481625924.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-Wheader-guard   -Wheader-guard -o CMakeFiles/cmTryCompileExec1481625924.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2745359266.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_FLAG_-Wheader-guard   -Wheader-guard -o CMakeFiles/cmTryCompileExec2745359266.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: error: unrecognized command line option '-Wheader-guard'
-make[1]: *** [CMakeFiles/cmTryCompileExec1481625924.dir/src.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTryCompileExec2745359266.dir/src.cxx.o] Error 1
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec1481625924/fast] Error 2
+make: *** [cmTryCompileExec2745359266/fast] Error 2
 
 Source file was:
 int main() { return 0;}

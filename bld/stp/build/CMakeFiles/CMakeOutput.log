@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/home/travis/build/vdun/stoke/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2255885168/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2255885168.dir/build.make CMakeFiles/cmTryCompileExec2255885168.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3251398829/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3251398829.dir/build.make CMakeFiles/cmTryCompileExec3251398829.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2255885168.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2255885168.dir/testCCompiler.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec2255885168
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2255885168.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2255885168.dir/testCCompiler.c.o  -o cmTryCompileExec2255885168 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3251398829.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3251398829.dir/testCCompiler.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3251398829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3251398829.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3251398829.dir/testCCompiler.c.o  -o cmTryCompileExec3251398829 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4207418328/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4207418328.dir/build.make CMakeFiles/cmTryCompileExec4207418328.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1639264839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1639264839.dir/build.make CMakeFiles/cmTryCompileExec1639264839.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec4207418328
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4207418328.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4207418328 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1639264839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1639264839.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1639264839 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4207418328' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4207418328 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1639264839' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1639264839 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4207418328/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4207418328.dir/build.make CMakeFiles/cmTryCompileExec4207418328.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1639264839/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1639264839.dir/build.make CMakeFiles/cmTryCompileExec1639264839.dir/build]
   ignore line: [make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec4207418328]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4207418328.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4207418328 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1639264839]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1639264839.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1639264839 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4207418328' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4207418328 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1639264839' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1639264839 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec4207418328] ==> ignore
+    arg [cmTryCompileExec1639264839] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec4207418328.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1639264839.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,30 +147,30 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1291530993/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1291530993.dir/build.make CMakeFiles/cmTryCompileExec1291530993.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2891766052/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2891766052.dir/build.make CMakeFiles/cmTryCompileExec2891766052.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1291530993.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1291530993.dir/testCXXCompiler.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1291530993
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1291530993.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1291530993.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1291530993 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2891766052.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2891766052.dir/testCXXCompiler.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2891766052
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2891766052.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2891766052.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2891766052 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2471358271/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2471358271.dir/build.make CMakeFiles/cmTryCompileExec2471358271.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3951872356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3951872356.dir/build.make CMakeFiles/cmTryCompileExec3951872356.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec2471358271
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2471358271.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2471358271 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3951872356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3951872356.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3951872356 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper
@@ -180,8 +180,8 @@ Thread model: posix
 gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2471358271' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2471358271 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3951872356' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3951872356 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 
@@ -189,15 +189,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2471358271/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2471358271.dir/build.make CMakeFiles/cmTryCompileExec2471358271.dir/build]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3951872356/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3951872356.dir/build.make CMakeFiles/cmTryCompileExec3951872356.dir/build]
   ignore line: [make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec2471358271]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2471358271.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2471358271 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3951872356]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3951872356.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3951872356 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper]
@@ -207,8 +207,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2471358271' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2471358271 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3951872356' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3951872356 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -223,7 +223,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2471358271] ==> ignore
+    arg [cmTryCompileExec3951872356] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o] ==> ignore
@@ -235,7 +235,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..]
-    arg [CMakeFiles/cmTryCompileExec2471358271.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3951872356.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -265,16 +265,16 @@ Parsed CXX implicit link information from above output:
 Performing C++ SOURCE FILE Test HAVE_FLAG_-fPIC succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec149815031/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec149815031.dir/build.make CMakeFiles/cmTryCompileExec149815031.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2667327/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2667327.dir/build.make CMakeFiles/cmTryCompileExec2667327.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec149815031.dir/src.cxx.o
-/usr/bin/c++    -DHAVE_FLAG_-fPIC   -fPIC -o CMakeFiles/cmTryCompileExec149815031.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2667327.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_FLAG_-fPIC   -fPIC -o CMakeFiles/cmTryCompileExec2667327.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: missing whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec149815031
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec149815031.dir/link.txt --verbose=1
-/usr/bin/c++    -DHAVE_FLAG_-fPIC    CMakeFiles/cmTryCompileExec149815031.dir/src.cxx.o  -o cmTryCompileExec149815031 -rdynamic 
+Linking CXX executable cmTryCompileExec2667327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2667327.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_FLAG_-fPIC    CMakeFiles/cmTryCompileExec2667327.dir/src.cxx.o  -o cmTryCompileExec2667327 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -282,15 +282,15 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_STD_GNUCPP0X succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2140357911/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2140357911.dir/build.make CMakeFiles/cmTryCompileExec2140357911.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4032495752/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4032495752.dir/build.make CMakeFiles/cmTryCompileExec4032495752.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2140357911.dir/src.cxx.o
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP0X   -std=gnu++0x -o CMakeFiles/cmTryCompileExec2140357911.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2140357911
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2140357911.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP0X    CMakeFiles/cmTryCompileExec2140357911.dir/src.cxx.o  -o cmTryCompileExec2140357911 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec4032495752.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP0X   -std=gnu++0x -o CMakeFiles/cmTryCompileExec4032495752.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4032495752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4032495752.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_GNUCPP0X    CMakeFiles/cmTryCompileExec4032495752.dir/src.cxx.o  -o cmTryCompileExec4032495752 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -298,15 +298,15 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_STD_CPP0X succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1459192803/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1459192803.dir/build.make CMakeFiles/cmTryCompileExec1459192803.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec813074820/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec813074820.dir/build.make CMakeFiles/cmTryCompileExec813074820.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1459192803.dir/src.cxx.o
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP0X   -std=c++0x -o CMakeFiles/cmTryCompileExec1459192803.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1459192803
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1459192803.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP0X    CMakeFiles/cmTryCompileExec1459192803.dir/src.cxx.o  -o cmTryCompileExec1459192803 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec813074820.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP0X   -std=c++0x -o CMakeFiles/cmTryCompileExec813074820.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec813074820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec813074820.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -DHAVE_FLAG_STD_CPP0X    CMakeFiles/cmTryCompileExec813074820.dir/src.cxx.o  -o cmTryCompileExec813074820 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -314,16 +314,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wall succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2149770164/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2149770164.dir/build.make CMakeFiles/cmTryCompileExec2149770164.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1311422973/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1311422973.dir/build.make CMakeFiles/cmTryCompileExec1311422973.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2149770164.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -DHAVE_FLAG_-Wall   -Wall -o CMakeFiles/cmTryCompileExec2149770164.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec1311422973.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -DHAVE_FLAG_-Wall   -Wall -o CMakeFiles/cmTryCompileExec1311422973.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec2149770164
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2149770164.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -DHAVE_FLAG_-Wall    CMakeFiles/cmTryCompileExec2149770164.dir/src.cxx.o  -o cmTryCompileExec2149770164 -rdynamic 
+Linking CXX executable cmTryCompileExec1311422973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1311422973.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -DHAVE_FLAG_-Wall    CMakeFiles/cmTryCompileExec1311422973.dir/src.cxx.o  -o cmTryCompileExec1311422973 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -331,16 +331,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-pedantic succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2786770386/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2786770386.dir/build.make CMakeFiles/cmTryCompileExec2786770386.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec473781149/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec473781149.dir/build.make CMakeFiles/cmTryCompileExec473781149.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2786770386.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -DHAVE_FLAG_-pedantic   -pedantic -o CMakeFiles/cmTryCompileExec2786770386.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec473781149.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -DHAVE_FLAG_-pedantic   -pedantic -o CMakeFiles/cmTryCompileExec473781149.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec2786770386
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2786770386.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -DHAVE_FLAG_-pedantic    CMakeFiles/cmTryCompileExec2786770386.dir/src.cxx.o  -o cmTryCompileExec2786770386 -rdynamic 
+Linking CXX executable cmTryCompileExec473781149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec473781149.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -DHAVE_FLAG_-pedantic    CMakeFiles/cmTryCompileExec473781149.dir/src.cxx.o  -o cmTryCompileExec473781149 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -348,16 +348,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wunused succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec363497142/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec363497142.dir/build.make CMakeFiles/cmTryCompileExec363497142.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2623112790/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2623112790.dir/build.make CMakeFiles/cmTryCompileExec2623112790.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec363497142.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -DHAVE_FLAG_-Wunused   -Wunused -o CMakeFiles/cmTryCompileExec363497142.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2623112790.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -DHAVE_FLAG_-Wunused   -Wunused -o CMakeFiles/cmTryCompileExec2623112790.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec363497142
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec363497142.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -DHAVE_FLAG_-Wunused    CMakeFiles/cmTryCompileExec363497142.dir/src.cxx.o  -o cmTryCompileExec363497142 -rdynamic 
+Linking CXX executable cmTryCompileExec2623112790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2623112790.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -DHAVE_FLAG_-Wunused    CMakeFiles/cmTryCompileExec2623112790.dir/src.cxx.o  -o cmTryCompileExec2623112790 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -365,16 +365,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wsign-compare succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1133455156/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1133455156.dir/build.make CMakeFiles/cmTryCompileExec1133455156.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4151896798/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4151896798.dir/build.make CMakeFiles/cmTryCompileExec4151896798.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1133455156.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -DHAVE_FLAG_-Wsign-compare   -Wsign-compare -o CMakeFiles/cmTryCompileExec1133455156.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec4151896798.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -DHAVE_FLAG_-Wsign-compare   -Wsign-compare -o CMakeFiles/cmTryCompileExec4151896798.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec1133455156
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1133455156.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -DHAVE_FLAG_-Wsign-compare    CMakeFiles/cmTryCompileExec1133455156.dir/src.cxx.o  -o cmTryCompileExec1133455156 -rdynamic 
+Linking CXX executable cmTryCompileExec4151896798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4151896798.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -DHAVE_FLAG_-Wsign-compare    CMakeFiles/cmTryCompileExec4151896798.dir/src.cxx.o  -o cmTryCompileExec4151896798 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -382,16 +382,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wtype-limits succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec620626660/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec620626660.dir/build.make CMakeFiles/cmTryCompileExec620626660.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3790431948/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3790431948.dir/build.make CMakeFiles/cmTryCompileExec3790431948.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec620626660.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -DHAVE_FLAG_-Wtype-limits   -Wtype-limits -o CMakeFiles/cmTryCompileExec620626660.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3790431948.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -DHAVE_FLAG_-Wtype-limits   -Wtype-limits -o CMakeFiles/cmTryCompileExec3790431948.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec620626660
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec620626660.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -DHAVE_FLAG_-Wtype-limits    CMakeFiles/cmTryCompileExec620626660.dir/src.cxx.o  -o cmTryCompileExec620626660 -rdynamic 
+Linking CXX executable cmTryCompileExec3790431948
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3790431948.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -DHAVE_FLAG_-Wtype-limits    CMakeFiles/cmTryCompileExec3790431948.dir/src.cxx.o  -o cmTryCompileExec3790431948 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -399,16 +399,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wuninitialized succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2616705050/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2616705050.dir/build.make CMakeFiles/cmTryCompileExec2616705050.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec2360503691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2360503691.dir/build.make CMakeFiles/cmTryCompileExec2360503691.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2616705050.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -DHAVE_FLAG_-Wuninitialized   -Wuninitialized -o CMakeFiles/cmTryCompileExec2616705050.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec2360503691.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -DHAVE_FLAG_-Wuninitialized   -Wuninitialized -o CMakeFiles/cmTryCompileExec2360503691.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec2616705050
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2616705050.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -DHAVE_FLAG_-Wuninitialized    CMakeFiles/cmTryCompileExec2616705050.dir/src.cxx.o  -o cmTryCompileExec2616705050 -rdynamic 
+Linking CXX executable cmTryCompileExec2360503691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2360503691.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -DHAVE_FLAG_-Wuninitialized    CMakeFiles/cmTryCompileExec2360503691.dir/src.cxx.o  -o cmTryCompileExec2360503691 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -416,16 +416,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-deprecated succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1480731271/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1480731271.dir/build.make CMakeFiles/cmTryCompileExec1480731271.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3480333114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3480333114.dir/build.make CMakeFiles/cmTryCompileExec3480333114.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1480731271.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTryCompileExec1480731271.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec3480333114.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTryCompileExec3480333114.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec1480731271
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1480731271.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated    CMakeFiles/cmTryCompileExec1480731271.dir/src.cxx.o  -o cmTryCompileExec1480731271 -rdynamic 
+Linking CXX executable cmTryCompileExec3480333114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3480333114.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -DHAVE_FLAG_-Wno-deprecated    CMakeFiles/cmTryCompileExec3480333114.dir/src.cxx.o  -o cmTryCompileExec3480333114 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -433,16 +433,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wstrict-aliasing succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3112813223/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3112813223.dir/build.make CMakeFiles/cmTryCompileExec3112813223.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec787215805/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec787215805.dir/build.make CMakeFiles/cmTryCompileExec787215805.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3112813223.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTryCompileExec3112813223.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec787215805.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTryCompileExec787215805.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec3112813223
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3112813223.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing    CMakeFiles/cmTryCompileExec3112813223.dir/src.cxx.o  -o cmTryCompileExec3112813223 -rdynamic 
+Linking CXX executable cmTryCompileExec787215805
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec787215805.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -DHAVE_FLAG_-Wstrict-aliasing    CMakeFiles/cmTryCompileExec787215805.dir/src.cxx.o  -o cmTryCompileExec787215805 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -450,16 +450,16 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_FLAG_-Wpointer-arith succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1112740848/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1112740848.dir/build.make CMakeFiles/cmTryCompileExec1112740848.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec600641214/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec600641214.dir/build.make CMakeFiles/cmTryCompileExec600641214.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1112740848.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith   -Wpointer-arith -o CMakeFiles/cmTryCompileExec1112740848.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTryCompileExec600641214.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith   -Wpointer-arith -o CMakeFiles/cmTryCompileExec600641214.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
 <command-line>:0:11: warning: ISO C99 requires whitespace after the macro name [enabled by default]
-Linking CXX executable cmTryCompileExec1112740848
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1112740848.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith    CMakeFiles/cmTryCompileExec1112740848.dir/src.cxx.o  -o cmTryCompileExec1112740848 -rdynamic 
+Linking CXX executable cmTryCompileExec600641214
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec600641214.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -DHAVE_FLAG_-Wpointer-arith    CMakeFiles/cmTryCompileExec600641214.dir/src.cxx.o  -o cmTryCompileExec600641214 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -467,15 +467,15 @@ int main() { return 0;}
 Performing C++ SOURCE FILE Test HAVE_HASH_SET_STD succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec568366699/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec568366699.dir/build.make CMakeFiles/cmTryCompileExec568366699.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1298343804/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1298343804.dir/build.make CMakeFiles/cmTryCompileExec1298343804.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec568366699.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_SET_STD   -o CMakeFiles/cmTryCompileExec568366699.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec568366699
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec568366699.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_SET_STD    CMakeFiles/cmTryCompileExec568366699.dir/src.cxx.o  -o cmTryCompileExec568366699 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1298343804.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_SET_STD   -o CMakeFiles/cmTryCompileExec1298343804.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1298343804
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1298343804.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_SET_STD    CMakeFiles/cmTryCompileExec1298343804.dir/src.cxx.o  -o cmTryCompileExec1298343804 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -487,15 +487,15 @@ Source file was:
 Performing C++ SOURCE FILE Test HAVE_HASH_MULTISET_STD succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2786802753/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2786802753.dir/build.make CMakeFiles/cmTryCompileExec2786802753.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4049055211/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4049055211.dir/build.make CMakeFiles/cmTryCompileExec4049055211.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2786802753.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MULTISET_STD   -o CMakeFiles/cmTryCompileExec2786802753.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec2786802753
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2786802753.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MULTISET_STD    CMakeFiles/cmTryCompileExec2786802753.dir/src.cxx.o  -o cmTryCompileExec2786802753 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec4049055211.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MULTISET_STD   -o CMakeFiles/cmTryCompileExec4049055211.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4049055211
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4049055211.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MULTISET_STD    CMakeFiles/cmTryCompileExec4049055211.dir/src.cxx.o  -o cmTryCompileExec4049055211 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -507,15 +507,15 @@ Source file was:
 Performing C++ SOURCE FILE Test HAVE_HASH_MAP_STD succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3075984832/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3075984832.dir/build.make CMakeFiles/cmTryCompileExec3075984832.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3555493264/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3555493264.dir/build.make CMakeFiles/cmTryCompileExec3555493264.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3075984832.dir/src.cxx.o
-/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MAP_STD   -o CMakeFiles/cmTryCompileExec3075984832.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec3075984832
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3075984832.dir/link.txt --verbose=1
-/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MAP_STD    CMakeFiles/cmTryCompileExec3075984832.dir/src.cxx.o  -o cmTryCompileExec3075984832 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec3555493264.dir/src.cxx.o
+/usr/bin/c++    -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MAP_STD   -o CMakeFiles/cmTryCompileExec3555493264.dir/src.cxx.o -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3555493264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3555493264.dir/link.txt --verbose=1
+/usr/bin/c++   -std=gnu++0x  -fPIC -Wall -pedantic -Wunused -Wsign-compare -Wtype-limits -Wuninitialized -Wno-deprecated -Wstrict-aliasing -Wpointer-arith -DHAVE_HASH_MAP_STD    CMakeFiles/cmTryCompileExec3555493264.dir/src.cxx.o  -o cmTryCompileExec3555493264 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -527,16 +527,16 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_C_FLAG_-fPIC succeded with the following output:
 Change Dir: /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec4128170857/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4128170857.dir/build.make CMakeFiles/cmTryCompileExec4128170857.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec1877259731/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1877259731.dir/build.make CMakeFiles/cmTryCompileExec1877259731.dir/build
 make[1]: Entering directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4128170857.dir/src.c.o
-/usr/bin/cc   -DHAVE_C_FLAG_-fPIC   -fPIC -o CMakeFiles/cmTryCompileExec4128170857.dir/src.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTryCompileExec1877259731.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG_-fPIC   -fPIC -o CMakeFiles/cmTryCompileExec1877259731.dir/src.c.o   -c /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp/src.c
 <command-line>:0:13: warning: missing whitespace after the macro name [enabled by default]
-Linking C executable cmTryCompileExec4128170857
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4128170857.dir/link.txt --verbose=1
-/usr/bin/cc   -DHAVE_C_FLAG_-fPIC    CMakeFiles/cmTryCompileExec4128170857.dir/src.c.o  -o cmTryCompileExec4128170857 -rdynamic 
+Linking C executable cmTryCompileExec1877259731
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1877259731.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_C_FLAG_-fPIC    CMakeFiles/cmTryCompileExec1877259731.dir/src.c.o  -o cmTryCompileExec1877259731 -rdynamic 
 make[1]: Leaving directory `/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/CMakeTmp'
 
 Source file was:
