@@ -19,7 +19,7 @@ lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/LetMgr.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o
@@ -66,8 +66,8 @@ lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexcvc.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o
@@ -114,8 +114,8 @@ lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o
@@ -162,8 +162,8 @@ lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt2.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o
@@ -210,7 +210,7 @@ lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o
@@ -232,7 +232,7 @@ lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o
@@ -254,6 +254,6 @@ lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o
  ../lib/Sat/cryptominisat2/msvc/stdint.h
  ../lib/Sat/cryptominisat2/time_mem.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

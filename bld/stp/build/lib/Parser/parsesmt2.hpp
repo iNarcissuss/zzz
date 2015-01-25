@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
-# define YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
+#ifndef YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
+# define YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -134,7 +134,7 @@ extern int smt2debug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 79 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1909  */
+#line 79 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt2.y" /* yacc.c:1909  */
   
   unsigned uintval;                  /* for numerals in types. */
   //ASTNode,ASTVec
@@ -142,7 +142,7 @@ union YYSTYPE
   BEEV::ASTVec *vec;
   std::string *str;
 
-#line 146 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp" /* yacc.c:1909  */
+#line 146 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt2.hpp" /* yacc.c:1909  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -153,4 +153,4 @@ extern YYSTYPE smt2lval;
 
 int smt2parse (void);
 
-#endif /* !YY_SMT2_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED  */
+#endif /* !YY_SMT2_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT2_HPP_INCLUDED  */

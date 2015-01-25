@@ -1,4 +1,4 @@
-# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp/lib
+# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/travis/build/vdun/stoke/stoke/stp/build/lib/libstp.a")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/libstp.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -59,7 +59,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/travis/build/vdun/stoke/stoke/stp/build/lib/libstp.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/libstp.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libstp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libstp.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -77,23 +77,23 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/include/stp" TYPE FILE FILES "/home/travis/build/vdun/stoke/stoke/stp/include/stp/c_interface.h")
+FILE(INSTALL DESTINATION "/usr/local/include/stp" TYPE FILE FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/include/stp/c_interface.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Globals/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Globals/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

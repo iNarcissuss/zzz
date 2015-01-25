@@ -45,7 +45,7 @@ lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o
@@ -91,7 +91,7 @@ lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o
@@ -137,7 +137,7 @@ lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o
@@ -183,7 +183,7 @@ lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o
@@ -229,7 +229,7 @@ lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o
@@ -275,7 +275,7 @@ lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o
@@ -322,7 +322,7 @@ lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o
@@ -369,7 +369,7 @@ lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o
@@ -416,7 +416,7 @@ lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o
@@ -462,6 +462,6 @@ lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o
  ../lib/Sat/minisat/mtl/Vec.h
  ../lib/Sat/minisat/mtl/XAlloc.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

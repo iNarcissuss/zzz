@@ -110,187 +110,187 @@ stdio.h
 stdio.h
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigCheck.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigDfs.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigFanout.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMan.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMem.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigMffc.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigObj.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOper.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigOrder.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigPart.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRepr.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigRet.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigScl.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigSeq.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigShow.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTable.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTime.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTiming.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTruth.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigTsim.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigUtil.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aigWin.c
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/aig/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCore.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfCut.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/kit.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfData.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMan.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfMap.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfPost.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfUtil.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnfWrite.c
 cnf.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/cnf/cnf.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darBalance.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCore.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darCut.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darData.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 abc.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/abc.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/abc.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darLib.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darMan.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darPrec.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darRefact.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/kit.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darScript.c
 darInt.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/dar/darInt.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitAig.c
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
 aig.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/aig.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/aig.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitGraph.c
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitIsop.c
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitSop.c
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kitTruth.c
 kit.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-abc/aig/kit/kit.h
 

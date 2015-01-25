@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/STPManager/CMakeFiles/stpmgr.dir/depend.make
@@ -51,17 +51,17 @@ include lib/STPManager/CMakeFiles/stpmgr.dir/flags.make
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o: lib/STPManager/CMakeFiles/stpmgr.dir/flags.make
 lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o: ../lib/STPManager/STP.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stpmgr.dir/STP.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stpmgr.dir/STP.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stpmgr.dir/STP.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp > CMakeFiles/stpmgr.dir/STP.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp > CMakeFiles/stpmgr.dir/STP.cpp.i
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stpmgr.dir/STP.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp -o CMakeFiles/stpmgr.dir/STP.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp -o CMakeFiles/stpmgr.dir/STP.cpp.s
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o.requires:
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o.requires
@@ -74,17 +74,17 @@ lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o.provides.build: lib/STPManager/CM
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o: lib/STPManager/CMakeFiles/stpmgr.dir/flags.make
 lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o: ../lib/STPManager/STPManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stpmgr.dir/STPManager.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stpmgr.dir/STPManager.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stpmgr.dir/STPManager.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp > CMakeFiles/stpmgr.dir/STPManager.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp > CMakeFiles/stpmgr.dir/STPManager.cpp.i
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stpmgr.dir/STPManager.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp -o CMakeFiles/stpmgr.dir/STPManager.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp -o CMakeFiles/stpmgr.dir/STPManager.cpp.s
 
 lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o.requires:
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o.requires
@@ -109,10 +109,10 @@ lib/STPManager/CMakeFiles/stpmgr.dir/requires: lib/STPManager/CMakeFiles/stpmgr.
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/requires
 
 lib/STPManager/CMakeFiles/stpmgr.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager && $(CMAKE_COMMAND) -P CMakeFiles/stpmgr.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager && $(CMAKE_COMMAND) -P CMakeFiles/stpmgr.dir/cmake_clean.cmake
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/clean
 
 lib/STPManager/CMakeFiles/stpmgr.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/STPManager /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager /home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/STPManager/CMakeFiles/stpmgr.dir/depend
 

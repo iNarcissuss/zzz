@@ -404,15 +404,15 @@ string.h
 ctype.h
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/Globals/Globals.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/Globals.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/Globals/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/stp/AST/AST.h
 stp/STPManager/STPManager.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/Globals/stp/STPManager/STPManager.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/stp/STPManager/STPManager.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/Globals/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/stp/STPManager/STP.h
 stp/Globals/Globals.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/Globals/stp/Globals/Globals.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Globals/stp/Globals/Globals.h
 
 include/stp/AST/ASTKind.h
 iostream

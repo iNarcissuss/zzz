@@ -4,10 +4,10 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

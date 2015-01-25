@@ -508,15 +508,15 @@ string.h
 ctype.h
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/GitSHA1.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/GitSHA1.cpp
 
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/GitSHA1.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/GitSHA1.h
 
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.cpp
 string
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.h
 iostream
 -
 sstream
@@ -538,33 +538,33 @@ unistd.h
 vector
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/main.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/main.cpp
 STPProgramGlobals.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.h
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/AST/AST.h
 stp/Printer/AssortedPrinters.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/Printer/AssortedPrinters.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/Printer/AssortedPrinters.h
 stp/Printer/printers.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/Printer/printers.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/Printer/printers.h
 stp/STPManager/STPManager.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/STPManager/STPManager.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/STPManager/STPManager.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/STPManager/STP.h
 stp/AST/NodeFactory/TypeChecker.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/AST/NodeFactory/TypeChecker.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/AST/NodeFactory/TypeChecker.h
 stp/AST/NodeFactory/SimplifyingNodeFactory.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/AST/NodeFactory/SimplifyingNodeFactory.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/AST/NodeFactory/SimplifyingNodeFactory.h
 stp/cpp_interface.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/stp/cpp_interface.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/stp/cpp_interface.h
 sys/time.h
 -
 memory
 -
 extlib-abc/cnf_short.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/extlib-abc/cnf_short.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/extlib-abc/cnf_short.h
 GitSHA1.h
-/home/travis/build/vdun/stoke/stoke/stp/tools/stp/GitSHA1.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/GitSHA1.h
 boost/lexical_cast.hpp
 -
 boost/program_options.hpp

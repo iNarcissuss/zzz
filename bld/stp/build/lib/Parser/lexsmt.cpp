@@ -1,6 +1,6 @@
-#line 2 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
+#line 2 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
 
-#line 4 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
+#line 4 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
 
 #define  YY_INT_ALIGNED short int
 
@@ -777,8 +777,8 @@ int smt_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *smttext;
-#line 1 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
-#line 2 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 1 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 2 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
   /********************************************************************
    * AUTHORS: Vijay Ganesh, David L. Dill, Trevor Hansen
    *
@@ -836,7 +836,7 @@ char *smttext;
 
 
 
-#line 840 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
+#line 840 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
 
 #define INITIAL 0
 #define COMMENT 1
@@ -1024,9 +1024,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 74 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 74 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 
-#line 1030 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
+#line 1030 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
 
 	if ( !(yy_init) )
 		{
@@ -1116,22 +1116,22 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 75 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 75 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { /* sk'ip whitespace */ }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 76 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 76 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { smtlval.uintval = strtoul(smttext, NULL, 10); return NUMERAL_TOK; }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 79 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 79 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { smtlval.str = new std::string(smttext+2); return BVCONST_TOK; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 81 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 81 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 {
   		   char c = smttext[3];
 		   if (c == '1') {
@@ -1145,62 +1145,62 @@ YY_RULE_SETUP
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 93 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 93 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN COMMENT; }
 	YY_BREAK
 case 6:
 /* rule 6 can match eol */
 YY_RULE_SETUP
-#line 94 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 94 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN INITIAL; /* return to normal mode */}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 95 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 95 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { /* stay in comment mode */ }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 97 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 97 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN STRING_LITERAL;
                           _string_lit.erase(_string_lit.begin(),
                                             _string_lit.end()); }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 100 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 100 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { /* escape characters (like \n or \") */
                           _string_lit.insert(_string_lit.end(),
                                              escapeChar(smttext[1])); }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 103 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 103 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN INITIAL; /* return to normal mode */
 			  smtlval.str = new std::string(_string_lit);
                           return STRING_TOK; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 106 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 106 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { _string_lit.insert(_string_lit.end(),*smttext); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 109 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 109 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN USER_VALUE;
                           _string_lit.erase(_string_lit.begin(),
                                             _string_lit.end()); }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 112 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 112 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { /* escape characters */
                           _string_lit.insert(_string_lit.end(),smttext[1]); }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 115 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 115 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { BEGIN INITIAL; /* return to normal mode */
 			  smtlval.str = new std::string(_string_lit);
                           return USER_VAL_TOK; }
@@ -1208,487 +1208,487 @@ YY_RULE_SETUP
 case 15:
 /* rule 15 can match eol */
 YY_RULE_SETUP
-#line 118 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 118 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { _string_lit.insert(_string_lit.end(),'\n');}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 119 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 119 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { _string_lit.insert(_string_lit.end(),*smttext); }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 121 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 121 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BITVEC_TOK;}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 122 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 122 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return ARRAY_TOK;}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 123 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 123 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return TRUE_TOK; }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 124 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 124 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return FALSE_TOK; }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 125 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 125 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return NOT_TOK; }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 126 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 126 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return IMPLIES_TOK; }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 127 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 127 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return ITE_TOK;}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 128 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 128 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return ITE_TOK;} // This is in the SMTLIB benchmarks.
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 129 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 129 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return AND_TOK; }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 130 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 130 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return OR_TOK; }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 131 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 131 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return XOR_TOK; }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 132 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 132 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return IFF_TOK; }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 133 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 133 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return LET_TOK; }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 134 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 134 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return FLET_TOK; }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 135 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 135 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return NOTES_TOK; }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 136 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 136 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SORTS_TOK; }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 137 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 137 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return FUNS_TOK; }
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 138 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 138 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return PREDS_TOK; }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 139 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 139 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return EXTENSIONS_TOK; }
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 140 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 140 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return DEFINITION_TOK; }
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 141 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 141 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return AXIOMS_TOK; }
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 142 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 142 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return LOGIC_TOK; }
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 143 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 143 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SAT_TOK; }
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 144 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 144 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return UNSAT_TOK; }
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 145 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 145 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return UNKNOWN_TOK; }
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 146 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 146 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return ASSUMPTION_TOK; }
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 147 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 147 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return FORMULA_TOK; }
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 148 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 148 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return STATUS_TOK; }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 149 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 149 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return DIFFICULTY_TOK; }
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 150 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 150 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BENCHMARK_TOK; }
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 151 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 151 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SOURCE_TOK;}
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 152 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 152 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return CATEGORY_TOK;} 
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 153 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 153 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return EXTRASORTS_TOK; }
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 154 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 154 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return EXTRAFUNS_TOK; }
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 155 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 155 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return EXTRAPREDS_TOK; }
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 156 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 156 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return LANGUAGE_TOK; }
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 157 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 157 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return DISTINCT_TOK; }
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 158 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 158 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SELECT_TOK; }
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 159 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 159 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return STORE_TOK; }
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 160 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 160 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return COLON_TOK; }
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 161 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 161 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return LBRACKET_TOK; }
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 162 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 162 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return RBRACKET_TOK; }
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 163 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 163 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return LPAREN_TOK; }
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 164 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 164 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return RPAREN_TOK; }
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 165 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 165 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return DOLLAR_TOK; }
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 166 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 166 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return QUESTION_TOK; }
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 167 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 167 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 {return EQ_TOK;}
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 169 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 169 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return NAND_TOK;}
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 170 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 170 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return NOR_TOK;}
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 171 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 171 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLEFTSHIFT_1_TOK;}
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 172 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 172 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVRIGHTSHIFT_1_TOK;}
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 173 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 173 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVARITHRIGHTSHIFT_TOK;}
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 174 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 174 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVPLUS_TOK;}
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 175 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 175 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSUB_TOK;}
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 176 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 176 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVNOT_TOK;}
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 177 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 177 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVMULT_TOK;}
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 178 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 178 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVDIV_TOK;}
 	YY_BREAK
 case 74:
 YY_RULE_SETUP
-#line 179 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 179 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SBVDIV_TOK;}
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 180 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 180 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVMOD_TOK;} 
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 181 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 181 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SBVREM_TOK;}
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 182 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 182 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return SBVMOD_TOK;}
 	YY_BREAK
 case 78:
 YY_RULE_SETUP
-#line 183 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 183 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVNEG_TOK;}
 	YY_BREAK
 case 79:
 YY_RULE_SETUP
-#line 184 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 184 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVAND_TOK;}
 	YY_BREAK
 case 80:
 YY_RULE_SETUP
-#line 185 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 185 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVOR_TOK;}
 	YY_BREAK
 case 81:
 YY_RULE_SETUP
-#line 186 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 186 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVXOR_TOK;}
 	YY_BREAK
 case 82:
 YY_RULE_SETUP
-#line 187 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 187 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVNAND_TOK;}
 	YY_BREAK
 case 83:
 YY_RULE_SETUP
-#line 188 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 188 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVNOR_TOK;}
 	YY_BREAK
 case 84:
 YY_RULE_SETUP
-#line 189 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 189 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVXNOR_TOK;}
 	YY_BREAK
 case 85:
 YY_RULE_SETUP
-#line 190 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 190 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVCONCAT_TOK;}
 	YY_BREAK
 case 86:
 YY_RULE_SETUP
-#line 191 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 191 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVEXTRACT_TOK;}
 	YY_BREAK
 case 87:
 YY_RULE_SETUP
-#line 192 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 192 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLT_TOK;}
 	YY_BREAK
 case 88:
 YY_RULE_SETUP
-#line 193 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 193 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVGT_TOK;}
 	YY_BREAK
 case 89:
 YY_RULE_SETUP
-#line 194 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 194 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLE_TOK;}
 	YY_BREAK
 case 90:
 YY_RULE_SETUP
-#line 195 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 195 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVGE_TOK;}
 	YY_BREAK
 case 91:
 YY_RULE_SETUP
-#line 196 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 196 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLT_TOK;}
 	YY_BREAK
 case 92:
 YY_RULE_SETUP
-#line 197 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 197 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVGT_TOK;}
 	YY_BREAK
 case 93:
 YY_RULE_SETUP
-#line 198 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 198 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLE_TOK;}
 	YY_BREAK
 case 94:
 YY_RULE_SETUP
-#line 199 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 199 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVGE_TOK;}
 	YY_BREAK
 case 95:
 YY_RULE_SETUP
-#line 200 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 200 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVLE_TOK;}
 	YY_BREAK
 case 96:
 YY_RULE_SETUP
-#line 201 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 201 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVGE_TOK;}
 	YY_BREAK
 case 97:
 YY_RULE_SETUP
-#line 203 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 203 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSLT_TOK;}
 	YY_BREAK
 case 98:
 YY_RULE_SETUP
-#line 204 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 204 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSGT_TOK;}
 	YY_BREAK
 case 99:
 YY_RULE_SETUP
-#line 205 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 205 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSLE_TOK;}
 	YY_BREAK
 case 100:
 YY_RULE_SETUP
-#line 206 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 206 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSGE_TOK;}
 	YY_BREAK
 case 101:
 YY_RULE_SETUP
-#line 207 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 207 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSLE_TOK;}
 	YY_BREAK
 case 102:
 YY_RULE_SETUP
-#line 208 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 208 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSGE_TOK;}
 	YY_BREAK
 case 103:
 YY_RULE_SETUP
-#line 210 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 210 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVCOMP_TOK;}
 	YY_BREAK
 case 104:
 YY_RULE_SETUP
-#line 213 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 213 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVZX_TOK;}
 	YY_BREAK
 case 105:
 YY_RULE_SETUP
-#line 214 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 214 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVSX_TOK;} 
 	YY_BREAK
 case 106:
 YY_RULE_SETUP
-#line 215 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 215 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVREPEAT_TOK;} 
 	YY_BREAK
 case 107:
 YY_RULE_SETUP
-#line 217 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 217 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVROTATE_LEFT_TOK;}
 	YY_BREAK
 case 108:
 YY_RULE_SETUP
-#line 218 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 218 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BVROTATE_RIGHT_TOK;} 
 	YY_BREAK
 case 109:
 YY_RULE_SETUP
-#line 220 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 220 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BOOLEXTRACT_TOK;}
 	YY_BREAK
 case 110:
 YY_RULE_SETUP
-#line 221 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 221 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { return BOOL_TO_BV_TOK;}
 	YY_BREAK
 case 111:
 YY_RULE_SETUP
-#line 223 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 223 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 {
   string str(smttext);
    bool found = false;
@@ -1722,15 +1722,15 @@ YY_RULE_SETUP
 	YY_BREAK
 case 112:
 YY_RULE_SETUP
-#line 253 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 253 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 { smterror("Illegal input character."); }
 	YY_BREAK
 case 113:
 YY_RULE_SETUP
-#line 254 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 254 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 ECHO;
 	YY_BREAK
-#line 1734 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
+#line 1734 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(COMMENT):
 case YY_STATE_EOF(STRING_LITERAL):
@@ -2695,7 +2695,7 @@ void smtfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 254 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
+#line 254 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex"
 
 
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Printer/CMakeFiles/printer.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Printer/CMakeFiles/printer.dir/flags.make
 
 lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o: ../lib/Printer/AssortedPrinters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/AssortedPrinters.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/AssortedPrinters.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp
 
 lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/AssortedPrinters.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp > CMakeFiles/printer.dir/AssortedPrinters.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp > CMakeFiles/printer.dir/AssortedPrinters.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/AssortedPrinters.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp -o CMakeFiles/printer.dir/AssortedPrinters.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp -o CMakeFiles/printer.dir/AssortedPrinters.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o.requires
@@ -74,17 +74,17 @@ lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o.provides.build: lib/Pr
 
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o: ../lib/Printer/BenchPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/BenchPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/BenchPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/BenchPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp > CMakeFiles/printer.dir/BenchPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp > CMakeFiles/printer.dir/BenchPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/BenchPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp -o CMakeFiles/printer.dir/BenchPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp -o CMakeFiles/printer.dir/BenchPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o.requires
@@ -97,17 +97,17 @@ lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o.provides.build: lib/Printe
 
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o: ../lib/Printer/CPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/CPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/CPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/CPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp > CMakeFiles/printer.dir/CPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp > CMakeFiles/printer.dir/CPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/CPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp -o CMakeFiles/printer.dir/CPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp -o CMakeFiles/printer.dir/CPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o.requires
@@ -120,17 +120,17 @@ lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o.provides.build: lib/Printer/CM
 
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o: ../lib/Printer/dotPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/dotPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/dotPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/dotPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp > CMakeFiles/printer.dir/dotPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp > CMakeFiles/printer.dir/dotPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/dotPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp -o CMakeFiles/printer.dir/dotPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp -o CMakeFiles/printer.dir/dotPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o.requires
@@ -143,17 +143,17 @@ lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o.provides.build: lib/Printer/
 
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o: ../lib/Printer/GDLPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/GDLPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/GDLPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/GDLPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp > CMakeFiles/printer.dir/GDLPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp > CMakeFiles/printer.dir/GDLPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/GDLPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp -o CMakeFiles/printer.dir/GDLPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp -o CMakeFiles/printer.dir/GDLPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o.requires
@@ -166,17 +166,17 @@ lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o.provides.build: lib/Printer/
 
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o: ../lib/Printer/LispPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/LispPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/LispPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/LispPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp > CMakeFiles/printer.dir/LispPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp > CMakeFiles/printer.dir/LispPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/LispPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp -o CMakeFiles/printer.dir/LispPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp -o CMakeFiles/printer.dir/LispPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o.requires
@@ -189,17 +189,17 @@ lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o.provides.build: lib/Printer
 
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o: ../lib/Printer/PLPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/PLPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/PLPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/PLPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp > CMakeFiles/printer.dir/PLPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp > CMakeFiles/printer.dir/PLPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/PLPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp -o CMakeFiles/printer.dir/PLPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp -o CMakeFiles/printer.dir/PLPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o.requires
@@ -212,17 +212,17 @@ lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o.provides.build: lib/Printer/C
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o: ../lib/Printer/SMTLIB1Printer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp > CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp > CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp -o CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp -o CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o.requires
@@ -235,17 +235,17 @@ lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o.provides.build: lib/Prin
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o: ../lib/Printer/SMTLIB2Printer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp > CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp > CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp -o CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp -o CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o.requires
@@ -258,17 +258,17 @@ lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o.provides.build: lib/Prin
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o: lib/Printer/CMakeFiles/printer.dir/flags.make
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o: ../lib/Printer/SMTLIBPrinter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp > CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp > CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp -o CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp -o CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s
 
 lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o.requires:
 .PHONY : lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o.requires
@@ -309,10 +309,10 @@ lib/Printer/CMakeFiles/printer.dir/requires: lib/Printer/CMakeFiles/printer.dir/
 .PHONY : lib/Printer/CMakeFiles/printer.dir/requires
 
 lib/Printer/CMakeFiles/printer.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer && $(CMAKE_COMMAND) -P CMakeFiles/printer.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer && $(CMAKE_COMMAND) -P CMakeFiles/printer.dir/cmake_clean.cmake
 .PHONY : lib/Printer/CMakeFiles/printer.dir/clean
 
 lib/Printer/CMakeFiles/printer.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Printer /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Printer/CMakeFiles/printer.dir/depend
 

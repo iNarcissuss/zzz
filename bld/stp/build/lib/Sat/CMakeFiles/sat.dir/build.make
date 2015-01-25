@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Sat/CMakeFiles/sat.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Sat/CMakeFiles/sat.dir/flags.make
 
 lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o: lib/Sat/CMakeFiles/sat.dir/flags.make
 lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o: ../lib/Sat/CryptoMinisat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/CryptoMinisat.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/CryptoMinisat.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp
 
 lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sat.dir/CryptoMinisat.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp > CMakeFiles/sat.dir/CryptoMinisat.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp > CMakeFiles/sat.dir/CryptoMinisat.cpp.i
 
 lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sat.dir/CryptoMinisat.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp -o CMakeFiles/sat.dir/CryptoMinisat.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/CryptoMinisat.cpp -o CMakeFiles/sat.dir/CryptoMinisat.cpp.s
 
 lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o.requires:
 .PHONY : lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o.requires
@@ -74,17 +74,17 @@ lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o.provides.build: lib/Sat/CMakeFile
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o: lib/Sat/CMakeFiles/sat.dir/flags.make
 lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o: ../lib/Sat/MinisatCore.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/MinisatCore.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/MinisatCore.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sat.dir/MinisatCore.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp > CMakeFiles/sat.dir/MinisatCore.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp > CMakeFiles/sat.dir/MinisatCore.cpp.i
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sat.dir/MinisatCore.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp -o CMakeFiles/sat.dir/MinisatCore.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore.cpp -o CMakeFiles/sat.dir/MinisatCore.cpp.s
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o.requires:
 .PHONY : lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o.requires
@@ -97,17 +97,17 @@ lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o.provides.build: lib/Sat/CMakeFiles/
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o: lib/Sat/CMakeFiles/sat.dir/flags.make
 lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o: ../lib/Sat/MinisatCore_prop.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/MinisatCore_prop.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/MinisatCore_prop.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sat.dir/MinisatCore_prop.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp > CMakeFiles/sat.dir/MinisatCore_prop.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp > CMakeFiles/sat.dir/MinisatCore_prop.cpp.i
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sat.dir/MinisatCore_prop.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp -o CMakeFiles/sat.dir/MinisatCore_prop.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/MinisatCore_prop.cpp -o CMakeFiles/sat.dir/MinisatCore_prop.cpp.s
 
 lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o.requires:
 .PHONY : lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o.requires
@@ -120,17 +120,17 @@ lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o.provides.build: lib/Sat/CMakeF
 
 lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o: lib/Sat/CMakeFiles/sat.dir/flags.make
 lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o: ../lib/Sat/SimplifyingMinisat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp
 
 lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp > CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp > CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i
 
 lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp -o CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/SimplifyingMinisat.cpp -o CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s
 
 lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o.requires:
 .PHONY : lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o.requires
@@ -159,10 +159,10 @@ lib/Sat/CMakeFiles/sat.dir/requires: lib/Sat/CMakeFiles/sat.dir/SimplifyingMinis
 .PHONY : lib/Sat/CMakeFiles/sat.dir/requires
 
 lib/Sat/CMakeFiles/sat.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat && $(CMAKE_COMMAND) -P CMakeFiles/sat.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat && $(CMAKE_COMMAND) -P CMakeFiles/sat.dir/cmake_clean.cmake
 .PHONY : lib/Sat/CMakeFiles/sat.dir/clean
 
 lib/Sat/CMakeFiles/sat.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Sat /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Sat/CMakeFiles/sat.dir/depend
 

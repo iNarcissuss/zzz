@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/libstp_static.dir/depend.make
@@ -54,144 +54,144 @@ libstp_static_OBJECTS =
 
 # External object files for target libstp_static
 libstp_static_EXTERNAL_OBJECTS = \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o" \
-"/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o"
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ArrayTransformer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTInterior.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTNode.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTUtil.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTBVConst.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTmisc.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/ASTSymbol.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/RunTimes.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/HashingNodeFactory.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/NodeFactory.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/SimplifyingNodeFactory.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/AST.dir/NodeFactory/TypeChecker.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/AbstractionRefinement.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AbsRefineCounterExample/CMakeFiles/abstractionrefinement.dir/CounterExample.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/BitBlaster.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ToSATBase.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/BBNodeManagerAIG.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToCNFAIG.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/AIG/ToSATAIG.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ClauseList.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/SimpBool.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToCNF.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/ToSat/CMakeFiles/tosat.dir/ASTNode/ToSAT.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/bvsolver.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/consteval.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/MutableASTNode.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/PropagateEqualities.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/RemoveUnconstrained.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/simplifier.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/SubstitutionMap.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/VariablesInExpression.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Arithmetic.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Boolean.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Comparison.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Division.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_MaxPrecision.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Multiplication.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitPropagation.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Shifting.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_TransferFunctions.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/ConstantBitP_Utility.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Simplifier/CMakeFiles/simplifier.dir/constantBitP/FixedBits.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigCheck.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigDfs.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigFanout.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMan.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMem.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigMffc.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigObj.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOper.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigOrder.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigPart.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRepr.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigRet.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigScl.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigSeq.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigShow.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTable.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTime.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTiming.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTruth.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigTsim.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigUtil.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/aig/aigWin.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCore.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfCut.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfData.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMan.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfMap.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfPost.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfUtil.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/cnf/cnfWrite.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darBalance.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCore.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darCut.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darData.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darLib.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darMan.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darPrec.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darRefact.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/dar/darScript.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitAig.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitGraph.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitIsop.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitSop.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-abc/CMakeFiles/abc.dir/aig/kit/kitTruth.c.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/LetMgr.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexcvc.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsecvc.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexsmt2.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsesmt2.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/lexsmt.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser.dir/parsesmt.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o" \
+"/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o"
 
 lib/libstp.a: lib/Globals/CMakeFiles/stpglobals.dir/Globals.cpp.o
 lib/libstp.a: lib/AST/CMakeFiles/AST.dir/ASTKind.cpp.o
@@ -334,8 +334,8 @@ lib/libstp.a: lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o
 lib/libstp.a: lib/CMakeFiles/libstp_static.dir/build.make
 lib/libstp.a: lib/CMakeFiles/libstp_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libstp.a"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/libstp_static.dir/cmake_clean_target.cmake
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libstp_static.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/libstp_static.dir/cmake_clean_target.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libstp_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/libstp_static.dir/build: lib/libstp.a
@@ -345,10 +345,10 @@ lib/CMakeFiles/libstp_static.dir/requires:
 .PHONY : lib/CMakeFiles/libstp_static.dir/requires
 
 lib/CMakeFiles/libstp_static.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/libstp_static.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/libstp_static.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/libstp_static.dir/clean
 
 lib/CMakeFiles/libstp_static.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib /home/travis/build/vdun/stoke/stoke/stp/build/lib/CMakeFiles/libstp_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/CMakeFiles/libstp_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/libstp_static.dir/depend
 

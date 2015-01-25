@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Sat/minisat/CMakeFiles/minisat2.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Sat/minisat/CMakeFiles/minisat2.dir/flags.make
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o: lib/Sat/minisat/CMakeFiles/minisat2.dir/flags.make
 lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o: ../lib/Sat/minisat/simp/SimpSolver.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc > CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc > CMakeFiles/minisat2.dir/simp/SimpSolver.cc.i
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc -o CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/simp/SimpSolver.cc -o CMakeFiles/minisat2.dir/simp/SimpSolver.cc.s
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o.requires:
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o.requires
@@ -74,17 +74,17 @@ lib/Sat/minisat/CMakeFiles/minisat2.dir/simp/SimpSolver.cc.o.provides.build: lib
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o: lib/Sat/minisat/CMakeFiles/minisat2.dir/flags.make
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o: ../lib/Sat/minisat/core/Solver.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/core/Solver.cc.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/core/Solver.cc.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minisat2.dir/core/Solver.cc.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc > CMakeFiles/minisat2.dir/core/Solver.cc.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc > CMakeFiles/minisat2.dir/core/Solver.cc.i
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minisat2.dir/core/Solver.cc.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc -o CMakeFiles/minisat2.dir/core/Solver.cc.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core/Solver.cc -o CMakeFiles/minisat2.dir/core/Solver.cc.s
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o.requires:
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o.requires
@@ -97,17 +97,17 @@ lib/Sat/minisat/CMakeFiles/minisat2.dir/core/Solver.cc.o.provides.build: lib/Sat
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o: lib/Sat/minisat/CMakeFiles/minisat2.dir/flags.make
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o: ../lib/Sat/minisat/core_prop/Solver_prop.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc > CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc > CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.i
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc -o CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/core_prop/Solver_prop.cc -o CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.s
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o.requires:
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o.requires
@@ -120,17 +120,17 @@ lib/Sat/minisat/CMakeFiles/minisat2.dir/core_prop/Solver_prop.cc.o.provides.buil
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o: lib/Sat/minisat/CMakeFiles/minisat2.dir/flags.make
 lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o: ../lib/Sat/minisat/utils/System.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/utils/System.cc.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/minisat2.dir/utils/System.cc.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minisat2.dir/utils/System.cc.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc > CMakeFiles/minisat2.dir/utils/System.cc.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc > CMakeFiles/minisat2.dir/utils/System.cc.i
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minisat2.dir/utils/System.cc.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc -o CMakeFiles/minisat2.dir/utils/System.cc.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat/utils/System.cc -o CMakeFiles/minisat2.dir/utils/System.cc.s
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o.requires:
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/utils/System.cc.o.requires
@@ -159,10 +159,10 @@ lib/Sat/minisat/CMakeFiles/minisat2.dir/requires: lib/Sat/minisat/CMakeFiles/min
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/requires
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat && $(CMAKE_COMMAND) -P CMakeFiles/minisat2.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat && $(CMAKE_COMMAND) -P CMakeFiles/minisat2.dir/cmake_clean.cmake
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/clean
 
 lib/Sat/minisat/CMakeFiles/minisat2.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Sat/minisat /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Sat/minisat /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/minisat/CMakeFiles/minisat2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Sat/minisat/CMakeFiles/minisat2.dir/depend
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/bindings/python/stp/CMakeFiles/progress.marks
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/bindings/python/stp/CMakeFiles/progress.marks
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/clean
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,17 +126,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 bindings/python/stp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

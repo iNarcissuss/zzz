@@ -56,6 +56,6 @@ lib/Interface/CMakeFiles/cinterface.dir/c_interface.cpp.o
  ../lib/extlib-abc/vecStr.h
  ../lib/extlib-abc/vecVec.h
  ../lib/extlib-constbv/constantbv.h
- /home/travis/build/vdun/stoke/stoke/stp/lib/Interface/c_interface.cpp
+ /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/c_interface.cpp
  include/stp/AST/ASTKind.h
  include/stp/config.h

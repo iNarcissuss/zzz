@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/progress.marks
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/cryptominisat2/CMakeFiles/progress.marks
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/clean
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/rule:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/rule
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/rule
 .PHONY : lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ cryptominisat2: lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/rule
 
 # fast build rule for target.
 cryptominisat2/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build
 .PHONY : cryptominisat2/fast
 
 ClauseAllocator.o: ClauseAllocator.cpp.o
@@ -158,7 +158,7 @@ ClauseAllocator.o: ClauseAllocator.cpp.o
 
 # target to build an object file
 ClauseAllocator.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.o
 .PHONY : ClauseAllocator.cpp.o
 
 ClauseAllocator.i: ClauseAllocator.cpp.i
@@ -166,7 +166,7 @@ ClauseAllocator.i: ClauseAllocator.cpp.i
 
 # target to preprocess a source file
 ClauseAllocator.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.i
 .PHONY : ClauseAllocator.cpp.i
 
 ClauseAllocator.s: ClauseAllocator.cpp.s
@@ -174,7 +174,7 @@ ClauseAllocator.s: ClauseAllocator.cpp.s
 
 # target to generate assembly for a file
 ClauseAllocator.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseAllocator.cpp.s
 .PHONY : ClauseAllocator.cpp.s
 
 ClauseCleaner.o: ClauseCleaner.cpp.o
@@ -182,7 +182,7 @@ ClauseCleaner.o: ClauseCleaner.cpp.o
 
 # target to build an object file
 ClauseCleaner.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.o
 .PHONY : ClauseCleaner.cpp.o
 
 ClauseCleaner.i: ClauseCleaner.cpp.i
@@ -190,7 +190,7 @@ ClauseCleaner.i: ClauseCleaner.cpp.i
 
 # target to preprocess a source file
 ClauseCleaner.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.i
 .PHONY : ClauseCleaner.cpp.i
 
 ClauseCleaner.s: ClauseCleaner.cpp.s
@@ -198,7 +198,7 @@ ClauseCleaner.s: ClauseCleaner.cpp.s
 
 # target to generate assembly for a file
 ClauseCleaner.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/ClauseCleaner.cpp.s
 .PHONY : ClauseCleaner.cpp.s
 
 FailedVarSearcher.o: FailedVarSearcher.cpp.o
@@ -206,7 +206,7 @@ FailedVarSearcher.o: FailedVarSearcher.cpp.o
 
 # target to build an object file
 FailedVarSearcher.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.o
 .PHONY : FailedVarSearcher.cpp.o
 
 FailedVarSearcher.i: FailedVarSearcher.cpp.i
@@ -214,7 +214,7 @@ FailedVarSearcher.i: FailedVarSearcher.cpp.i
 
 # target to preprocess a source file
 FailedVarSearcher.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.i
 .PHONY : FailedVarSearcher.cpp.i
 
 FailedVarSearcher.s: FailedVarSearcher.cpp.s
@@ -222,7 +222,7 @@ FailedVarSearcher.s: FailedVarSearcher.cpp.s
 
 # target to generate assembly for a file
 FailedVarSearcher.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FailedVarSearcher.cpp.s
 .PHONY : FailedVarSearcher.cpp.s
 
 FindUndef.o: FindUndef.cpp.o
@@ -230,7 +230,7 @@ FindUndef.o: FindUndef.cpp.o
 
 # target to build an object file
 FindUndef.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.o
 .PHONY : FindUndef.cpp.o
 
 FindUndef.i: FindUndef.cpp.i
@@ -238,7 +238,7 @@ FindUndef.i: FindUndef.cpp.i
 
 # target to preprocess a source file
 FindUndef.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.i
 .PHONY : FindUndef.cpp.i
 
 FindUndef.s: FindUndef.cpp.s
@@ -246,7 +246,7 @@ FindUndef.s: FindUndef.cpp.s
 
 # target to generate assembly for a file
 FindUndef.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/FindUndef.cpp.s
 .PHONY : FindUndef.cpp.s
 
 Gaussian.o: Gaussian.cpp.o
@@ -254,7 +254,7 @@ Gaussian.o: Gaussian.cpp.o
 
 # target to build an object file
 Gaussian.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.o
 .PHONY : Gaussian.cpp.o
 
 Gaussian.i: Gaussian.cpp.i
@@ -262,7 +262,7 @@ Gaussian.i: Gaussian.cpp.i
 
 # target to preprocess a source file
 Gaussian.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.i
 .PHONY : Gaussian.cpp.i
 
 Gaussian.s: Gaussian.cpp.s
@@ -270,7 +270,7 @@ Gaussian.s: Gaussian.cpp.s
 
 # target to generate assembly for a file
 Gaussian.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Gaussian.cpp.s
 .PHONY : Gaussian.cpp.s
 
 Logger.o: Logger.cpp.o
@@ -278,7 +278,7 @@ Logger.o: Logger.cpp.o
 
 # target to build an object file
 Logger.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.o
 .PHONY : Logger.cpp.o
 
 Logger.i: Logger.cpp.i
@@ -286,7 +286,7 @@ Logger.i: Logger.cpp.i
 
 # target to preprocess a source file
 Logger.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.i
 .PHONY : Logger.cpp.i
 
 Logger.s: Logger.cpp.s
@@ -294,7 +294,7 @@ Logger.s: Logger.cpp.s
 
 # target to generate assembly for a file
 Logger.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
 MatrixFinder.o: MatrixFinder.cpp.o
@@ -302,7 +302,7 @@ MatrixFinder.o: MatrixFinder.cpp.o
 
 # target to build an object file
 MatrixFinder.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.o
 .PHONY : MatrixFinder.cpp.o
 
 MatrixFinder.i: MatrixFinder.cpp.i
@@ -310,7 +310,7 @@ MatrixFinder.i: MatrixFinder.cpp.i
 
 # target to preprocess a source file
 MatrixFinder.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.i
 .PHONY : MatrixFinder.cpp.i
 
 MatrixFinder.s: MatrixFinder.cpp.s
@@ -318,7 +318,7 @@ MatrixFinder.s: MatrixFinder.cpp.s
 
 # target to generate assembly for a file
 MatrixFinder.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/MatrixFinder.cpp.s
 .PHONY : MatrixFinder.cpp.s
 
 OnlyNonLearntBins.o: OnlyNonLearntBins.cpp.o
@@ -326,7 +326,7 @@ OnlyNonLearntBins.o: OnlyNonLearntBins.cpp.o
 
 # target to build an object file
 OnlyNonLearntBins.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.o
 .PHONY : OnlyNonLearntBins.cpp.o
 
 OnlyNonLearntBins.i: OnlyNonLearntBins.cpp.i
@@ -334,7 +334,7 @@ OnlyNonLearntBins.i: OnlyNonLearntBins.cpp.i
 
 # target to preprocess a source file
 OnlyNonLearntBins.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.i
 .PHONY : OnlyNonLearntBins.cpp.i
 
 OnlyNonLearntBins.s: OnlyNonLearntBins.cpp.s
@@ -342,7 +342,7 @@ OnlyNonLearntBins.s: OnlyNonLearntBins.cpp.s
 
 # target to generate assembly for a file
 OnlyNonLearntBins.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/OnlyNonLearntBins.cpp.s
 .PHONY : OnlyNonLearntBins.cpp.s
 
 PackedRow.o: PackedRow.cpp.o
@@ -350,7 +350,7 @@ PackedRow.o: PackedRow.cpp.o
 
 # target to build an object file
 PackedRow.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.o
 .PHONY : PackedRow.cpp.o
 
 PackedRow.i: PackedRow.cpp.i
@@ -358,7 +358,7 @@ PackedRow.i: PackedRow.cpp.i
 
 # target to preprocess a source file
 PackedRow.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.i
 .PHONY : PackedRow.cpp.i
 
 PackedRow.s: PackedRow.cpp.s
@@ -366,7 +366,7 @@ PackedRow.s: PackedRow.cpp.s
 
 # target to generate assembly for a file
 PackedRow.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PackedRow.cpp.s
 .PHONY : PackedRow.cpp.s
 
 PartFinder.o: PartFinder.cpp.o
@@ -374,7 +374,7 @@ PartFinder.o: PartFinder.cpp.o
 
 # target to build an object file
 PartFinder.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.o
 .PHONY : PartFinder.cpp.o
 
 PartFinder.i: PartFinder.cpp.i
@@ -382,7 +382,7 @@ PartFinder.i: PartFinder.cpp.i
 
 # target to preprocess a source file
 PartFinder.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.i
 .PHONY : PartFinder.cpp.i
 
 PartFinder.s: PartFinder.cpp.s
@@ -390,7 +390,7 @@ PartFinder.s: PartFinder.cpp.s
 
 # target to generate assembly for a file
 PartFinder.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartFinder.cpp.s
 .PHONY : PartFinder.cpp.s
 
 PartHandler.o: PartHandler.cpp.o
@@ -398,7 +398,7 @@ PartHandler.o: PartHandler.cpp.o
 
 # target to build an object file
 PartHandler.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.o
 .PHONY : PartHandler.cpp.o
 
 PartHandler.i: PartHandler.cpp.i
@@ -406,7 +406,7 @@ PartHandler.i: PartHandler.cpp.i
 
 # target to preprocess a source file
 PartHandler.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.i
 .PHONY : PartHandler.cpp.i
 
 PartHandler.s: PartHandler.cpp.s
@@ -414,7 +414,7 @@ PartHandler.s: PartHandler.cpp.s
 
 # target to generate assembly for a file
 PartHandler.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/PartHandler.cpp.s
 .PHONY : PartHandler.cpp.s
 
 RestartTypeChooser.o: RestartTypeChooser.cpp.o
@@ -422,7 +422,7 @@ RestartTypeChooser.o: RestartTypeChooser.cpp.o
 
 # target to build an object file
 RestartTypeChooser.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.o
 .PHONY : RestartTypeChooser.cpp.o
 
 RestartTypeChooser.i: RestartTypeChooser.cpp.i
@@ -430,7 +430,7 @@ RestartTypeChooser.i: RestartTypeChooser.cpp.i
 
 # target to preprocess a source file
 RestartTypeChooser.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.i
 .PHONY : RestartTypeChooser.cpp.i
 
 RestartTypeChooser.s: RestartTypeChooser.cpp.s
@@ -438,7 +438,7 @@ RestartTypeChooser.s: RestartTypeChooser.cpp.s
 
 # target to generate assembly for a file
 RestartTypeChooser.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/RestartTypeChooser.cpp.s
 .PHONY : RestartTypeChooser.cpp.s
 
 Solver.o: Solver.cpp.o
@@ -446,7 +446,7 @@ Solver.o: Solver.cpp.o
 
 # target to build an object file
 Solver.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.o
 .PHONY : Solver.cpp.o
 
 Solver.i: Solver.cpp.i
@@ -454,7 +454,7 @@ Solver.i: Solver.cpp.i
 
 # target to preprocess a source file
 Solver.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.i
 .PHONY : Solver.cpp.i
 
 Solver.s: Solver.cpp.s
@@ -462,7 +462,7 @@ Solver.s: Solver.cpp.s
 
 # target to generate assembly for a file
 Solver.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Solver.cpp.s
 .PHONY : Solver.cpp.s
 
 StateSaver.o: StateSaver.cpp.o
@@ -470,7 +470,7 @@ StateSaver.o: StateSaver.cpp.o
 
 # target to build an object file
 StateSaver.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.o
 .PHONY : StateSaver.cpp.o
 
 StateSaver.i: StateSaver.cpp.i
@@ -478,7 +478,7 @@ StateSaver.i: StateSaver.cpp.i
 
 # target to preprocess a source file
 StateSaver.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.i
 .PHONY : StateSaver.cpp.i
 
 StateSaver.s: StateSaver.cpp.s
@@ -486,7 +486,7 @@ StateSaver.s: StateSaver.cpp.s
 
 # target to generate assembly for a file
 StateSaver.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/StateSaver.cpp.s
 .PHONY : StateSaver.cpp.s
 
 Subsumer.o: Subsumer.cpp.o
@@ -494,7 +494,7 @@ Subsumer.o: Subsumer.cpp.o
 
 # target to build an object file
 Subsumer.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.o
 .PHONY : Subsumer.cpp.o
 
 Subsumer.i: Subsumer.cpp.i
@@ -502,7 +502,7 @@ Subsumer.i: Subsumer.cpp.i
 
 # target to preprocess a source file
 Subsumer.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.i
 .PHONY : Subsumer.cpp.i
 
 Subsumer.s: Subsumer.cpp.s
@@ -510,7 +510,7 @@ Subsumer.s: Subsumer.cpp.s
 
 # target to generate assembly for a file
 Subsumer.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/Subsumer.cpp.s
 .PHONY : Subsumer.cpp.s
 
 UselessBinRemover.o: UselessBinRemover.cpp.o
@@ -518,7 +518,7 @@ UselessBinRemover.o: UselessBinRemover.cpp.o
 
 # target to build an object file
 UselessBinRemover.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.o
 .PHONY : UselessBinRemover.cpp.o
 
 UselessBinRemover.i: UselessBinRemover.cpp.i
@@ -526,7 +526,7 @@ UselessBinRemover.i: UselessBinRemover.cpp.i
 
 # target to preprocess a source file
 UselessBinRemover.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.i
 .PHONY : UselessBinRemover.cpp.i
 
 UselessBinRemover.s: UselessBinRemover.cpp.s
@@ -534,7 +534,7 @@ UselessBinRemover.s: UselessBinRemover.cpp.s
 
 # target to generate assembly for a file
 UselessBinRemover.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/UselessBinRemover.cpp.s
 .PHONY : UselessBinRemover.cpp.s
 
 VarReplacer.o: VarReplacer.cpp.o
@@ -542,7 +542,7 @@ VarReplacer.o: VarReplacer.cpp.o
 
 # target to build an object file
 VarReplacer.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.o
 .PHONY : VarReplacer.cpp.o
 
 VarReplacer.i: VarReplacer.cpp.i
@@ -550,7 +550,7 @@ VarReplacer.i: VarReplacer.cpp.i
 
 # target to preprocess a source file
 VarReplacer.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.i
 .PHONY : VarReplacer.cpp.i
 
 VarReplacer.s: VarReplacer.cpp.s
@@ -558,7 +558,7 @@ VarReplacer.s: VarReplacer.cpp.s
 
 # target to generate assembly for a file
 VarReplacer.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/VarReplacer.cpp.s
 .PHONY : VarReplacer.cpp.s
 
 XorFinder.o: XorFinder.cpp.o
@@ -566,7 +566,7 @@ XorFinder.o: XorFinder.cpp.o
 
 # target to build an object file
 XorFinder.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.o
 .PHONY : XorFinder.cpp.o
 
 XorFinder.i: XorFinder.cpp.i
@@ -574,7 +574,7 @@ XorFinder.i: XorFinder.cpp.i
 
 # target to preprocess a source file
 XorFinder.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.i
 .PHONY : XorFinder.cpp.i
 
 XorFinder.s: XorFinder.cpp.s
@@ -582,7 +582,7 @@ XorFinder.s: XorFinder.cpp.s
 
 # target to generate assembly for a file
 XorFinder.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorFinder.cpp.s
 .PHONY : XorFinder.cpp.s
 
 XorSubsumer.o: XorSubsumer.cpp.o
@@ -590,7 +590,7 @@ XorSubsumer.o: XorSubsumer.cpp.o
 
 # target to build an object file
 XorSubsumer.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.o
 .PHONY : XorSubsumer.cpp.o
 
 XorSubsumer.i: XorSubsumer.cpp.i
@@ -598,7 +598,7 @@ XorSubsumer.i: XorSubsumer.cpp.i
 
 # target to preprocess a source file
 XorSubsumer.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.i
 .PHONY : XorSubsumer.cpp.i
 
 XorSubsumer.s: XorSubsumer.cpp.s
@@ -606,7 +606,7 @@ XorSubsumer.s: XorSubsumer.cpp.s
 
 # target to generate assembly for a file
 XorSubsumer.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/XorSubsumer.cpp.s
 .PHONY : XorSubsumer.cpp.s
 
 time_mem.o: time_mem.cpp.o
@@ -614,7 +614,7 @@ time_mem.o: time_mem.cpp.o
 
 # target to build an object file
 time_mem.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.o
 .PHONY : time_mem.cpp.o
 
 time_mem.i: time_mem.cpp.i
@@ -622,7 +622,7 @@ time_mem.i: time_mem.cpp.i
 
 # target to preprocess a source file
 time_mem.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.i
 .PHONY : time_mem.cpp.i
 
 time_mem.s: time_mem.cpp.s
@@ -630,7 +630,7 @@ time_mem.s: time_mem.cpp.s
 
 # target to generate assembly for a file
 time_mem.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/build.make lib/Sat/cryptominisat2/CMakeFiles/cryptominisat2.dir/time_mem.cpp.s
 .PHONY : time_mem.cpp.s
 
 # Help Target
@@ -717,6 +717,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

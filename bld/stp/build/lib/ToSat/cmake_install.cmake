@@ -1,4 +1,4 @@
-# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp/lib/ToSat
+# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/ToSat
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

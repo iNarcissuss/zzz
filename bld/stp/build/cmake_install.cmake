@@ -1,4 +1,4 @@
-# Install script for directory: /home/travis/build/vdun/stoke/stoke/stp
+# Install script for directory: /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,14 +33,14 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/travis/build/vdun/stoke/stoke/stp/build//CMakeFiles/STPConfig.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build//CMakeFiles/STPConfig.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/STP/STPTargets.cmake")
     FILE(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/STP/STPTargets.cmake"
-         "/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets.cmake")
+         "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets.cmake")
     IF(EXPORT_FILE_CHANGED)
       FILE(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/STP/STPTargets-*.cmake")
       IF(OLD_CONFIG_FILES)
@@ -49,17 +49,17 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
       ENDIF(OLD_CONFIG_FILES)
     ENDIF(EXPORT_FILE_CHANGED)
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets.cmake")
   IF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets-relwithdebinfo.cmake")
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/STP" TYPE FILE FILES "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles/Export/lib/cmake/STP/STPTargets-relwithdebinfo.cmake")
   ENDIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/lib/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/tools/cmake_install.cmake")
-  INCLUDE("/home/travis/build/vdun/stoke/stoke/stp/build/bindings/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/cmake_install.cmake")
+  INCLUDE("/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/bindings/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -69,7 +69,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/travis/build/vdun/stoke/stoke/stp/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/travis/build/vdun/stoke/stoke/stp/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

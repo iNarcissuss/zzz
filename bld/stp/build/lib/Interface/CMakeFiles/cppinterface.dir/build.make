@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Include any dependencies generated for this target.
 include lib/Interface/CMakeFiles/cppinterface.dir/depend.make
@@ -51,17 +51,17 @@ include lib/Interface/CMakeFiles/cppinterface.dir/flags.make
 
 lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o: lib/Interface/CMakeFiles/cppinterface.dir/flags.make
 lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o: ../lib/Interface/cpp_interface.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cppinterface.dir/cpp_interface.cpp.o -c /home/travis/build/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cppinterface.dir/cpp_interface.cpp.o -c /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp
 
 lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppinterface.dir/cpp_interface.cpp.i"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/travis/build/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp > CMakeFiles/cppinterface.dir/cpp_interface.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp > CMakeFiles/cppinterface.dir/cpp_interface.cpp.i
 
 lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppinterface.dir/cpp_interface.cpp.s"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/travis/build/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp -o CMakeFiles/cppinterface.dir/cpp_interface.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface/cpp_interface.cpp -o CMakeFiles/cppinterface.dir/cpp_interface.cpp.s
 
 lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o.requires:
 .PHONY : lib/Interface/CMakeFiles/cppinterface.dir/cpp_interface.cpp.o.requires
@@ -84,10 +84,10 @@ lib/Interface/CMakeFiles/cppinterface.dir/requires: lib/Interface/CMakeFiles/cpp
 .PHONY : lib/Interface/CMakeFiles/cppinterface.dir/requires
 
 lib/Interface/CMakeFiles/cppinterface.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface && $(CMAKE_COMMAND) -P CMakeFiles/cppinterface.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface && $(CMAKE_COMMAND) -P CMakeFiles/cppinterface.dir/cmake_clean.cmake
 .PHONY : lib/Interface/CMakeFiles/cppinterface.dir/clean
 
 lib/Interface/CMakeFiles/cppinterface.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Interface /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface /home/travis/build/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Interface /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Interface/CMakeFiles/cppinterface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Interface/CMakeFiles/cppinterface.dir/depend
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/progress.marks
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/progress.marks
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/clean
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Printer/CMakeFiles/printer.dir/rule:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/CMakeFiles/printer.dir/rule
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Printer/CMakeFiles/printer.dir/rule
 .PHONY : lib/Printer/CMakeFiles/printer.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ printer: lib/Printer/CMakeFiles/printer.dir/rule
 
 # fast build rule for target.
 printer/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/build
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/build
 .PHONY : printer/fast
 
 AssortedPrinters.o: AssortedPrinters.cpp.o
@@ -158,7 +158,7 @@ AssortedPrinters.o: AssortedPrinters.cpp.o
 
 # target to build an object file
 AssortedPrinters.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o
 .PHONY : AssortedPrinters.cpp.o
 
 AssortedPrinters.i: AssortedPrinters.cpp.i
@@ -166,7 +166,7 @@ AssortedPrinters.i: AssortedPrinters.cpp.i
 
 # target to preprocess a source file
 AssortedPrinters.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.i
 .PHONY : AssortedPrinters.cpp.i
 
 AssortedPrinters.s: AssortedPrinters.cpp.s
@@ -174,7 +174,7 @@ AssortedPrinters.s: AssortedPrinters.cpp.s
 
 # target to generate assembly for a file
 AssortedPrinters.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.s
 .PHONY : AssortedPrinters.cpp.s
 
 BenchPrinter.o: BenchPrinter.cpp.o
@@ -182,7 +182,7 @@ BenchPrinter.o: BenchPrinter.cpp.o
 
 # target to build an object file
 BenchPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o
 .PHONY : BenchPrinter.cpp.o
 
 BenchPrinter.i: BenchPrinter.cpp.i
@@ -190,7 +190,7 @@ BenchPrinter.i: BenchPrinter.cpp.i
 
 # target to preprocess a source file
 BenchPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.i
 .PHONY : BenchPrinter.cpp.i
 
 BenchPrinter.s: BenchPrinter.cpp.s
@@ -198,7 +198,7 @@ BenchPrinter.s: BenchPrinter.cpp.s
 
 # target to generate assembly for a file
 BenchPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.s
 .PHONY : BenchPrinter.cpp.s
 
 CPrinter.o: CPrinter.cpp.o
@@ -206,7 +206,7 @@ CPrinter.o: CPrinter.cpp.o
 
 # target to build an object file
 CPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o
 .PHONY : CPrinter.cpp.o
 
 CPrinter.i: CPrinter.cpp.i
@@ -214,7 +214,7 @@ CPrinter.i: CPrinter.cpp.i
 
 # target to preprocess a source file
 CPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.i
 .PHONY : CPrinter.cpp.i
 
 CPrinter.s: CPrinter.cpp.s
@@ -222,7 +222,7 @@ CPrinter.s: CPrinter.cpp.s
 
 # target to generate assembly for a file
 CPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.s
 .PHONY : CPrinter.cpp.s
 
 GDLPrinter.o: GDLPrinter.cpp.o
@@ -230,7 +230,7 @@ GDLPrinter.o: GDLPrinter.cpp.o
 
 # target to build an object file
 GDLPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o
 .PHONY : GDLPrinter.cpp.o
 
 GDLPrinter.i: GDLPrinter.cpp.i
@@ -238,7 +238,7 @@ GDLPrinter.i: GDLPrinter.cpp.i
 
 # target to preprocess a source file
 GDLPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.i
 .PHONY : GDLPrinter.cpp.i
 
 GDLPrinter.s: GDLPrinter.cpp.s
@@ -246,7 +246,7 @@ GDLPrinter.s: GDLPrinter.cpp.s
 
 # target to generate assembly for a file
 GDLPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.s
 .PHONY : GDLPrinter.cpp.s
 
 LispPrinter.o: LispPrinter.cpp.o
@@ -254,7 +254,7 @@ LispPrinter.o: LispPrinter.cpp.o
 
 # target to build an object file
 LispPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o
 .PHONY : LispPrinter.cpp.o
 
 LispPrinter.i: LispPrinter.cpp.i
@@ -262,7 +262,7 @@ LispPrinter.i: LispPrinter.cpp.i
 
 # target to preprocess a source file
 LispPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.i
 .PHONY : LispPrinter.cpp.i
 
 LispPrinter.s: LispPrinter.cpp.s
@@ -270,7 +270,7 @@ LispPrinter.s: LispPrinter.cpp.s
 
 # target to generate assembly for a file
 LispPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.s
 .PHONY : LispPrinter.cpp.s
 
 PLPrinter.o: PLPrinter.cpp.o
@@ -278,7 +278,7 @@ PLPrinter.o: PLPrinter.cpp.o
 
 # target to build an object file
 PLPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o
 .PHONY : PLPrinter.cpp.o
 
 PLPrinter.i: PLPrinter.cpp.i
@@ -286,7 +286,7 @@ PLPrinter.i: PLPrinter.cpp.i
 
 # target to preprocess a source file
 PLPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.i
 .PHONY : PLPrinter.cpp.i
 
 PLPrinter.s: PLPrinter.cpp.s
@@ -294,7 +294,7 @@ PLPrinter.s: PLPrinter.cpp.s
 
 # target to generate assembly for a file
 PLPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.s
 .PHONY : PLPrinter.cpp.s
 
 SMTLIB1Printer.o: SMTLIB1Printer.cpp.o
@@ -302,7 +302,7 @@ SMTLIB1Printer.o: SMTLIB1Printer.cpp.o
 
 # target to build an object file
 SMTLIB1Printer.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o
 .PHONY : SMTLIB1Printer.cpp.o
 
 SMTLIB1Printer.i: SMTLIB1Printer.cpp.i
@@ -310,7 +310,7 @@ SMTLIB1Printer.i: SMTLIB1Printer.cpp.i
 
 # target to preprocess a source file
 SMTLIB1Printer.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.i
 .PHONY : SMTLIB1Printer.cpp.i
 
 SMTLIB1Printer.s: SMTLIB1Printer.cpp.s
@@ -318,7 +318,7 @@ SMTLIB1Printer.s: SMTLIB1Printer.cpp.s
 
 # target to generate assembly for a file
 SMTLIB1Printer.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.s
 .PHONY : SMTLIB1Printer.cpp.s
 
 SMTLIB2Printer.o: SMTLIB2Printer.cpp.o
@@ -326,7 +326,7 @@ SMTLIB2Printer.o: SMTLIB2Printer.cpp.o
 
 # target to build an object file
 SMTLIB2Printer.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o
 .PHONY : SMTLIB2Printer.cpp.o
 
 SMTLIB2Printer.i: SMTLIB2Printer.cpp.i
@@ -334,7 +334,7 @@ SMTLIB2Printer.i: SMTLIB2Printer.cpp.i
 
 # target to preprocess a source file
 SMTLIB2Printer.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.i
 .PHONY : SMTLIB2Printer.cpp.i
 
 SMTLIB2Printer.s: SMTLIB2Printer.cpp.s
@@ -342,7 +342,7 @@ SMTLIB2Printer.s: SMTLIB2Printer.cpp.s
 
 # target to generate assembly for a file
 SMTLIB2Printer.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.s
 .PHONY : SMTLIB2Printer.cpp.s
 
 SMTLIBPrinter.o: SMTLIBPrinter.cpp.o
@@ -350,7 +350,7 @@ SMTLIBPrinter.o: SMTLIBPrinter.cpp.o
 
 # target to build an object file
 SMTLIBPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o
 .PHONY : SMTLIBPrinter.cpp.o
 
 SMTLIBPrinter.i: SMTLIBPrinter.cpp.i
@@ -358,7 +358,7 @@ SMTLIBPrinter.i: SMTLIBPrinter.cpp.i
 
 # target to preprocess a source file
 SMTLIBPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.i
 .PHONY : SMTLIBPrinter.cpp.i
 
 SMTLIBPrinter.s: SMTLIBPrinter.cpp.s
@@ -366,7 +366,7 @@ SMTLIBPrinter.s: SMTLIBPrinter.cpp.s
 
 # target to generate assembly for a file
 SMTLIBPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.s
 .PHONY : SMTLIBPrinter.cpp.s
 
 dotPrinter.o: dotPrinter.cpp.o
@@ -374,7 +374,7 @@ dotPrinter.o: dotPrinter.cpp.o
 
 # target to build an object file
 dotPrinter.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o
 .PHONY : dotPrinter.cpp.o
 
 dotPrinter.i: dotPrinter.cpp.i
@@ -382,7 +382,7 @@ dotPrinter.i: dotPrinter.cpp.i
 
 # target to preprocess a source file
 dotPrinter.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.i
 .PHONY : dotPrinter.cpp.i
 
 dotPrinter.s: dotPrinter.cpp.s
@@ -390,7 +390,7 @@ dotPrinter.s: dotPrinter.cpp.s
 
 # target to generate assembly for a file
 dotPrinter.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Printer/CMakeFiles/printer.dir/build.make lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.s
 .PHONY : dotPrinter.cpp.s
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

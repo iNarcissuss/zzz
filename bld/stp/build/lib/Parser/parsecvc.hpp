@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
-# define YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
+#ifndef YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
+# define YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -125,7 +125,7 @@ extern int cvcdebug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 43 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1909  */
+#line 43 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/cvc.y" /* yacc.c:1909  */
 
 
   unsigned int uintval;                 /* for numerals in types. */
@@ -148,7 +148,7 @@ union YYSTYPE
   //to array values. To support the WITH construct
   BEEV::ASTNodeMap * Index_To_UpdateValue;
 
-#line 152 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp" /* yacc.c:1909  */
+#line 152 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsecvc.hpp" /* yacc.c:1909  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -159,4 +159,4 @@ extern YYSTYPE cvclval;
 
 int cvcparse (void* AssertsQuery);
 
-#endif /* !YY_CVC_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED  */
+#endif /* !YY_CVC_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSECVC_HPP_INCLUDED  */

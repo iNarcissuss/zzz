@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Utility rule file for ASTKind_header.
 
@@ -48,11 +48,11 @@ include lib/AST/CMakeFiles/ASTKind_header.dir/progress.make
 lib/AST/CMakeFiles/ASTKind_header: include/stp/AST/ASTKind.h
 
 lib/AST/ASTKind.cpp: ../lib/AST/ASTKind.kinds
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ASTKind.cpp, ../../include/stp/AST/ASTKind.h"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/perl /home/travis/build/vdun/stoke/stoke/stp/lib/AST/genkinds.pl --file /home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTKind.kinds
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E make_directory /home/travis/build/vdun/stoke/stoke/stp/build/include/stp/AST
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E rename /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.h /home/travis/build/vdun/stoke/stoke/stp/build/include/stp/AST/ASTKind.h
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/perl /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/genkinds.pl --file /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTKind.kinds
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E make_directory /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/include/stp/AST
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && /usr/bin/cmake -E rename /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.h /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/include/stp/AST/ASTKind.h
 
 include/stp/AST/ASTKind.h: lib/AST/ASTKind.cpp
 
@@ -67,10 +67,10 @@ lib/AST/CMakeFiles/ASTKind_header.dir/build: ASTKind_header
 .PHONY : lib/AST/CMakeFiles/ASTKind_header.dir/build
 
 lib/AST/CMakeFiles/ASTKind_header.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST && $(CMAKE_COMMAND) -P CMakeFiles/ASTKind_header.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST && $(CMAKE_COMMAND) -P CMakeFiles/ASTKind_header.dir/cmake_clean.cmake
 .PHONY : lib/AST/CMakeFiles/ASTKind_header.dir/clean
 
 lib/AST/CMakeFiles/ASTKind_header.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/AST /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST /home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/ASTKind_header.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/CMakeFiles/ASTKind_header.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/AST/CMakeFiles/ASTKind_header.dir/depend
 

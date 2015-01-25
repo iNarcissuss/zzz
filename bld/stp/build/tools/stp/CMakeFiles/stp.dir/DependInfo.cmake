@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/GitSHA1.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/tools/stp/main.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/main.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/GitSHA1.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/GitSHA1.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/STPProgramGlobals.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/STPProgramGlobals.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/tools/stp/main.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/tools/stp/CMakeFiles/stp.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/travis/build/vdun/stoke/stoke/stp/build/lib/CMakeFiles/libstp.dir/DependInfo.cmake"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/CMakeFiles/libstp.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/extlib-constbv/constantbv.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/extlib-constbv/CMakeFiles/constantbv.dir/constantbv.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

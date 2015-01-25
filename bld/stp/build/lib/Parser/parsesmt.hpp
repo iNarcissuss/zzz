@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_SMT_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED
-# define YY_SMT_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED
+#ifndef YY_SMT_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED
+# define YY_SMT_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 1
@@ -154,7 +154,7 @@ extern int smtdebug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 71 "/home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.y" /* yacc.c:1909  */
+#line 71 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.y" /* yacc.c:1909  */
   
   // FIXME: Why is this not an UNSIGNED int?
   int uintval;                  /* for numerals in types. */
@@ -176,7 +176,7 @@ union YYSTYPE
   BEEV::ASTVec *vec;
   std::string *str;
 
-#line 180 "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp" /* yacc.c:1909  */
+#line 180 "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.hpp" /* yacc.c:1909  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -187,4 +187,4 @@ extern YYSTYPE smtlval;
 
 int smtparse (void* AssertsQuery);
 
-#endif /* !YY_SMT_HOME_TRAVIS_BUILD_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED  */
+#endif /* !YY_SMT_HOME_UBUNTU_SRC_GITHUB_COM_VDUN_STOKE_STOKE_STP_BUILD_LIB_PARSER_PARSESMT_HPP_INCLUDED  */

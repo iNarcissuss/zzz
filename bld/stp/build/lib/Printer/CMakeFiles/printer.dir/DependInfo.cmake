@@ -4,16 +4,16 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/AssortedPrinters.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/AssortedPrinters.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/BenchPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/BenchPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/CPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/CPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/GDLPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/GDLPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/LispPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/LispPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/PLPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/PLPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB1Printer.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB1Printer.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIB2Printer.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIB2Printer.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/SMTLIBPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/SMTLIBPrinter.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Printer/dotPrinter.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Printer/CMakeFiles/printer.dir/dotPrinter.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles /home/travis/build/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/progress.marks
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Sat/CMakeFiles/progress.marks
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/clean
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/preinstall
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/Sat/CMakeFiles/sat.dir/rule:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/CMakeFiles/sat.dir/rule
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f CMakeFiles/Makefile2 lib/Sat/CMakeFiles/sat.dir/rule
 .PHONY : lib/Sat/CMakeFiles/sat.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ sat: lib/Sat/CMakeFiles/sat.dir/rule
 
 # fast build rule for target.
 sat/fast:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/build
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/build
 .PHONY : sat/fast
 
 CryptoMinisat.o: CryptoMinisat.cpp.o
@@ -158,7 +158,7 @@ CryptoMinisat.o: CryptoMinisat.cpp.o
 
 # target to build an object file
 CryptoMinisat.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.o
 .PHONY : CryptoMinisat.cpp.o
 
 CryptoMinisat.i: CryptoMinisat.cpp.i
@@ -166,7 +166,7 @@ CryptoMinisat.i: CryptoMinisat.cpp.i
 
 # target to preprocess a source file
 CryptoMinisat.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.i
 .PHONY : CryptoMinisat.cpp.i
 
 CryptoMinisat.s: CryptoMinisat.cpp.s
@@ -174,7 +174,7 @@ CryptoMinisat.s: CryptoMinisat.cpp.s
 
 # target to generate assembly for a file
 CryptoMinisat.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/CryptoMinisat.cpp.s
 .PHONY : CryptoMinisat.cpp.s
 
 MinisatCore.o: MinisatCore.cpp.o
@@ -182,7 +182,7 @@ MinisatCore.o: MinisatCore.cpp.o
 
 # target to build an object file
 MinisatCore.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.o
 .PHONY : MinisatCore.cpp.o
 
 MinisatCore.i: MinisatCore.cpp.i
@@ -190,7 +190,7 @@ MinisatCore.i: MinisatCore.cpp.i
 
 # target to preprocess a source file
 MinisatCore.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.i
 .PHONY : MinisatCore.cpp.i
 
 MinisatCore.s: MinisatCore.cpp.s
@@ -198,7 +198,7 @@ MinisatCore.s: MinisatCore.cpp.s
 
 # target to generate assembly for a file
 MinisatCore.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore.cpp.s
 .PHONY : MinisatCore.cpp.s
 
 MinisatCore_prop.o: MinisatCore_prop.cpp.o
@@ -206,7 +206,7 @@ MinisatCore_prop.o: MinisatCore_prop.cpp.o
 
 # target to build an object file
 MinisatCore_prop.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.o
 .PHONY : MinisatCore_prop.cpp.o
 
 MinisatCore_prop.i: MinisatCore_prop.cpp.i
@@ -214,7 +214,7 @@ MinisatCore_prop.i: MinisatCore_prop.cpp.i
 
 # target to preprocess a source file
 MinisatCore_prop.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.i
 .PHONY : MinisatCore_prop.cpp.i
 
 MinisatCore_prop.s: MinisatCore_prop.cpp.s
@@ -222,7 +222,7 @@ MinisatCore_prop.s: MinisatCore_prop.cpp.s
 
 # target to generate assembly for a file
 MinisatCore_prop.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/MinisatCore_prop.cpp.s
 .PHONY : MinisatCore_prop.cpp.s
 
 SimplifyingMinisat.o: SimplifyingMinisat.cpp.o
@@ -230,7 +230,7 @@ SimplifyingMinisat.o: SimplifyingMinisat.cpp.o
 
 # target to build an object file
 SimplifyingMinisat.cpp.o:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.o
 .PHONY : SimplifyingMinisat.cpp.o
 
 SimplifyingMinisat.i: SimplifyingMinisat.cpp.i
@@ -238,7 +238,7 @@ SimplifyingMinisat.i: SimplifyingMinisat.cpp.i
 
 # target to preprocess a source file
 SimplifyingMinisat.cpp.i:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.i
 .PHONY : SimplifyingMinisat.cpp.i
 
 SimplifyingMinisat.s: SimplifyingMinisat.cpp.s
@@ -246,7 +246,7 @@ SimplifyingMinisat.s: SimplifyingMinisat.cpp.s
 
 # target to generate assembly for a file
 SimplifyingMinisat.cpp.s:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(MAKE) -f lib/Sat/CMakeFiles/sat.dir/build.make lib/Sat/CMakeFiles/sat.dir/SimplifyingMinisat.cpp.s
 .PHONY : SimplifyingMinisat.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

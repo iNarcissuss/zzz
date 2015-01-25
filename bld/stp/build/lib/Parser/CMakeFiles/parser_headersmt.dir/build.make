@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/travis/build/vdun/stoke/stoke/stp
+CMAKE_SOURCE_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/travis/build/vdun/stoke/stoke/stp/build
+CMAKE_BINARY_DIR = /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build
 
 # Utility rule file for parser_headersmt.
 
@@ -50,10 +50,10 @@ lib/Parser/CMakeFiles/parser_headersmt: lib/Parser/lexsmt.cpp
 
 lib/Parser/parsesmt.cpp: ../lib/Parser/smt.lex
 lib/Parser/parsesmt.cpp: ../lib/Parser/smt.y
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/travis/build/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating parsesmt.cpp, lexsmt.cpp"
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -d -p smt /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.y
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -Psmt /home/travis/build/vdun/stoke/stoke/stp/lib/Parser/smt.lex
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/bison --debug -v -o /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/parsesmt.cpp -d -p smt /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.y
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && /usr/bin/flex -Ce -I -o/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/lexsmt.cpp -Psmt /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser/smt.lex
 
 lib/Parser/lexsmt.cpp: lib/Parser/parsesmt.cpp
 
@@ -68,10 +68,10 @@ lib/Parser/CMakeFiles/parser_headersmt.dir/build: parser_headersmt
 .PHONY : lib/Parser/CMakeFiles/parser_headersmt.dir/build
 
 lib/Parser/CMakeFiles/parser_headersmt.dir/clean:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser && $(CMAKE_COMMAND) -P CMakeFiles/parser_headersmt.dir/cmake_clean.cmake
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser && $(CMAKE_COMMAND) -P CMakeFiles/parser_headersmt.dir/cmake_clean.cmake
 .PHONY : lib/Parser/CMakeFiles/parser_headersmt.dir/clean
 
 lib/Parser/CMakeFiles/parser_headersmt.dir/depend:
-	cd /home/travis/build/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/travis/build/vdun/stoke/stoke/stp /home/travis/build/vdun/stoke/stoke/stp/lib/Parser /home/travis/build/vdun/stoke/stoke/stp/build /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser /home/travis/build/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser_headersmt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/src/github.com/vdun/stoke/stoke/stp /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/Parser /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser /home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/Parser/CMakeFiles/parser_headersmt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/Parser/CMakeFiles/parser_headersmt.dir/depend
 

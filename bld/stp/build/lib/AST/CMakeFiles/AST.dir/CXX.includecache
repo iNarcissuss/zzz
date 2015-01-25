@@ -420,49 +420,49 @@ string.h
 ctype.h
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/AST/ASTKind.cpp
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTBVConst.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTInterior.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTNode.cpp
 sstream
 -
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTSymbol.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STP.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTUtil.cpp
 stp/AST/UsefulDefs.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/UsefulDefs.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/UsefulDefs.h
 stp/STPManager/STPManager.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STPManager.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STPManager.h
 stp/Globals/Globals.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/Globals/Globals.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/Globals/Globals.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ASTmisc.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/AST.h
 stp/STPManager/STPManager.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STPManager.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/STPManager.h
 stp/STPManager/NodeIterator.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/NodeIterator.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/STPManager/NodeIterator.h
 unistd.h
 -
 signal.h
@@ -470,13 +470,13 @@ signal.h
 sys/time.h
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/ArrayTransformer.cpp
 stp/AST/ArrayTransformer.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/ArrayTransformer.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/ArrayTransformer.h
 cassert
 -
 stp/Simplifier/simplifier.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/Simplifier/simplifier.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/Simplifier/simplifier.h
 cstdlib
 -
 cstdio
@@ -486,43 +486,43 @@ iostream
 sstream
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/HashingNodeFactory.cpp
 stp/AST/NodeFactory/HashingNodeFactory.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/HashingNodeFactory.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/HashingNodeFactory.h
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
 stp/STPManager/STP.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/STPManager/STP.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/STPManager/STP.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/NodeFactory.cpp
 stp/AST/ASTKind.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/ASTKind.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/ASTKind.h
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
 stp/STPManager/STPManager.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/STPManager/STPManager.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/STPManager/STPManager.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/SimplifyingNodeFactory.cpp
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
 stp/AST/NodeFactory/SimplifyingNodeFactory.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/SimplifyingNodeFactory.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/SimplifyingNodeFactory.h
 stp/Simplifier/simplifier.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/Simplifier/simplifier.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/Simplifier/simplifier.h
 stp/AST/ArrayTransformer.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/ArrayTransformer.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/ArrayTransformer.h
 cassert
 -
 cmath
 -
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/TypeChecker.cpp
 stp/AST/NodeFactory/TypeChecker.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/TypeChecker.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/NodeFactory/TypeChecker.h
 stp/AST/AST.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/NodeFactory/stp/AST/AST.h
 
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/RunTimes.cpp
 cassert
 -
 sys/time.h
@@ -534,7 +534,7 @@ iostream
 utility
 -
 stp/AST/RunTimes.h
-/home/travis/build/vdun/stoke/stoke/stp/lib/AST/stp/AST/RunTimes.h
+/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/AST/stp/AST/RunTimes.h
 
 include/stp/AST/ASTKind.h
 iostream

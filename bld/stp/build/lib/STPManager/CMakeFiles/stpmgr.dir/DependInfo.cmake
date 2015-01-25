@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o"
-  "/home/travis/build/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp" "/home/travis/build/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STP.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STP.cpp.o"
+  "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/lib/STPManager/STPManager.cpp" "/home/ubuntu/src/github.com/vdun/stoke/stoke/stp/build/lib/STPManager/CMakeFiles/stpmgr.dir/STPManager.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
