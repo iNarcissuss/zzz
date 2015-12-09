@@ -1,0 +1,82 @@
+10
+
+dir
+486
+https://svn.code.sf.net/p/astyle/code/trunk/AStyle/build
+https://svn.code.sf.net/p/astyle/code
+
+
+
+2015-10-04T18:25:48.241519Z
+484
+jimp03
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+1fe3c263-5997-42ff-936f-87a7378ef0cd
+
+cb-gcc
+dir
+
+cb-mac
+dir
+
+clang
+dir
+
+cb-dmars
+dir
+
+vs2010
+dir
+
+vs-doc
+dir
+
+gcc
+dir
+
+vs2012
+dir
+
+cb-intel
+dir
+
+vs2013
+dir
+
+mac
+dir
+
+vs2015
+dir
+
+vs2008
+dir
+
+xcode
+dir
+
+cb-mingw
+dir
+
+cb-clang
+dir
+
+cb-bcc
+dir
+
+intel
+dir
+

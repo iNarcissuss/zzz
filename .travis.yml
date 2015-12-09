@@ -1,0 +1,113 @@
+os:
+  - linux
+sudo: required
+compiler:
+  - g++
+cache:
+  apt: true
+  # ______________________________________________________[stoke]
+# before_install:
+  # - sudo add-apt-repository -y "deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse" # Trusty
+  # # - sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu/ utopic main"
+  # - sudo apt-get -qq -y install python-software-properties
+  # # - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  # - sudo apt-get -qq update
+  # # - sudo apt-get -qq install -y gcc-4.8 g++-4.8
+  # - sudo apt-get -y -qq install git subversion
+  # - sudo apt-get -y -qq install build-essential automake
+  # - sudo apt-get -y -qq install valgrind
+  # - sudo apt-get -y -qq build-dep valgrind
+  # - sudo apt-get -y -qq install qemu
+  # - sudo apt-get -y -qq build-dep qemu
+  # - sudo apt-get -y -qq install binutils-multiarch
+  # - sudo apt-get -y -qq build-dep binutils-multiarch
+  # - sudo apt-get -y -qq install binutils-dev
+  # - sudo apt-get -y -qq install ocaml ocaml-findlib libgdome2-ocaml-dev camlidl
+  # - sudo apt-get -y -qq build-dep ocaml
+  # # ocaml-native-compilers improves compilation speed
+  # - sudo apt-get -y -qq install libextlib-ocaml-dev ocaml-native-compilers libocamlgraph-ocaml-dev libsqlite3-ocaml-dev
+  # # texlive is big, but used with ocamldoc, etc.
+  # # - sudo apt-get -y -qq install texlive texlive-latex-extra transfig hevea
+  # - sudo apt-get -y -qq install subversion libgmp3-dev zsh automake
+  # # STP always needs bison and flex.
+  # # Modern (Git) STP requires cmake and some Boost libraries
+  # - sudo apt-get -y -qq install bison flex cmake libboost-system-dev libboost-program-options-dev
+
+  # - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
+  # - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
+  # - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++ g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+# script:
+  # - cd stoke-release
+  # - export CXXFLAGS=$CXXFLAGS'-Wno-error'
+  # - export CFLAGS=$CFLAGS'-Wno-error'
+  # - sudo nice -n -20 make # haswell, sandybridge, nehalem
+# ______________________________________________________[fuzzball]
+# before_install:
+  # - sudo apt-get -qq -y install python-software-properties
+  # - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  # - sudo apt-get -qq update
+  # - sudo apt-get -qq install -y gcc-4.8 g++-4.8
+  # - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
+  # - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
+  # - sudo apt-get -qq install -y git subversion flex bison ccache doxygen g++-4.8 g++-multilib ghc libghc-regex-tdfa-dev libghc-regex-compat-dev libghc-split-dev cmake libghc-regex-compat-dev libjsoncpp-dev
+script:
+  - git config --global user.email "traviZ@x.kom"
+  - git config --global user.name "traviZ"
+  - git config --global push.default simple
+  - bash -x ./mk.sh
+  # - export brsh=bld
+  # - export prj=stoke
+  # - git clone --branch=${brsh} https://cabb9b8c15b8b3c52796f53efcb29081b450567c@github.com/vdun/${prj}.git > /dev/null
+  # - cd ${prj}
+  # _______________________
+  # --------------<vex>
+  # - svn co -r2737 svn://svn.valgrind.org/vex/trunk vex-r2737
+  # - cd vex-r2737
+  # - make -f Makefile-gcc
+  # - cd ..
+  # --------------<fuzzball>
+  # - git submodule foreach git pull origin master
+  # - git clone https://github.com/bitblaze-fuzzball/fuzzball
+  # - cat .gitmodules
+  # - git submodule init
+  # - git submodule foreach git pull origin bld
+  # - git clone https://github.com/bitblaze-fuzzball/stp
+  # - cd stp
+  # - mkdir build
+  # - cd build
+  # - cmake -G 'Unix Makefiles' ..
+  # - sudo nice -n -20 make
+  # - cd ../
+  # - cp -R ./build ../bld/stp
+  # - cd ../
+  # - pwd
+  # - cp stp lib/libstp.a ../../stp/
+  
+  # - cd fuzzball
+  # - cd ../
+  
+  # - ls -la
+  # - pwd
+  # - git submodule update
+  # - ./autogen.sh
+  # - ./configure --with-vex=$(pwd)/../vex-r2737
+  # - sudo nice -n -20 make
+  # _______________________
+  # - git config --global user.email "bld@bld.bld"
+  # - git config --global user.name "bld"
+  # - git add --all
+  # # - git commit -m "build_"$(date +"%b%e")$TRAVIS_BUILD_NUMBER
+  # - git commit -m "build_"$TRAVIS_BUILD_NUMBER
+  # - git push --set-upstream origin ${brsh}
+  # - echo $TRAVIS_COMMIT
+  # - ls
+# ______________________________________________________
+env:
+  # - ARCH=i386
+  # - ARCH=x86_64
+  global:
+    # - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=
+    # - secure: m/PeuSKGGl5H7KnKc6W0Fc5nNML4ezRHy5zfrhMaRsyb900zn6pF81uRACo1pJFbRhvnHKbu6NIuPuSPmzkmCshVI38RGq+xRfnxw5fp74W0nwJyC8HUqmmJiOv+NzASZ1RLWrbUlNIgL3QUXnGyovPT1dfZX+STRhQ8op1S6yU=
+    # - secure: ZaM2Txtlhps0Q3U9I/EjPpSHIjBK4xmn/IhrwjLwJM2ZoxoJuc6iHTa978oqZzUL4kjnyC/ajSGELNGTUPff9ECCTnYglESm5Om8gUOoJ61j6ZUHY6VYQFS3IT2trxDlLbjUNi16Nf+Blp1f4B9j9/c8oL0CNXAXS/QuEx2runE=
+    
+    # - secure: PzWXkwMkiEv4KItqMnTwRukZD+EcFIkJjD1ggN6/KBathRB7LkZqepilqUP2tOyWg/g+ClPcmwIrb8gImg6L0RdvsY8l9sQexwCSd3iFKoE462Mex0ekbfzq+gSfAdfL+QK0Hi+SROU+LTv1sHwN5fa1a8jAZBz9PgEwW31yXIw=

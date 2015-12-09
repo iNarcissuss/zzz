@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/astyle/code/!svn/ver/474/trunk/AStyle/build/cb-clang
+END
+copyfiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/astyle/code/!svn/ver/415/trunk/AStyle/build/cb-clang/copyfiles.sh
+END
+Clang AStyle.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/astyle/code/!svn/ver/458/trunk/AStyle/build/cb-clang/Clang%20AStyle.cbp
+END
+Clang AStyle A.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/astyle/code/!svn/ver/458/trunk/AStyle/build/cb-clang/Clang%20AStyle%20A.cbp
+END
+Clang AStyle Java.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/astyle/code/!svn/ver/474/trunk/AStyle/build/cb-clang/Clang%20AStyle%20Java.cbp
+END
+Clang AStyle So.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/astyle/code/!svn/ver/465/trunk/AStyle/build/cb-clang/Clang%20AStyle%20So.cbp
+END
+Clang AStyle All.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/astyle/code/!svn/ver/433/trunk/AStyle/build/cb-clang/Clang%20AStyle%20All.workspace
+END
