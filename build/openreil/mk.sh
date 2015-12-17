@@ -7,4 +7,4 @@ make install
 
 find ./ > ./list.txt
 rm -rf ./capstone/capstone
-touch ./pyopenreil
+find ./pyopenreil | xargs -I xxx touch xxx
