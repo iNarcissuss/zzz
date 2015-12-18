@@ -1,2 +1,2 @@
 apt-get install libglib2.0-dev
-UNICORN_ARCHS="x86" ./make.sh
+UNICORN_ARCHS="aarch64" ./make.sh
