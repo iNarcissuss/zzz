@@ -7,3 +7,5 @@ sudo update-alternatives --config g++
 apt-get install libglib2.0-dev
 #UNICORN_ARCHS="aarch64" ./make.sh
 ./make.sh
+find ./bindings/* | xargs -Ixxx touch xxx
+rm -rf ./qemu
