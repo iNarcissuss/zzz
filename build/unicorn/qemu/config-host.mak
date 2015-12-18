@@ -14,7 +14,7 @@ qemu_docdir=${prefix}/share/doc/qemu
 qemu_moddir=${prefix}/lib/qemu
 qemu_localstatedir=${prefix}/var
 qemu_helperdir=${prefix}/libexec
-extra_cflags=-m64 -DUNICORN_HAS_ARM64 -fPIC -fvisibility=hidden
+extra_cflags=-m64 -DUNICORN_HAS_X86 -DUNICORN_HAS_ARM -DUNICORN_HAS_M68K -DUNICORN_HAS_ARM64 -DUNICORN_HAS_MIPS -DUNICORN_HAS_MIPSEL -DUNICORN_HAS_MIPS64 -DUNICORN_HAS_MIPS64EL -DUNICORN_HAS_SPARC -fPIC -fvisibility=hidden
 extra_ldflags=
 libs_softmmu=-lutil 
 ARCH=x86_64
@@ -24,7 +24,7 @@ CONFIG_LINUX=y
 VERSION=2.2.1
 PKGVERSION=
 SRC_PATH=/tmp/unicorn/qemu
-TARGET_DIRS=aarch64-softmmu 
+TARGET_DIRS=x86_64-softmmu  arm-softmmu  m68k-softmmu  aarch64-softmmu  mips-softmmu  mipsel-softmmu  mips64-softmmu  mips64el-softmmu  sparc-softmmu sparc64-softmmu 
 CONFIG_PIPE2=y
 CONFIG_EVENTFD=y
 CONFIG_PPOLL=y
@@ -62,14 +62,14 @@ WINDRES=windres
 LIBTOOL=libtool
 CFLAGS=-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include   -g 
 CFLAGS_NOPIE=
-QEMU_CFLAGS=-fPIE -DPIE -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -DUNICORN_HAS_ARM64 -fPIC -fvisibility=hidden  -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all
+QEMU_CFLAGS=-fPIE -DPIE -m64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -DUNICORN_HAS_X86 -DUNICORN_HAS_ARM -DUNICORN_HAS_M68K -DUNICORN_HAS_ARM64 -DUNICORN_HAS_MIPS -DUNICORN_HAS_MIPSEL -DUNICORN_HAS_MIPS64 -DUNICORN_HAS_MIPS64EL -DUNICORN_HAS_SPARC -fPIC -fvisibility=hidden  -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all
 QEMU_INCLUDES=-I$(SRC_PATH)/tcg -I$(SRC_PATH)/tcg/i386 -I. -I$(SRC_PATH) -I$(SRC_PATH)/include
 AUTOCONF_HOST := 
 LDFLAGS=-Wl,--warn-common -Wl,-z,relro -Wl,-z,now -pie -m64 -g 
 LDFLAGS_NOPIE=
 LIBTOOLFLAGS= -Wc,-fstack-protector-all
-LIBS+=-lm -pthread -lgthread-2.0 -lglib-2.0    -lz -lrt
+LIBS+=-lm -pthread -lgthread-2.0 -lrt -lglib-2.0    -lz -lrt
 EXESUF=
 DSOSUF=.so
 LDFLAGS_SHARED=-shared
-TRANSLATE_OPT_CFLAGS=-fno-gcse
+TRANSLATE_OPT_CFLAGS=
