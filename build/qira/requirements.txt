@@ -1,0 +1,14 @@
+six
+html
+flask-socketio
+pillow
+pyelftools
+socketIO-client
+gevent
+pydot
+ipaddr
+capstone
+hexdump
+nose
+./qiradb
+

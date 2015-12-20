@@ -1,4 +1,4 @@
-# QEMU configure log Sun Dec 20 01:45:12 UTC 2015
+# QEMU configure log Sun Dec 20 02:23:04 UTC 2015
 # Configured with: './configure' '--target-list=i386-linux-user,x86_64-linux-user,arm-linux-user,ppc-linux-user,aarch64-linux-user,mips-linux-user,mipsel-linux-user' '--enable-tcg-interpreter' '--enable-debug-tcg' '--cpu=unknown' '--enable-tcg-interpreter' '--enable-debug-tcg' '--cpu=unknown'
 #
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
@@ -48,7 +48,7 @@ cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes 
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g -lpng12
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g
-/tmp/ccrTZM8S.o: In function `main':
+/tmp/cc8Nfvq6.o: In function `main':
 /tmp/qira/tracers/qemu/qemu-latest/config-temp/qemu-conf.c:5: undefined reference to `uuid_generate'
 collect2: ld returned 1 exit status
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g -luuid
@@ -73,7 +73,7 @@ cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes 
 config-temp/qemu-conf.c:2:28: fatal error: sys/capability.h: No such file or directory
 compilation terminated.
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g
-/tmp/ccDnMiDm.o: In function `main':
+/tmp/ccbI9w8r.o: In function `main':
 /tmp/qira/tracers/qemu/qemu-latest/config-temp/qemu-conf.c:5: undefined reference to `pthread_create'
 collect2: ld returned 1 exit status
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g -pthread
@@ -116,12 +116,12 @@ cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes 
 config-temp/qemu-conf.c:1:24: fatal error: sys/endian.h: No such file or directory
 compilation terminated.
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g
-/tmp/cc1DhMBr.o: In function `main':
+/tmp/ccre65DV.o: In function `main':
 /tmp/qira/tracers/qemu/qemu-latest/config-temp/qemu-conf.c:2: undefined reference to `sin'
 collect2: ld returned 1 exit status
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g -lm
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g
-/tmp/ccAAQwtw.o: In function `main':
+/tmp/cc7PxE3Y.o: In function `main':
 /tmp/qira/tracers/qemu/qemu-latest/config-temp/qemu-conf.c:4: undefined reference to `timer_create'
 collect2: ld returned 1 exit status
 cc -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wall -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -Wendif-labels -Wmissing-include-dirs -Wempty-body -Wnested-externs -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wold-style-declaration -Wold-style-definition -Wtype-limits -fstack-protector-all -I/usr/include/p11-kit-1 -I/usr/include/p11-kit-1 -I/usr/include/libpng12 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -g -pthread -lrt
