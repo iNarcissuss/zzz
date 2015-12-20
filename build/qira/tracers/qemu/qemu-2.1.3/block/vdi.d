@@ -28,7 +28,7 @@ block/vdi.o: block/vdi.c \
  /usr/include/glib-2.0/glib/gfileutils.h \
  /usr/include/glib-2.0/glib/ggettext.h /usr/include/glib-2.0/glib/ghash.h \
  /usr/include/glib-2.0/glib/glist.h /usr/include/glib-2.0/glib/gmem.h \
- /usr/include/glib-2.0/glib/ghmac.h \
+ /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/ghmac.h \
  /usr/include/glib-2.0/glib/gchecksum.h \
  /usr/include/glib-2.0/glib/ghook.h \
  /usr/include/glib-2.0/glib/ghostutils.h \
@@ -41,7 +41,7 @@ block/vdi.o: block/vdi.c \
  /usr/include/glib-2.0/glib/gmappedfile.h \
  /usr/include/glib-2.0/glib/gmarkup.h \
  /usr/include/glib-2.0/glib/gmessages.h \
- /usr/include/glib-2.0/glib/gnode.h /usr/include/glib-2.0/glib/goption.h \
+ /usr/include/glib-2.0/glib/goption.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
@@ -110,11 +110,7 @@ block/vdi.o: block/vdi.c \
  /tmp/qira/tracers/qemu/qemu-latest/include/exec/cpu-common.h \
  /tmp/qira/tracers/qemu/qemu-latest/include/exec/hwaddr.h \
  /tmp/qira/tracers/qemu/qemu-latest/include/exec/poison.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bswap.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/sysemu/sysemu.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitmap.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitops.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qom/object.h
+ /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bswap.h
 
 /tmp/qira/tracers/qemu/qemu-latest/include/qemu-common.h:
 
@@ -188,6 +184,8 @@ config-host.h:
 
 /usr/include/glib-2.0/glib/gmem.h:
 
+/usr/include/glib-2.0/glib/gnode.h:
+
 /usr/include/glib-2.0/glib/ghmac.h:
 
 /usr/include/glib-2.0/glib/gchecksum.h:
@@ -217,8 +215,6 @@ config-host.h:
 /usr/include/glib-2.0/glib/gmarkup.h:
 
 /usr/include/glib-2.0/glib/gmessages.h:
-
-/usr/include/glib-2.0/glib/gnode.h:
 
 /usr/include/glib-2.0/glib/goption.h:
 
@@ -367,11 +363,3 @@ qapi-types.h:
 /tmp/qira/tracers/qemu/qemu-latest/include/exec/poison.h:
 
 /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bswap.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/sysemu/sysemu.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitmap.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitops.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qom/object.h:
