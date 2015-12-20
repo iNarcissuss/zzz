@@ -5,7 +5,7 @@ pthOrg=`pwd`
 arrIgnore=(
 	barf-project
 	klee
-	qira
+	netifera
 	)
 
 function githubCommit(){ git ls-remote $1 | grep -P 'HEAD$' | cut -f 1; }
