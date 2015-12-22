@@ -50,15 +50,15 @@ parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.o: parser-library/CMa
 parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.o: parser-library/buffer.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/codereason/libs/pe-parse/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.o"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pe-parser-library.dir/buffer.cpp.o -c /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pe-parser-library.dir/buffer.cpp.o -c /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp
 
 parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pe-parser-library.dir/buffer.cpp.i"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp > CMakeFiles/pe-parser-library.dir/buffer.cpp.i
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp > CMakeFiles/pe-parser-library.dir/buffer.cpp.i
 
 parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pe-parser-library.dir/buffer.cpp.s"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp -o CMakeFiles/pe-parser-library.dir/buffer.cpp.s
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/codereason/libs/pe-parse/parser-library/buffer.cpp -o CMakeFiles/pe-parser-library.dir/buffer.cpp.s
 
 parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.o.requires:
 .PHONY : parser-library/CMakeFiles/pe-parser-library.dir/buffer.cpp.o.requires
@@ -73,15 +73,15 @@ parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.o: parser-library/CMak
 parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.o: parser-library/parse.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/codereason/libs/pe-parse/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.o"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pe-parser-library.dir/parse.cpp.o -c /tmp/codereason/libs/pe-parse/parser-library/parse.cpp
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pe-parser-library.dir/parse.cpp.o -c /tmp/codereason/libs/pe-parse/parser-library/parse.cpp
 
 parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pe-parser-library.dir/parse.cpp.i"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/codereason/libs/pe-parse/parser-library/parse.cpp > CMakeFiles/pe-parser-library.dir/parse.cpp.i
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/codereason/libs/pe-parse/parser-library/parse.cpp > CMakeFiles/pe-parser-library.dir/parse.cpp.i
 
 parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pe-parser-library.dir/parse.cpp.s"
-	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/codereason/libs/pe-parse/parser-library/parse.cpp -o CMakeFiles/pe-parser-library.dir/parse.cpp.s
+	cd /tmp/codereason/libs/pe-parse/parser-library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/codereason/libs/pe-parse/parser-library/parse.cpp -o CMakeFiles/pe-parser-library.dir/parse.cpp.s
 
 parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.o.requires:
 .PHONY : parser-library/CMakeFiles/pe-parser-library.dir/parse.cpp.o.requires
