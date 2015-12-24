@@ -1,3 +1,4 @@
+rm -rf /var/lib/dpkg/lock
 apt-get update
 apt-get install git gcc-multilib g++-multilib build-essential cmake libc6-i386 nasm
 mkdir build; cd $_
