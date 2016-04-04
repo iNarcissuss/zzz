@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 barf-project	xxxxxx	https://github.com/programa-stic/barf-project.git	git
 biteye	a19587b32f42b3582e5a1658ba6ed8f68d5c9104	https://github.com/BatchDrake/biteye.git	git
 codereason	xxx	http://github.com/trailofbits/codereason.git	git
@@ -22,3 +23,6 @@ stoke-release	6ca06a8db70db42d43a22e5848519ff6cd6d817b	https://github.com/Stanfo
 stp	3785148da15919de445e476a6f20b06c881cf50c	https://github.com/stp/stp.git	git
 unicorn	3bd2e1213d2678d064a68d43b348cd91571788c3	https://github.com/unicorn-engine/unicorn.git	git
 vix	2b895d75dd8d3c6464b59a0fe76bb30e48d12445	https://github.com/BatchDrake/vix.git	git
+=======
+adbFS	b687e00b9b6da96a440dd9622cdec16fe3bb3330	https://github.com/isieo/adbFS.git	git
+>>>>>>> 4f1f4edb1b304d520d361810b8aeccf08484df88

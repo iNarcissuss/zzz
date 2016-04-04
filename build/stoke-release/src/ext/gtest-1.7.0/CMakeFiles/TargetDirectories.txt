@@ -1,2 +1,0 @@
-/tmp/stoke-release/src/ext/gtest-1.7.0/CMakeFiles/gtest.dir
-/tmp/stoke-release/src/ext/gtest-1.7.0/CMakeFiles/gtest_main.dir
