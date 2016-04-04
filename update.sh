@@ -40,8 +40,7 @@ cat /tmp/ver.tsv | while read i; do
 			git add --all $pthOrg/build/$prj/*
 			git add --all $pthOrg/ver.tsv
 			git commit -m ${prj}"_`date '+%Y-%m-%d-%H:%M'`"
-			#git push origin
-			git push --set-upstream origin cc
+			git push origin
 		}
 	}
 done
