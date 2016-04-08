@@ -1,8 +1,0 @@
-Name: capstone
-Description: Capstone disassembly engine
-Version: 3.0.3
-libdir=/usr/lib
-includedir=/usr/include/capstone
-archive=${libdir}/libcapstone.a
-Libs: -L${libdir} -lcapstone
-Cflags: -I${includedir}
