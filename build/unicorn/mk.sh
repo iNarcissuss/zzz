@@ -12,4 +12,4 @@ touch -h libunicorn.*
 rm -rf ./qemu ./*.d ./*.o ./*.log
 cd bindings/python
 make install
-cp /usr/local/lib/python2.7/dist-packages/unicorn-1.0.egg-info ./
+\cp -r /usr/local/lib/python2.7/dist-packages/unicorn/ ./
