@@ -32,7 +32,7 @@ cat /tmp/ver.tsv | while read i; do
 			rm -rf ./build/$prj/*
 			
 			cd /tmp/$prj
-			chmod 777 ./mk.sh; bash -x ./mk.sh
+			chmod 777 ./mk.sh; sudo bash -x ./mk.sh
 			find ./* -type f -newer /tmp/mmm | xargs -I xxx cp -a --parents xxx $pthOrg/build/$prj
 			cp -a /tmp/$prj/mk.sh $pthOrg/build/$prj/
 
