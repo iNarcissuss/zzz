@@ -37,7 +37,7 @@ ssh_rape	e7f83ba517f4398747c9dedb79880496332a58f7	https://github.com/blasty/ssh_
 stegdetect	ff03fa99c01ac0a8ff178bfe31f345b0341f0eb0	https://github.com/abeluck/stegdetect.git	git
 stoke-release	348809763604cf841deaf38f37be3816bad2b5fd	https://github.com/StanfordPL/stoke-release.git	git
 stp	3785148da15919de445e476a6f20b06c881cf50c	https://github.com/stp/stp.git	git
-taintgrind	xxx	https://github.com/wmkhoo/taintgrind.git	git
+taintgrind	d4f83330edfc304d0fe7a9adb08850efd90a17e4	https://github.com/wmkhoo/taintgrind.git	git
 triad-decompiler	xxx	https://github.com/electrojustin/triad-decompiler.git	git
 triton	xxx	https://github.com/JonathanSalwan/Triton.git	git
 unicorn	xxx	https://github.com/unicorn-engine/unicorn.git	git
