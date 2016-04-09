@@ -34,7 +34,7 @@ reveng	20160224	none	dyn
 s2e	8618efd3da9e68167aa9f43042188c5ef8fc3787	https://github.com/dslab-epfl/s2e.git	git
 shtest	b5c975997997eba390873a5a90e08f27532c7cb1	https://github.com/hellman/shtest.git	git
 ssh_rape	e7f83ba517f4398747c9dedb79880496332a58f7	https://github.com/blasty/ssh_rape.git	git
-stegdetect	xxx	https://github.com/abeluck/stegdetect.git	git
+stegdetect	ff03fa99c01ac0a8ff178bfe31f345b0341f0eb0	https://github.com/abeluck/stegdetect.git	git
 stoke-release	xxx	https://github.com/StanfordPL/stoke-release.git	git
 stp	xxx	https://github.com/stp/stp.git	git
 taintgrind	xxx	https://github.com/wmkhoo/taintgrind.git	git
