@@ -27,7 +27,7 @@ pathgrind	d054e8ae85c306e16b443a6590d665413703a865	https://github.com/codelion/p
 pemcrack	a0fecd70cd3fcaeb4befbfcb7152652c5eb4a655	https://github.com/robertdavidgraham/pemcrack.git	git
 preeny	d33a229720e1a9e9f94043b93b915b1eea5b34f6	https://github.com/zardus/preeny.git	git
 pybfd	2aa39172ae7788cc5d4bf413d558c98b586a58ff	https://github.com/Groundworkstech/pybfd.git	git
-Python_Pin	xxx	https://github.com/blankwall/Python_Pin.git	git
+Python_Pin	5d115f1b5bc730d5dd7a6adc31a74f9a8bfc7c8b	https://github.com/blankwall/Python_Pin.git	git
 qira	xxx	https://github.com/BinaryAnalysisPlatform/qira.git	git
 radare2	xxx	https://github.com/radare/radare2.git	git
 reveng	20160224	none	dyn
