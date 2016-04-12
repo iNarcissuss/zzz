@@ -28,8 +28,8 @@ INSTALL_SCRIPT=/usr/bin/install -m 755
 INSTALL_MAN=/usr/bin/install -m 444
 INSTALL_LIB=/usr/bin/install -m 755 -c
 
-VERSION=0.10.2-git
-LIBVERSION=0.10.2-git
+VERSION=0.10.2
+LIBVERSION=0.10.2
 
 # ./configure --with-ostype=[linux,osx,solaris,windows] # TODO: rename to w32, w64?
 OSTYPE=gnulinux
