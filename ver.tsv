@@ -12,7 +12,7 @@ darling	4036a2ba76f4d64d615a1a5ab6795721e081d359	https://github.com/LubosD/darli
 evilize	20160412	none	dyn
 fernflower	404783c874d5d3b209995f22a9bb8ac640bb35b9	https://github.com/fesh0r/fernflower.git	git
 fuzzball	446a220e95733ad1ca50d776adce8bbef82bffd0	https://github.com/bitblaze-fuzzball/fuzzball.git	git
-gdsl-toolkit	aef4ab1c11a9b3913a68d294bdc00b4fa98789da	https://github.com/gdslang/gdsl-toolkit.git	git
+gdsl-toolkit	52b2f3c38397dab8969e51ce609c4421a05d3af4	https://github.com/gdslang/gdsl-toolkit.git	git
 goldendict	5ff98387329183420cc09b896ecc427d3cd75ef6	https://github.com/goldendict/goldendict.git	git
 hash_extender	1bea837cb73e02e4d307344660d8c4122ae5c14d	https://github.com/iagox86/hash_extender.git	git
 klee	xxx	https://github.com/klee/klee.git	git
