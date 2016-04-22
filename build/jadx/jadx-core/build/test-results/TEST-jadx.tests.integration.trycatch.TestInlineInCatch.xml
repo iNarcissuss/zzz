@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestInlineInCatch" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:02" hostname="box723" time="0.044">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestInlineInCatch" time="0.044"/>
+  <system-out><![CDATA[15:41:02 INFO  - converting to dex: jadx-tmp-229326305064054519984930257536311.jar ...
+15:41:02 INFO  - loading ...
+15:41:02 DEBUG - Load: /tmp/jadx-tmp-229326305064054519984930257536311.jar
+15:41:02 DEBUG - '.arsc' file not found
+15:41:02 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+import java.io.File;
+
+public class TestInlineInCatch$TestCls {
+    private File dir;
+
+    public int test() {
+        File output = null;
+        try {
+            output = File.createTempFile("f", "a", this.dir);
+            return 0;
+        } catch (Exception e) {
+            if (output != null) {
+                output.delete();
+            }
+            return 2;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

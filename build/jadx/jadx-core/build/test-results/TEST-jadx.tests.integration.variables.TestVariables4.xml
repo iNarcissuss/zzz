@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.variables.TestVariables4" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:04" hostname="box723" time="0.674">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.variables.TestVariables4" time="0.216"/>
+  <testcase name="test2" classname="jadx.tests.integration.variables.TestVariables4" time="0.457"/>
+  <system-out><![CDATA[15:41:04 INFO  - converting to dex: jadx-tmp-585711054312592637784932293928595.jar ...
+15:41:04 INFO  - loading ...
+15:41:04 DEBUG - Load: /tmp/jadx-tmp-585711054312592637784932293928595.jar
+15:41:04 DEBUG - '.arsc' file not found
+15:41:04 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.variables;
+
+import java.lang.reflect.InvocationTargetException;
+
+public class TestVariables4$TestCls {
+
+    private static class AbstractTest {
+        private AbstractTest() {
+        }
+    }
+
+    private static boolean runTest(String clsName) {
+        boolean pass = false;
+        String msg = null;
+        Throwable exc = null;
+        try {
+            Class<?> cls = Class.forName(clsName);
+            if (cls.getSuperclass() == AbstractTest.class) {
+                try {
+                    pass = ((Boolean) cls.getMethod("testRun", new Class[0]).invoke((AbstractTest) cls.getConstructor(new Class[0]).newInstance(new Object[0]), new Object[0])).booleanValue();
+                } catch (InvocationTargetException e) {
+                    pass = false;
+                    exc = e.getCause();
+                } catch (Throwable e2) {
+                    pass = false;
+                    exc = e2;
+                }
+            } else {
+                msg = "not extends AbstractTest";
+            }
+            System.err.println(">> " + (pass ? "PASS" : "FAIL") + "\t" + clsName + (msg == null ? "" : "\t - " + msg));
+            if (exc == null) {
+                return pass;
+            }
+            exc.printStackTrace();
+            return pass;
+        } catch (ClassNotFoundException e3) {
+            System.err.println("Class '" + clsName + "' not found");
+            return false;
+        } catch (Exception e4) {
+            e4.printStackTrace();
+            return false;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+15:41:04 INFO  - converting to dex: jadx-tmp-887944105356612490884932546312005.jar ...
+15:41:04 INFO  - loading ...
+15:41:04 DEBUG - Load: /tmp/jadx-tmp-887944105356612490884932546312005.jar
+15:41:04 DEBUG - '.arsc' file not found
+15:41:04 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.variables;
+
+import java.lang.reflect.InvocationTargetException;
+
+public class TestVariables4$TestCls {
+
+    private static class AbstractTest {
+        private AbstractTest() {
+        }
+    }
+
+    private static boolean runTest(String str) {
+        try {
+            String str2;
+            boolean z;
+            Throwable th;
+            Class cls = Class.forName(str);
+            if (cls.getSuperclass() == AbstractTest.class) {
+                boolean booleanValue;
+                Throwable th2;
+                try {
+                    booleanValue = ((Boolean) cls.getMethod("testRun", new Class[0]).invoke((AbstractTest) cls.getConstructor(new Class[0]).newInstance(new Object[0]), new Object[0])).booleanValue();
+                    th2 = null;
+                } catch (InvocationTargetException e) {
+                    th2 = e.getCause();
+                    booleanValue = false;
+                } catch (Throwable th3) {
+                    th2 = th3;
+                    booleanValue = false;
+                }
+                str2 = null;
+                Throwable th4 = th2;
+                z = booleanValue;
+                th = th4;
+            } else {
+                th = null;
+                str2 = "not extends AbstractTest";
+                z = false;
+            }
+            System.err.println(">> " + (z ? "PASS" : "FAIL") + "\t" + str + (str2 == null ? "" : "\t - " + str2));
+            if (th != null) {
+                th.printStackTrace();
+            }
+            return z;
+        } catch (ClassNotFoundException e2) {
+            System.err.println("Class '" + str + "' not found");
+            return false;
+        } catch (Exception e3) {
+            e3.printStackTrace();
+            return false;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[Note: /jadx/tests/integration/variables/TestVariables4$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.loops.TestNestedLoops2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:59" hostname="box723" time="0.047">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.loops.TestNestedLoops2" time="0.047"/>
+  <system-out><![CDATA[15:40:59 INFO  - converting to dex: jadx-tmp-781396112347564801984927357385974.jar ...
+15:40:59 INFO  - loading ...
+15:40:59 DEBUG - Load: /tmp/jadx-tmp-781396112347564801984927357385974.jar
+15:40:59 DEBUG - '.arsc' file not found
+15:40:59 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.loops;
+
+import java.util.List;
+
+public class TestNestedLoops2$TestCls {
+    private boolean test(List<String> list) {
+        int j = 0;
+        for (int i = 0; i < list.size(); i++) {
+            while (j < ((String) list.get(i)).length()) {
+                j++;
+            }
+        }
+        return j > 10;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

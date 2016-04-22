@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestTryCatch5" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:02" hostname="box723" time="0.074">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestTryCatch5" time="0.074"/>
+  <system-out><![CDATA[15:41:02 INFO  - converting to dex: jadx-tmp-83994862717719708384930668326908.jar ...
+15:41:02 INFO  - loading ...
+15:41:02 DEBUG - Load: /tmp/jadx-tmp-83994862717719708384930668326908.jar
+15:41:02 DEBUG - '.arsc' file not found
+15:41:02 WARN  - Unknown 'R' class, create references to 'R'
+15:41:02 DEBUG -  Duplicated block: B:23:0x0043 in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:25:? in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:26:0x0048 in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:27:0x004b in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:17:? in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:18:0x0038 in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:20:? in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+15:41:02 DEBUG -  Duplicated block: B:21:0x003d in jadx.tests.integration.trycatch.TestTryCatch5$TestCls.test(java.lang.Object):java.lang.Object
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class TestTryCatch5$TestCls {
+    private Object test(Object obj) {
+        Throwable th;
+        File file = new File("r");
+        FileOutputStream output = null;
+        try {
+            FileOutputStream output2 = new FileOutputStream(file);
+            try {
+                if (obj.equals("a")) {
+                    Object obj2 = new Object();
+                    if (output2 != null) {
+                        try {
+                            output2.close();
+                        } catch (IOException e) {
+                        }
+                    }
+                    file.delete();
+                    output = output2;
+                    return obj2;
+                }
+                if (output2 != null) {
+                    try {
+                        output2.close();
+                    } catch (IOException e2) {
+                    }
+                }
+                file.delete();
+                output = output2;
+                return null;
+            } catch (IOException e3) {
+                output = output2;
+                try {
+                    System.out.println("Exception");
+                    if (output != null) {
+                        try {
+                            output.close();
+                        } catch (IOException e4) {
+                        }
+                    }
+                    file.delete();
+                    return null;
+                } catch (Throwable th2) {
+                    th = th2;
+                    if (output != null) {
+                        try {
+                            output.close();
+                        } catch (IOException e5) {
+                        }
+                    }
+                    file.delete();
+                    throw th;
+                }
+            } catch (Throwable th3) {
+                th = th3;
+                output = output2;
+                if (output != null) {
+                    output.close();
+                }
+                file.delete();
+                throw th;
+            }
+        } catch (IOException e6) {
+            System.out.println("Exception");
+            if (output != null) {
+                output.close();
+            }
+            file.delete();
+            return null;
+        }
+    }
+}
+-----------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

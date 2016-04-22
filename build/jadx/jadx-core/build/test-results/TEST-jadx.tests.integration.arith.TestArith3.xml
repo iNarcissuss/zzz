@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.arith.TestArith3" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:47" hostname="box723" time="0.094">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.arith.TestArith3" time="0.094"/>
+  <system-out><![CDATA[15:40:47 INFO  - converting to dex: jadx-tmp-76746841999950308184915773976521.jar ...
+15:40:47 INFO  - loading ...
+15:40:47 DEBUG - Load: /tmp/jadx-tmp-76746841999950308184915773976521.jar
+15:40:47 DEBUG - '.arsc' file not found
+15:40:47 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.arith;
+
+public class TestArith3$TestCls {
+    private int vp;
+
+    private void test(byte[] buffer) {
+        int n = ((buffer[3] & 255) + 4) + ((buffer[2] & 15) << 8);
+        while (n + 4 < buffer.length) {
+            int p = (buffer[n + 2] & 255) + ((buffer[n + 1] & 31) << 8);
+            int len = (buffer[n + 4] & 255) + ((buffer[n + 3] & 15) << 8);
+            switch (buffer[n] & 255) {
+                case 27:
+                    this.vp = p;
+                    break;
+                default:
+                    break;
+            }
+            n += len + 5;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

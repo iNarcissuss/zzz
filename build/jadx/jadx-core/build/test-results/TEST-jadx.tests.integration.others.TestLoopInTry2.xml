@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.others.TestLoopInTry2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:00" hostname="box723" time="0.103">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.others.TestLoopInTry2" time="0.103"/>
+  <system-out><![CDATA[15:41:00 INFO  - converting to dex: jadx-tmp-624014516929303033384928749571157.jar ...
+15:41:00 INFO  - loading ...
+15:41:00 DEBUG - Load: /tmp/jadx-tmp-624014516929303033384928749571157.jar
+15:41:00 DEBUG - '.arsc' file not found
+15:41:00 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.others;
+
+import com.android.dex.Code;
+import com.android.dx.io.instructions.DecodedInstruction;
+import com.android.dx.io.instructions.ShortArrayCodeInput;
+import jadx.core.dex.nodes.DexNode;
+import jadx.core.dex.nodes.MethodNode;
+import jadx.core.utils.exceptions.DecodeException;
+import java.io.EOFException;
+
+public class TestLoopInTry2$TestCls {
+    private DexNode dex;
+    private DecodedInstruction[] insnArr;
+    private MethodNode method;
+
+    public void test(Code mthCode) throws DecodeException {
+        short[] encodedInstructions = mthCode.getInstructions();
+        DecodedInstruction[] decoded = new DecodedInstruction[encodedInstructions.length];
+        ShortArrayCodeInput in = new ShortArrayCodeInput(encodedInstructions);
+        while (in.hasMore()) {
+            try {
+                decoded[in.cursor()] = DecodedInstruction.decode(in);
+            } catch (EOFException e) {
+                throw new DecodeException(this.method, "", e);
+            }
+        }
+        this.insnArr = decoded;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.others.TestIssue13a" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:00" hostname="box723" time="0.269">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.others.TestIssue13a" time="0.269"/>
+  <system-out><![CDATA[15:41:00 INFO  - converting to dex: jadx-tmp-424719404836016012784928233596673.jar ...
+15:41:00 INFO  - loading ...
+15:41:00 DEBUG - Load: /tmp/jadx-tmp-424719404836016012784928233596673.jar
+15:41:00 DEBUG - '.arsc' file not found
+15:41:00 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.others;
+
+import java.util.HashMap;
+
+public class TestIssue13a$TestCls {
+    private static final String TAG = "Parcel";
+    private static final HashMap<ClassLoader, HashMap<String, Creator<?>>> mCreators = new HashMap();
+
+    private static class Log {
+        private Log() {
+        }
+
+        public static void e(String tag, String s) {
+        }
+    }
+
+    private class Parcelable {
+
+        public class Creator<T> {
+            public T createFromParcel(TestIssue13a$TestCls testCls) {
+                return null;
+            }
+        }
+
+        public class ClassLoaderCreator<T> extends Creator<T> {
+            public ClassLoaderCreator() {
+                super();
+            }
+
+            public T createFromParcel(TestIssue13a$TestCls testCls, ClassLoader loader) {
+                return null;
+            }
+        }
+
+        private Parcelable() {
+        }
+    }
+
+    public final <T extends Parcelable> T test(ClassLoader loader) {
+        String name = readString();
+        if (name == null) {
+            return null;
+        }
+        synchronized (mCreators) {
+            HashMap<String, Creator<?>> map = (HashMap) mCreators.get(loader);
+            if (map == null) {
+                map = new HashMap();
+                mCreators.put(loader, map);
+            }
+            Creator<T> creator = (Creator) map.get(name);
+            if (creator == null) {
+                Class<?> c;
+                if (loader == null) {
+                    try {
+                        c = Class.forName(name);
+                    } catch (IllegalAccessException e) {
+                        Log.e(TAG, "1" + name + ", e: " + e);
+                        throw new RuntimeException("2" + name);
+                    } catch (ClassNotFoundException e2) {
+                        Log.e(TAG, "3" + name + ", e: " + e2);
+                        throw new RuntimeException("4" + name);
+                    } catch (ClassCastException e3) {
+                        throw new RuntimeException("5" + name);
+                    } catch (NoSuchFieldException e4) {
+                        throw new RuntimeException("6" + name);
+                    }
+                }
+                c = Class.forName(name, true, loader);
+                creator = (Creator) c.getField("CREATOR").get(null);
+                if (creator == null) {
+                    throw new RuntimeException("7" + name);
+                }
+                map.put(name, creator);
+            }
+        }
+        if (creator instanceof ClassLoaderCreator) {
+            return (Parcelable) ((ClassLoaderCreator) creator).createFromParcel(this, loader);
+        }
+        return (Parcelable) creator.createFromParcel(this);
+    }
+
+    private String readString() {
+        return "";
+    }
+}
+-----------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

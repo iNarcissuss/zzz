@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestInnerClass2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:55" hostname="box723" time="0.095">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestInnerClass2" time="0.095"/>
+  <system-out><![CDATA[15:40:55 INFO  - converting to dex: jadx-tmp-909933440050032418384923790422439.jar ...
+15:40:55 INFO  - loading ...
+15:40:55 DEBUG - Load: /tmp/jadx-tmp-909933440050032418384923790422439.jar
+15:40:55 DEBUG - '.arsc' file not found
+15:40:55 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class TestInnerClass2$TestCls {
+
+    private static class TerminateTask extends TimerTask {
+        private TerminateTask() {
+        }
+
+        public void run() {
+            System.err.println("Test timed out");
+        }
+    }
+
+    public void test() {
+        new Timer().schedule(new TerminateTask(), 1000);
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

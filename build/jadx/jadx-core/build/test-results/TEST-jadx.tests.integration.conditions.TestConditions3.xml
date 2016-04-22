@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestConditions3" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:50" hostname="box723" time="0.189">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestConditions3" time="0.189"/>
+  <system-out><![CDATA[15:40:50 INFO  - converting to dex: jadx-tmp-425725441219482596784918210032687.jar ...
+15:40:50 INFO  - loading ...
+15:40:50 DEBUG - Load: /tmp/jadx-tmp-425725441219482596784918210032687.jar
+15:40:50 DEBUG - '.arsc' file not found
+15:40:50 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+import java.util.List;
+import java.util.regex.Pattern;
+
+public class TestConditions3$TestCls {
+    private static final Pattern PATTERN = Pattern.compile("[a-f0-9]{20}");
+
+    private static class A {
+        private A() {
+        }
+
+        public Object set(String s) {
+            return null;
+        }
+
+        public List<String> getList() {
+            return null;
+        }
+    }
+
+    public static Object test(A a) {
+        List<String> list = a.getList();
+        if (list == null || list.size() != 1) {
+            return null;
+        }
+        String s = (String) list.get(0);
+        if (isEmpty(s)) {
+            return null;
+        }
+        if (isDigitsOnly(s)) {
+            return new A().set(s);
+        }
+        if (PATTERN.matcher(s).matches()) {
+            return new A().set(s);
+        }
+        return null;
+    }
+
+    private static boolean isDigitsOnly(String s) {
+        return false;
+    }
+
+    private static boolean isEmpty(String s) {
+        return false;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

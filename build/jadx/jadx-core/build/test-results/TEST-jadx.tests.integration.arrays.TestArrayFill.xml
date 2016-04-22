@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.arrays.TestArrayFill" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:48" hostname="box723" time="0.153">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.arrays.TestArrayFill" time="0.153"/>
+  <system-out><![CDATA[15:40:48 INFO  - converting to dex: jadx-tmp-363764012426997351184916393866614.jar ...
+15:40:48 INFO  - loading ...
+15:40:48 DEBUG - Load: /tmp/jadx-tmp-363764012426997351184916393866614.jar
+15:40:48 DEBUG - '.arsc' file not found
+15:40:48 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.arrays;
+
+public class TestArrayFill$TestCls {
+    public String[] method() {
+        return new String[]{"1", "2", "3"};
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

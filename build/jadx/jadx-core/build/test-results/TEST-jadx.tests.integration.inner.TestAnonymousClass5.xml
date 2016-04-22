@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestAnonymousClass5" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:55" hostname="box723" time="0.157">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestAnonymousClass5" time="0.157"/>
+  <system-out><![CDATA[15:40:55 INFO  - converting to dex: jadx-tmp-389422430599458372384923236560109.jar ...
+15:40:55 INFO  - loading ...
+15:40:55 DEBUG - Load: /tmp/jadx-tmp-389422430599458372384923236560109.jar
+15:40:55 DEBUG - '.arsc' file not found
+15:40:55 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestAnonymousClass5$TestCls {
+    private int a;
+    private final Map<String, TestAnonymousClass5$TestCls> map = new HashMap();
+
+    public Iterable<TestAnonymousClass5$TestCls> test(String name) {
+        final TestAnonymousClass5$TestCls cls = (TestAnonymousClass5$TestCls) this.map.get(name);
+        if (cls == null) {
+            return null;
+        }
+        final int listSize = cls.size();
+        final Iterator<TestAnonymousClass5$TestCls> iterator = new Iterator<TestAnonymousClass5$TestCls>() {
+            int counter = 0;
+
+            public TestAnonymousClass5$TestCls next() {
+                cls.a = cls.a + 1;
+                this.counter++;
+                return cls;
+            }
+
+            public boolean hasNext() {
+                return this.counter < listSize;
+            }
+
+            public void remove() {
+                throw new UnsupportedOperationException();
+            }
+        };
+        return new Iterable<TestAnonymousClass5$TestCls>() {
+            public Iterator<TestAnonymousClass5$TestCls> iterator() {
+                return iterator;
+            }
+        };
+    }
+
+    private int size() {
+        return 7;
+    }
+
+    public void check() {
+        TestAnonymousClass5$TestCls v = new TestAnonymousClass5$TestCls();
+        v.a = 3;
+        this.map.put("a", v);
+        TestAnonymousClass5$TestCls next = (TestAnonymousClass5$TestCls) test("a").iterator().next();
+        Assert.assertThat(next, Matchers.sameInstance(v));
+        Assert.assertThat(Integer.valueOf(next.a), Matchers.is(Integer.valueOf(4)));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[Note: /jadx/tests/integration/inner/TestAnonymousClass5$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]]></system-err>
+</testsuite>

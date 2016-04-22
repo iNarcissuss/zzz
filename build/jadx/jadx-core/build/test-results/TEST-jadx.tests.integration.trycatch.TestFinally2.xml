@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestFinally2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:02" hostname="box723" time="0.057">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestFinally2" time="0.057"/>
+  <system-out><![CDATA[15:41:02 INFO  - converting to dex: jadx-tmp-488483866438867215184930150013707.jar ...
+15:41:02 INFO  - loading ...
+15:41:02 DEBUG - Load: /tmp/jadx-tmp-488483866438867215184930150013707.jar
+15:41:02 DEBUG - '.arsc' file not found
+15:41:02 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class TestFinally2$TestCls {
+
+    public static final class Result {
+        private final int mCode;
+
+        public Result(int code) {
+            this.mCode = code;
+        }
+
+        public int getCode() {
+            return this.mCode;
+        }
+    }
+
+    public Result test(byte[] data) throws IOException {
+        InputStream inputStream = null;
+        try {
+            inputStream = getInputStream(data);
+            decode(inputStream);
+            Result result = new Result(400);
+            return result;
+        } finally {
+            closeQuietly(inputStream);
+        }
+    }
+
+    private InputStream getInputStream(byte[] data) throws IOException {
+        return new ByteArrayInputStream(data);
+    }
+
+    private int decode(InputStream inputStream) throws IOException {
+        return inputStream.available();
+    }
+
+    private void closeQuietly(InputStream is) {
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

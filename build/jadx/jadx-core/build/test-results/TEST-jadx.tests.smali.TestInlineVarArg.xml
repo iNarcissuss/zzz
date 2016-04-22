@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.smali.TestInlineVarArg" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:05" hostname="box723" time="0.046">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.smali.TestInlineVarArg" time="0.046"/>
+  <system-out><![CDATA[15:41:05 INFO  - loading ...
+15:41:05 DEBUG - Load: /tmp/jadx-tmp-716898853222128649084933930232695.dex
+15:41:05 DEBUG - Not a zip file: /tmp/jadx-tmp-716898853222128649084933930232695.dex
+15:41:05 DEBUG - '.arsc' file not found
+15:41:05 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package defpackage;
+
+public class TestInlineVarArg {
+    public static void f(String... strArr) {
+    }
+
+    public void test() {
+        TestInlineVarArg.f("a", "b", "c");
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

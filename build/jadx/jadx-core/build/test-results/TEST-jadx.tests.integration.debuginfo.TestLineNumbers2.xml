@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.debuginfo.TestLineNumbers2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:51" hostname="box723" time="0.113">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.debuginfo.TestLineNumbers2" time="0.113"/>
+  <system-out><![CDATA[15:40:51 INFO  - converting to dex: jadx-tmp-788222009868817219284919638489788.jar ...
+15:40:51 INFO  - loading ...
+15:40:51 DEBUG - Load: /tmp/jadx-tmp-788222009868817219284919638489788.jar
+15:40:51 DEBUG - '.arsc' file not found
+15:40:51 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.debuginfo;
+
+import java.lang.ref.WeakReference;
+
+public class TestLineNumbers2$TestCls {
+    private WeakReference<TestLineNumbers2$TestCls> f;
+
+    public TestLineNumbers2$TestCls(TestLineNumbers2$TestCls s) {
+    }
+
+    TestLineNumbers2$TestCls test(TestLineNumbers2$TestCls s) {
+        TestLineNumbers2$TestCls store = this.f != null ? (TestLineNumbers2$TestCls) this.f.get() : null;
+        if (store != null) {
+            return store;
+        }
+        store = new TestLineNumbers2$TestCls(s);
+        this.f = new WeakReference(store);
+        return store;
+    }
+
+    public Object test2() {
+        return new Object();
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[Note: /jadx/tests/integration/debuginfo/TestLineNumbers2$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]]></system-err>
+</testsuite>

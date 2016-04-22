@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestInnerClass4" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:55" hostname="box723" time="0.046">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestInnerClass4" time="0.046"/>
+  <system-out><![CDATA[15:40:55 INFO  - converting to dex: jadx-tmp-83953324267075022584923945316917.jar ...
+15:40:55 INFO  - loading ...
+15:40:55 DEBUG - Load: /tmp/jadx-tmp-83953324267075022584923945316917.jar
+15:40:55 DEBUG - '.arsc' file not found
+15:40:55 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+public class TestInnerClass4$TestCls {
+
+    public class C {
+        public String c;
+
+        private C() {
+            this.c = "c";
+        }
+    }
+
+    private String test() {
+        return new C().c;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

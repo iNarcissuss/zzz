@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.TestSignatureParser" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:42" hostname="box723" time="0.34">
+  <properties/>
+  <testcase name="simple types" classname="jadx.tests.TestSignatureParser" time="0.036"/>
+  <testcase name="generics" classname="jadx.tests.TestSignatureParser" time="0.014"/>
+  <testcase name="inner generic" classname="jadx.tests.TestSignatureParser" time="0.001"/>
+  <testcase name="wildcards" classname="jadx.tests.TestSignatureParser" time="0.168"/>
+  <testcase name="generic map" classname="jadx.tests.TestSignatureParser" time="0.061"/>
+  <testcase name="method args" classname="jadx.tests.TestSignatureParser" time="0.03"/>
+  <testcase name="method args 2" classname="jadx.tests.TestSignatureParser" time="0.009"/>
+  <testcase name="generic map: bad signature" classname="jadx.tests.TestSignatureParser" time="0.02"/>
+  <system-out><![CDATA[15:40:42 ERROR - Can't parse generic map: <A:Ljava/lang/Object;B
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

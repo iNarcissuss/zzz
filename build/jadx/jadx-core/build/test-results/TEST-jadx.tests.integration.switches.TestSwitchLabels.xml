@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.switches.TestSwitchLabels" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:01" hostname="box723" time="0.219">
+  <properties/>
+  <testcase name="testWithDisabledConstReplace" classname="jadx.tests.integration.switches.TestSwitchLabels" time="0.096"/>
+  <testcase name="test" classname="jadx.tests.integration.switches.TestSwitchLabels" time="0.123"/>
+  <system-out><![CDATA[15:41:01 INFO  - converting to dex: jadx-tmp-518651410246913965784929241702476.jar ...
+15:41:01 INFO  - loading ...
+15:41:01 DEBUG - Load: /tmp/jadx-tmp-518651410246913965784929241702476.jar
+15:41:01 DEBUG - '.arsc' file not found
+15:41:01 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.switches;
+
+public class TestSwitchLabels$TestCls {
+    public static final int CONST_ABC = 2748;
+    public static final int CONST_CDE = 3294;
+
+    public static class Inner {
+        private static final int CONST_CDE_PRIVATE = 3294;
+
+        public int f1(int arg0) {
+            switch (arg0) {
+                case 3294:
+                    return 2748;
+                default:
+                    return 0;
+            }
+        }
+    }
+
+    public static int f1(int arg0) {
+        switch (arg0) {
+            case 2748:
+                return 3294;
+            default:
+                return 0;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+15:41:01 INFO  - converting to dex: jadx-tmp-44010360704231742584929298635920.jar ...
+15:41:01 INFO  - loading ...
+15:41:01 DEBUG - Load: /tmp/jadx-tmp-44010360704231742584929298635920.jar
+15:41:01 DEBUG - '.arsc' file not found
+15:41:01 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.switches;
+
+public class TestSwitchLabels$TestCls$Inner {
+    private static final int CONST_CDE_PRIVATE = 3294;
+
+    public int f1(int arg0) {
+        switch (arg0) {
+            case 3294:
+                return 2748;
+            default:
+                return 0;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+15:41:01 INFO  - converting to dex: jadx-tmp-101755761783126258284929337276876.jar ...
+15:41:01 INFO  - loading ...
+15:41:01 DEBUG - Load: /tmp/jadx-tmp-101755761783126258284929337276876.jar
+15:41:01 DEBUG - '.arsc' file not found
+15:41:01 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.switches;
+
+public class TestSwitchLabels$TestCls {
+    public static final int CONST_ABC = 2748;
+    public static final int CONST_CDE = 3294;
+
+    public static class Inner {
+        private static final int CONST_CDE_PRIVATE = 3294;
+
+        public int f1(int arg0) {
+            switch (arg0) {
+                case 3294:
+                    return TestSwitchLabels$TestCls.CONST_ABC;
+                default:
+                    return 0;
+            }
+        }
+    }
+
+    public static int f1(int arg0) {
+        switch (arg0) {
+            case CONST_ABC /*2748*/:
+                return CONST_CDE;
+            default:
+                return 0;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+15:41:01 INFO  - converting to dex: jadx-tmp-634395682750898393684929395640265.jar ...
+15:41:01 INFO  - loading ...
+15:41:01 DEBUG - Load: /tmp/jadx-tmp-634395682750898393684929395640265.jar
+15:41:01 DEBUG - '.arsc' file not found
+15:41:01 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.switches;
+
+public class TestSwitchLabels$TestCls$Inner {
+    private static final int CONST_CDE_PRIVATE = 3294;
+
+    public int f1(int arg0) {
+        switch (arg0) {
+            case CONST_CDE_PRIVATE /*3294*/:
+                return 2748;
+            default:
+                return 0;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

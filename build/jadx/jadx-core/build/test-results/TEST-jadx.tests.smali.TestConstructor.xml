@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.smali.TestConstructor" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:05" hostname="box723" time="0.042">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.smali.TestConstructor" time="0.042"/>
+  <system-out><![CDATA[15:41:05 INFO  - loading ...
+15:41:05 DEBUG - Load: /tmp/jadx-tmp-448409321008734347584933886626127.dex
+15:41:05 DEBUG - Not a zip file: /tmp/jadx-tmp-448409321008734347584933886626127.dex
+15:41:05 DEBUG - '.arsc' file not found
+15:41:05 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package defpackage;
+
+public class TestConstructor {
+    private SomeObject test(double arg1, double arg2, SomeObject arg3) {
+        SomeObject someObject = new SomeObject(arg3);
+    }
+}
+-----------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

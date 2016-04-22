@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.types.TestTypeResolver4" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:03" hostname="box723" time="0.156">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.types.TestTypeResolver4" time="0.056"/>
+  <testcase name="test2" classname="jadx.tests.integration.types.TestTypeResolver4" time="0.099"/>
+  <system-out><![CDATA[15:41:03 INFO  - converting to dex: jadx-tmp-603897821021445687484931935686511.jar ...
+15:41:03 INFO  - loading ...
+15:41:03 DEBUG - Load: /tmp/jadx-tmp-603897821021445687484931935686511.jar
+15:41:03 DEBUG - '.arsc' file not found
+15:41:03 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.types;
+
+import java.util.Arrays;
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestTypeResolver4$TestCls {
+    private static String test(byte[] strArray, int offset) {
+        int len = strArray.length;
+        int start = offset + f(strArray, offset);
+        int end = start;
+        while (end + 1 < len && (strArray[end] != (byte) 0 || strArray[end + 1] != (byte) 0)) {
+            end += 2;
+        }
+        return new String(Arrays.copyOfRange(strArray, start, end));
+    }
+
+    private static int f(byte[] strArray, int offset) {
+        return 0;
+    }
+
+    public void check() {
+        Assert.assertThat(test("1234utfstr\u0000\u00004567".getBytes(), 4), Matchers.is("utfstr"));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+15:41:04 INFO  - converting to dex: jadx-tmp-335276456868927108484932021187344.jar ...
+15:41:04 INFO  - loading ...
+15:41:04 DEBUG - Load: /tmp/jadx-tmp-335276456868927108484932021187344.jar
+15:41:04 DEBUG - '.arsc' file not found
+15:41:04 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.types;
+
+import java.util.Arrays;
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestTypeResolver4$TestCls {
+    private static int f(byte[] bArr, int i) {
+        return 0;
+    }
+
+    private static String test(byte[] bArr, int i) {
+        int length = bArr.length;
+        int f = i + f(bArr, i);
+        int i2 = f;
+        while (i2 + 1 < length && (bArr[i2] != (byte) 0 || bArr[i2 + 1] != (byte) 0)) {
+            i2 += 2;
+        }
+        return new String(Arrays.copyOfRange(bArr, f, i2));
+    }
+
+    public void check() {
+        Assert.assertThat(test("1234utfstr\u0000\u00004567".getBytes(), 4), Matchers.is("utfstr"));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

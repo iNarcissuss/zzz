@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class jadx.tests.integration.loops.TestBreakInComplexIf</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class jadx.tests.integration.loops.TestBreakInComplexIf</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/jadx.tests.integration.loops.html">jadx.tests.integration.loops</a> &gt; TestBreakInComplexIf</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.260s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test</td>
+<td>0.132s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoDebug</td>
+<td>0.128s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:40:57 INFO  - converting to dex: jadx-tmp-339806908931332375984925158049676.jar ...
+15:40:57 INFO  - loading ...
+15:40:57 DEBUG - Load: /tmp/jadx-tmp-339806908931332375984925158049676.jar
+15:40:57 DEBUG - '.arsc' file not found
+15:40:57 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.loops;
+
+import java.util.HashMap;
+import java.util.Map;
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestBreakInComplexIf$TestCls {
+
+    class Point {
+        public final int x;
+        public final int y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    private int test(Map&lt;String, Point&gt; map, int mapX) {
+        int length = 1;
+        for (int x = mapX + 1; x &lt; 100; x++) {
+            Point tile = (Point) map.get(x + &quot;&quot;);
+            if (tile == null || tile.y != 100) {
+                break;
+            }
+            length++;
+        }
+        return length;
+    }
+
+    public void check() {
+        Map&lt;String, Point&gt; map = new HashMap();
+        map.put(&quot;3&quot;, new Point(100, 100));
+        map.put(&quot;4&quot;, new Point(60, 100));
+        Assert.assertThat(Integer.valueOf(test(map, 2)), Matchers.is(Integer.valueOf(3)));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+15:40:57 INFO  - converting to dex: jadx-tmp-212820412759827584284925340443452.jar ...
+15:40:57 INFO  - loading ...
+15:40:57 DEBUG - Load: /tmp/jadx-tmp-212820412759827584284925340443452.jar
+15:40:57 DEBUG - '.arsc' file not found
+15:40:57 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.loops;
+
+import java.util.HashMap;
+import java.util.Map;
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestBreakInComplexIf$TestCls {
+
+    class Point {
+        public final int x;
+        public final int y;
+
+        Point(int i, int i2) {
+            this.x = i;
+            this.y = i2;
+        }
+    }
+
+    private int test(Map&lt;String, Point&gt; map, int i) {
+        int i2 = 1;
+        for (int i3 = i + 1; i3 &lt; 100; i3++) {
+            Point point = (Point) map.get(i3 + &quot;&quot;);
+            if (point == null || point.y != 100) {
+                break;
+            }
+            i2++;
+        }
+        return i2;
+    }
+
+    public void check() {
+        Map hashMap = new HashMap();
+        hashMap.put(&quot;3&quot;, new Point(100, 100));
+        hashMap.put(&quot;4&quot;, new Point(60, 100));
+        Assert.assertThat(Integer.valueOf(test(hashMap, 2)), Matchers.is(Integer.valueOf(3)));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Note: /jadx/tests/integration/loops/TestBreakInComplexIf$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /jadx/tests/integration/loops/TestBreakInComplexIf$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.7</a> at Apr 22, 2016 3:41:06 PM</p>
+</div>
+</div>
+</body>
+</html>

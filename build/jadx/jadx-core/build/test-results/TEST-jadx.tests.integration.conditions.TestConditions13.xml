@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestConditions13" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:49" hostname="box723" time="0.117">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestConditions13" time="0.117"/>
+  <system-out><![CDATA[15:40:49 INFO  - converting to dex: jadx-tmp-792598991081316326684917680280668.jar ...
+15:40:49 INFO  - loading ...
+15:40:49 DEBUG - Load: /tmp/jadx-tmp-792598991081316326684917680280668.jar
+15:40:49 DEBUG - '.arsc' file not found
+15:40:49 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+public class TestConditions13$TestCls {
+    static boolean qualityReading;
+
+    public static void dataProcess(int raw, int quality) {
+        if (quality >= 10 && raw != 0) {
+            System.out.println("OK" + raw);
+            qualityReading = false;
+        } else if (raw == 0 || quality < 6 || !qualityReading) {
+            System.out.println("Not OK" + raw);
+        } else {
+            System.out.println("Quit OK" + raw);
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

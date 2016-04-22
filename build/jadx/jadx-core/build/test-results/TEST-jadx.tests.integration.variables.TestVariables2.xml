@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.variables.TestVariables2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:04" hostname="box723" time="0.067">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.variables.TestVariables2" time="0.067"/>
+  <system-out><![CDATA[15:41:04 INFO  - converting to dex: jadx-tmp-132985436499986594184932163046217.jar ...
+15:41:04 INFO  - loading ...
+15:41:04 DEBUG - Load: /tmp/jadx-tmp-132985436499986594184932163046217.jar
+15:41:04 DEBUG - '.arsc' file not found
+15:41:04 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.variables;
+
+public class TestVariables2$TestCls {
+    Object test(Object s) {
+        Object store = s != null ? s : null;
+        if (store != null) {
+            return store;
+        }
+        store = new Object();
+        s = store;
+        return store;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

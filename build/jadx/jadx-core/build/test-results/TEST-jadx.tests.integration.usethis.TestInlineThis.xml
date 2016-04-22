@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.usethis.TestInlineThis" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:04" hostname="box723" time="0.065">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.usethis.TestInlineThis" time="0.065"/>
+  <system-out><![CDATA[15:41:04 INFO  - converting to dex: jadx-tmp-89562848197332334184932094275451.jar ...
+15:41:04 INFO  - loading ...
+15:41:04 DEBUG - Load: /tmp/jadx-tmp-89562848197332334184932094275451.jar
+15:41:04 DEBUG - '.arsc' file not found
+15:41:04 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.usethis;
+
+public class TestInlineThis$TestCls {
+    public int field;
+
+    private void test() {
+        method();
+        this.field = 123;
+    }
+
+    private void method() {
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.TestArgInline" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:43" hostname="box723" time="2.408">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.TestArgInline" time="2.408"/>
+  <system-out><![CDATA[15:40:45 INFO  - converting to dex: jadx-tmp-389376501277077222084913595753057.jar ...
+15:40:45 INFO  - loading ...
+15:40:45 DEBUG - Load: /tmp/jadx-tmp-389376501277077222084913595753057.jar
+15:40:45 DEBUG - '.arsc' file not found
+15:40:45 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration;
+
+public class TestArgInline$TestCls {
+    public void test(int i) {
+        while (i < 10) {
+            i++;
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

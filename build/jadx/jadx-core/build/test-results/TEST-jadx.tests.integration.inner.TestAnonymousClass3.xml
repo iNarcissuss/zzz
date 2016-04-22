@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestAnonymousClass3" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:55" hostname="box723" time="0.099">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestAnonymousClass3" time="0.099"/>
+  <system-out><![CDATA[15:40:55 INFO  - converting to dex: jadx-tmp-354874930624533390284923069370973.jar ...
+15:40:55 INFO  - loading ...
+15:40:55 DEBUG - Load: /tmp/jadx-tmp-354874930624533390284923069370973.jar
+15:40:55 DEBUG - '.arsc' file not found
+15:40:55 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+public class TestAnonymousClass3$TestCls {
+
+    public static class Inner {
+        private double d;
+        private int f;
+
+        static /* synthetic */ int access$004(Inner x0) {
+            int i = x0.f + 1;
+            x0.f = i;
+            return i;
+        }
+
+        static /* synthetic */ int access$012(Inner x0, int x1) {
+            int i = x0.f + x1;
+            x0.f = i;
+            return i;
+        }
+
+        static /* synthetic */ int access$028(Inner x0, int x1) {
+            int i = x0.f * x1;
+            x0.f = i;
+            return i;
+        }
+
+        static /* synthetic */ double access$142(Inner x0, double x1) {
+            double d = x0.d / x1;
+            x0.d = d;
+            return d;
+        }
+
+        public void test() {
+            new Thread() {
+                public void run() {
+                    p(Inner.this.f = Inner.this.f - 1);
+                    Inner.access$012(Inner.this, 2);
+                    Inner.access$028(Inner.this, 2);
+                    p(Inner.access$004(Inner.this));
+                    Inner.access$142(Inner.this, 3.0d);
+                }
+
+                public void p(int a) {
+                }
+            }.start();
+        }
+    }
+}
+-----------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

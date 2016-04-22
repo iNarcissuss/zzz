@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestConditions9" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:50" hostname="box723" time="0.059">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestConditions9" time="0.059"/>
+  <system-out><![CDATA[15:40:50 INFO  - converting to dex: jadx-tmp-594671237546976936484918815609557.jar ...
+15:40:50 INFO  - loading ...
+15:40:50 DEBUG - Load: /tmp/jadx-tmp-594671237546976936484918815609557.jar
+15:40:50 DEBUG - '.arsc' file not found
+15:40:50 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+public class TestConditions9$TestCls {
+    public void test(boolean a, int b) throws Exception {
+        if (!a || (b >= 0 && b <= 11)) {
+            System.out.println('1');
+        } else {
+            System.out.println('2');
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

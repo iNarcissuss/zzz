@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestCmpOp" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:49" hostname="box723" time="0.095">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestCmpOp" time="0.095"/>
+  <system-out><![CDATA[15:40:49 INFO  - converting to dex: jadx-tmp-547749466593579509484917182288477.jar ...
+15:40:49 INFO  - loading ...
+15:40:49 DEBUG - Load: /tmp/jadx-tmp-547749466593579509484917182288477.jar
+15:40:49 DEBUG - '.arsc' file not found
+15:40:49 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+public class TestCmpOp$TestCls {
+    public boolean testGT(float a) {
+        return a > 3.0f;
+    }
+
+    public boolean testLT(float b) {
+        return b < 2.0f;
+    }
+
+    public boolean testEQ(float c) {
+        return c == 1.0f;
+    }
+
+    public boolean testNE(float d) {
+        return d != 0.0f;
+    }
+
+    public boolean testGE(float e) {
+        return e >= -1.0f;
+    }
+
+    public boolean testLE(float f) {
+        return f <= -2.0f;
+    }
+
+    public boolean testGT2(float g) {
+        return 4.0f > g;
+    }
+
+    public boolean testLT2(long h) {
+        return 5 < h;
+    }
+
+    public boolean testGE2(double i) {
+        return 6.5d < i;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

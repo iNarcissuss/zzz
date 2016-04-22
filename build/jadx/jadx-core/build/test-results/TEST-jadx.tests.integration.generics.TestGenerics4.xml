@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.generics.TestGenerics4" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:53" hostname="box723" time="0.063">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.generics.TestGenerics4" time="0.063"/>
+  <system-out><![CDATA[15:40:53 INFO  - converting to dex: jadx-tmp-346547560778101329284921773524785.jar ...
+15:40:53 INFO  - loading ...
+15:40:53 DEBUG - Load: /tmp/jadx-tmp-346547560778101329284921773524785.jar
+15:40:53 DEBUG - '.arsc' file not found
+15:40:53 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.generics;
+
+public class TestGenerics4$TestCls {
+    public static Class<?> method(int i) {
+        Class<?>[] a = new Class[0];
+        return a[a.length - i];
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

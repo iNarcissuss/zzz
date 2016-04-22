@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.variables.TestVariables5" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:04" hostname="box723" time="0.106">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.variables.TestVariables5" time="0.106"/>
+  <system-out><![CDATA[15:41:05 INFO  - converting to dex: jadx-tmp-598035016627774145184932996597472.jar ...
+15:41:05 INFO  - loading ...
+15:41:05 DEBUG - Load: /tmp/jadx-tmp-598035016627774145184932996597472.jar
+15:41:05 DEBUG - '.arsc' file not found
+15:41:05 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.variables;
+
+import org.junit.Assert;
+
+public class TestVariables5$TestCls {
+    private boolean enabled;
+    public String f = "str//ing";
+
+    private void setEnabled(boolean z) {
+        this.enabled = z;
+    }
+
+    private void testIfInLoop() {
+        int i = 0;
+        for (int i2 = 0; i2 < this.f.length(); i2++) {
+            if (this.f.charAt(i2) == '/') {
+                i++;
+                if (i == 2) {
+                    setEnabled(true);
+                    return;
+                }
+            }
+        }
+        setEnabled(false);
+    }
+
+    public void check() {
+        setEnabled(false);
+        testIfInLoop();
+        Assert.assertTrue(this.enabled);
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

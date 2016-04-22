@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.invoke.TestSuperInvoke" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:56" hostname="box723" time="0.143">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.invoke.TestSuperInvoke" time="0.143"/>
+  <system-out><![CDATA[15:40:56 INFO  - converting to dex: jadx-tmp-873354321753064376184924721049204.jar ...
+15:40:56 INFO  - loading ...
+15:40:56 DEBUG - Load: /tmp/jadx-tmp-873354321753064376184924721049204.jar
+15:40:56 DEBUG - Class not found: jadx.tests.api.IntegrationTest
+15:40:56 DEBUG - '.arsc' file not found
+15:40:56 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.invoke;
+
+import jadx.tests.api.IntegrationTest;
+import jadx.tests.api.utils.JadxMatchers;
+import org.junit.Assert;
+import org.junit.Test;
+
+public class TestSuperInvoke extends IntegrationTest {
+
+    public class A {
+        public int a() {
+            return 1;
+        }
+    }
+
+    public class B extends A {
+        public B() {
+            super();
+        }
+
+        public int a() {
+            return super.a() + 2;
+        }
+
+        public int test() {
+            return a();
+        }
+    }
+
+    public void check() {
+        Assert.assertEquals(3, (long) new B().test());
+    }
+
+    @Test
+    public void test() {
+        noDebugInfo();
+        Assert.assertThat(getClassNode(TestSuperInvoke.class).getCode().toString(), JadxMatchers.countString(2, "return super.a() + 2;"));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

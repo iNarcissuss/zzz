@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestTryCatch8" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:02" hostname="box723" time="0.1">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestTryCatch8" time="0.1"/>
+  <system-out><![CDATA[15:41:02 INFO  - converting to dex: jadx-tmp-802609198221442090584930904669806.jar ...
+15:41:02 INFO  - loading ...
+15:41:02 DEBUG - Load: /tmp/jadx-tmp-802609198221442090584930904669806.jar
+15:41:02 DEBUG - '.arsc' file not found
+15:41:02 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+import org.hamcrest.Matchers;
+import org.junit.Assert;
+
+public class TestTryCatch8$TestCls {
+    MyException e = null;
+
+    static class MyException extends Exception {
+        private static final long serialVersionUID = 7963400419047287279L;
+
+        MyException() {
+        }
+
+        MyException(String msg, Throwable cause) {
+            super(msg, cause);
+        }
+    }
+
+    public void test() {
+        synchronized (this) {
+            try {
+                throw new MyException();
+            } catch (MyException e) {
+                this.e = e;
+            } catch (Exception x) {
+                this.e = new MyException("MyExc", x);
+            }
+        }
+    }
+
+    public void check() {
+        test();
+        Assert.assertThat(this.e, Matchers.notNullValue());
+        Assert.assertThat(this.e, Matchers.isA(MyException.class));
+        Assert.assertThat(this.e.getMessage(), Matchers.nullValue());
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

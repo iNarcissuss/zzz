@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.arith.TestFieldIncrement" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:47" hostname="box723" time="0.086">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.arith.TestFieldIncrement" time="0.086"/>
+  <system-out><![CDATA[15:40:47 INFO  - converting to dex: jadx-tmp-454382728241191887884915870587086.jar ...
+15:40:47 INFO  - loading ...
+15:40:47 DEBUG - Load: /tmp/jadx-tmp-454382728241191887884915870587086.jar
+15:40:47 DEBUG - '.arsc' file not found
+15:40:47 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.arith;
+
+public class TestFieldIncrement$TestCls {
+    public static String result = "";
+    public static int staticField = 1;
+    public int instanceField = 1;
+
+    public void method() {
+        this.instanceField++;
+    }
+
+    public void method2() {
+        staticField--;
+    }
+
+    public void method3(String s) {
+        result += s + '_';
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

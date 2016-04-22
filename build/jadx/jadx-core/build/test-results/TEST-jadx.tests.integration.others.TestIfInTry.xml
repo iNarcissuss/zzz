@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.others.TestIfInTry" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:00" hostname="box723" time="0.065">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.others.TestIfInTry" time="0.065"/>
+  <system-out><![CDATA[15:41:00 INFO  - converting to dex: jadx-tmp-142145105239786794384928081523946.jar ...
+15:41:00 INFO  - loading ...
+15:41:00 DEBUG - Load: /tmp/jadx-tmp-142145105239786794384928081523946.jar
+15:41:00 DEBUG - '.arsc' file not found
+15:41:00 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.others;
+
+import java.io.File;
+import java.io.IOException;
+
+public class TestIfInTry$TestCls {
+    private File dir;
+
+    public int test() {
+        try {
+            int a = f();
+            if (a != 0) {
+                return a;
+            }
+        } catch (Exception e) {
+        }
+        try {
+            f();
+            return 1;
+        } catch (IOException e2) {
+            return -1;
+        }
+    }
+
+    private int f() throws IOException {
+        return 0;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

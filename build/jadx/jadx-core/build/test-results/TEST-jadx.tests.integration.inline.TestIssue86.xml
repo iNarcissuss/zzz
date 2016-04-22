@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inline.TestIssue86" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:54" hostname="box723" time="0.211">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inline.TestIssue86" time="0.211"/>
+  <system-out><![CDATA[15:40:54 INFO  - converting to dex: jadx-tmp-144755316026993198384922362909959.jar ...
+15:40:54 INFO  - loading ...
+15:40:54 DEBUG - Load: /tmp/jadx-tmp-144755316026993198384922362909959.jar
+15:40:54 DEBUG - '.arsc' file not found
+15:40:54 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inline;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestIssue86$TestCls {
+    private static final String DESC_TAG = "desc-tag";
+    private static final String LIST_TAG = "list-tag";
+    private static final String MAX_TAG = "max-tag";
+    private static final String MILLIS_TAG = "millis-tag";
+    private static final String MIN_TAG = "min-tag";
+    private static final String NOT_FOUND = "not-found";
+    private static final String SERVER_ERR = "server-err";
+    private static final String TEMP_TAG = "temp-tag";
+    private static final String WEATHER_TAG = "weather-tag";
+
+    private static class Day {
+        private Day() {
+        }
+
+        public void setMilis(long milis) {
+        }
+
+        public void setMinTmp(String min) {
+        }
+
+        public void setMaxTmp(String max) {
+        }
+
+        public void setWeatherDesc(String weatherDesc) {
+        }
+    }
+
+    private class JSONArray {
+        private JSONArray() {
+        }
+
+        public JSONObject getJSONObject(int i) throws JSONException {
+            return null;
+        }
+
+        public int length() {
+            return 0;
+        }
+    }
+
+    private class JSONException extends Exception {
+        private static final long serialVersionUID = -4358405506584551910L;
+
+        private JSONException() {
+        }
+    }
+
+    private static class JSONObject {
+        public JSONObject(String response) {
+        }
+
+        public JSONArray getJSONArray(String tag) throws JSONException {
+            return null;
+        }
+
+        public JSONObject getJSONObject(String tag) throws JSONException {
+            return null;
+        }
+
+        public String getString(String tag) throws JSONException {
+            return null;
+        }
+
+        public long getLong(String tag) throws JSONException {
+            return 0;
+        }
+    }
+
+    private List<Day> test(String response) {
+        List<Day> reportList = new ArrayList();
+        try {
+            System.out.println(response);
+            if (response == null || !(response.startsWith(SERVER_ERR) || response.startsWith(NOT_FOUND))) {
+                JSONArray days = new JSONObject(response).getJSONArray(LIST_TAG);
+                for (int i = 0; i < days.length(); i++) {
+                    JSONObject c = days.getJSONObject(i);
+                    long millis = c.getLong(MILLIS_TAG);
+                    JSONObject temp = c.getJSONObject(TEMP_TAG);
+                    String max = temp.getString(MAX_TAG);
+                    String min = temp.getString(MIN_TAG);
+                    String weatherDesc = c.getJSONArray(WEATHER_TAG).getJSONObject(0).getString(DESC_TAG);
+                    Day d = new Day();
+                    d.setMilis(millis);
+                    d.setMinTmp(min);
+                    d.setMaxTmp(max);
+                    d.setWeatherDesc(weatherDesc);
+                    reportList.add(d);
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return reportList;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[Note: /jadx/tests/integration/inline/TestIssue86$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestTernary3" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:51" hostname="box723" time="0.114">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestTernary3" time="0.114"/>
+  <system-out><![CDATA[15:40:51 INFO  - converting to dex: jadx-tmp-522174101854578995184919274398390.jar ...
+15:40:51 INFO  - loading ...
+15:40:51 DEBUG - Load: /tmp/jadx-tmp-522174101854578995184919274398390.jar
+15:40:51 DEBUG - '.arsc' file not found
+15:40:51 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+import jadx.core.dex.instructions.args.InsnArg;
+import jadx.core.dex.instructions.args.Named;
+import jadx.core.dex.instructions.args.RegisterArg;
+
+public class TestTernary3$TestCls {
+    public boolean isNameEquals(InsnArg arg) {
+        String n = getName(arg);
+        if (n == null || !(arg instanceof Named)) {
+            return false;
+        }
+        return n.equals(((Named) arg).getName());
+    }
+
+    private String getName(InsnArg arg) {
+        if (arg instanceof RegisterArg) {
+            return "r";
+        }
+        if (arg instanceof Named) {
+            return "n";
+        }
+        return arg.toString();
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

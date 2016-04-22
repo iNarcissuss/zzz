@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestTryCatchFinally5" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:03" hostname="box723" time="0.096">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestTryCatchFinally5" time="0.096"/>
+  <system-out><![CDATA[15:41:03 INFO  - converting to dex: jadx-tmp-591199637039831060284931429646825.jar ...
+15:41:03 INFO  - loading ...
+15:41:03 DEBUG - Load: /tmp/jadx-tmp-591199637039831060284931429646825.jar
+15:41:03 DEBUG - '.arsc' file not found
+15:41:03 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestTryCatchFinally5$TestCls {
+
+    private interface A {
+    }
+
+    private interface B<T> {
+        D f(C c);
+
+        T load(D d);
+    }
+
+    private interface C {
+    }
+
+    private interface D {
+        void close();
+
+        boolean first();
+
+        boolean toNext();
+    }
+
+    private <E> List<E> test(A a, B<E> b) {
+        List<E> list = null;
+        C c = p(a);
+        if (c != null) {
+            D d = b.f(c);
+            try {
+                if (d.first()) {
+                    list = new ArrayList();
+                    while (true) {
+                        list.add(b.load(d));
+                        if (!d.toNext()) {
+                            break;
+                        }
+                    }
+                    d.close();
+                }
+            } finally {
+                d.close();
+            }
+        }
+        return list;
+    }
+
+    private C p(A a) {
+        return (C) a;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[Note: /jadx/tests/integration/trycatch/TestTryCatchFinally5$TestCls.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+]]></system-err>
+</testsuite>

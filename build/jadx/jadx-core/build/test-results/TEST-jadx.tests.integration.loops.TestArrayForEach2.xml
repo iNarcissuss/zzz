@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.loops.TestArrayForEach2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:56" hostname="box723" time="0.077">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.loops.TestArrayForEach2" time="0.077"/>
+  <system-out><![CDATA[15:40:56 INFO  - converting to dex: jadx-tmp-894105748534068614784924967466030.jar ...
+15:40:56 INFO  - loading ...
+15:40:56 DEBUG - Load: /tmp/jadx-tmp-894105748534068614784924967466030.jar
+15:40:57 DEBUG - '.arsc' file not found
+15:40:57 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.loops;
+
+public class TestArrayForEach2$TestCls {
+    private void test(String str) {
+        for (String s : str.split("\n")) {
+            String t = s.trim();
+            if (t.length() > 0) {
+                System.out.println(t);
+            }
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

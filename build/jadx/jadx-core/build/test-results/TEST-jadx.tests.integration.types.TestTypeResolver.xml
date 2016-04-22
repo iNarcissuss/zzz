@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.types.TestTypeResolver" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:03" hostname="box723" time="0.053">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.types.TestTypeResolver" time="0.053"/>
+  <system-out><![CDATA[15:41:03 INFO  - converting to dex: jadx-tmp-856863731411593799484931690226861.jar ...
+15:41:03 INFO  - loading ...
+15:41:03 DEBUG - Load: /tmp/jadx-tmp-856863731411593799484931690226861.jar
+15:41:03 DEBUG - '.arsc' file not found
+15:41:03 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.types;
+
+public class TestTypeResolver$TestCls {
+    public TestTypeResolver$TestCls(int b1, int b2) {
+        this(b1, b2, 0, 0, 0);
+    }
+
+    public TestTypeResolver$TestCls(int a1, int a2, int a3, int a4, int a5) {
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.enums.TestSwitchOverEnum2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:53" hostname="box723" time="0.197">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.enums.TestSwitchOverEnum2" time="0.197"/>
+  <system-out><![CDATA[15:40:53 INFO  - converting to dex: jadx-tmp-888732190596592220884920996133848.jar ...
+15:40:53 INFO  - loading ...
+15:40:53 DEBUG - Load: /tmp/jadx-tmp-888732190596592220884920996133848.jar
+15:40:53 DEBUG - Class not found: jadx.tests.api.IntegrationTest
+15:40:53 DEBUG - '.arsc' file not found
+15:40:53 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.enums;
+
+import jadx.tests.api.IntegrationTest;
+import jadx.tests.api.utils.JadxMatchers;
+import org.junit.Assert;
+import org.junit.Test;
+
+public class TestSwitchOverEnum2 extends IntegrationTest {
+
+    public enum Animal {
+        CAT,
+        DOG
+    }
+
+    public enum Count {
+        ONE,
+        TWO,
+        THREE
+    }
+
+    public int testEnum(Count c, Animal a) {
+        int result = 0;
+        switch (c) {
+            case ONE:
+                result = 1;
+                break;
+            case TWO:
+                result = 2;
+                break;
+        }
+        switch (a) {
+            case CAT:
+                return result + 10;
+            case DOG:
+                return result + 20;
+            default:
+                return result;
+        }
+    }
+
+    public void check() {
+        Assert.assertEquals(21, (long) testEnum(Count.ONE, Animal.DOG));
+    }
+
+    @Test
+    public void test() {
+        String code = getClassNode(TestSwitchOverEnum2.class).getCode().toString();
+        Assert.assertThat(code, JadxMatchers.countString(1, "synthetic"));
+        Assert.assertThat(code, JadxMatchers.countString(2, "switch (c) {"));
+        Assert.assertThat(code, JadxMatchers.countString(2, "case ONE:"));
+        Assert.assertThat(code, JadxMatchers.countString(2, "case DOG:"));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

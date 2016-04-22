@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.trycatch.TestFinally" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:02" hostname="box723" time="0.099">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.trycatch.TestFinally" time="0.099"/>
+  <system-out><![CDATA[15:41:02 INFO  - converting to dex: jadx-tmp-469127508042674892384930047503288.jar ...
+15:41:02 INFO  - loading ...
+15:41:02 DEBUG - Load: /tmp/jadx-tmp-469127508042674892384930047503288.jar
+15:41:02 DEBUG - '.arsc' file not found
+15:41:02 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.trycatch;
+
+public class TestFinally$TestCls {
+    private static final String DISPLAY_NAME = "name";
+
+    private class Context {
+        private Context() {
+        }
+
+        public Cursor query(Object o, String[] s) {
+            return null;
+        }
+    }
+
+    private class Cursor {
+        private Cursor() {
+        }
+
+        public void close() {
+        }
+
+        public void moveToFirst() {
+        }
+
+        public int getColumnIndexOrThrow(String s) {
+            return 0;
+        }
+
+        public String getString(int i) {
+            return null;
+        }
+    }
+
+    String test(Context context, Object uri) {
+        Cursor cursor = null;
+        try {
+            cursor = context.query(uri, new String[]{DISPLAY_NAME});
+            int columnIndex = cursor.getColumnIndexOrThrow(DISPLAY_NAME);
+            cursor.moveToFirst();
+            String string = cursor.getString(columnIndex);
+            return string;
+        } finally {
+            if (cursor != null) {
+                cursor.close();
+            }
+        }
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

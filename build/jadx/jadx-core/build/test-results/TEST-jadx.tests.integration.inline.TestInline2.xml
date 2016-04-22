@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inline.TestInline2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:54" hostname="box723" time="0.132">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inline.TestInline2" time="0.132"/>
+  <system-out><![CDATA[15:40:54 INFO  - converting to dex: jadx-tmp-312425473225135958884922011139660.jar ...
+15:40:54 INFO  - loading ...
+15:40:54 DEBUG - Load: /tmp/jadx-tmp-312425473225135958884922011139660.jar
+15:40:54 DEBUG - '.arsc' file not found
+15:40:54 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inline;
+
+public class TestInline2$TestCls {
+    public int test() throws InterruptedException {
+        int[] a = new int[]{1, 2, 4, 6, 8};
+        int b = 0;
+        for (int i = 0; i < a.length; i += 2) {
+            b += a[i];
+        }
+        for (long i2 = (long) b; i2 > 0; i2--) {
+            b = (int) (((long) b) + i2);
+        }
+        return b;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

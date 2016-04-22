@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestInnerClass5" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:56" hostname="box723" time="0.163">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestInnerClass5" time="0.163"/>
+  <system-out><![CDATA[15:40:56 INFO  - converting to dex: jadx-tmp-745457470238500781584923993427611.jar ...
+15:40:56 INFO  - loading ...
+15:40:56 DEBUG - Load: /tmp/jadx-tmp-745457470238500781584923993427611.jar
+15:40:56 DEBUG - '.arsc' file not found
+15:40:56 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+import org.junit.Assert;
+
+public class TestInnerClass5$TestCls {
+    private String i0;
+
+    public class A {
+        protected String a = "";
+
+        public String a() {
+            return "";
+        }
+    }
+
+    public class I0 {
+        private String i0 = "i0";
+        private String i1 = "i1";
+
+        public class I1 {
+            private String i0 = "i0";
+            private String i1 = "i1";
+            private String i2 = "i2";
+
+            public I1() {
+                TestInnerClass5$TestCls.this.i0 = "i0";
+                I0.this.i0 = "i1";
+                I0.this.i1 = "i2";
+            }
+
+            public String i() {
+                return (TestInnerClass5$TestCls.this.i0 + I0.this.i0 + I0.this.i1 + this.i0 + this.i1 + this.i2) + new A() {
+                    {
+                        TestInnerClass5$TestCls testInnerClass5$TestCls = TestInnerClass5$TestCls.this;
+                    }
+
+                    public String a() {
+                        TestInnerClass5$TestCls.this.i0 = "i1";
+                        I0.this.i0 = "i2";
+                        I0.this.i1 = "i3";
+                        I1.this.i0 = "i1";
+                        I1.this.i1 = "i2";
+                        I1.this.i2 = "i3";
+                        this.a = "a";
+                        return TestInnerClass5$TestCls.this.i0 + I0.this.i0 + I0.this.i1 + I1.this.i0 + I1.this.i1 + I1.this.i2 + this.a;
+                    }
+                }.a();
+            }
+        }
+
+        public I0() {
+            TestInnerClass5$TestCls.this.i0 = "i-";
+        }
+
+        public String i() {
+            return (TestInnerClass5$TestCls.this.i0 + this.i0 + this.i1) + new I1().i();
+        }
+    }
+
+    public void check() throws Exception {
+        Assert.assertTrue(new I0().i().equals("i-i0i1i0i1i2i0i1i2i1i2i3i1i2i3a"));
+        Assert.assertTrue(this.i0.equals("i1"));
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+Auto check: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

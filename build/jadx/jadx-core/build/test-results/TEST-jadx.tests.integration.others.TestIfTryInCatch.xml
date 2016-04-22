@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.others.TestIfTryInCatch" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:00" hostname="box723" time="0.082">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.others.TestIfTryInCatch" time="0.082"/>
+  <system-out><![CDATA[15:41:00 INFO  - converting to dex: jadx-tmp-884836245884061954384928149878846.jar ...
+15:41:00 INFO  - loading ...
+15:41:00 DEBUG - Load: /tmp/jadx-tmp-884836245884061954384928149878846.jar
+15:41:00 DEBUG - '.arsc' file not found
+15:41:00 WARN  - Unknown 'R' class, create references to 'R'
+15:41:00 DEBUG -  Duplicated block: B:14:0x001c in jadx.tests.integration.others.TestIfTryInCatch$TestCls.test(java.lang.Object):java.lang.Object
+-----------------------------------------------------------
+package jadx.tests.integration.others;
+
+public class TestIfTryInCatch$TestCls {
+    private Object data;
+    private Exception exception;
+
+    public Object test(Object obj) {
+        this.exception = null;
+        try {
+            return f();
+        } catch (Exception e) {
+            Exception e2 = e;
+            if (a(e2) && b(obj)) {
+                try {
+                    return f();
+                } catch (Exception e22) {
+                    e2 = e22;
+                    System.out.println("Exception" + e2);
+                    this.exception = e2;
+                    return this.data;
+                }
+            }
+            System.out.println("Exception" + e2);
+            this.exception = e2;
+            return this.data;
+        }
+    }
+
+    private static boolean b(Object obj) {
+        return obj == null;
+    }
+
+    private static boolean a(Exception e) {
+        return e instanceof RuntimeException;
+    }
+
+    private Object f() {
+        return null;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

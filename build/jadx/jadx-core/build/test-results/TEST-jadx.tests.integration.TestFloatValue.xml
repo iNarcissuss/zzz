@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.TestFloatValue" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:46" hostname="box723" time="0.077">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.TestFloatValue" time="0.077"/>
+  <system-out><![CDATA[15:40:46 INFO  - converting to dex: jadx-tmp-325078080516348020184914490339185.jar ...
+15:40:46 INFO  - loading ...
+15:40:46 DEBUG - Load: /tmp/jadx-tmp-325078080516348020184914490339185.jar
+15:40:46 DEBUG - '.arsc' file not found
+15:40:46 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration;
+
+public class TestFloatValue$TestCls {
+    public float[] method() {
+        float[] fa = new float[]{0.55f};
+        fa[0] = fa[0] / 2.0f;
+        return fa;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

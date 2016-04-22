@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestSimpleConditions" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:51" hostname="box723" time="0.07">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestSimpleConditions" time="0.07"/>
+  <system-out><![CDATA[15:40:51 INFO  - converting to dex: jadx-tmp-267458031635988170184919081371741.jar ...
+15:40:51 INFO  - loading ...
+15:40:51 DEBUG - Load: /tmp/jadx-tmp-267458031635988170184919081371741.jar
+15:40:51 DEBUG - '.arsc' file not found
+15:40:51 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+public class TestSimpleConditions$TestCls {
+    public boolean test1(boolean[] a) {
+        return (a[0] && a[1] && a[2]) || (a[3] && a[4]);
+    }
+
+    public boolean test2(boolean[] a) {
+        return a[0] || a[1] || a[2] || a[3];
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

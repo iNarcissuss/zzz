@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.types.TestTypeResolver3" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:03" hostname="box723" time="0.116">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.types.TestTypeResolver3" time="0.049"/>
+  <testcase name="test2" classname="jadx.tests.integration.types.TestTypeResolver3" time="0.067"/>
+  <system-out><![CDATA[15:41:03 INFO  - converting to dex: jadx-tmp-356709758144851052784931817903264.jar ...
+15:41:03 INFO  - loading ...
+15:41:03 DEBUG - Load: /tmp/jadx-tmp-356709758144851052784931817903264.jar
+15:41:03 DEBUG - '.arsc' file not found
+15:41:03 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.types;
+
+public class TestTypeResolver3$TestCls {
+    public int test(String s1, String s2) {
+        int cmp = s2.compareTo(s1);
+        if (cmp != 0) {
+            return cmp;
+        }
+        int i = s1.length() == s2.length() ? 0 : s1.length() < s2.length() ? -1 : 1;
+        return i;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+15:41:03 INFO  - converting to dex: jadx-tmp-895829846448327799284931887427356.jar ...
+15:41:03 INFO  - loading ...
+15:41:03 DEBUG - Load: /tmp/jadx-tmp-895829846448327799284931887427356.jar
+15:41:03 DEBUG - '.arsc' file not found
+15:41:03 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.types;
+
+public class TestTypeResolver3$TestCls {
+    public int test(String str, String str2) {
+        int compareTo = str2.compareTo(str);
+        return compareTo != 0 ? compareTo : str.length() == str2.length() ? 0 : str.length() < str2.length() ? -1 : 1;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.inner.TestAnonymousClass" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:54" hostname="box723" time="0.053">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.inner.TestAnonymousClass" time="0.053"/>
+  <system-out><![CDATA[15:40:54 INFO  - converting to dex: jadx-tmp-95076901460523555284922657575586.jar ...
+15:40:54 INFO  - loading ...
+15:40:54 DEBUG - Load: /tmp/jadx-tmp-95076901460523555284922657575586.jar
+15:40:54 DEBUG - '.arsc' file not found
+15:40:54 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.inner;
+
+import java.io.File;
+import java.io.FilenameFilter;
+
+public class TestAnonymousClass$TestCls {
+    public int test() {
+        return new File("a").list(new FilenameFilter() {
+            public boolean accept(File dir, String name) {
+                return name.equals("a");
+            }
+        }).length;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

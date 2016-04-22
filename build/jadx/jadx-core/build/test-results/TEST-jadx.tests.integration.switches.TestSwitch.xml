@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.switches.TestSwitch" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:00" hostname="box723" time="0.075">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.switches.TestSwitch" time="0.075"/>
+  <system-out><![CDATA[15:41:00 INFO  - converting to dex: jadx-tmp-217514519237758065684928839875435.jar ...
+15:41:00 INFO  - loading ...
+15:41:00 DEBUG - Load: /tmp/jadx-tmp-217514519237758065684928839875435.jar
+15:41:00 DEBUG - '.arsc' file not found
+15:41:00 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.switches;
+
+public class TestSwitch$TestCls {
+    public String escape(String str) {
+        int len = str.length();
+        StringBuilder sb = new StringBuilder(len);
+        for (int i = 0; i < len; i++) {
+            char c = str.charAt(i);
+            switch (c) {
+                case '.':
+                case '/':
+                    sb.append('_');
+                    break;
+                case '?':
+                    break;
+                case ']':
+                    sb.append('A');
+                    break;
+                default:
+                    sb.append(c);
+                    break;
+            }
+        }
+        return sb.toString();
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

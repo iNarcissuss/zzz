@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.annotations.TestAnnotations2" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:47" hostname="box723" time="0.056">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.annotations.TestAnnotations2" time="0.056"/>
+  <system-out><![CDATA[15:40:47 INFO  - converting to dex: jadx-tmp-204587773029365527384915578094700.jar ...
+15:40:47 INFO  - loading ...
+15:40:47 DEBUG - Load: /tmp/jadx-tmp-204587773029365527384915578094700.jar
+15:40:47 DEBUG - '.arsc' file not found
+15:40:47 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.annotations;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+public class TestAnnotations2$TestCls {
+
+    @Target({ElementType.TYPE})
+    @Retention(RetentionPolicy.RUNTIME)
+    public @interface A {
+        float f();
+
+        int i();
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

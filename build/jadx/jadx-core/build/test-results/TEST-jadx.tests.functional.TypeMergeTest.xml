@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.functional.TypeMergeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:43" hostname="box723" time="0.199">
+  <properties/>
+  <testcase name="testArrayMerge" classname="jadx.tests.functional.TypeMergeTest" time="0.155"/>
+  <testcase name="testMerge" classname="jadx.tests.functional.TypeMergeTest" time="0.043"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

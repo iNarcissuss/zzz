@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.TestAttributeStorage" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:42" hostname="box723" time="0.064">
+  <properties/>
+  <testcase name="add flag" classname="jadx.tests.TestAttributeStorage" time="0.019"/>
+  <testcase name="remove flag" classname="jadx.tests.TestAttributeStorage" time="0.002"/>
+  <testcase name="add attribute" classname="jadx.tests.TestAttributeStorage" time="0.038"/>
+  <testcase name="remove attribute" classname="jadx.tests.TestAttributeStorage" time="0.002"/>
+  <testcase name="remove attribute other" classname="jadx.tests.TestAttributeStorage" time="0.001"/>
+  <testcase name="clear" classname="jadx.tests.TestAttributeStorage" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

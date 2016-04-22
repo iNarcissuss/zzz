@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.arith.TestSpecialValues" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:48" hostname="box723" time="0.166">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.arith.TestSpecialValues" time="0.166"/>
+  <system-out><![CDATA[15:40:48 INFO  - converting to dex: jadx-tmp-219120017862193104084916224108922.jar ...
+15:40:48 INFO  - loading ...
+15:40:48 DEBUG - Load: /tmp/jadx-tmp-219120017862193104084916224108922.jar
+15:40:48 DEBUG - '.arsc' file not found
+15:40:48 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.arith;
+
+public class TestSpecialValues$TestCls {
+    public void test() {
+        shorts(Short.MIN_VALUE, Short.MAX_VALUE);
+        bytes(Byte.MIN_VALUE, Byte.MAX_VALUE);
+        ints(Integer.MIN_VALUE, Integer.MAX_VALUE);
+        longs(Long.MIN_VALUE, Long.MAX_VALUE);
+        floats(Float.NaN, Float.NEGATIVE_INFINITY, Float.POSITIVE_INFINITY, Float.MIN_VALUE, Float.MAX_VALUE, Float.MIN_NORMAL);
+        doubles(Double.NaN, Double.NEGATIVE_INFINITY, Double.POSITIVE_INFINITY, Double.MIN_VALUE, Double.MAX_VALUE, Double.MIN_NORMAL);
+    }
+
+    private void shorts(short... v) {
+    }
+
+    private void bytes(byte... v) {
+    }
+
+    private void ints(int... v) {
+    }
+
+    private void longs(long... v) {
+    }
+
+    private void floats(float... v) {
+    }
+
+    private void doubles(double... v) {
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

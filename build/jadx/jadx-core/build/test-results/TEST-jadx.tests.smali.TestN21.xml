@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.smali.TestN21" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:41:05" hostname="box723" time="0.075">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.smali.TestN21" time="0.075"/>
+  <system-out><![CDATA[15:41:06 INFO  - loading ...
+15:41:06 DEBUG - Load: /tmp/jadx-tmp-921432309499829662984933977297640.dex
+15:41:06 DEBUG - Not a zip file: /tmp/jadx-tmp-921432309499829662984933977297640.dex
+15:41:06 DEBUG - '.arsc' file not found
+15:41:06 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package defpackage;
+
+public class TestN21 {
+    private static int test(byte[] bArr, int i) {
+        Object obj = null;
+        int i2 = bArr[14] << 16;
+        Object obj2 = null;
+        while (obj2 == null) {
+            obj2 = 3;
+            try {
+                return (bArr[(i >> 24) & 255] << 24) | (((bArr[i & 255] & 255) | ((bArr[(i >> 8) & 255] & 255) << 8)) | ((bArr[(i >> 16) & 255] & 255) << 16));
+            } catch (Exception e) {
+            }
+        }
+        while (obj == null) {
+            obj = 2;
+            try {
+                return bArr[i & 127] >> 8;
+            } catch (Exception e2) {
+            }
+        }
+        return i2;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+package defpackage;
+
+public class TestN21 {
+    private static int test(byte[] bArr, int i) {
+        Object obj = null;
+        int i2 = bArr[14] << 16;
+        Object obj2 = null;
+        while (obj2 == null) {
+            obj2 = 3;
+            try {
+                return (bArr[(i >> 24) & 255] << 24) | (((bArr[i & 255] & 255) | ((bArr[(i >> 8) & 255] & 255) << 8)) | ((bArr[(i >> 16) & 255] & 255) << 16));
+            } catch (Exception e) {
+            }
+        }
+        while (obj == null) {
+            obj = 2;
+            try {
+                return bArr[i & 127] >> 8;
+            } catch (Exception e2) {
+            }
+        }
+        return i2;
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.invoke.TestInvokeInCatch" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:56" hostname="box723" time="0.076">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.invoke.TestInvokeInCatch" time="0.076"/>
+  <system-out><![CDATA[15:40:56 INFO  - converting to dex: jadx-tmp-403993502299109204884924463133940.jar ...
+15:40:56 INFO  - loading ...
+15:40:56 DEBUG - Load: /tmp/jadx-tmp-403993502299109204884924463133940.jar
+15:40:56 DEBUG - '.arsc' file not found
+15:40:56 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.invoke;
+
+import java.io.IOException;
+
+public class TestInvokeInCatch$TestCls {
+    private static final String TAG = "TAG";
+
+    private void test(int[] a, int b) {
+        try {
+            exc();
+        } catch (IOException e) {
+            if (b == 1) {
+                log(TAG, "Error: {}", e.getMessage());
+            }
+        }
+    }
+
+    private static void log(String tag, String str, String... args) {
+    }
+
+    private void exc() throws IOException {
+        throw new IOException();
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

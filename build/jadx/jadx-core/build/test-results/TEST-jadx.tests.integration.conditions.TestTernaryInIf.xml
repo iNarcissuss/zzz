@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.conditions.TestTernaryInIf" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:51" hostname="box723" time="0.125">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.conditions.TestTernaryInIf" time="0.125"/>
+  <system-out><![CDATA[15:40:51 INFO  - converting to dex: jadx-tmp-52530051535945430084919406708590.jar ...
+15:40:51 INFO  - loading ...
+15:40:51 DEBUG - Load: /tmp/jadx-tmp-52530051535945430084919406708590.jar
+15:40:51 DEBUG - '.arsc' file not found
+15:40:51 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration.conditions;
+
+public class TestTernaryInIf$TestCls {
+    public boolean test1(boolean a, boolean b, boolean c) {
+        return a ? b : c;
+    }
+
+    public int test2(boolean a, boolean b, boolean c) {
+        return (a ? b : c) ? 1 : 2;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

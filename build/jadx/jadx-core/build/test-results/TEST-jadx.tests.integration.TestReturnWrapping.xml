@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jadx.tests.integration.TestReturnWrapping" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:46" hostname="box723" time="0.18">
+  <properties/>
+  <testcase name="test" classname="jadx.tests.integration.TestReturnWrapping" time="0.18"/>
+  <system-out><![CDATA[15:40:46 INFO  - converting to dex: jadx-tmp-291392092512089117084914801207956.jar ...
+15:40:46 INFO  - loading ...
+15:40:46 DEBUG - Load: /tmp/jadx-tmp-291392092512089117084914801207956.jar
+15:40:46 DEBUG - '.arsc' file not found
+15:40:46 WARN  - Unknown 'R' class, create references to 'R'
+-----------------------------------------------------------
+package jadx.tests.integration;
+
+public class TestReturnWrapping$TestCls {
+    public static int f1(int arg0) {
+        switch (arg0) {
+            case 1:
+                return 255;
+            default:
+                return arg0 + 1;
+        }
+    }
+
+    public static Object f2(Object arg0, int arg1) {
+        int i = arg1;
+        if (arg0 == null) {
+            return null + Integer.toHexString(i);
+        }
+        Object ret;
+        i++;
+        try {
+            ret = new Object().getClass();
+        } catch (Exception e) {
+            ret = "Qwerty";
+        }
+        return i > 128 ? arg0.toString() + ret.toString() : Integer.valueOf(i);
+    }
+
+    public static int f3(int arg0) {
+        while (arg0 > 10) {
+            if (arg0 == 255) {
+                return arg0 + 2;
+            }
+            arg0 -= 951;
+        }
+        return arg0;
+    }
+}
+-----------------------------------------------------------
+Compilation: PASSED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
