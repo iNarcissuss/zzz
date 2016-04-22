@@ -6,7 +6,7 @@ darling	9cb7959b29f7418d74634c55426d8257617312f4	https://github.com/LubosD/darli
 elfparser	39d21ca812d5f5663b2d7de0b2f7c0a7b6cb4f20	https://github.com/jacob-baines/elfparser.git	git
 fuzzball	446a220e95733ad1ca50d776adce8bbef82bffd0	https://github.com/bitblaze-fuzzball/fuzzball.git	git
 gdsl-toolkit	52b2f3c38397dab8969e51ce609c4421a05d3af4	https://github.com/gdslang/gdsl-toolkit.git	git
-goldendict	d0cd6a50afb892a2ad3ff2e3dcbf5f79bf69687e	https://github.com/goldendict/goldendict.git	git
+goldendict	8032dca05018df512ea28af65761021ca9f108ee	https://github.com/goldendict/goldendict.git	git
 jadx	b2f41e95bfce73936b4d316917c95977daf6e1a4	https://github.com/skylot/jadx.git	git
 klee	Xe8fded10ccdaea3d9d72d178506d6aebb799394e	https://github.com/klee/klee.git	git
 ktap	fca420f62b115f104cc2b9cb31dc6e3a8209e27d	https://github.com/ktap/ktap.git	git
