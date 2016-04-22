@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libRopLib.a  CMakeFiles/RopLib.dir/RopLib.cpp.o
+/usr/bin/ranlib ../../lib/libRopLib.a

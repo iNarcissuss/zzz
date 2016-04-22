@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libIR.a  CMakeFiles/IR.dir/BasicIR.cpp.o CMakeFiles/IR.dir/Output.cpp.o CMakeFiles/IR.dir/printIR.cpp.o CMakeFiles/IR.dir/printOp.cpp.o CMakeFiles/IR.dir/Input.cpp.o CMakeFiles/IR.dir/decodeToIR.cpp.o CMakeFiles/IR.dir/VexIR.cpp.o CMakeFiles/IR.dir/Helpers.cpp.o CMakeFiles/IR.dir/IRMatcher.cpp.o CMakeFiles/IR.dir/Serial.cpp.o CMakeFiles/IR.dir/IR.pb.cc.o
+/usr/bin/ranlib ../../lib/libIR.a

@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+52c269ba647e2cab595071b05c9e8ca6 libs/IR/IR.pb.cc
+c3b353604fc7dcc37a9b86f2708c5678 tools/BlockExtract/IR.pb.cc
+6cd3f7d62423e5ba7007ea77c5274ec7 tools/BlockReader/IR.pb.cc
+c613676a440f710fa4757e442d034fc2 tools/RopTool/IR.pb.cc

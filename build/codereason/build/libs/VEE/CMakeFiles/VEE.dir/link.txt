@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libVEE.a  CMakeFiles/VEE.dir/VEE.cpp.o CMakeFiles/VEE.dir/VEEOps.cpp.o CMakeFiles/VEE.dir/VEEState.cpp.o CMakeFiles/VEE.dir/VEECC.cpp.o CMakeFiles/VEE.dir/VEEHelpers.cpp.o CMakeFiles/VEE.dir/Conditions.cpp.o CMakeFiles/VEE.dir/VEElua.cpp.o
+/usr/bin/ranlib ../../lib/libVEE.a

@@ -1,0 +1,14 @@
+/tmp/codereason/build/tools/BlockExtract/CMakeFiles/BlockExtract.dir
+/tmp/codereason/build/tools/BlockReader/CMakeFiles/BlockReader.dir
+/tmp/codereason/build/libs/ExprParser/CMakeFiles/ExprParser.dir
+/tmp/codereason/build/libs/IR/CMakeFiles/IR.dir
+/tmp/codereason/build/tools/ImgTool/CMakeFiles/ImgTool.dir
+/tmp/codereason/build/libs/MachOLib/CMakeFiles/MachOLib.dir
+/tmp/codereason/build/libs/RopLib/CMakeFiles/RopLib.dir
+/tmp/codereason/build/tools/RopTool/CMakeFiles/RopTool.dir
+/tmp/codereason/build/libs/VEE/CMakeFiles/VEE.dir
+/tmp/codereason/build/libs/getExecSections/CMakeFiles/getExecSections.dir
+/tmp/codereason/build/gtest-1.6.0/CMakeFiles/gtest.dir
+/tmp/codereason/build/gtest-1.6.0/CMakeFiles/gtest_main.dir
+/tmp/codereason/build/lua-5.3.0/src/CMakeFiles/lua.dir
+/tmp/codereason/build/libs/pe-parse/parser-library/CMakeFiles/pe-parser-library.dir

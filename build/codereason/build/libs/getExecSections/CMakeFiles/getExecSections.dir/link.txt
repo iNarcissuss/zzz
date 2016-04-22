@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libgetExecSections.a  CMakeFiles/getExecSections.dir/getExec.cpp.o
+/usr/bin/ranlib ../../lib/libgetExecSections.a

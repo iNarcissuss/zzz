@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libExprParser.a  CMakeFiles/ExprParser.dir/ExprParser.cpp.o
+/usr/bin/ranlib ../../lib/libExprParser.a

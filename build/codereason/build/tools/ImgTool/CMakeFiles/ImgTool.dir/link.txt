@@ -1,0 +1,1 @@
+/usr/bin/g++   -g    CMakeFiles/ImgTool.dir/ImgTool.cpp.o  -o ../../bin/ImgTool -rdynamic ../../lib/libgetExecSections.a ../../lib/libMachOLib.a ../../../libs/pe-parse/parser-library/libpe-parser-library.a -lpthread -lboost_thread -lboost_system -lboost_filesystem -lboost_program_options -lboost_date_time -lboost_regex -lpthread 

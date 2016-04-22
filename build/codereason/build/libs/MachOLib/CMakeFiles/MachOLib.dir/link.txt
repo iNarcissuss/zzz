@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libMachOLib.a  CMakeFiles/MachOLib.dir/mach-o.cc.o CMakeFiles/MachOLib.dir/log.cc.o CMakeFiles/MachOLib.dir/read_fat.cc.o CMakeFiles/MachOLib.dir/dyld_decache.cpp.o CMakeFiles/MachOLib.dir/DataFile.cpp.o
+/usr/bin/ranlib ../../lib/libMachOLib.a
