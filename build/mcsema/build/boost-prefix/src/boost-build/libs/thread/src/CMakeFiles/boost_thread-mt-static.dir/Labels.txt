@@ -1,0 +1,5 @@
+# Target labels
+ thread
+# Source files and their labels
+/tmp/mcsema/boost/libs/thread/src/pthread/thread.cpp
+/tmp/mcsema/boost/libs/thread/src/pthread/once.cpp

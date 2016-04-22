@@ -1,0 +1,462 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1113942697/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1113942697.dir/build.make CMakeFiles/cmTryCompileExec1113942697.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1113942697.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1113942697.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+                           ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1113942697.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1113942697/fast] Error 2
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec806289009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec806289009.dir/build.make CMakeFiles/cmTryCompileExec806289009.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec806289009.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec806289009.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec806289009.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec806289009/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2103837180/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2103837180.dir/build.make CMakeFiles/cmTryCompileExec2103837180.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2103837180.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2103837180.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2103837180.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2103837180/fast] Error 2
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2756023706/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2756023706.dir/build.make CMakeFiles/cmTryCompileExec2756023706.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2756023706.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2756023706.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:31: fatal error: valgrind/valgrind.h: No such file or directory
+ #include <valgrind/valgrind.h>
+                               ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2756023706.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2756023706/fast] Error 2
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec455132536/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec455132536.dir/build.make CMakeFiles/cmTryCompileExec455132536.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec455132536.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec455132536.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: mach/mach.h: No such file or directory
+ #include <mach/mach.h>
+                       ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec455132536.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec455132536/fast] Error 2
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2001201287/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2001201287.dir/build.make CMakeFiles/cmTryCompileExec2001201287.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2001201287.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2001201287.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: mach-o/dyld.h: No such file or directory
+ #include <mach-o/dyld.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2001201287.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2001201287/fast] Error 2
+
+
+Determining if the function el_init exists in the edit failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3092603807/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3092603807.dir/build.make CMakeFiles/cmTryCompileExec3092603807.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3092603807.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init   -o CMakeFiles/cmTryCompileExec3092603807.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3092603807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3092603807.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=el_init    CMakeFiles/cmTryCompileExec3092603807.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3092603807 -rdynamic -ledit -lm 
+/usr/bin/ld: cannot find -ledit
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3092603807] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3092603807/fast] Error 2
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1667091638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1667091638.dir/build.make CMakeFiles/cmTryCompileExec1667091638.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1667091638.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1667091638.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function)
+   return ((int*)(&arc4random))[argc];
+                   ^
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec1667091638.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1667091638/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec37840784/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec37840784.dir/build.make CMakeFiles/cmTryCompileExec37840784.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec37840784.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec37840784.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:17: fatal error: cmath: No such file or directory
+ #include <cmath>
+                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec37840784.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec37840784/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the finite exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3139438585/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3139438585.dir/build.make CMakeFiles/cmTryCompileExec3139438585.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3139438585.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3139438585.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:20: fatal error: ieeefp.h: No such file or directory
+ #include <ieeefp.h>
+                    ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3139438585.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3139438585/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ieeefp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2730278329/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2730278329.dir/build.make CMakeFiles/cmTryCompileExec2730278329.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2730278329.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2730278329.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:17: fatal error: cmath: No such file or directory
+ #include <cmath>
+                 ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2730278329.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2730278329/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp10 exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2957205513/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2957205513.dir/build.make CMakeFiles/cmTryCompileExec2957205513.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2957205513.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2957205513.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘exp10’ undeclared (first use in this function)
+   return ((int*)(&exp10))[argc];
+                   ^
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec2957205513.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2957205513/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp10
+  return ((int*)(&exp10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3296144502/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3296144502.dir/build.make CMakeFiles/cmTryCompileExec3296144502.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3296144502.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3296144502.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:27: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+                           ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3296144502.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3296144502/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2820418776/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2820418776.dir/build.make CMakeFiles/cmTryCompileExec2820418776.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2820418776.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2820418776.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strerror_s’ undeclared (first use in this function)
+   return ((int*)(&strerror_s))[argc];
+                   ^
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [CMakeFiles/cmTryCompileExec2820418776.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2820418776/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec550517847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec550517847.dir/build.make CMakeFiles/cmTryCompileExec550517847.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec550517847.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTryCompileExec550517847.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcovered-switch-default'
+make[1]: *** [CMakeFiles/cmTryCompileExec550517847.dir/src.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec550517847/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2265936396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2265936396.dir/build.make CMakeFiles/cmTryCompileExec2265936396.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2265936396.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTryCompileExec2265936396.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'
+make[1]: *** [CMakeFiles/cmTryCompileExec2265936396.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2265936396/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128359909/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128359909.dir/build.make CMakeFiles/cmTryCompileExec2128359909.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128359909.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_WCOMMENT_ALLOWS_LINE_WRAP -Werror   -o CMakeFiles/cmTryCompileExec2128359909.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c:1:1: error: C++ style comments are not allowed in ISO C90 [-Werror]
+ // \
+ ^
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c:1:1: error: (this will be reported only once per input file) [-Werror]
+/tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c:1:1: error: multi-line comment [-Werror=comment]
+cc1: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTryCompileExec2128359909.dir/src.c.o] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2128359909/fast] Error 2
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3187581402/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3187581402.dir/build.make CMakeFiles/cmTryCompileExec3187581402.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3187581402.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3187581402.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3187581402
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3187581402.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3187581402.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3187581402 -rdynamic 
+CMakeFiles/cmTryCompileExec3187581402.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3187581402] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3187581402/fast] Error 2
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3804053221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3804053221.dir/build.make CMakeFiles/cmTryCompileExec3804053221.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3804053221.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3804053221.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3804053221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3804053221.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3804053221.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3804053221 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3804053221] Error 1
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3804053221/fast] Error 2
+
+

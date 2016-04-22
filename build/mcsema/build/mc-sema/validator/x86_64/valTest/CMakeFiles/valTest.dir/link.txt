@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG    -m64 CMakeFiles/valTest.dir/test.c.o test_a.auto.obj  -o valTest -rdynamic 

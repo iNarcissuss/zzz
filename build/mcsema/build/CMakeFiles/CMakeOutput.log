@@ -1,0 +1,2538 @@
+The system is: Linux - 3.13.0-83-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/tmp/mcsema/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/tmp/mcsema/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec437519075/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec437519075.dir/build.make CMakeFiles/cmTryCompileExec437519075.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec437519075.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec437519075.dir/testCCompiler.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec437519075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec437519075.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec437519075.dir/testCCompiler.c.o  -o cmTryCompileExec437519075 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec569736991/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec569736991.dir/build.make CMakeFiles/cmTryCompileExec569736991.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec569736991
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec569736991.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec569736991 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec569736991' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec569736991 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec569736991/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec569736991.dir/build.make CMakeFiles/cmTryCompileExec569736991.dir/build]
+  ignore line: [make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec569736991]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec569736991.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec569736991 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec569736991' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec569736991 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec569736991] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec569736991.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec985810693/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec985810693.dir/build.make CMakeFiles/cmTryCompileExec985810693.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec985810693.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec985810693.dir/testCXXCompiler.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec985810693
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec985810693.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec985810693.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec985810693 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec769402528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec769402528.dir/build.make CMakeFiles/cmTryCompileExec769402528.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec769402528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec769402528.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec769402528 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec769402528' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec769402528 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec769402528/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec769402528.dir/build.make CMakeFiles/cmTryCompileExec769402528.dir/build]
+  ignore line: [make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec769402528]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec769402528.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec769402528 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec769402528' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec769402528 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec769402528] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec769402528.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec434640600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec434640600.dir/build.make CMakeFiles/cmTryCompileExec434640600.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec434640600.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec434640600.dir/CheckIncludeFile.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec434640600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec434640600.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec434640600.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec434640600 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec903293813/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec903293813.dir/build.make CMakeFiles/cmTryCompileExec903293813.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec903293813.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec903293813.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec903293813
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec903293813.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec903293813.dir/CheckIncludeFile.c.o  -o cmTryCompileExec903293813 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2652682696/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2652682696.dir/build.make CMakeFiles/cmTryCompileExec2652682696.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2652682696.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2652682696.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2652682696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2652682696.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2652682696.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2652682696 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2141082118/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2141082118.dir/build.make CMakeFiles/cmTryCompileExec2141082118.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2141082118.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2141082118.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2141082118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2141082118.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2141082118.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2141082118 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3459839050/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3459839050.dir/build.make CMakeFiles/cmTryCompileExec3459839050.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3459839050.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3459839050.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3459839050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3459839050.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3459839050.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3459839050 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec362162111/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec362162111.dir/build.make CMakeFiles/cmTryCompileExec362162111.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec362162111.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec362162111.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec362162111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec362162111.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec362162111.dir/CheckIncludeFile.c.o  -o cmTryCompileExec362162111 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec499572475/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec499572475.dir/build.make CMakeFiles/cmTryCompileExec499572475.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec499572475.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec499572475.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec499572475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec499572475.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec499572475.dir/CheckIncludeFile.c.o  -o cmTryCompileExec499572475 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec742409393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec742409393.dir/build.make CMakeFiles/cmTryCompileExec742409393.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec742409393.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec742409393.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec742409393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec742409393.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec742409393.dir/CheckIncludeFile.c.o  -o cmTryCompileExec742409393 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1847476031/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1847476031.dir/build.make CMakeFiles/cmTryCompileExec1847476031.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1847476031.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1847476031.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1847476031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1847476031.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1847476031.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1847476031 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec259746694/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec259746694.dir/build.make CMakeFiles/cmTryCompileExec259746694.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec259746694.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec259746694.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec259746694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec259746694.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec259746694.dir/CheckIncludeFile.c.o  -o cmTryCompileExec259746694 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3930321466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3930321466.dir/build.make CMakeFiles/cmTryCompileExec3930321466.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3930321466.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3930321466.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3930321466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3930321466.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3930321466.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3930321466 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1332509017/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1332509017.dir/build.make CMakeFiles/cmTryCompileExec1332509017.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1332509017.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1332509017.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1332509017
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1332509017.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1332509017.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1332509017 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2445644787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2445644787.dir/build.make CMakeFiles/cmTryCompileExec2445644787.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2445644787.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2445644787.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2445644787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2445644787.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2445644787.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2445644787 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3208787620/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3208787620.dir/build.make CMakeFiles/cmTryCompileExec3208787620.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3208787620.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3208787620.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3208787620
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3208787620.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3208787620.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3208787620 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2545543626/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2545543626.dir/build.make CMakeFiles/cmTryCompileExec2545543626.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2545543626.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2545543626.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2545543626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2545543626.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2545543626.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2545543626 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec483627668/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec483627668.dir/build.make CMakeFiles/cmTryCompileExec483627668.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec483627668.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec483627668.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec483627668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec483627668.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec483627668.dir/CheckIncludeFile.c.o  -o cmTryCompileExec483627668 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1502285401/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1502285401.dir/build.make CMakeFiles/cmTryCompileExec1502285401.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1502285401.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1502285401.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1502285401
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1502285401.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1502285401.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1502285401 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1913149020/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1913149020.dir/build.make CMakeFiles/cmTryCompileExec1913149020.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1913149020.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1913149020.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1913149020
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1913149020.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1913149020.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1913149020 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2970559222/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2970559222.dir/build.make CMakeFiles/cmTryCompileExec2970559222.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2970559222.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2970559222.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2970559222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2970559222.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2970559222.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2970559222 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3899325141/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3899325141.dir/build.make CMakeFiles/cmTryCompileExec3899325141.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3899325141.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3899325141.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3899325141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3899325141.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3899325141.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3899325141 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1137141449/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1137141449.dir/build.make CMakeFiles/cmTryCompileExec1137141449.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1137141449.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1137141449.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1137141449
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1137141449.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1137141449.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1137141449 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1856430044/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1856430044.dir/build.make CMakeFiles/cmTryCompileExec1856430044.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1856430044.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1856430044.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1856430044
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1856430044.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1856430044.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1856430044 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3363275130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3363275130.dir/build.make CMakeFiles/cmTryCompileExec3363275130.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3363275130.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3363275130.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3363275130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3363275130.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3363275130.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3363275130 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2140289130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2140289130.dir/build.make CMakeFiles/cmTryCompileExec2140289130.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2140289130.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2140289130.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2140289130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2140289130.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2140289130.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2140289130 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3475992481/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3475992481.dir/build.make CMakeFiles/cmTryCompileExec3475992481.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3475992481.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3475992481.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3475992481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3475992481.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3475992481.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3475992481 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec794728410/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec794728410.dir/build.make CMakeFiles/cmTryCompileExec794728410.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec794728410.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec794728410.dir/CheckIncludeFile.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec794728410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec794728410.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec794728410.dir/CheckIncludeFile.c.o  -o cmTryCompileExec794728410 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec700586450/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec700586450.dir/build.make CMakeFiles/cmTryCompileExec700586450.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec700586450.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec700586450.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec700586450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec700586450.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec700586450.dir/CheckSymbolExists.c.o  -o cmTryCompileExec700586450 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2840779247/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2840779247.dir/build.make CMakeFiles/cmTryCompileExec2840779247.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2840779247.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2840779247.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2840779247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2840779247.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2840779247.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2840779247 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1708487380/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1708487380.dir/build.make CMakeFiles/cmTryCompileExec1708487380.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1708487380.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1708487380.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1708487380
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1708487380.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1708487380.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1708487380 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1628075400/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1628075400.dir/build.make CMakeFiles/cmTryCompileExec1628075400.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1628075400.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTryCompileExec1628075400.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1628075400
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1628075400.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTryCompileExec1628075400.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1628075400 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4291176839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4291176839.dir/build.make CMakeFiles/cmTryCompileExec4291176839.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4291176839.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTryCompileExec4291176839.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4291176839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4291176839.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTryCompileExec4291176839.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4291176839 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4114761180/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4114761180.dir/build.make CMakeFiles/cmTryCompileExec4114761180.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4114761180.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTryCompileExec4114761180.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4114761180
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4114761180.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    CMakeFiles/cmTryCompileExec4114761180.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4114761180 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3824781233/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3824781233.dir/build.make CMakeFiles/cmTryCompileExec3824781233.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3824781233.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec3824781233.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3824781233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3824781233.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec3824781233.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3824781233 -rdynamic -ldl -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2192510738/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2192510738.dir/build.make CMakeFiles/cmTryCompileExec2192510738.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2192510738.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec2192510738.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2192510738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2192510738.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec2192510738.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2192510738 -rdynamic -lrt -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2176290857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2176290857.dir/build.make CMakeFiles/cmTryCompileExec2176290857.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2176290857.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec2176290857.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2176290857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2176290857.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTryCompileExec2176290857.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2176290857 -rdynamic -lz -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3930877727/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3930877727.dir/build.make CMakeFiles/cmTryCompileExec3930877727.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3930877727.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTryCompileExec3930877727.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3930877727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3930877727.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTryCompileExec3930877727.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3930877727 -rdynamic -ltinfo -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1400637848/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1400637848.dir/build.make CMakeFiles/cmTryCompileExec1400637848.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1400637848.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1400637848.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1400637848
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1400637848.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1400637848.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1400637848 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2914704827/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2914704827.dir/build.make CMakeFiles/cmTryCompileExec2914704827.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2914704827.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2914704827.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2914704827
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2914704827.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2914704827.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2914704827 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2095793882/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2095793882.dir/build.make CMakeFiles/cmTryCompileExec2095793882.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2095793882.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2095793882.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2095793882
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2095793882.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2095793882.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2095793882 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec705450565/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec705450565.dir/build.make CMakeFiles/cmTryCompileExec705450565.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec705450565.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec705450565.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec705450565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec705450565.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec705450565.dir/CheckSymbolExists.c.o  -o cmTryCompileExec705450565 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2773120681/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2773120681.dir/build.make CMakeFiles/cmTryCompileExec2773120681.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2773120681.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2773120681.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2773120681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2773120681.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2773120681.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2773120681 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3707979898/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3707979898.dir/build.make CMakeFiles/cmTryCompileExec3707979898.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3707979898.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3707979898.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3707979898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3707979898.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3707979898.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3707979898 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2017352731/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2017352731.dir/build.make CMakeFiles/cmTryCompileExec2017352731.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2017352731.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2017352731.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2017352731
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2017352731.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2017352731.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2017352731 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceilf exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2866303440/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2866303440.dir/build.make CMakeFiles/cmTryCompileExec2866303440.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2866303440.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2866303440.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2866303440
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2866303440.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2866303440.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2866303440 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floorf exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec315273242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec315273242.dir/build.make CMakeFiles/cmTryCompileExec315273242.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec315273242.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec315273242.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec315273242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec315273242.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec315273242.dir/CheckSymbolExists.c.o  -o cmTryCompileExec315273242 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmodf exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3184124689/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3184124689.dir/build.make CMakeFiles/cmTryCompileExec3184124689.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3184124689.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3184124689.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3184124689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3184124689.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3184124689.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3184124689 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1558816172/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1558816172.dir/build.make CMakeFiles/cmTryCompileExec1558816172.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1558816172.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1558816172.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1558816172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1558816172.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1558816172.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1558816172 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log2 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1204719388/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1204719388.dir/build.make CMakeFiles/cmTryCompileExec1204719388.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1204719388.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1204719388.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1204719388
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1204719388.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1204719388.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1204719388 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log2
+  return ((int*)(&log2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2702949820/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2702949820.dir/build.make CMakeFiles/cmTryCompileExec2702949820.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2702949820.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2702949820.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2702949820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2702949820.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2702949820.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2702949820 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2334055137/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2334055137.dir/build.make CMakeFiles/cmTryCompileExec2334055137.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2334055137.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2334055137.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2334055137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2334055137.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2334055137.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2334055137 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp2 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec263949427/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec263949427.dir/build.make CMakeFiles/cmTryCompileExec263949427.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec263949427.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec263949427.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec263949427
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec263949427.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec263949427.dir/CheckSymbolExists.c.o  -o cmTryCompileExec263949427 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp2
+  return ((int*)(&exp2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3026977941/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3026977941.dir/build.make CMakeFiles/cmTryCompileExec3026977941.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3026977941.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3026977941.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3026977941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3026977941.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3026977941.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3026977941 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1549697529/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1549697529.dir/build.make CMakeFiles/cmTryCompileExec1549697529.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1549697529.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1549697529.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1549697529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1549697529.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1549697529.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1549697529 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1041815000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1041815000.dir/build.make CMakeFiles/cmTryCompileExec1041815000.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1041815000.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1041815000.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1041815000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1041815000.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1041815000.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1041815000 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nearbyintf exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4130804634/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4130804634.dir/build.make CMakeFiles/cmTryCompileExec4130804634.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4130804634.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4130804634.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4130804634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4130804634.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4130804634.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4130804634 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nearbyintf
+  return ((int*)(&nearbyintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec945546687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec945546687.dir/build.make CMakeFiles/cmTryCompileExec945546687.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec945546687.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec945546687.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec945546687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec945546687.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec945546687.dir/CheckSymbolExists.c.o  -o cmTryCompileExec945546687 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec700691741/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec700691741.dir/build.make CMakeFiles/cmTryCompileExec700691741.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec700691741.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec700691741.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec700691741
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec700691741.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec700691741.dir/CheckSymbolExists.c.o  -o cmTryCompileExec700691741 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2166188840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166188840.dir/build.make CMakeFiles/cmTryCompileExec2166188840.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166188840.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2166188840.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2166188840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166188840.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2166188840.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2166188840 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec462445376/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec462445376.dir/build.make CMakeFiles/cmTryCompileExec462445376.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec462445376.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec462445376.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec462445376
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec462445376.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec462445376.dir/CheckSymbolExists.c.o  -o cmTryCompileExec462445376 -rdynamic -lm 
+CMakeFiles/cmTryCompileExec462445376.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closedir exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1411599497/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1411599497.dir/build.make CMakeFiles/cmTryCompileExec1411599497.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1411599497.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1411599497.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1411599497
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1411599497.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1411599497.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1411599497 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the opendir exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2446446423/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2446446423.dir/build.make CMakeFiles/cmTryCompileExec2446446423.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2446446423.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2446446423.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2446446423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2446446423.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2446446423.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2446446423 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the readdir exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1213641430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1213641430.dir/build.make CMakeFiles/cmTryCompileExec1213641430.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1213641430.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1213641430.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1213641430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1213641430.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1213641430.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1213641430 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2060155997/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2060155997.dir/build.make CMakeFiles/cmTryCompileExec2060155997.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2060155997.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2060155997.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2060155997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2060155997.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2060155997.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2060155997 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec70176042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec70176042.dir/build.make CMakeFiles/cmTryCompileExec70176042.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec70176042.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec70176042.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec70176042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec70176042.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec70176042.dir/CheckSymbolExists.c.o  -o cmTryCompileExec70176042 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3857687748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3857687748.dir/build.make CMakeFiles/cmTryCompileExec3857687748.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3857687748.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3857687748.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3857687748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3857687748.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3857687748.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3857687748 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3160311610/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3160311610.dir/build.make CMakeFiles/cmTryCompileExec3160311610.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3160311610.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3160311610.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3160311610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3160311610.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3160311610.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3160311610 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3215391266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3215391266.dir/build.make CMakeFiles/cmTryCompileExec3215391266.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3215391266.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3215391266.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3215391266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3215391266.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3215391266.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3215391266 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3813888391/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3813888391.dir/build.make CMakeFiles/cmTryCompileExec3813888391.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3813888391.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3813888391.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3813888391
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3813888391.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3813888391.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3813888391 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3913894593/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3913894593.dir/build.make CMakeFiles/cmTryCompileExec3913894593.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3913894593.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3913894593.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3913894593
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3913894593.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3913894593.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3913894593 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3478821823/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3478821823.dir/build.make CMakeFiles/cmTryCompileExec3478821823.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3478821823.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3478821823.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3478821823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3478821823.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3478821823.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3478821823 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2001213063/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2001213063.dir/build.make CMakeFiles/cmTryCompileExec2001213063.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2001213063.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2001213063.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2001213063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2001213063.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2001213063.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2001213063 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the drand48 exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1960454701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1960454701.dir/build.make CMakeFiles/cmTryCompileExec1960454701.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1960454701.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1960454701.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1960454701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1960454701.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1960454701.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1960454701 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec361728190/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec361728190.dir/build.make CMakeFiles/cmTryCompileExec361728190.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec361728190.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec361728190.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec361728190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec361728190.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec361728190.dir/CheckSymbolExists.c.o  -o cmTryCompileExec361728190 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoq exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3922843689/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3922843689.dir/build.make CMakeFiles/cmTryCompileExec3922843689.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3922843689.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3922843689.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3922843689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3922843689.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3922843689.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3922843689 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec248777192/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec248777192.dir/build.make CMakeFiles/cmTryCompileExec248777192.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec248777192.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec248777192.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec248777192
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec248777192.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec248777192.dir/CheckSymbolExists.c.o  -o cmTryCompileExec248777192 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec744492085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec744492085.dir/build.make CMakeFiles/cmTryCompileExec744492085.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec744492085.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec744492085.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec744492085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec744492085.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec744492085.dir/CheckSymbolExists.c.o  -o cmTryCompileExec744492085 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec58075023/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec58075023.dir/build.make CMakeFiles/cmTryCompileExec58075023.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec58075023.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec58075023.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec58075023
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec58075023.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec58075023.dir/CheckSymbolExists.c.o  -o cmTryCompileExec58075023 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlerror exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2049607370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2049607370.dir/build.make CMakeFiles/cmTryCompileExec2049607370.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2049607370.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2049607370.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2049607370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2049607370.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2049607370.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2049607370 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2427939351/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2427939351.dir/build.make CMakeFiles/cmTryCompileExec2427939351.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2427939351.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2427939351.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2427939351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2427939351.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2427939351.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2427939351 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3791607290/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3791607290.dir/build.make CMakeFiles/cmTryCompileExec3791607290.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3791607290.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3791607290.dir/CheckSymbolExists.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3791607290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3791607290.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3791607290.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3791607290 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+File /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec974384026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec974384026.dir/build.make CMakeFiles/cmTryCompileExec974384026.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec974384026.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T   -o CMakeFiles/cmTryCompileExec974384026.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec974384026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec974384026.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_INT64_T    CMakeFiles/cmTryCompileExec974384026.dir/src.cxx.o  -o cmTryCompileExec974384026 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3850137257/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3850137257.dir/build.make CMakeFiles/cmTryCompileExec3850137257.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3850137257.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T   -o CMakeFiles/cmTryCompileExec3850137257.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3850137257
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850137257.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_UINT64_T    CMakeFiles/cmTryCompileExec3850137257.dir/src.cxx.o  -o cmTryCompileExec3850137257 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3554700413/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3554700413.dir/build.make CMakeFiles/cmTryCompileExec3554700413.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3554700413.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T   -o CMakeFiles/cmTryCompileExec3554700413.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3554700413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3554700413.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_U_INT64_T    CMakeFiles/cmTryCompileExec3554700413.dir/src.cxx.o  -o cmTryCompileExec3554700413 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4142238516/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4142238516.dir/build.make CMakeFiles/cmTryCompileExec4142238516.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4142238516.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTryCompileExec4142238516.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4142238516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4142238516.dir/link.txt --verbose=1
+/usr/bin/c++    -DLLVM_HAS_ATOMICS    CMakeFiles/cmTryCompileExec4142238516.dir/src.cxx.o  -o cmTryCompileExec4142238516 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2793373743/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2793373743.dir/build.make CMakeFiles/cmTryCompileExec2793373743.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2793373743.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG   -Wno-variadic-macros -o CMakeFiles/cmTryCompileExec2793373743.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2793373743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2793373743.dir/link.txt --verbose=1
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG    CMakeFiles/cmTryCompileExec2793373743.dir/src.cxx.o  -o cmTryCompileExec2793373743 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec836671357/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec836671357.dir/build.make CMakeFiles/cmTryCompileExec836671357.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec836671357.dir/src.cxx.o
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTryCompileExec836671357.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec836671357
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec836671357.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED    CMakeFiles/cmTryCompileExec836671357.dir/src.cxx.o  -o cmTryCompileExec836671357 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3781862111/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3781862111.dir/build.make CMakeFiles/cmTryCompileExec3781862111.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3781862111.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec3781862111.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3781862111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3781862111.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec3781862111.dir/src.c.o  -o cmTryCompileExec3781862111 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2681899121/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2681899121.dir/build.make CMakeFiles/cmTryCompileExec2681899121.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2681899121.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTryCompileExec2681899121.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2681899121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2681899121.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTryCompileExec2681899121.dir/src.cxx.o  -o cmTryCompileExec2681899121 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2565755797/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2565755797.dir/build.make CMakeFiles/cmTryCompileExec2565755797.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2565755797.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec2565755797.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2565755797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2565755797.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTryCompileExec2565755797.dir/src.cxx.o  -o cmTryCompileExec2565755797 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2818621768/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2818621768.dir/build.make CMakeFiles/cmTryCompileExec2818621768.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2818621768.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTryCompileExec2818621768.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2818621768
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2818621768.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    CMakeFiles/cmTryCompileExec2818621768.dir/src.cxx.o  -o cmTryCompileExec2818621768 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1179687080/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1179687080.dir/build.make CMakeFiles/cmTryCompileExec1179687080.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1179687080.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG   -Werror -Wnon-virtual-dtor -o CMakeFiles/cmTryCompileExec1179687080.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1179687080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1179687080.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_NON_VIRTUAL_DTOR_FLAG    CMakeFiles/cmTryCompileExec1179687080.dir/src.cxx.o  -o cmTryCompileExec1179687080 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3905169760/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3905169760.dir/build.make CMakeFiles/cmTryCompileExec3905169760.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3905169760.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec3905169760.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3905169760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3905169760.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTryCompileExec3905169760.dir/src.cxx.o  -o cmTryCompileExec3905169760 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3231138711/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3231138711.dir/build.make CMakeFiles/cmTryCompileExec3231138711.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3231138711.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTryCompileExec3231138711.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3231138711
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3231138711.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec3231138711.dir/src.c.o  -o cmTryCompileExec3231138711 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3315652848/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3315652848.dir/build.make CMakeFiles/cmTryCompileExec3315652848.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3315652848.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec3315652848.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3315652848
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3315652848.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec3315652848.dir/src.c.o  -o cmTryCompileExec3315652848 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1956024077/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1956024077.dir/build.make CMakeFiles/cmTryCompileExec1956024077.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1956024077.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTryCompileExec1956024077.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1956024077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1956024077.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -std=c++11 -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTryCompileExec1956024077.dir/src.cxx.o  -o cmTryCompileExec1956024077 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2106134540/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2106134540.dir/build.make CMakeFiles/cmTryCompileExec2106134540.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2106134540.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec2106134540.dir/src.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2106134540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2106134540.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec2106134540.dir/src.c.o  -o cmTryCompileExec2106134540 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeded with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3984755965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3984755965.dir/build.make CMakeFiles/cmTryCompileExec3984755965.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3984755965.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTryCompileExec3984755965.dir/src.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3984755965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3984755965.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wnon-virtual-dtor -Wno-comment -std=c++11 -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTryCompileExec3984755965.dir/src.cxx.o  -o cmTryCompileExec3984755965 -rdynamic -lm 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3221247856/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3221247856.dir/build.make CMakeFiles/cmTryCompileExec3221247856.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3221247856.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3221247856.dir/CheckIncludeFiles.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3221247856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3221247856.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3221247856.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3221247856 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1465418726/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1465418726.dir/build.make CMakeFiles/cmTryCompileExec1465418726.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1465418726.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11   -o CMakeFiles/cmTryCompileExec1465418726.dir/CheckIncludeFile.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1465418726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1465418726.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11    CMakeFiles/cmTryCompileExec1465418726.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1465418726 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2415126112/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2415126112.dir/build.make CMakeFiles/cmTryCompileExec2415126112.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2415126112.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11   -o CMakeFiles/cmTryCompileExec2415126112.dir/CheckIncludeFile.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2415126112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2415126112.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11    CMakeFiles/cmTryCompileExec2415126112.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2415126112 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec344831588/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec344831588.dir/build.make CMakeFiles/cmTryCompileExec344831588.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec344831588.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11   -o CMakeFiles/cmTryCompileExec344831588.dir/CheckIncludeFile.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec344831588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec344831588.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11    CMakeFiles/cmTryCompileExec344831588.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec344831588 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1776523592/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1776523592.dir/build.make CMakeFiles/cmTryCompileExec1776523592.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1776523592.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11   -o CMakeFiles/cmTryCompileExec1776523592.dir/CheckIncludeFile.cxx.o -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1776523592
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1776523592.dir/link.txt --verbose=1
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -std=c++11    CMakeFiles/cmTryCompileExec1776523592.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1776523592 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2613573894/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2613573894.dir/build.make CMakeFiles/cmTryCompileExec2613573894.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2613573894.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2613573894.dir/CheckIncludeFiles.c.o   -c /tmp/mcsema/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2613573894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2613573894.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2613573894.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2613573894 -rdynamic 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /tmp/mcsema/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1910305811/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1910305811.dir/build.make CMakeFiles/cmTryCompileExec1910305811.dir/build
+make[1]: Entering directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /tmp/mcsema/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1910305811.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1910305811.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1910305811
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1910305811.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1910305811.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1910305811 -rdynamic -lpthread 
+make[1]: Leaving directory `/tmp/mcsema/build/CMakeFiles/CMakeTmp'
+
+

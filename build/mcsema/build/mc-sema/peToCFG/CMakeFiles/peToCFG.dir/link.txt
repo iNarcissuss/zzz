@@ -1,0 +1,2 @@
+/usr/bin/ar cr libpeToCFG.a  CMakeFiles/peToCFG.dir/CFG.pb.cc.o CMakeFiles/peToCFG.dir/peToCFG.cpp.o CMakeFiles/peToCFG.dir/inst_decoder_fe.cpp.o
+/usr/bin/ranlib libpeToCFG.a

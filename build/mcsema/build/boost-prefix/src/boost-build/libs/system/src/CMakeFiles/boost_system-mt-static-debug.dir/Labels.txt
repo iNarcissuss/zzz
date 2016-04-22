@@ -1,0 +1,4 @@
+# Target labels
+ system
+# Source files and their labels
+/tmp/mcsema/boost/libs/system/src/error_code.cpp

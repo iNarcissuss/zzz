@@ -1,0 +1,14 @@
+# Target labels
+ program_options
+# Source files and their labels
+/tmp/mcsema/boost/libs/program_options/src/cmdline.cpp
+/tmp/mcsema/boost/libs/program_options/src/config_file.cpp
+/tmp/mcsema/boost/libs/program_options/src/options_description.cpp
+/tmp/mcsema/boost/libs/program_options/src/parsers.cpp
+/tmp/mcsema/boost/libs/program_options/src/split.cpp
+/tmp/mcsema/boost/libs/program_options/src/variables_map.cpp
+/tmp/mcsema/boost/libs/program_options/src/value_semantic.cpp
+/tmp/mcsema/boost/libs/program_options/src/positional_options.cpp
+/tmp/mcsema/boost/libs/program_options/src/utf8_codecvt_facet.cpp
+/tmp/mcsema/boost/libs/program_options/src/convert.cpp
+/tmp/mcsema/boost/libs/program_options/src/winmain.cpp

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libLLVMMCAnalysis.a  CMakeFiles/LLVMMCAnalysis.dir/MCAtom.cpp.o CMakeFiles/LLVMMCAnalysis.dir/MCFunction.cpp.o CMakeFiles/LLVMMCAnalysis.dir/MCModule.cpp.o CMakeFiles/LLVMMCAnalysis.dir/MCModuleYAML.cpp.o CMakeFiles/LLVMMCAnalysis.dir/MCObjectDisassembler.cpp.o CMakeFiles/LLVMMCAnalysis.dir/MCObjectSymbolizer.cpp.o
+/usr/bin/ranlib ../../libLLVMMCAnalysis.a

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://software.intel.com/sites/landingpage/pintool/downloads/pin-2.14-67254-gcc.4.4.7-linux.tar.gz'
+tag='SHA256=4499cfed383f362a0c74560a3ee66a5f117bea95f40067224ddf3c2606c77006'

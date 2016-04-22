@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libLLVMMCDisassembler.a  CMakeFiles/LLVMMCDisassembler.dir/Disassembler.cpp.o
+/usr/bin/ranlib ../../libLLVMMCDisassembler.a

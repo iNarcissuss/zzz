@@ -1,0 +1,11 @@
+# Target labels
+ filesystem
+# Source files and their labels
+/tmp/mcsema/boost/libs/filesystem/src/codecvt_error_category.cpp
+/tmp/mcsema/boost/libs/filesystem/src/operations.cpp
+/tmp/mcsema/boost/libs/filesystem/src/path.cpp
+/tmp/mcsema/boost/libs/filesystem/src/path_traits.cpp
+/tmp/mcsema/boost/libs/filesystem/src/portability.cpp
+/tmp/mcsema/boost/libs/filesystem/src/unique_path.cpp
+/tmp/mcsema/boost/libs/filesystem/src/utf8_codecvt_facet.cpp
+/tmp/mcsema/boost/libs/filesystem/src/windows_file_codecvt.cpp

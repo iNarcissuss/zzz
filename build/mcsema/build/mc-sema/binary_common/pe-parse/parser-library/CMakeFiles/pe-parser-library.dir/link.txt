@@ -1,0 +1,2 @@
+/usr/bin/ar cr libpe-parser-library.a  CMakeFiles/pe-parser-library.dir/buffer.cpp.o CMakeFiles/pe-parser-library.dir/parse.cpp.o
+/usr/bin/ranlib libpe-parser-library.a

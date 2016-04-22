@@ -1,0 +1,1 @@
+/usr/bin/c++    -fvisibility-inlines-hidden -std=c++11 -O3 -DNDEBUG    CMakeFiles/protoc.dir/__/__/protobuf-2.5.0/src/google/protobuf/compiler/main.cc.o  -o protoc -rdynamic ../libprotoc/libprotoc.a ../libprotobuf/libprotobuf.a -lpthread 
