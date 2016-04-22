@@ -5,6 +5,7 @@ dagger	add7b0ac5cc3b069fba763a9d07234cbd92bba2e	http://repzret.org/git/dagger.gi
 darling	f10d6f8d572d64cde5b7df5ee086ff77229d7544	https://github.com/LubosD/darling.git	git
 mcsema	xxx	https://github.com/trailofbits/mcsema.git	git
 elfparser	39d21ca812d5f5663b2d7de0b2f7c0a7b6cb4f20	https://github.com/jacob-baines/elfparser.git	git
+jadx	xxx	https://github.com/skylot/jadx.git	git
 fuzzball	653ffc47c04d0fdad66b80e511230e8c02368313	https://github.com/bitblaze-fuzzball/fuzzball.git	git
 gdsl-toolkit	b8973b17c6dd1eba3bbc52109d73e04d493de822	https://github.com/gdslang/gdsl-toolkit.git	git
 goldendict	38adb08ea9feac3ceb134b630b9628f2ae8060c8	https://github.com/goldendict/goldendict.git	git
