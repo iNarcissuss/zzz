@@ -37,8 +37,12 @@ configure:1275: checking to see if char is signed
 configure:1306: gcc -o conftest -O2   conftest.c  1>&5
 configure: In function 'is_char_signed':
 configure:1295:5: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+     printf("Hmm, it seems 'char' is not eight bits wide on your machine.\n");
+     ^
 configure: In function 'main':
 configure:1302:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+   exit(is_char_signed((int) signed_char_check));
+   ^
 configure: failed program was:
 #line 1282 "configure"
 #include "confdefs.h"
@@ -67,8 +71,12 @@ configure:1323: checking to see if right shift is signed
 configure:1358: gcc -o conftest -O2   conftest.c  1>&5
 configure: In function 'is_shifting_signed':
 configure:1349:3: warning: incompatible implicit declaration of built-in function 'printf' [enabled by default]
+   printf("Right shift isn't acting as I expect it to.\n");
+   ^
 configure: In function 'main':
 configure:1354:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+   exit(is_shifting_signed(-0x7F7E80B1L));
+   ^
 configure: failed program was:
 #line 1328 "configure"
 #include "confdefs.h"
@@ -103,6 +111,8 @@ configure:1375: checking to see if fopen accepts b spec
 configure:1390: gcc -o conftest -O2   conftest.c  1>&5
 configure: In function 'main':
 configure:1385:5: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+     exit(0);
+     ^
 configure:1436: checking for a BSD compatible install
 configure:1488: checking for ranlib
 configure:1650: checking libjpeg version number
