@@ -1,0 +1,2 @@
+/usr/bin/ar cr libnc-common.a  CMakeFiles/nc-common.dir/Branding.cpp.o CMakeFiles/nc-common.dir/CancellationToken.cpp.o CMakeFiles/nc-common.dir/Escaping.cpp.o CMakeFiles/nc-common.dir/Exception.cpp.o CMakeFiles/nc-common.dir/Logger.cpp.o CMakeFiles/nc-common.dir/SignalLogger.cpp.o CMakeFiles/nc-common.dir/StreamLogger.cpp.o CMakeFiles/nc-common.dir/StringToInt.cpp.o CMakeFiles/nc-common.dir/Version.cpp.o CMakeFiles/nc-common.dir/nc-common_automoc.cpp.o
+/usr/bin/ranlib libnc-common.a

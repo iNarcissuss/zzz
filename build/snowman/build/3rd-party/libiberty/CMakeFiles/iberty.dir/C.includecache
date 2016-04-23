@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/snowman/src/3rd-party/libiberty/cp-demangle.c
+config.h
+/tmp/snowman/src/3rd-party/libiberty/config.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+alloca.h
+-
+demangle.h
+/tmp/snowman/src/3rd-party/libiberty/demangle.h
+cp-demangle.h
+/tmp/snowman/src/3rd-party/libiberty/cp-demangle.h
+getopt.h
+/tmp/snowman/src/3rd-party/libiberty/getopt.h
+dyn-string.h
+/tmp/snowman/src/3rd-party/libiberty/dyn-string.h
+
+/tmp/snowman/src/3rd-party/libiberty/cp-demangle.h
+
+/tmp/snowman/src/3rd-party/libiberty/demangle.h
+

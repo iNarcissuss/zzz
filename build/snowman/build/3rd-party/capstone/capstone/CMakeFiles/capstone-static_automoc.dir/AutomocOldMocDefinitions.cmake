@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "CAPSTONE_HAS_ARM;CAPSTONE_USE_SYS_DYN_MEM ~~~ /tmp/snowman/src;/tmp/snowman/src/3rd-party;/tmp/snowman/build;/tmp/snowman/src/3rd-party/capstone/capstone/include;/usr/include ~~~  ~~~ FALSE ~~~ ")

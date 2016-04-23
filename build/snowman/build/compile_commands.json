@@ -1,0 +1,947 @@
+[
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/ArmArchitecture.cpp.o -c /tmp/snowman/src/nc/arch/arm/ArmArchitecture.cpp",
+  "file": "/tmp/snowman/src/nc/arch/arm/ArmArchitecture.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/ArmDisassembler.cpp.o -c /tmp/snowman/src/nc/arch/arm/ArmDisassembler.cpp",
+  "file": "/tmp/snowman/src/nc/arch/arm/ArmDisassembler.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/ArmInstructionAnalyzer.cpp.o -c /tmp/snowman/src/nc/arch/arm/ArmInstructionAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/arch/arm/ArmInstructionAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/ArmRegisters.cpp.o -c /tmp/snowman/src/nc/arch/arm/ArmRegisters.cpp",
+  "file": "/tmp/snowman/src/nc/arch/arm/ArmRegisters.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/CallingConventions.cpp.o -c /tmp/snowman/src/nc/arch/arm/CallingConventions.cpp",
+  "file": "/tmp/snowman/src/nc/arch/arm/CallingConventions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/arm",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-arm.dir/nc-arch-arm_automoc.cpp.o -c /tmp/snowman/build/nc/arch/arm/nc-arch-arm_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/arch/arm/nc-arch-arm_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/CallingConventions.cpp.o -c /tmp/snowman/src/nc/arch/x86/CallingConventions.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/CallingConventions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86Architecture.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86Architecture.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86Architecture.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86Disassembler.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86Disassembler.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86Disassembler.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86Instruction.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86Instruction.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86Instruction.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86InstructionAnalyzer.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86InstructionAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86InstructionAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86MasterAnalyzer.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86MasterAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86MasterAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/X86Registers.cpp.o -c /tmp/snowman/src/nc/arch/x86/X86Registers.cpp",
+  "file": "/tmp/snowman/src/nc/arch/x86/X86Registers.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/arch/x86",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-arch-x86.dir/nc-arch-x86_automoc.cpp.o -c /tmp/snowman/build/nc/arch/x86/nc-arch-x86_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/arch/x86/nc-arch-x86_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/Branding.cpp.o -c /tmp/snowman/src/nc/common/Branding.cpp",
+  "file": "/tmp/snowman/src/nc/common/Branding.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/CancellationToken.cpp.o -c /tmp/snowman/src/nc/common/CancellationToken.cpp",
+  "file": "/tmp/snowman/src/nc/common/CancellationToken.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/Escaping.cpp.o -c /tmp/snowman/src/nc/common/Escaping.cpp",
+  "file": "/tmp/snowman/src/nc/common/Escaping.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/Exception.cpp.o -c /tmp/snowman/src/nc/common/Exception.cpp",
+  "file": "/tmp/snowman/src/nc/common/Exception.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/Logger.cpp.o -c /tmp/snowman/src/nc/common/Logger.cpp",
+  "file": "/tmp/snowman/src/nc/common/Logger.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/SignalLogger.cpp.o -c /tmp/snowman/src/nc/common/SignalLogger.cpp",
+  "file": "/tmp/snowman/src/nc/common/SignalLogger.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/StreamLogger.cpp.o -c /tmp/snowman/src/nc/common/StreamLogger.cpp",
+  "file": "/tmp/snowman/src/nc/common/StreamLogger.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/StringToInt.cpp.o -c /tmp/snowman/src/nc/common/StringToInt.cpp",
+  "file": "/tmp/snowman/src/nc/common/StringToInt.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/Version.cpp.o -c /tmp/snowman/build/nc/common/Version.cpp",
+  "file": "/tmp/snowman/build/nc/common/Version.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/common",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-common.dir/nc-common_automoc.cpp.o -c /tmp/snowman/build/nc/common/nc-common_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/common/nc-common_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/Context.cpp.o -c /tmp/snowman/src/nc/core/Context.cpp",
+  "file": "/tmp/snowman/src/nc/core/Context.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/Driver.cpp.o -c /tmp/snowman/src/nc/core/Driver.cpp",
+  "file": "/tmp/snowman/src/nc/core/Driver.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/MasterAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/MasterAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/MasterAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/arch/Architecture.cpp.o -c /tmp/snowman/src/nc/core/arch/Architecture.cpp",
+  "file": "/tmp/snowman/src/nc/core/arch/Architecture.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/arch/ArchitectureRepository.cpp.o -c /tmp/snowman/src/nc/core/arch/ArchitectureRepository.cpp",
+  "file": "/tmp/snowman/src/nc/core/arch/ArchitectureRepository.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/arch/Disassembler.cpp.o -c /tmp/snowman/src/nc/core/arch/Disassembler.cpp",
+  "file": "/tmp/snowman/src/nc/core/arch/Disassembler.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/arch/Instruction.cpp.o -c /tmp/snowman/src/nc/core/arch/Instruction.cpp",
+  "file": "/tmp/snowman/src/nc/core/arch/Instruction.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/arch/Instructions.cpp.o -c /tmp/snowman/src/nc/core/arch/Instructions.cpp",
+  "file": "/tmp/snowman/src/nc/core/arch/Instructions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/image/Image.cpp.o -c /tmp/snowman/src/nc/core/image/Image.cpp",
+  "file": "/tmp/snowman/src/nc/core/image/Image.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/image/Platform.cpp.o -c /tmp/snowman/src/nc/core/image/Platform.cpp",
+  "file": "/tmp/snowman/src/nc/core/image/Platform.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/image/Reader.cpp.o -c /tmp/snowman/src/nc/core/image/Reader.cpp",
+  "file": "/tmp/snowman/src/nc/core/image/Reader.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/image/Section.cpp.o -c /tmp/snowman/src/nc/core/image/Section.cpp",
+  "file": "/tmp/snowman/src/nc/core/image/Section.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/image/Symbol.cpp.o -c /tmp/snowman/src/nc/core/image/Symbol.cpp",
+  "file": "/tmp/snowman/src/nc/core/image/Symbol.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/input/ParseError.cpp.o -c /tmp/snowman/src/nc/core/input/ParseError.cpp",
+  "file": "/tmp/snowman/src/nc/core/input/ParseError.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/input/Parser.cpp.o -c /tmp/snowman/src/nc/core/input/Parser.cpp",
+  "file": "/tmp/snowman/src/nc/core/input/Parser.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/input/ParserRepository.cpp.o -c /tmp/snowman/src/nc/core/input/ParserRepository.cpp",
+  "file": "/tmp/snowman/src/nc/core/input/ParserRepository.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/BasicBlock.cpp.o -c /tmp/snowman/src/nc/core/ir/BasicBlock.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/BasicBlock.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/CFG.cpp.o -c /tmp/snowman/src/nc/core/ir/CFG.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/CFG.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Dominators.cpp.o -c /tmp/snowman/src/nc/core/ir/Dominators.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Dominators.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Function.cpp.o -c /tmp/snowman/src/nc/core/ir/Function.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Function.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Functions.cpp.o -c /tmp/snowman/src/nc/core/ir/Functions.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Functions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/FunctionsGenerator.cpp.o -c /tmp/snowman/src/nc/core/ir/FunctionsGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/FunctionsGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Jump.cpp.o -c /tmp/snowman/src/nc/core/ir/Jump.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Jump.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/JumpTarget.cpp.o -c /tmp/snowman/src/nc/core/ir/JumpTarget.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/JumpTarget.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/MemoryLocation.cpp.o -c /tmp/snowman/src/nc/core/ir/MemoryLocation.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/MemoryLocation.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Program.cpp.o -c /tmp/snowman/src/nc/core/ir/Program.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Program.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Statement.cpp.o -c /tmp/snowman/src/nc/core/ir/Statement.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Statement.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Statements.cpp.o -c /tmp/snowman/src/nc/core/ir/Statements.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Statements.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Term.cpp.o -c /tmp/snowman/src/nc/core/ir/Term.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Term.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/Terms.cpp.o -c /tmp/snowman/src/nc/core/ir/Terms.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/Terms.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/CallHook.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/CallHook.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/CallHook.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/Convention.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/Convention.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/Convention.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/EntryHook.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/EntryHook.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/EntryHook.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/Hooks.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/Hooks.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/Hooks.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/Patch.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/Patch.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/Patch.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/ReturnHook.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/ReturnHook.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/ReturnHook.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/calling/SignatureAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/calling/SignatureAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/calling/SignatureAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/BasicNode.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/BasicNode.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/BasicNode.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/Dfs.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/Dfs.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/Dfs.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/Edge.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/Edge.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/Edge.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/Graph.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/Graph.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/Graph.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/GraphBuilder.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/GraphBuilder.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/GraphBuilder.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/LoopExplorer.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/LoopExplorer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/LoopExplorer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/Node.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/Node.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/Node.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/Region.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/Region.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/Region.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cflow/StructureAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/cflow/StructureAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cflow/StructureAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cgen/CodeGenerator.cpp.o -c /tmp/snowman/src/nc/core/ir/cgen/CodeGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cgen/CodeGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cgen/DeclarationGenerator.cpp.o -c /tmp/snowman/src/nc/core/ir/cgen/DeclarationGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cgen/DeclarationGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cgen/DefinitionGenerator.cpp.o -c /tmp/snowman/src/nc/core/ir/cgen/DefinitionGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cgen/DefinitionGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cgen/NameGenerator.cpp.o -c /tmp/snowman/src/nc/core/ir/cgen/NameGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cgen/NameGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/cgen/Utils.cpp.o -c /tmp/snowman/src/nc/core/ir/cgen/Utils.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/cgen/Utils.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/Dataflow.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/Dataflow.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/Dataflow.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/DataflowAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/DataflowAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/DataflowAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/ReachingDefinitions.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/ReachingDefinitions.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/ReachingDefinitions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/Uses.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/Uses.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/Uses.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/Utils.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/Utils.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/Utils.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/dflow/Value.cpp.o -c /tmp/snowman/src/nc/core/ir/dflow/Value.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/dflow/Value.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/misc/PatternRecognition.cpp.o -c /tmp/snowman/src/nc/core/ir/misc/PatternRecognition.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/misc/PatternRecognition.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/types/Type.cpp.o -c /tmp/snowman/src/nc/core/ir/types/Type.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/types/Type.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/types/TypeAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/types/TypeAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/types/TypeAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/types/Types.cpp.o -c /tmp/snowman/src/nc/core/ir/types/Types.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/types/Types.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/liveness/LivenessAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/liveness/LivenessAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/liveness/LivenessAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/vars/Variable.cpp.o -c /tmp/snowman/src/nc/core/ir/vars/Variable.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/vars/Variable.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/vars/VariableAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/ir/vars/VariableAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/vars/VariableAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/ir/vars/Variables.cpp.o -c /tmp/snowman/src/nc/core/ir/vars/Variables.cpp",
+  "file": "/tmp/snowman/src/nc/core/ir/vars/Variables.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/irgen/IRGenerator.cpp.o -c /tmp/snowman/src/nc/core/irgen/IRGenerator.cpp",
+  "file": "/tmp/snowman/src/nc/core/irgen/IRGenerator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/irgen/InstructionAnalyzer.cpp.o -c /tmp/snowman/src/nc/core/irgen/InstructionAnalyzer.cpp",
+  "file": "/tmp/snowman/src/nc/core/irgen/InstructionAnalyzer.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/irgen/InvalidInstructionException.cpp.o -c /tmp/snowman/src/nc/core/irgen/InvalidInstructionException.cpp",
+  "file": "/tmp/snowman/src/nc/core/irgen/InvalidInstructionException.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/BinaryOperator.cpp.o -c /tmp/snowman/src/nc/core/likec/BinaryOperator.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/BinaryOperator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Block.cpp.o -c /tmp/snowman/src/nc/core/likec/Block.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Block.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/CallOperator.cpp.o -c /tmp/snowman/src/nc/core/likec/CallOperator.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/CallOperator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/CompilationUnit.cpp.o -c /tmp/snowman/src/nc/core/likec/CompilationUnit.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/CompilationUnit.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/DoWhile.cpp.o -c /tmp/snowman/src/nc/core/likec/DoWhile.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/DoWhile.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/ExpressionStatement.cpp.o -c /tmp/snowman/src/nc/core/likec/ExpressionStatement.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/ExpressionStatement.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/FunctionDeclaration.cpp.o -c /tmp/snowman/src/nc/core/likec/FunctionDeclaration.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/FunctionDeclaration.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/FunctionDefinition.cpp.o -c /tmp/snowman/src/nc/core/likec/FunctionDefinition.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/FunctionDefinition.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/FunctionPointerType.cpp.o -c /tmp/snowman/src/nc/core/likec/FunctionPointerType.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/FunctionPointerType.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Goto.cpp.o -c /tmp/snowman/src/nc/core/likec/Goto.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Goto.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/If.cpp.o -c /tmp/snowman/src/nc/core/likec/If.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/If.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/IntegerConstant.cpp.o -c /tmp/snowman/src/nc/core/likec/IntegerConstant.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/IntegerConstant.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/LabelIdentifier.cpp.o -c /tmp/snowman/src/nc/core/likec/LabelIdentifier.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/LabelIdentifier.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/MemberAccessOperator.cpp.o -c /tmp/snowman/src/nc/core/likec/MemberAccessOperator.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/MemberAccessOperator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Return.cpp.o -c /tmp/snowman/src/nc/core/likec/Return.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Return.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Simplifier.cpp.o -c /tmp/snowman/src/nc/core/likec/Simplifier.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Simplifier.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/StructType.cpp.o -c /tmp/snowman/src/nc/core/likec/StructType.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/StructType.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Switch.cpp.o -c /tmp/snowman/src/nc/core/likec/Switch.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Switch.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Tree.cpp.o -c /tmp/snowman/src/nc/core/likec/Tree.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Tree.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/TreeNode.cpp.o -c /tmp/snowman/src/nc/core/likec/TreeNode.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/TreeNode.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/TreePrinter.cpp.o -c /tmp/snowman/src/nc/core/likec/TreePrinter.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/TreePrinter.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/TypeCalculator.cpp.o -c /tmp/snowman/src/nc/core/likec/TypeCalculator.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/TypeCalculator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Typecast.cpp.o -c /tmp/snowman/src/nc/core/likec/Typecast.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Typecast.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Types.cpp.o -c /tmp/snowman/src/nc/core/likec/Types.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Types.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/UnaryOperator.cpp.o -c /tmp/snowman/src/nc/core/likec/UnaryOperator.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/UnaryOperator.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/Utils.cpp.o -c /tmp/snowman/src/nc/core/likec/Utils.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/Utils.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/VariableDeclaration.cpp.o -c /tmp/snowman/src/nc/core/likec/VariableDeclaration.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/VariableDeclaration.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/likec/While.cpp.o -c /tmp/snowman/src/nc/core/likec/While.cpp",
+  "file": "/tmp/snowman/src/nc/core/likec/While.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/mangling/DefaultDemangler.cpp.o -c /tmp/snowman/src/nc/core/mangling/DefaultDemangler.cpp",
+  "file": "/tmp/snowman/src/nc/core/mangling/DefaultDemangler.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/core",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-core.dir/nc-core_automoc.cpp.o -c /tmp/snowman/build/nc/core/nc-core_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/core/nc-core_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Activity.cpp.o -c /tmp/snowman/src/nc/gui/Activity.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Activity.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Command.cpp.o -c /tmp/snowman/src/nc/gui/Command.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Command.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/CommandQueue.cpp.o -c /tmp/snowman/src/nc/gui/CommandQueue.cpp",
+  "file": "/tmp/snowman/src/nc/gui/CommandQueue.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/CppSyntaxHighlighter.cpp.o -c /tmp/snowman/src/nc/gui/CppSyntaxHighlighter.cpp",
+  "file": "/tmp/snowman/src/nc/gui/CppSyntaxHighlighter.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/CxxDocument.cpp.o -c /tmp/snowman/src/nc/gui/CxxDocument.cpp",
+  "file": "/tmp/snowman/src/nc/gui/CxxDocument.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/CxxView.cpp.o -c /tmp/snowman/src/nc/gui/CxxView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/CxxView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Decompilation.cpp.o -c /tmp/snowman/src/nc/gui/Decompilation.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Decompilation.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Decompile.cpp.o -c /tmp/snowman/src/nc/gui/Decompile.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Decompile.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/DecompileAll.cpp.o -c /tmp/snowman/src/nc/gui/DecompileAll.cpp",
+  "file": "/tmp/snowman/src/nc/gui/DecompileAll.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/DeleteInstructions.cpp.o -c /tmp/snowman/src/nc/gui/DeleteInstructions.cpp",
+  "file": "/tmp/snowman/src/nc/gui/DeleteInstructions.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Disassemble.cpp.o -c /tmp/snowman/src/nc/gui/Disassemble.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Disassemble.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Disassembly.cpp.o -c /tmp/snowman/src/nc/gui/Disassembly.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Disassembly.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/DisassemblyDialog.cpp.o -c /tmp/snowman/src/nc/gui/DisassemblyDialog.cpp",
+  "file": "/tmp/snowman/src/nc/gui/DisassemblyDialog.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/GotoLineWidget.cpp.o -c /tmp/snowman/src/nc/gui/GotoLineWidget.cpp",
+  "file": "/tmp/snowman/src/nc/gui/GotoLineWidget.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/InspectorItem.cpp.o -c /tmp/snowman/src/nc/gui/InspectorItem.cpp",
+  "file": "/tmp/snowman/src/nc/gui/InspectorItem.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/InspectorModel.cpp.o -c /tmp/snowman/src/nc/gui/InspectorModel.cpp",
+  "file": "/tmp/snowman/src/nc/gui/InspectorModel.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/InspectorView.cpp.o -c /tmp/snowman/src/nc/gui/InspectorView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/InspectorView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/InstructionsModel.cpp.o -c /tmp/snowman/src/nc/gui/InstructionsModel.cpp",
+  "file": "/tmp/snowman/src/nc/gui/InstructionsModel.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/InstructionsView.cpp.o -c /tmp/snowman/src/nc/gui/InstructionsView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/InstructionsView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/LogManager.cpp.o -c /tmp/snowman/src/nc/gui/LogManager.cpp",
+  "file": "/tmp/snowman/src/nc/gui/LogManager.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/LogView.cpp.o -c /tmp/snowman/src/nc/gui/LogView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/LogView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/MainWindow.cpp.o -c /tmp/snowman/src/nc/gui/MainWindow.cpp",
+  "file": "/tmp/snowman/src/nc/gui/MainWindow.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/Project.cpp.o -c /tmp/snowman/src/nc/gui/Project.cpp",
+  "file": "/tmp/snowman/src/nc/gui/Project.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/RangeTree.cpp.o -c /tmp/snowman/src/nc/gui/RangeTree.cpp",
+  "file": "/tmp/snowman/src/nc/gui/RangeTree.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/SearchWidget.cpp.o -c /tmp/snowman/src/nc/gui/SearchWidget.cpp",
+  "file": "/tmp/snowman/src/nc/gui/SearchWidget.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/SectionsModel.cpp.o -c /tmp/snowman/src/nc/gui/SectionsModel.cpp",
+  "file": "/tmp/snowman/src/nc/gui/SectionsModel.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/SectionsView.cpp.o -c /tmp/snowman/src/nc/gui/SectionsView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/SectionsView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/SymbolsModel.cpp.o -c /tmp/snowman/src/nc/gui/SymbolsModel.cpp",
+  "file": "/tmp/snowman/src/nc/gui/SymbolsModel.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/SymbolsView.cpp.o -c /tmp/snowman/src/nc/gui/SymbolsView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/SymbolsView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/TextEditSearcher.cpp.o -c /tmp/snowman/src/nc/gui/TextEditSearcher.cpp",
+  "file": "/tmp/snowman/src/nc/gui/TextEditSearcher.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/TextView.cpp.o -c /tmp/snowman/src/nc/gui/TextView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/TextView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/TreeView.cpp.o -c /tmp/snowman/src/nc/gui/TreeView.cpp",
+  "file": "/tmp/snowman/src/nc/gui/TreeView.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/TreeViewSearcher.cpp.o -c /tmp/snowman/src/nc/gui/TreeViewSearcher.cpp",
+  "file": "/tmp/snowman/src/nc/gui/TreeViewSearcher.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/gui",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-gui.dir/nc-gui_automoc.cpp.o -c /tmp/snowman/build/nc/gui/nc-gui_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/gui/nc-gui_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/elf",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-elf.dir/ElfParser.cpp.o -c /tmp/snowman/src/nc/input/elf/ElfParser.cpp",
+  "file": "/tmp/snowman/src/nc/input/elf/ElfParser.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/elf",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-elf.dir/nc-input-elf_automoc.cpp.o -c /tmp/snowman/build/nc/input/elf/nc-input-elf_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/input/elf/nc-input-elf_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/mach-o",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-mach-o.dir/MachOParser.cpp.o -c /tmp/snowman/src/nc/input/mach-o/MachOParser.cpp",
+  "file": "/tmp/snowman/src/nc/input/mach-o/MachOParser.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/mach-o",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-mach-o.dir/nc-input-mach-o_automoc.cpp.o -c /tmp/snowman/build/nc/input/mach-o/nc-input-mach-o_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/input/mach-o/nc-input-mach-o_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/pe",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-pe.dir/PeParser.cpp.o -c /tmp/snowman/src/nc/input/pe/PeParser.cpp",
+  "file": "/tmp/snowman/src/nc/input/pe/PeParser.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nc/input/pe",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIC -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nc-input-pe.dir/nc-input-pe_automoc.cpp.o -c /tmp/snowman/build/nc/input/pe/nc-input-pe_automoc.cpp",
+  "file": "/tmp/snowman/build/nc/input/pe/nc-input-pe_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nocode",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIE -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nocode.dir/main.cpp.o -c /tmp/snowman/src/nocode/main.cpp",
+  "file": "/tmp/snowman/src/nocode/main.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/nocode",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIE -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/nocode.dir/nocode_automoc.cpp.o -c /tmp/snowman/build/nocode/nocode_automoc.cpp",
+  "file": "/tmp/snowman/build/nocode/nocode_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/snowman",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIE -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/snowman.dir/main.cpp.o -c /tmp/snowman/src/snowman/main.cpp",
+  "file": "/tmp/snowman/src/snowman/main.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/snowman",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB  -std=c++11 -O2 -g -DNDEBUG -fPIE -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/usr/include/qt5 -I/usr/include/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -I/usr/include/qt5/QtWidgets -I/usr/include/qt5/QtGui    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -o CMakeFiles/snowman.dir/snowman_automoc.cpp.o -c /tmp/snowman/build/snowman/snowman_automoc.cpp",
+  "file": "/tmp/snowman/build/snowman/snowman_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/cs.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/cs.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/cs.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/MCInst.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/MCInst.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/MCInst.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/MCInstrDesc.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/MCInstrDesc.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/MCInstrDesc.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/MCRegisterInfo.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/MCRegisterInfo.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/MCRegisterInfo.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/SStream.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/SStream.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/SStream.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/utils.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/utils.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/utils.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/arch/ARM/ARMDisassembler.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMDisassembler.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMDisassembler.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/arch/ARM/ARMInstPrinter.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMInstPrinter.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMInstPrinter.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/arch/ARM/ARMMapping.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMMapping.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMMapping.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/cc  -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/arch/ARM/ARMModule.c.o   -c /tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMModule.c",
+  "file": "/tmp/snowman/src/3rd-party/capstone/capstone/arch/ARM/ARMModule.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/capstone/capstone",
+  "command": "/usr/bin/c++   -DCAPSTONE_HAS_ARM -DCAPSTONE_USE_SYS_DYN_MEM  -std=c++11 -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build -I/tmp/snowman/src/3rd-party/capstone/capstone/include    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-extra -Wno-unused-function -Wno-unknown-pragmas -o CMakeFiles/capstone-static.dir/capstone-static_automoc.cpp.o -c /tmp/snowman/build/3rd-party/capstone/capstone/capstone-static_automoc.cpp",
+  "file": "/tmp/snowman/build/3rd-party/capstone/capstone/capstone-static_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/decode.c.o   -c /tmp/snowman/src/3rd-party/libudis86/decode.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/decode.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/input.c.o   -c /tmp/snowman/src/3rd-party/libudis86/input.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/input.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/itab.c.o   -c /tmp/snowman/src/3rd-party/libudis86/itab.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/itab.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/syn.c.o   -c /tmp/snowman/src/3rd-party/libudis86/syn.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/syn.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/syn-att.c.o   -c /tmp/snowman/src/3rd-party/libudis86/syn-att.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/syn-att.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/syn-intel.c.o   -c /tmp/snowman/src/3rd-party/libudis86/syn-intel.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/syn-intel.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/udis86.c.o   -c /tmp/snowman/src/3rd-party/libudis86/udis86.c",
+  "file": "/tmp/snowman/src/3rd-party/libudis86/udis86.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libudis86",
+  "command": "/usr/bin/c++     -std=c++11 -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -Wno-unused-variable -Wno-unused-but-set-variable -o CMakeFiles/udis86.dir/udis86_automoc.cpp.o -c /tmp/snowman/build/3rd-party/libudis86/udis86_automoc.cpp",
+  "file": "/tmp/snowman/build/3rd-party/libudis86/udis86_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libiberty",
+  "command": "/usr/bin/cc  -DHAVE_STDLIB_H -DHAVE_STRING_H -DIN_GLIBCPP_V3 -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -o CMakeFiles/iberty.dir/cp-demangle.c.o   -c /tmp/snowman/src/3rd-party/libiberty/cp-demangle.c",
+  "file": "/tmp/snowman/src/3rd-party/libiberty/cp-demangle.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/libiberty",
+  "command": "/usr/bin/c++   -DHAVE_STDLIB_H -DHAVE_STRING_H -DIN_GLIBCPP_V3  -std=c++11 -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-unused-function -o CMakeFiles/iberty.dir/iberty_automoc.cpp.o -c /tmp/snowman/build/3rd-party/libiberty/iberty_automoc.cpp",
+  "file": "/tmp/snowman/build/3rd-party/libiberty/iberty_automoc.cpp"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/undname",
+  "command": "/usr/bin/cc   -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-sign-compare -o CMakeFiles/undname.dir/undname.c.o   -c /tmp/snowman/src/3rd-party/undname/undname.c",
+  "file": "/tmp/snowman/src/3rd-party/undname/undname.c"
+},
+{
+  "directory": "/tmp/snowman/build/3rd-party/undname",
+  "command": "/usr/bin/c++     -std=c++11 -O2 -g -DNDEBUG -I/tmp/snowman/src -I/tmp/snowman/src/3rd-party -I/tmp/snowman/build    -Wall -Wextra -fshow-column -fno-strict-aliasing -Wno-strict-overflow -Wno-maybe-uninitialized -Wno-sign-compare -o CMakeFiles/undname.dir/undname_automoc.cpp.o -c /tmp/snowman/build/3rd-party/undname/undname_automoc.cpp",
+  "file": "/tmp/snowman/build/3rd-party/undname/undname_automoc.cpp"
+}
+]

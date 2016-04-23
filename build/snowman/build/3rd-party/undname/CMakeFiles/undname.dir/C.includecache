@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/snowman/src/3rd-party/undname/undname.c
+assert.h
+-
+ctype.h
+-
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+undname.h
+/tmp/snowman/src/3rd-party/undname/undname.h
+
+/tmp/snowman/src/3rd-party/undname/undname.h
+

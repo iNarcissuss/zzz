@@ -1,0 +1,2 @@
+/usr/bin/ar cr libundname.a  CMakeFiles/undname.dir/undname.c.o CMakeFiles/undname.dir/undname_automoc.cpp.o
+/usr/bin/ranlib libundname.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libnc-input-pe.a  CMakeFiles/nc-input-pe.dir/PeParser.cpp.o CMakeFiles/nc-input-pe.dir/nc-input-pe_automoc.cpp.o
+/usr/bin/ranlib libnc-input-pe.a
