@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="jadx.tests.TestStringUtils" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-22T15:40:42" hostname="box723" time="0.028">
-  <properties/>
-  <testcase name="unescape string" classname="jadx.tests.TestStringUtils" time="0.017"/>
-  <testcase name="unescape char" classname="jadx.tests.TestStringUtils" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
