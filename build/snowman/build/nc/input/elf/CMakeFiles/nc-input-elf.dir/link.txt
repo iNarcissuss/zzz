@@ -1,2 +1,0 @@
-/usr/bin/ar cr libnc-input-elf.a  CMakeFiles/nc-input-elf.dir/ElfParser.cpp.o CMakeFiles/nc-input-elf.dir/nc-input-elf_automoc.cpp.o
-/usr/bin/ranlib libnc-input-elf.a

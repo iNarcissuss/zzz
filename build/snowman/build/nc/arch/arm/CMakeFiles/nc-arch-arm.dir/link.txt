@@ -1,2 +1,0 @@
-/usr/bin/ar cr libnc-arch-arm.a  CMakeFiles/nc-arch-arm.dir/ArmArchitecture.cpp.o CMakeFiles/nc-arch-arm.dir/ArmDisassembler.cpp.o CMakeFiles/nc-arch-arm.dir/ArmInstructionAnalyzer.cpp.o CMakeFiles/nc-arch-arm.dir/ArmRegisters.cpp.o CMakeFiles/nc-arch-arm.dir/CallingConventions.cpp.o CMakeFiles/nc-arch-arm.dir/nc-arch-arm_automoc.cpp.o
-/usr/bin/ranlib libnc-arch-arm.a

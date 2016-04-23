@@ -1,2 +1,0 @@
-/usr/bin/ar cr libiberty.a  CMakeFiles/iberty.dir/cp-demangle.c.o CMakeFiles/iberty.dir/iberty_automoc.cpp.o
-/usr/bin/ranlib libiberty.a

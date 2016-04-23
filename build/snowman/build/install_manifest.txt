@@ -1,2 +1,0 @@
-/tmp/snowman/bin/nocode
-/tmp/snowman/bin/snowman
