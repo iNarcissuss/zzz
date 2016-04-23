@@ -68,7 +68,7 @@ def push_trace_update(i):
 def push_updates(full = True):
   socketio.emit('pmaps', program.get_pmaps(), namespace='/qira')
   socketio.emit('maxclnum', program.get_maxclnum(), namespace='/qira')
-  socketio.emit('arch', program.tregs, namespace='/qira')
+  socketio.emit('arch', list(program.tregs), namespace='/qira')
   if not full:
     return
   for i in program.traces:
@@ -245,7 +245,7 @@ def navigatefunction(forknum, clnum, start):
     if clnum == trace.minclnum or clnum == trace.maxclnum:
       ret = clnum
       break
-  emit('setclnum', forknum, ret)
+  emit('setclnum', {'forknum': forknum, 'clnum': ret})
 
 
 @socketio.on('getinstructions', namespace='/qira')
@@ -263,7 +263,7 @@ def getinstructions(forknum, clnum, clstart, clend):
       rret = rret[0]
 
     instr = program.static[rret['address']]['instruction']
-    rret['instruction'] = str(instr)
+    rret['instruction'] = instr.__str__(trace, i) #i == clnum
 
     # check if static fails at this
     if rret['instruction'] == "":
@@ -396,9 +396,6 @@ def getregisters(forknum, clnum):
 @app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path:path>')
 def serve(path):
-  if 'Firefox' in request.headers.get('User-Agent'):
-    return "<pre>WTF you use Firefox?!?\n\nGo download a real web browser, like Chrome, and try this again"
-
   # best security?
   if ".." in path:
     return
