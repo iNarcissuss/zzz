@@ -24,6 +24,6 @@ sudo make install
 cd ../../
 ulimit -s unlimited
 #_____________________________[continue]
-./configure --with-stp=`pwd`/stp/build --with-uclibc=/full/path/to/klee-uclibc --enable-posix-runtime
+./configure --with-stp=`pwd`/stp/build --enable-posix-runtime
 make
 rm -rf ./stp ./minisat
