@@ -4,7 +4,7 @@ pthOrg=`pwd`
 
 arrIgnore=(
 	barf-project
-	klee
+	s2e
 	netifera
 	)
 
