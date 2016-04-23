@@ -8,6 +8,10 @@
 # sudo update-alternatives --config gcc
 # sudo update-alternatives --config g++
 # apt-get install libc6-dev-i386 lynx g++-4.8-multilib build-essential libboost-all-dev qt-sdk
-apt-get install libqt4-dev
-# source ~/.bashrc
+apt-get install -y qt4-default libboost-all-dev
 make
+mkdir ./out
+mv ./examples ./build/smartdec/smartdec ./build/nocode/nocode ./out
+find ./* | grep -v -P '(mk.sh|./out)' | xargs -Ixxx rm -rf xxx
+mv ./out/* ./
+rm -rf ./out
