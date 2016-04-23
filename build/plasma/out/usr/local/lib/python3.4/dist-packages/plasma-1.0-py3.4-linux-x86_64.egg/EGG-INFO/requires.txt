@@ -1,4 +1,0 @@
-capstone
-pefile
-pyelftools
-msgpack-python
