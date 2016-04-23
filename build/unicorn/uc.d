@@ -1,7 +1,6 @@
 ../uc.o: ../uc.c /tmp/unicorn/qemu/../include/uc_priv.h \
  /tmp/unicorn/qemu/../include/qemu.h \
  /tmp/unicorn/qemu/include/sysemu/sysemu.h \
- /tmp/unicorn/qemu/include/qemu/main-loop.h \
  /tmp/unicorn/qemu/include/qemu/timer.h \
  /tmp/unicorn/qemu/include/qemu/typedefs.h \
  /tmp/unicorn/qemu/include/qemu-common.h \
@@ -120,8 +119,6 @@
 /tmp/unicorn/qemu/../include/qemu.h:
 
 /tmp/unicorn/qemu/include/sysemu/sysemu.h:
-
-/tmp/unicorn/qemu/include/qemu/main-loop.h:
 
 /tmp/unicorn/qemu/include/qemu/timer.h:
 
