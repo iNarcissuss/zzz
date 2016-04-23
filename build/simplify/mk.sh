@@ -5,3 +5,4 @@ apt-get install -y oracle-java8-installer oracle-java8-set-default maven2
 git submodule update --init --recursive
 ./gradlew fatjar
 find ./* | grep -v -P '(mk.sh|simplify.jar)' | xargs -Ixxx rm -rf xxx
+mv ./simplify/build/libs/*.jar ./
