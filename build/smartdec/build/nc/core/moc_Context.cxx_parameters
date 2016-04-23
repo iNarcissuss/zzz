@@ -1,0 +1,12 @@
+-I/tmp/smartdec/src
+-I/tmp/smartdec/src/3rd-party
+-IBoost_INCLUDE_DIR-NOTFOUND
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/tmp/smartdec/build
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/tmp/smartdec/build/nc/core/moc_Context.cxx
+/tmp/smartdec/src/nc/core/Context.h
