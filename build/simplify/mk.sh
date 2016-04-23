@@ -4,5 +4,5 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 apt-get install -y oracle-java8-installer oracle-java8-set-default maven2
 git submodule update --init --recursive
 ./gradlew fatjar
-find ./* | grep -v -P '(mk.sh|simplify.jar)' | xargs -Ixxx rm -rf xxx
 mv ./simplify/build/libs/*.jar ./
+find ./* | grep -v -P '(mk.sh|jar)' | xargs -Ixxx rm -rf xxx
