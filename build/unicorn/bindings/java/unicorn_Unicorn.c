@@ -24,8 +24,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <stdlib.h>
 #include <string.h>
 
-
 #include <unicorn/unicorn.h>
+#include <unicorn/x86.h>
 #include "unicorn_Unicorn.h"
 
 //cache jmethodID values as we look them up
@@ -203,6 +203,117 @@ static uc_engine *getEngine(JNIEnv *env, jobject self) {
 
 /*
  * Class:     unicorn_Unicorn
+ * Method:    reg_write_num
+ * Signature: (ILjava/lang/Number;)V
+ */
+JNIEXPORT void JNICALL Java_unicorn_Unicorn_reg_1write_1num
+  (JNIEnv *env, jobject self, jint regid, jobject value) {
+   uc_engine *eng = getEngine(env, self);
+
+   jclass clz = (*env)->FindClass(env, "java/lang/Number");
+   if ((*env)->ExceptionCheck(env)) {
+      return;
+   }
+
+   jmethodID longValue = (*env)->GetMethodID(env, clz, "longValue", "()J");
+   jlong longVal = (*env)->CallLongMethod(env, value, longValue);
+   uc_err err = uc_reg_write(eng, regid, &longVal);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+}
+
+/*
+ * Class:     unicorn_Unicorn
+ * Method:    reg_write_mmr
+ * Signature: (ILunicorn/X86_MMR;)V
+ */
+JNIEXPORT void JNICALL Java_unicorn_Unicorn_reg_1write_1mmr
+  (JNIEnv *env, jobject self, jint regid, jobject value) {
+   uc_engine *eng = getEngine(env, self);
+   uc_x86_mmr mmr;
+
+   jclass clz = (*env)->FindClass(env, "unicorn/X86_MMR");
+   if ((*env)->ExceptionCheck(env)) {
+      return;
+   }
+
+   jfieldID fid = (*env)->GetFieldID(env, clz, "base", "J");
+   mmr.base = (uint64_t)(*env)->GetLongField(env, value, fid);
+
+   fid = (*env)->GetFieldID(env, clz, "limit", "I");
+   mmr.limit = (uint32_t)(*env)->GetLongField(env, value, fid);
+
+   fid = (*env)->GetFieldID(env, clz, "flags", "I");
+   mmr.flags = (uint32_t)(*env)->GetLongField(env, value, fid);
+
+   fid = (*env)->GetFieldID(env, clz, "selector", "S");
+   mmr.selector = (uint16_t)(*env)->GetLongField(env, value, fid);
+
+   uc_err err = uc_reg_write(eng, regid, &mmr);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+}
+
+/*
+ * Class:     unicorn_Unicorn
+ * Method:    reg_read_num
+ * Signature: (I)Ljava/lang/Number;
+ */
+JNIEXPORT jobject JNICALL Java_unicorn_Unicorn_reg_1read_1num
+  (JNIEnv *env, jobject self, jint regid) {
+   uc_engine *eng = getEngine(env, self);
+
+   jclass clz = (*env)->FindClass(env, "java/lang/Long");
+   if ((*env)->ExceptionCheck(env)) {
+      return NULL;
+   }
+
+   jlong longVal;
+   uc_err err = uc_reg_read(eng, regid, &longVal);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+
+   jmethodID cons = (*env)->GetMethodID(env, clz, "<init>", "(J)V");
+   jobject result = (*env)->NewObject(env, clz, cons, longVal);
+   if ((*env)->ExceptionCheck(env)) {
+      return NULL;
+   }
+   return result;
+}
+
+/*
+ * Class:     unicorn_Unicorn
+ * Method:    reg_read_mmr
+ * Signature: (I)Ljava/lang/Number;
+ */
+JNIEXPORT jobject JNICALL Java_unicorn_Unicorn_reg_1read_1mmr
+  (JNIEnv *env, jobject self, jint regid) {
+   uc_engine *eng = getEngine(env, self);
+
+   jclass clz = (*env)->FindClass(env, "unicorn/X86_MMR");
+   if ((*env)->ExceptionCheck(env)) {
+      return NULL;
+   }
+
+   uc_x86_mmr mmr;
+   uc_err err = uc_reg_read(eng, regid, &mmr);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+
+   jmethodID cons = (*env)->GetMethodID(env, clz, "<init>", "(JIIS)V");
+   jobject result = (*env)->NewObject(env, clz, cons, mmr.base, mmr.limit, mmr.flags, mmr.selector);
+   if ((*env)->ExceptionCheck(env)) {
+      return NULL;
+   }
+   return result;
+}
+
+/*
+ * Class:     unicorn_Unicorn
  * Method:    open
  * Signature: (II)J
  */
@@ -244,7 +355,28 @@ JNIEXPORT jboolean JNICALL Java_unicorn_Unicorn_arch_1supported
 JNIEXPORT void JNICALL Java_unicorn_Unicorn_close
   (JNIEnv *env, jobject self) {
    uc_engine *eng = getEngine(env, self);
-   uc_close(eng);
+   uc_err err = uc_close(eng);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+   //We also need to ReleaseByteArrayElements for any regions that 
+   //were mapped with uc_mem_map_ptr
+}
+
+/*
+ * Class:     unicorn_Unicorn
+ * Method:    query
+ * Signature: (I)I
+ */
+JNIEXPORT jint JNICALL Java_unicorn_Unicorn_query
+  (JNIEnv *env, jobject self, jint type) {
+   uc_engine *eng = getEngine(env, self);
+   size_t result;
+   uc_err err = uc_query(eng, type, &result);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+   return (jint)result;
 }
 
 /*
@@ -387,7 +519,7 @@ JNIEXPORT jlong JNICALL Java_unicorn_Unicorn_registerHook__JI
          if (invokeInterruptCallbacks == 0) {
             invokeInterruptCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeInterruptCallbacks", "(JI)V");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookintr, env);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookintr, env, 1, 0);
          break;
       case UC_HOOK_MEM_FETCH_UNMAPPED:    // Hook for all invalid memory access events
       case UC_HOOK_MEM_READ_UNMAPPED:    // Hook for all invalid memory access events
@@ -398,7 +530,7 @@ JNIEXPORT jlong JNICALL Java_unicorn_Unicorn_registerHook__JI
          if (invokeEventMemCallbacks == 0) {
             invokeEventMemCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeEventMemCallbacks", "(JIJIJ)Z");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_eventmem, env);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_eventmem, env, 1, 0);
          break;
    }
    return (jlong)hh;
@@ -420,18 +552,18 @@ JNIEXPORT jlong JNICALL Java_unicorn_Unicorn_registerHook__JII
                if (invokeOutCallbacks == 0) {
                   invokeOutCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeOutCallbacks", "(JIII)V");
                }
-               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_out, env, arg1);
+               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_out, env, 1, 0, arg1);
             case UC_X86_INS_IN:
                if (invokeInCallbacks == 0) {
                   invokeInCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeInCallbacks", "(JII)I");
                }
-               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_in, env, arg1);
+               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_in, env, 1, 0, arg1);
             case UC_X86_INS_SYSENTER:
             case UC_X86_INS_SYSCALL:
                if (invokeSyscallCallbacks == 0) {
                   invokeSyscallCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeSyscallCallbacks", "(J)V");
                }
-               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_syscall, env, arg1);
+               err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_insn_syscall, env, 1, 0, arg1);
          }
          break;
    }
@@ -452,25 +584,25 @@ JNIEXPORT jlong JNICALL Java_unicorn_Unicorn_registerHook__JIJJ
          if (invokeCodeCallbacks == 0) {
             invokeCodeCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeCodeCallbacks", "(JJI)V");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookcode, env, arg1, arg2);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookcode, env, 1, 0, arg1, arg2);
          break;
       case UC_HOOK_BLOCK:          // Hook basic blocks
          if (invokeBlockCallbacks == 0) {
             invokeBlockCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeBlockCallbacks", "(JJI)V");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookblock, env, arg1, arg2);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookblock, env, 1, 0, arg1, arg2);
          break;
       case UC_HOOK_MEM_READ:       // Hook all memory read events.
          if (invokeReadCallbacks == 0) {
             invokeReadCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeReadCallbacks", "(JJI)V");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookmem, env, arg1, arg2);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookmem, env, 1, 0, arg1, arg2);
          break;
       case UC_HOOK_MEM_WRITE:      // Hook all memory write events.
          if (invokeWriteCallbacks == 0) {
             invokeWriteCallbacks = (*env)->GetStaticMethodID(env, clz, "invokeWriteCallbacks", "(JJIJ)V");
          }
-         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookmem, env, arg1, arg2);
+         err = uc_hook_add((uc_engine*)eng, &hh, (uc_hook_type)type, cb_hookmem, env, 1, 0, arg1, arg2);
          break;
    }
    return (jlong)hh;
@@ -510,6 +642,24 @@ JNIEXPORT void JNICALL Java_unicorn_Unicorn_mem_1map
 
 /*
  * Class:     unicorn_Unicorn
+ * Method:    mem_map_ptr
+ * Signature: (JJI[B)V
+ */
+JNIEXPORT void JNICALL Java_unicorn_Unicorn_mem_1map_1ptr
+  (JNIEnv *env, jobject self, jlong address, jlong size, jint perms, jbyteArray block) {
+   uc_engine *eng = getEngine(env, self);
+   jbyte *array = (*env)->GetByteArrayElements(env, block, NULL);
+   uc_err err = uc_mem_map_ptr(eng, (uint64_t)address, (size_t)size, (uint32_t)perms, (void*)array);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+   //Need to track address/block/array so that we can ReleaseByteArrayElements when the
+   //block gets unmapped or when uc_close gets called
+   //(*env)->ReleaseByteArrayElements(env, block, array, JNI_ABORT);
+}
+
+/*
+ * Class:     unicorn_Unicorn
  * Method:    mem_unmap
  * Signature: (JJ)V
  */
@@ -521,6 +671,9 @@ JNIEXPORT void JNICALL Java_unicorn_Unicorn_mem_1unmap
    if (err != UC_ERR_OK) {
       throwException(env, err);
    }
+
+   //If a region was mapped using uc_mem_map_ptr, we also need to
+   //ReleaseByteArrayElements for that region
 }
 
 /*
@@ -536,4 +689,36 @@ JNIEXPORT void JNICALL Java_unicorn_Unicorn_mem_1protect
    if (err != UC_ERR_OK) {
       throwException(env, err);
    }
+}
+
+/*
+ * Class:     unicorn_Unicorn
+ * Method:    mem_regions
+ * Signature: ()[Lunicorn/MemRegion;
+ */
+JNIEXPORT jobjectArray JNICALL Java_unicorn_Unicorn_mem_1regions
+  (JNIEnv *env, jobject self) {
+   uc_engine *eng = getEngine(env, self);
+
+   uc_mem_region *regions = NULL;
+   uint32_t count = 0;
+   uint32_t i;
+
+   uc_err err = uc_mem_regions(eng, &regions, &count);
+   if (err != UC_ERR_OK) {
+      throwException(env, err);
+   }
+   jclass clz = (*env)->FindClass(env, "unicorn/MemRegion");
+   if ((*env)->ExceptionCheck(env)) {
+      return NULL;
+   }
+   jobjectArray result = (*env)->NewObjectArray(env, (jsize)count, clz, NULL);
+   jmethodID cons = (*env)->GetMethodID(env, clz, "<init>", "(JJI)V");
+   for (i = 0; i < count; i++) {
+      jobject mr = (*env)->NewObject(env, clz, cons, regions[i].begin, regions[i].end, regions[i].perms);
+      (*env)->SetObjectArrayElement(env, result, (jsize)i, mr);
+   }
+   free(regions);
+   
+   return result;
 }

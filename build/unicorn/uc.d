@@ -106,9 +106,8 @@
  /tmp/unicorn/qemu/../include/unicorn/arm64.h \
  /tmp/unicorn/qemu/../include/unicorn/mips.h \
  /tmp/unicorn/qemu/../include/unicorn/sparc.h \
- /tmp/unicorn/qemu/../include/hook.h \
- /tmp/unicorn/qemu/../include/qemu_macro.h \
- /tmp/unicorn/qemu/../include/hook.h ../qemu/target-m68k/unicorn.h \
+ /tmp/unicorn/qemu/../include/list.h \
+ /tmp/unicorn/qemu/../include/qemu_macro.h ../qemu/target-m68k/unicorn.h \
  ../qemu/target-i386/unicorn.h ../qemu/target-arm/unicorn.h \
  ../qemu/target-mips/unicorn.h ../qemu/target-sparc/unicorn.h \
  ../qemu/include/hw/boards.h /tmp/unicorn/qemu/include/sysemu/accel.h \
@@ -368,11 +367,9 @@ vl.h:
 
 /tmp/unicorn/qemu/../include/unicorn/sparc.h:
 
-/tmp/unicorn/qemu/../include/hook.h:
+/tmp/unicorn/qemu/../include/list.h:
 
 /tmp/unicorn/qemu/../include/qemu_macro.h:
-
-/tmp/unicorn/qemu/../include/hook.h:
 
 ../qemu/target-m68k/unicorn.h:
 

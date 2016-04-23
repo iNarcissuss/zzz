@@ -24,6 +24,22 @@ template = {
             'comment_open': '#',
             'comment_close': '',
         },
+    'ruby': {
+            'header': "# For Unicorn Engine. AUTO-GENERATED FILE, DO NOT EDIT [%s_const.rb]\n\nmodule Unicorn\n",
+            'footer': "end",
+            'line_format': '\tUC_%s = %s\n',
+            'out_file': './ruby/unicorn_gem/lib/unicorn/%s_const.rb',
+            # prefixes for constant filenames of all archs - case sensitive
+            'arm.h': 'arm',
+            'arm64.h': 'arm64',
+            'mips.h': 'mips',
+            'x86.h': 'x86',
+            'sparc.h': 'sparc',
+            'm68k.h': 'm68k',
+            'unicorn.h': 'unicorn',
+            'comment_open': '#',
+            'comment_close': '',
+        },
     'go': {
             'header': "package unicorn\n// For Unicorn Engine. AUTO-GENERATED FILE, DO NOT EDIT [%s_const.go]\nconst (\n",
             'footer': ")",
@@ -57,10 +73,10 @@ template = {
             'comment_close': '',
         },
     'dotnet': {
-            'header': "// For Unicorn Engine. AUTO-GENERATED FILE, DO NOT EDIT\n\nnamespace UnicornEngine.Const\n\nopen System\n\n[<AutoOpen>]\nmodule %s =\n",
+            'header': "// For Unicorn Engine. AUTO-GENERATED FILE, DO NOT EDIT\n\nnamespace UnicornManaged.Const\n\nopen System\n\n[<AutoOpen>]\nmodule %s =\n",
             'footer': "\n",
-            'line_format': '   let UC_%s = %s\n',
-            'out_file': os.path.join('dotnet', 'Unicorn', 'Const', '%s.fs'),
+            'line_format': '    let UC_%s = %s\n',
+            'out_file': os.path.join('dotnet', 'UnicornManaged', 'Const', '%s.fs'),
             # prefixes for constant filenames of all archs - case sensitive
             'arm.h': 'Arm',
             'arm64.h': 'Arm64',
@@ -69,7 +85,7 @@ template = {
             'sparc.h': 'Sparc',
             'm68k.h': 'M68k',
             'unicorn.h': 'Common',
-            'comment_open': '//',
+            'comment_open': '    //',
             'comment_close': '',
         },
 }
@@ -116,7 +132,8 @@ def gen(lang):
 
                 if f[0].startswith("UC_" + prefix.upper()):
                     if len(f) > 1 and f[1] not in ('//', '='):
-                        print("Error: Unable to convert %s" % f)
+                        print("WARNING: Unable to convert %s" % f)
+                        print("  Line =", line)
                         continue
                     elif len(f) > 1 and f[1] == '=':
                         rhs = ''.join(f[2:])
