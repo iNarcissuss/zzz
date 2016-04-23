@@ -7,5 +7,5 @@ cmake --build . --target install
 mkdir ./out
 mv ./build/snowman/snowman ./build/nocode/nocode ./out
 find ./* | grep -v -P '(mk.sh|./out)' | xargs -Ixxx rm -rf xxx
-mv ./out/* ./
-rm -rf ./out
+mv ./out/* ./bin/* ./
+rm -rf ./out ./bin/
