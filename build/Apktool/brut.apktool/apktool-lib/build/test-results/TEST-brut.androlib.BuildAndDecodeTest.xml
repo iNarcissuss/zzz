@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="brut.androlib.BuildAndDecodeTest" tests="58" skipped="0" failures="0" errors="0" timestamp="2016-04-23T20:23:14" hostname="box395.localdomain" time="0.31">
+  <properties/>
+  <testcase name="xmlSmallNumbersDontEscapeTest" classname="brut.androlib.BuildAndDecodeTest" time="0.022"/>
+  <testcase name="qualifiersTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="shortendedMncTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="shortMncHtcTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="shortMncv2Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="longMncTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="anyDpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="packed3CharsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="rightToLeftTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="scriptBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="threeLetterLangBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="twoLetterNotHandledAsBcpTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="twoLetterLangBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="variantBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="fourpartBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.002"/>
+  <testcase name="RegionLocaleBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="numericalRegionBcp47Test" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="api23ConfigurationsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.006"/>
+  <testcase name="drawableNoDpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="drawableAnyDpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="valuesAttrsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.011"/>
+  <testcase name="valuesBoolsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="valuesColorsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="valuesIdsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="valuesDimensTest" classname="brut.androlib.BuildAndDecodeTest" time="0.007"/>
+  <testcase name="valuesDrawablesTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="valuesIntegersTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="valuesLayoutsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.006"/>
+  <testcase name="xmlPluralsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.013"/>
+  <testcase name="valuesStringsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.043"/>
+  <testcase name="valuesStylesTest" classname="brut.androlib.BuildAndDecodeTest" time="0.019"/>
+  <testcase name="valuesReferencesTest" classname="brut.androlib.BuildAndDecodeTest" time="0.002"/>
+  <testcase name="valuesExtraLongTest" classname="brut.androlib.BuildAndDecodeTest" time="0.018"/>
+  <testcase name="crossTypeTest" classname="brut.androlib.BuildAndDecodeTest" time="0.011"/>
+  <testcase name="xmlLiteralsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="xmlReferencesTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="xmlReferenceAttributeTest" classname="brut.androlib.BuildAndDecodeTest" time="0.003"/>
+  <testcase name="xmlCustomAttributeTest" classname="brut.androlib.BuildAndDecodeTest" time="0.002"/>
+  <testcase name="buildAndDecodeTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="manifestTaggingNotSupressed" classname="brut.androlib.BuildAndDecodeTest" time="0.002"/>
+  <testcase name="bug702Test" classname="brut.androlib.BuildAndDecodeTest" time="0.002"/>
+  <testcase name="drawableNumberedDpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.001"/>
+  <testcase name="drawableLdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.001"/>
+  <testcase name="drawableMdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="drawableTvdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="drawableXhdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="ninePatchImageColorTest" classname="brut.androlib.BuildAndDecodeTest" time="0.004"/>
+  <testcase name="drawableXxhdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="drawableQualifierXxhdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="drawableXxxhdpiTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="resRawTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="libsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.0"/>
+  <testcase name="unknownFolderTest" classname="brut.androlib.BuildAndDecodeTest" time="0.01"/>
+  <testcase name="multipleDexTest" classname="brut.androlib.BuildAndDecodeTest" time="0.001"/>
+  <testcase name="singleDexTest" classname="brut.androlib.BuildAndDecodeTest" time="0.001"/>
+  <testcase name="valuesAnimsTest" classname="brut.androlib.BuildAndDecodeTest" time="0.005"/>
+  <testcase name="valuesArraysTest" classname="brut.androlib.BuildAndDecodeTest" time="0.008"/>
+  <testcase name="valuesArraysCastingTest" classname="brut.androlib.BuildAndDecodeTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 23, 2016 8:23:13 PM brut.androlib.BuildAndDecodeTest beforeClass
+INFO: Unpacking testapp...
+Apr 23, 2016 8:23:13 PM brut.androlib.BuildAndDecodeTest beforeClass
+INFO: Building testapp.apk...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib build
+INFO: Using Apktool 2.1.1-d05dc3-SNAPSHOT
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildSourcesSmali
+INFO: Checking whether sources has changed...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildSourcesSmali
+INFO: Smaling smali folder into classes.dex...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildSourcesSmali
+INFO: Checking whether sources has changed...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildSourcesSmali
+INFO: Smaling smali_classes2 folder into classes2.dex...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildResourcesFull
+INFO: Checking whether resources has changed...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildResourcesFull
+INFO: Building resources...
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'long_string1' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'long_string2' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'long_string3' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'long_string4' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'long_string5' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'test_formatting1' has no default translation.
+Apr 23, 2016 8:23:13 PM java.util.logging.LogManager$RootLogger log
+WARNING: warning: string 'test_formatting2' has no default translation.
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildLibrary
+INFO: Copying libs... (/libs)
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildApk
+INFO: Building apk file...
+Apr 23, 2016 8:23:13 PM brut.androlib.Androlib buildUnknownFiles
+INFO: Copying unknown files/dir...
+Apr 23, 2016 8:23:13 PM brut.androlib.BuildAndDecodeTest beforeClass
+INFO: Decoding testapp.apk...
+Apr 23, 2016 8:23:13 PM brut.androlib.ApkDecoder decode
+INFO: Using Apktool 2.1.1-d05dc3-SNAPSHOT on testapp.apk
+Apr 23, 2016 8:23:13 PM brut.androlib.res.AndrolibResources loadMainPkg
+INFO: Loading resource table...
+Apr 23, 2016 8:23:13 PM brut.androlib.res.AndrolibResources decodeManifestWithResources
+INFO: Decoding AndroidManifest.xml with resources...
+Apr 23, 2016 8:23:13 PM brut.androlib.res.AndrolibResources loadFrameworkPkg
+INFO: Loading resource table from file: /root/apktool/framework/1.apk
+Apr 23, 2016 8:23:14 PM brut.androlib.res.AndrolibResources adjustPackageManifest
+INFO: Regular manifest package...
+Apr 23, 2016 8:23:14 PM brut.androlib.res.AndrolibResources decode
+INFO: Decoding file-resources...
+Apr 23, 2016 8:23:14 PM brut.androlib.res.AndrolibResources decode
+INFO: Decoding values */* XMLs...
+Apr 23, 2016 8:23:14 PM brut.androlib.Androlib decodeSourcesSmali
+INFO: Baksmaling classes.dex...
+Apr 23, 2016 8:23:14 PM brut.androlib.Androlib decodeSourcesSmali
+INFO: Baksmaling classes2.dex...
+Apr 23, 2016 8:23:14 PM brut.androlib.Androlib decodeRawFiles
+INFO: Copying assets and libs...
+Apr 23, 2016 8:23:14 PM brut.androlib.Androlib decodeUnknownFiles
+INFO: Copying unknown files...
+Apr 23, 2016 8:23:14 PM brut.androlib.Androlib writeOriginalFiles
+INFO: Copying original files...
+]]></system-err>
+</testsuite>
