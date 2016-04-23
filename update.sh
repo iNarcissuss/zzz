@@ -38,7 +38,7 @@ cat /tmp/ver.tsv | while read i; do
 			cp -a /tmp/$prj/mk.sh $pthOrg/build/$prj/
 
 			cd $pthOrg
-			git push --set-upstream origin cc
+			# git push --set-upstream origin cc
 			git add --all $pthOrg/build/$prj/*
 			git add --all $pthOrg/ver.tsv
 			git commit -m ${prj}"_`date '+%Y-%m-%d-%H:%M'`"
