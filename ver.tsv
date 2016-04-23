@@ -15,7 +15,6 @@ netifera	xxx	https://github.com/netifera/netifera.git	git
 pybfd	2aa39172ae7788cc5d4bf413d558c98b586a58ff	https://github.com/Groundworkstech/pybfd.git	git
 qira	f06974e44cc55fabd427477aacfc1f40a9d11665	https://github.com/BinaryAnalysisPlatform/qira.git	git
 s2e	f0dee1631866944a45a2996d83ca6acaa7197767	https://github.com/dslab-epfl/s2e.git	git
-smartdec	085240927c1b9882efe6841a41945bc9077378ca	https://github.com/smartdec/smartdec.git	git
 snowman	a954cd6884d96dc067cf2fa618b051292ea9f19b	https://github.com/yegord/snowman	git
 stegdetect	ff03fa99c01ac0a8ff178bfe31f345b0341f0eb0	https://github.com/abeluck/stegdetect.git	git
 stoke-release	348809763604cf841deaf38f37be3816bad2b5fd	https://github.com/StanfordPL/stoke-release.git	git
