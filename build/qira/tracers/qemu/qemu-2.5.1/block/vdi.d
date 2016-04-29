@@ -114,11 +114,7 @@ block/vdi.o: block/vdi.c \
  /tmp/qira/tracers/qemu/qemu-latest/include/exec/hwaddr.h \
  /tmp/qira/tracers/qemu/qemu-latest/include/exec/poison.h \
  /tmp/qira/tracers/qemu/qemu-latest/include/qemu/fprintf-fn.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qjson.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/sysemu/sysemu.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitmap.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitops.h \
- /tmp/qira/tracers/qemu/qemu-latest/include/qom/object.h
+ /tmp/qira/tracers/qemu/qemu-latest/include/qjson.h
 
 /tmp/qira/tracers/qemu/qemu-latest/include/qemu-common.h:
 
@@ -379,11 +375,3 @@ qapi-types.h:
 /tmp/qira/tracers/qemu/qemu-latest/include/qemu/fprintf-fn.h:
 
 /tmp/qira/tracers/qemu/qemu-latest/include/qjson.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/sysemu/sysemu.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitmap.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qemu/bitops.h:
-
-/tmp/qira/tracers/qemu/qemu-latest/include/qom/object.h:
