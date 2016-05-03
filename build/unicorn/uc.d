@@ -98,7 +98,6 @@
  /tmp/unicorn/qemu/include/hw/irq.h /tmp/unicorn/qemu/include/qemu/tls.h \
  /tmp/unicorn/qemu/include/exec/spinlock.h vl.h \
  /tmp/unicorn/qemu/../include/unicorn/unicorn.h \
- /tmp/unicorn/qemu/../include/unicorn/platform.h \
  /tmp/unicorn/qemu/../include/unicorn/m68k.h \
  /tmp/unicorn/qemu/../include/unicorn/x86.h \
  /tmp/unicorn/qemu/../include/unicorn/arm.h \
@@ -349,8 +348,6 @@ include/qom/cpu.h:
 vl.h:
 
 /tmp/unicorn/qemu/../include/unicorn/unicorn.h:
-
-/tmp/unicorn/qemu/../include/unicorn/platform.h:
 
 /tmp/unicorn/qemu/../include/unicorn/m68k.h:
 
